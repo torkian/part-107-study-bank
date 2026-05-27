@@ -1,0 +1,977 @@
+[
+  {
+    "id": "AIR-001",
+    "topic": "airspace",
+    "subtopic": "class A",
+    "difficulty": "easy",
+    "question": "Why is Class A airspace generally irrelevant to Part 107 sUAS operations?",
+    "choices": [
+      "A. Class A begins at 18,000 ft MSL and is restricted to IFR-only operations, well above the 400 ft AGL ceiling for sUAS.",
+      "B. Class A only exists over oceanic regions where sUAS cannot maintain VLOS.",
+      "C. Class A is reserved for military operations and prohibits all civil aircraft."
+    ],
+    "answer": "A",
+    "explanation": "Class A airspace extends from 18,000 ft MSL up to and including FL600. It requires an IFR clearance and is far above the 400 ft AGL operating ceiling for Part 107 sUAS, so it is not a practical consideration for remote pilots.",
+    "reference": "14 CFR 71.33 / FAA-H-8083-25 Ch.15"
+  },
+  {
+    "id": "AIR-002",
+    "topic": "airspace",
+    "subtopic": "class B",
+    "difficulty": "easy",
+    "question": "On a sectional chart, how is the lateral boundary of Class B airspace depicted?",
+    "choices": [
+      "A. Dashed magenta line",
+      "B. Solid blue line",
+      "C. Solid magenta line"
+    ],
+    "answer": "B",
+    "explanation": "Class B airspace is shown by solid blue lines on sectional charts, typically with multiple shelves stacked like an upside-down wedding cake.",
+    "reference": "Aeronautical Chart Users Guide - Airspace"
+  },
+  {
+    "id": "AIR-003",
+    "topic": "airspace",
+    "subtopic": "class B",
+    "difficulty": "medium",
+    "question": "A Part 107 remote pilot wishes to operate in Class B airspace near a major metropolitan airport. What is required?",
+    "choices": [
+      "A. No authorization is required as long as the operation remains below 400 ft AGL.",
+      "B. ATC authorization, typically obtained through LAANC or FAA DroneZone, prior to operating.",
+      "C. A two-way radio communication established with the Class B tower."
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.41 prohibits operation in Class B, C, D, or surface E airspace without prior ATC authorization. LAANC provides near-real-time authorization, and DroneZone is used for further coordination or waivers.",
+    "reference": "14 CFR 107.41 / FAA DroneZone"
+  },
+  {
+    "id": "AIR-004",
+    "topic": "airspace",
+    "subtopic": "class C",
+    "difficulty": "easy",
+    "question": "Class C airspace is depicted on a sectional chart by what type of boundary?",
+    "choices": [
+      "A. Solid magenta line",
+      "B. Dashed blue line",
+      "C. Faded magenta shading"
+    ],
+    "answer": "A",
+    "explanation": "Class C airspace is depicted with solid magenta lines, generally as a two-tiered structure (inner core and outer shelf) around a moderately busy towered airport.",
+    "reference": "Aeronautical Chart Users Guide - Class C"
+  },
+  {
+    "id": "AIR-005",
+    "topic": "airspace",
+    "subtopic": "class C",
+    "difficulty": "medium",
+    "question": "Typical vertical limits of Class C airspace extend from the surface up to approximately what altitude?",
+    "choices": [
+      "A. 1,200 ft AGL",
+      "B. 2,500 ft AGL",
+      "C. 4,000 ft AGL above the primary airport"
+    ],
+    "answer": "C",
+    "explanation": "Class C airspace normally extends from the surface up to 4,000 ft above the airport elevation (charted as MSL), with an inner core (5 NM radius to surface) and an outer shelf (10 NM radius from 1,200 ft to 4,000 ft AGL).",
+    "reference": "AIM 3-2-4 / FAA-H-8083-25 Ch.15"
+  },
+  {
+    "id": "AIR-006",
+    "topic": "airspace",
+    "subtopic": "class D",
+    "difficulty": "easy",
+    "question": "Class D airspace lateral boundaries are shown on sectional charts as:",
+    "choices": [
+      "A. Dashed blue lines",
+      "B. Dashed magenta lines",
+      "C. Solid blue lines"
+    ],
+    "answer": "A",
+    "explanation": "Class D airspace surrounds a towered airport that does not qualify as Class B or C. It is shown by a dashed blue line on sectional charts.",
+    "reference": "Aeronautical Chart Users Guide - Class D"
+  },
+  {
+    "id": "AIR-007",
+    "topic": "airspace",
+    "subtopic": "class D",
+    "difficulty": "medium",
+    "question": "Inside a dashed blue Class D boundary on a sectional chart, the number '[32]' (shown in a segmented box) indicates:",
+    "choices": [
+      "A. Class D extends from the surface up to and including 3,200 ft MSL.",
+      "B. Class D extends from 3,200 ft MSL to 18,000 ft MSL.",
+      "C. Class D is active only between 0 and 3,200 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "The number inside the segmented (broken-line) box within the Class D boundary is the ceiling in hundreds of feet MSL. '[32]' means up to and including 3,200 ft MSL, with the floor at the surface.",
+    "reference": "FAA Aeronautical Chart Users Guide - Class D depiction"
+  },
+  {
+    "id": "AIR-008",
+    "topic": "airspace",
+    "subtopic": "class E surface",
+    "difficulty": "easy",
+    "question": "A dashed magenta line around a non-towered airport on a sectional chart indicates:",
+    "choices": [
+      "A. Class E airspace beginning at 700 ft AGL.",
+      "B. Class E airspace extending down to the surface around the airport.",
+      "C. A military operations area (MOA)."
+    ],
+    "answer": "B",
+    "explanation": "A dashed magenta line depicts Class E surface area, established at non-towered airports that have an instrument approach procedure. Part 107 operations inside this airspace require ATC authorization.",
+    "reference": "Aeronautical Chart Users Guide - Class E surface"
+  },
+  {
+    "id": "AIR-009",
+    "topic": "airspace",
+    "subtopic": "class E 700 AGL",
+    "difficulty": "medium",
+    "question": "A faded (soft) magenta shaded boundary on a sectional chart indicates Class E airspace beginning at what altitude?",
+    "choices": [
+      "A. The surface",
+      "B. 700 ft AGL",
+      "C. 1,200 ft AGL"
+    ],
+    "answer": "B",
+    "explanation": "The faded/fuzzy magenta shading (often described as a magenta 'vignette') marks the lateral boundary inside which Class E airspace begins at 700 ft AGL, typically to support instrument approaches.",
+    "reference": "Aeronautical Chart Users Guide - Class E 700 AGL"
+  },
+  {
+    "id": "AIR-010",
+    "topic": "airspace",
+    "subtopic": "class E 1200 AGL",
+    "difficulty": "medium",
+    "question": "A faded blue boundary on a sectional chart indicates Class E airspace beginning at what altitude?",
+    "choices": [
+      "A. 700 ft AGL",
+      "B. 1,200 ft AGL",
+      "C. 14,500 ft MSL"
+    ],
+    "answer": "B",
+    "explanation": "The faded blue boundary marks where Class E airspace begins at 1,200 ft AGL. Outside this boundary (toward the uncontrolled side) airspace below 1,200 ft is Class G.",
+    "reference": "Aeronautical Chart Users Guide - Class E 1200 AGL"
+  },
+  {
+    "id": "AIR-011",
+    "topic": "airspace",
+    "subtopic": "class E surface",
+    "difficulty": "medium",
+    "question": "Referring to a sectional area where Onawa (K36) is depicted with a magenta dashed line around it, a Part 107 operator wishing to fly at 200 ft AGL within that boundary must:",
+    "choices": [
+      "A. Operate freely; Class G rules apply below 400 ft AGL.",
+      "B. Obtain ATC authorization via LAANC or FAA DroneZone because the airspace is Class E to the surface.",
+      "C. Notify the airport manager only, since Onawa has no operating control tower."
+    ],
+    "answer": "B",
+    "explanation": "Even though Onawa is non-towered, the dashed magenta boundary makes it Class E to the surface. Part 107.41 requires ATC authorization in surface E. LAANC at the controlling facility (or DroneZone) is used to obtain it.",
+    "reference": "14 CFR 107.41 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-012",
+    "topic": "airspace",
+    "subtopic": "class G",
+    "difficulty": "easy",
+    "question": "What Part 107 authorization is required to operate a sUAS in Class G airspace below 400 ft AGL?",
+    "choices": [
+      "A. LAANC authorization",
+      "B. ATC authorization through DroneZone",
+      "C. No ATC authorization is required, but all other Part 107 rules still apply."
+    ],
+    "answer": "C",
+    "explanation": "Class G is uncontrolled airspace. No ATC authorization is needed, but the remote pilot must still comply with 400 ft AGL, VLOS, daylight/civil twilight, and other Part 107 rules.",
+    "reference": "14 CFR 107.41 / 107.51"
+  },
+  {
+    "id": "AIR-013",
+    "topic": "airspace",
+    "subtopic": "class G",
+    "difficulty": "medium",
+    "question": "The lateral boundary between Class E (1,200 ft AGL floor) and adjoining Class G airspace is depicted on a sectional by:",
+    "choices": [
+      "A. A solid magenta line",
+      "B. A faded blue gradient — Class E is on the side away from the blue tint",
+      "C. A faded blue gradient — Class E is on the blue-tinted side, Class G is outside"
+    ],
+    "answer": "C",
+    "explanation": "The faded blue line shows where Class E starts at 1,200 ft AGL. Inside the blue-shaded side, airspace from 1,200 AGL up is Class E. Outside the line, airspace remains Class G up to 14,500 ft MSL.",
+    "reference": "Aeronautical Chart Users Guide"
+  },
+  {
+    "id": "AIR-014",
+    "topic": "airspace",
+    "subtopic": "LAANC",
+    "difficulty": "easy",
+    "question": "What does LAANC stand for, and what is its primary purpose?",
+    "choices": [
+      "A. Low Altitude Authorization and Notification Capability — provides near-real-time ATC authorization for Part 107 operations in controlled airspace at or below published facility map grid altitudes.",
+      "B. Local Airspace Air Navigation Compliance — a logbook system for sUAS flights.",
+      "C. Licensed Aviator Network Communications Channel — a radio frequency for drone operators."
+    ],
+    "answer": "A",
+    "explanation": "LAANC is the FAA's automated authorization system that gives Part 107 pilots near-instant ATC approval to operate in controlled airspace at altitudes at or below the grid altitudes published on UAS Facility Maps.",
+    "reference": "FAA.gov UAS Data Exchange / LAANC"
+  },
+  {
+    "id": "AIR-015",
+    "topic": "airspace",
+    "subtopic": "LAANC vs DroneZone",
+    "difficulty": "medium",
+    "question": "A Part 107 pilot wants to operate at 300 ft AGL in Class D airspace where the UAS Facility Map grid shows a 200 ft ceiling. What is required?",
+    "choices": [
+      "A. Submit a LAANC request — it will be auto-approved.",
+      "B. Submit a 'Further Coordination' LAANC request or apply via DroneZone, since 300 ft exceeds the grid altitude.",
+      "C. No authorization is required because the flight is below 400 ft AGL."
+    ],
+    "answer": "B",
+    "explanation": "If the desired altitude exceeds the grid ceiling on the UAS Facility Map, LAANC may forward the request as a 'Further Coordination' request to ATC, or the pilot can apply directly through DroneZone. Auto-approval is not available above the grid value.",
+    "reference": "FAA UAS Facility Maps / LAANC user guide"
+  },
+  {
+    "id": "AIR-016",
+    "topic": "airspace",
+    "subtopic": "authorization vs waiver",
+    "difficulty": "medium",
+    "question": "What is the difference between an ATC authorization and a Part 107 waiver?",
+    "choices": [
+      "A. They are interchangeable terms for the same FAA approval.",
+      "B. Authorization grants access to controlled airspace; a waiver allows deviation from specific Part 107 operating rules (e.g., night, BVLOS, over people).",
+      "C. Authorizations are issued by Congress; waivers are issued by ATC."
+    ],
+    "answer": "B",
+    "explanation": "ATC authorization (via LAANC or DroneZone) permits operations within controlled airspace. A Part 107 waiver permits deviation from operating rules such as altitude, daylight, VLOS, or operations over people/from a moving vehicle.",
+    "reference": "14 CFR 107.200 / 107.41"
+  },
+  {
+    "id": "AIR-017",
+    "topic": "sectional symbology",
+    "subtopic": "airport symbol",
+    "difficulty": "easy",
+    "question": "On a sectional chart, an airport depicted in BLUE generally indicates:",
+    "choices": [
+      "A. A non-towered airport without services.",
+      "B. An airport with an operating control tower.",
+      "C. A heliport."
+    ],
+    "answer": "B",
+    "explanation": "Airports shown in blue have an operating control tower. Airports shown in magenta do not have an operating control tower (though they may still have other services).",
+    "reference": "Aeronautical Chart Users Guide - Airports"
+  },
+  {
+    "id": "AIR-018",
+    "topic": "sectional symbology",
+    "subtopic": "airport symbol",
+    "difficulty": "easy",
+    "question": "A magenta airport symbol on a sectional chart indicates:",
+    "choices": [
+      "A. A towered airport in Class D.",
+      "B. A non-towered (no operating control tower) airport.",
+      "C. A military airfield."
+    ],
+    "answer": "B",
+    "explanation": "Magenta-colored airport symbols indicate airports that do not have an operating control tower.",
+    "reference": "Aeronautical Chart Users Guide"
+  },
+  {
+    "id": "AIR-019",
+    "topic": "sectional symbology",
+    "subtopic": "hard surface runway",
+    "difficulty": "medium",
+    "question": "A small circle enclosing the airport symbol with the actual runway pattern shown indicates what about the runways?",
+    "choices": [
+      "A. All runways are turf or sod.",
+      "B. The airport has hard-surfaced runways at least 1,500 ft long but less than 8,069 ft.",
+      "C. The airport is closed."
+    ],
+    "answer": "B",
+    "explanation": "A circle around the airport symbol with the runway depiction indicates hard-surfaced runways 1,500 ft to 8,069 ft long. Runways 8,069 ft or longer are shown as a runway pattern only without a circle.",
+    "reference": "Chart Users Guide - Airport Data"
+  },
+  {
+    "id": "AIR-020",
+    "topic": "sectional symbology",
+    "subtopic": "star symbol",
+    "difficulty": "medium",
+    "question": "A star symbol placed near an airport's tower frequency or rotating beacon notation on a sectional chart indicates:",
+    "choices": [
+      "A. A part-time control tower or part-time operation (not 24/7).",
+      "B. A military airport.",
+      "C. A noise-sensitive area."
+    ],
+    "answer": "A",
+    "explanation": "The star indicates that the associated feature (lighting, tower, ATIS, etc.) operates part-time. Pilots should consult the Chart Supplement for hours of operation.",
+    "reference": "Chart Users Guide - Airport Data"
+  },
+  {
+    "id": "AIR-021",
+    "topic": "sectional symbology",
+    "subtopic": "lighting L",
+    "difficulty": "easy",
+    "question": "The letter 'L' adjacent to airport data on a sectional chart means:",
+    "choices": [
+      "A. Lighting is available sunset to sunrise (with the location/type specified in the Chart Supplement).",
+      "B. Landing fee required.",
+      "C. Large aircraft only."
+    ],
+    "answer": "A",
+    "explanation": "'L' indicates lighting is available from sunset to sunrise. '*L' indicates lighting limitations (part-time, on request, pilot-controlled, etc.).",
+    "reference": "Chart Users Guide - Airport Data"
+  },
+  {
+    "id": "AIR-022",
+    "topic": "sectional symbology",
+    "subtopic": "fuel",
+    "difficulty": "easy",
+    "question": "Small tick marks (ticks) extending outward from the airport circle on a sectional chart indicate:",
+    "choices": [
+      "A. The presence of obstructions surrounding the field.",
+      "B. Fuel is available.",
+      "C. Runway lights."
+    ],
+    "answer": "B",
+    "explanation": "Tick marks around the airport symbol indicate fuel is available and the field is attended during normal business hours.",
+    "reference": "Chart Users Guide - Airport Data"
+  },
+  {
+    "id": "AIR-023",
+    "topic": "sectional symbology",
+    "subtopic": "CT frequency",
+    "difficulty": "medium",
+    "question": "The notation 'CT - 118.3' near an airport on a sectional chart represents:",
+    "choices": [
+      "A. The Common Traffic Advisory Frequency (CTAF) for a non-towered field.",
+      "B. The Control Tower (CT) primary frequency.",
+      "C. The clearance delivery frequency."
+    ],
+    "answer": "B",
+    "explanation": "'CT' is the Control Tower frequency. CTAF for a non-towered airport is usually shown with a 'C' inside a solid magenta circle.",
+    "reference": "Chart Users Guide - Communication boxes"
+  },
+  {
+    "id": "AIR-024",
+    "topic": "sectional symbology",
+    "subtopic": "AWOS ASOS",
+    "difficulty": "medium",
+    "question": "AWOS-3 or ASOS frequencies listed near an airport provide:",
+    "choices": [
+      "A. Automated weather observations broadcast over a discrete frequency or telephone.",
+      "B. Air traffic control clearances.",
+      "C. Approach control vectors."
+    ],
+    "answer": "A",
+    "explanation": "AWOS (Automated Weather Observing System) and ASOS (Automated Surface Observing System) provide automated weather data via radio frequency and/or telephone, useful for sUAS pre-flight weather checks.",
+    "reference": "Chart Users Guide / AIM 7-1-12"
+  },
+  {
+    "id": "AIR-025",
+    "topic": "sectional symbology",
+    "subtopic": "parachute",
+    "difficulty": "easy",
+    "question": "A symbol shaped like an open parachute on a sectional chart indicates:",
+    "choices": [
+      "A. A glider operations area.",
+      "B. A parachute jumping area.",
+      "C. A balloon launch site."
+    ],
+    "answer": "B",
+    "explanation": "The open parachute icon marks a parachute jumping area. Remote pilots should be alert for descending jumpers and aircraft maneuvering at altitude.",
+    "reference": "Chart Users Guide - Special Use Symbols"
+  },
+  {
+    "id": "AIR-026",
+    "topic": "sectional symbology",
+    "subtopic": "glider ultralight hang glider",
+    "difficulty": "medium",
+    "question": "On a sectional chart, the symbol 'G' inside a small box near an airport indicates:",
+    "choices": [
+      "A. Glider operations are conducted at or near that location.",
+      "B. Government airport (no public use).",
+      "C. Ground-controlled approach available."
+    ],
+    "answer": "A",
+    "explanation": "A 'G' symbol indicates glider operations. Similar conventions use 'U' for ultralight activity and 'H' (or a hang-glider icon) for hang-glider operations.",
+    "reference": "Chart Users Guide - Special Activities"
+  },
+  {
+    "id": "AIR-027",
+    "topic": "sectional symbology",
+    "subtopic": "MTR",
+    "difficulty": "hard",
+    "question": "A Military Training Route labeled 'IR-644' on a sectional chart indicates:",
+    "choices": [
+      "A. An IFR-flown route that includes one or more segments above 1,500 ft AGL (three-digit identifier).",
+      "B. A VFR route flown entirely below 1,500 ft AGL.",
+      "C. A restricted area boundary."
+    ],
+    "answer": "A",
+    "explanation": "MTRs use IR (IFR) and VR (VFR) prefixes. Three-digit identifiers (e.g., IR-644) indicate routes that include one or more segments above 1,500 ft AGL (although portions may be below). Four-digit identifiers (e.g., IR-1644) indicate routes flown entirely at or below 1,500 ft AGL.",
+    "reference": "AIM 3-5-2 / FAA Chart Users Guide"
+  },
+  {
+    "id": "AIR-028",
+    "topic": "sectional symbology",
+    "subtopic": "MTR",
+    "difficulty": "hard",
+    "question": "A Military Training Route labeled 'VR-1207' tells the remote pilot:",
+    "choices": [
+      "A. The route is flown under VFR and is conducted entirely at or below 1,500 ft AGL (4 digits).",
+      "B. The route is flown under IFR above 1,500 ft AGL.",
+      "C. The route is closed to civilian traffic at all times."
+    ],
+    "answer": "A",
+    "explanation": "Four-digit MTR identifiers indicate operations conducted entirely at or below 1,500 ft AGL — exactly the altitude band where sUAS operate. Remote pilots should be especially vigilant along these routes.",
+    "reference": "AIM 3-5-2"
+  },
+  {
+    "id": "AIR-029",
+    "topic": "sectional symbology",
+    "subtopic": "obstruction",
+    "difficulty": "medium",
+    "question": "An obstruction symbol on a sectional chart shows '1549 (449)'. What do these numbers represent?",
+    "choices": [
+      "A. The MSL altitude of the obstruction top (1,549 ft) and the AGL height (449 ft).",
+      "B. Two separate obstructions at different elevations.",
+      "C. The latitude and longitude of the obstacle."
+    ],
+    "answer": "A",
+    "explanation": "Obstruction labels show the top of the obstacle in MSL (large number) and the height above ground level in parentheses (AGL). Obstructions 1,000 ft AGL or higher receive heightened depiction.",
+    "reference": "Chart Users Guide - Obstructions"
+  },
+  {
+    "id": "AIR-030",
+    "topic": "sectional symbology",
+    "subtopic": "obstruction lighted",
+    "difficulty": "medium",
+    "question": "An obstruction symbol with lightning-bolt-like flashes radiating from its top indicates:",
+    "choices": [
+      "A. The obstruction is high-intensity-lighted (illuminated at night).",
+      "B. The obstruction is electrified and dangerous.",
+      "C. The obstruction is a weather radar."
+    ],
+    "answer": "A",
+    "explanation": "The 'lightning bolts' (rays) on top of an obstruction symbol indicate the obstacle is lighted. Lack of rays means unlighted. Group obstacles (two side-by-side) indicate multiple structures.",
+    "reference": "Chart Users Guide - Obstructions"
+  },
+  {
+    "id": "AIR-031",
+    "topic": "sectional symbology",
+    "subtopic": "MEF",
+    "difficulty": "medium",
+    "question": "Within each quadrangle bounded by ticked latitude/longitude lines, the large bold number such as '2⁵' or '25' represents:",
+    "choices": [
+      "A. The Maximum Elevation Figure (MEF) in thousands and hundreds of feet MSL, including the highest terrain and obstruction within that quadrant.",
+      "B. The minimum safe IFR altitude.",
+      "C. The grid coordinate identifier."
+    ],
+    "answer": "A",
+    "explanation": "The MEF is shown as two numbers: the large number is thousands of feet MSL and the smaller superscript is hundreds. It represents the highest known terrain or obstruction within the quadrangle, rounded up.",
+    "reference": "Chart Users Guide - MEF"
+  },
+  {
+    "id": "AIR-032",
+    "topic": "sectional symbology",
+    "subtopic": "isogonic line",
+    "difficulty": "hard",
+    "question": "Dashed magenta lines crossing a sectional chart labeled with values such as '6°W' represent:",
+    "choices": [
+      "A. Isogonic lines showing magnetic variation between true north and magnetic north.",
+      "B. Restricted area boundaries.",
+      "C. Class E airspace boundaries."
+    ],
+    "answer": "A",
+    "explanation": "Isogonic lines connect points of equal magnetic variation. The labeled value (e.g., 6°W) is the difference between true and magnetic north used to correct compass headings.",
+    "reference": "Chart Users Guide - Navigation"
+  },
+  {
+    "id": "AIR-033",
+    "topic": "sectional symbology",
+    "subtopic": "VOR compass rose",
+    "difficulty": "medium",
+    "question": "The compass rose surrounding a VOR symbol on a sectional chart is oriented to:",
+    "choices": [
+      "A. True north",
+      "B. Magnetic north",
+      "C. Grid north"
+    ],
+    "answer": "B",
+    "explanation": "VOR compass roses are aligned with magnetic north at the VOR's location, which simplifies bearing reference for pilots using magnetic compasses.",
+    "reference": "AIM 1-1-3 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-034",
+    "topic": "SUA",
+    "subtopic": "prohibited",
+    "difficulty": "easy",
+    "question": "Prohibited Areas on a sectional chart (e.g., P-56 over the White House) mean:",
+    "choices": [
+      "A. Flight is prohibited at all times for all aircraft without specific governmental exception.",
+      "B. Flight requires only a NOTAM check before entry.",
+      "C. Flight is prohibited only for IFR aircraft."
+    ],
+    "answer": "A",
+    "explanation": "Prohibited Areas (labeled 'P-#') are off-limits to all flight at all times absent specific authorization from the controlling agency. They protect national-security or welfare interests.",
+    "reference": "AIM 3-4-2 / 14 CFR 73"
+  },
+  {
+    "id": "AIR-035",
+    "topic": "SUA",
+    "subtopic": "restricted",
+    "difficulty": "medium",
+    "question": "A Restricted Area (e.g., R-2401) depicted on a sectional chart:",
+    "choices": [
+      "A. Permits flight at any time without permission as long as the pilot stays VFR.",
+      "B. Contains unusual, often invisible hazards to aircraft (artillery, aerial gunnery, missiles); permission from the controlling agency is required to enter when active.",
+      "C. Is reserved exclusively for sUAS operations."
+    ],
+    "answer": "B",
+    "explanation": "Restricted Areas contain hazards such as artillery firing or missile testing. Operating without authorization from the controlling agency when active is prohibited. Schedules are published in the Chart Supplement.",
+    "reference": "AIM 3-4-3"
+  },
+  {
+    "id": "AIR-036",
+    "topic": "SUA",
+    "subtopic": "warning",
+    "difficulty": "medium",
+    "question": "A Warning Area (e.g., W-122) differs from a Restricted Area primarily because it is:",
+    "choices": [
+      "A. Located beyond 3 NM from the U.S. coast in international airspace.",
+      "B. Always inside Class B airspace.",
+      "C. Reserved for student-pilot training only."
+    ],
+    "answer": "A",
+    "explanation": "Warning Areas extend from 3 NM outward from the U.S. coast and contain activity that may be hazardous to non-participating aircraft. Because the U.S. has no sovereign authority beyond 12 NM, they are 'warning' rather than 'restricted.'",
+    "reference": "AIM 3-4-4"
+  },
+  {
+    "id": "AIR-037",
+    "topic": "SUA",
+    "subtopic": "MOA",
+    "difficulty": "medium",
+    "question": "A Military Operations Area (MOA) on a sectional is shown by a magenta hatched boundary. For Part 107 operations below the MOA floor:",
+    "choices": [
+      "A. The MOA always extends to the surface, so operations are prohibited.",
+      "B. MOAs separate certain military activity from IFR traffic; sUAS pilots should check the MOA's published altitudes and times of use and remain vigilant for high-speed military aircraft.",
+      "C. The MOA must be entered only with an IFR clearance."
+    ],
+    "answer": "B",
+    "explanation": "MOAs (depicted with magenta hatched borders) separate military training from IFR traffic. VFR aircraft (and sUAS below) may transit but should exercise extreme caution due to the possibility of high-speed military maneuvering.",
+    "reference": "AIM 3-4-5"
+  },
+  {
+    "id": "AIR-038",
+    "topic": "SUA",
+    "subtopic": "alert area",
+    "difficulty": "medium",
+    "question": "An Alert Area (e.g., A-211) on a sectional is depicted with a magenta hatched boundary to inform pilots of:",
+    "choices": [
+      "A. A high volume of pilot training or unusual aerial activity; all pilots remain responsible for collision avoidance.",
+      "B. A wildlife refuge requiring 2,000 ft AGL clearance.",
+      "C. A Class B veil."
+    ],
+    "answer": "A",
+    "explanation": "Alert Areas notify non-participating pilots of areas containing high-volume training or unusual activity. No special permission is needed to enter, but vigilance is required.",
+    "reference": "AIM 3-4-6"
+  },
+  {
+    "id": "AIR-039",
+    "topic": "SUA",
+    "subtopic": "CFA",
+    "difficulty": "hard",
+    "question": "A Controlled Firing Area (CFA) is NOT depicted on sectional charts because:",
+    "choices": [
+      "A. Activities are suspended immediately when spotter aircraft, radar, or observers detect approaching aircraft.",
+      "B. They occur only at night.",
+      "C. They are classified."
+    ],
+    "answer": "A",
+    "explanation": "CFAs are not charted because firing is suspended when any aircraft might be endangered. Procedures internal to the CFA eliminate the need for non-participating aircraft to alter flight paths.",
+    "reference": "AIM 3-4-7"
+  },
+  {
+    "id": "AIR-040",
+    "topic": "SUA",
+    "subtopic": "NSA",
+    "difficulty": "medium",
+    "question": "A National Security Area (NSA) on a sectional chart, depicted by a heavy magenta dashed line:",
+    "choices": [
+      "A. Requests pilots voluntarily avoid flight; a TFR may be issued (FDC NOTAM) to make avoidance mandatory.",
+      "B. Always prohibits all overflight.",
+      "C. Replaces all underlying airspace classifications."
+    ],
+    "answer": "A",
+    "explanation": "NSAs ask for voluntary avoidance to protect sensitive ground facilities. The FAA may issue an FDC NOTAM making the avoidance temporarily mandatory.",
+    "reference": "AIM 3-5-7"
+  },
+  {
+    "id": "AIR-041",
+    "topic": "TFR",
+    "subtopic": "presidential",
+    "difficulty": "medium",
+    "question": "When the President of the United States is at a location, a typical VIP TFR includes:",
+    "choices": [
+      "A. An inner 'no fly' core of 10 NM and an outer ring of 30 NM with restrictions, surface to 17,999 ft MSL.",
+      "B. A 1 NM circle from the surface to 400 ft AGL only.",
+      "C. A 100 NM Class A ceiling exclusion."
+    ],
+    "answer": "A",
+    "explanation": "Presidential TFRs (FDC NOTAM) typically contain a 10 NM inner ring where most flight is prohibited and a 30 NM outer ring with restrictions. sUAS operations are generally prohibited within these rings.",
+    "reference": "14 CFR 91.141 / FAA TFR guidance"
+  },
+  {
+    "id": "AIR-042",
+    "topic": "TFR",
+    "subtopic": "sporting events stadium",
+    "difficulty": "medium",
+    "question": "FDC NOTAM 4/3621 (the standing sporting-event TFR) restricts aircraft, including sUAS, over stadiums seating 30,000 or more during MLB, NFL, NCAA Division I football, and major motor speedway events. The restriction is:",
+    "choices": [
+      "A. 3 NM radius, surface up to 3,000 ft AGL, from 1 hour before the event start until 1 hour after the event ends.",
+      "B. 1 NM radius, surface up to 400 ft AGL, during the event only.",
+      "C. 5 NM radius, surface up to 18,000 ft MSL, 24/7 during the season."
+    ],
+    "answer": "A",
+    "explanation": "The standing stadium TFR creates a 3 NM radius, surface to 3,000 ft AGL no-fly zone from one hour before to one hour after the event for qualifying venues and events. sUAS are not exempt.",
+    "reference": "FDC NOTAM 4/3621"
+  },
+  {
+    "id": "AIR-043",
+    "topic": "TFR",
+    "subtopic": "wildfire",
+    "difficulty": "medium",
+    "question": "A TFR is in effect over an active wildfire area. A Part 107 pilot:",
+    "choices": [
+      "A. May fly to capture news footage if they remain below 400 ft AGL.",
+      "B. Must not operate within the TFR without specific authorization; interfering with firefighting aircraft carries civil and criminal penalties.",
+      "C. Needs only to notify the local airport before launching."
+    ],
+    "answer": "B",
+    "explanation": "Wildfire TFRs (issued under 14 CFR 91.137) protect firefighting aircraft. Unauthorized sUAS incursions force suppression aircraft to ground and can carry fines exceeding $20,000 and criminal liability.",
+    "reference": "14 CFR 91.137 / FAA Public Guidance"
+  },
+  {
+    "id": "AIR-044",
+    "topic": "TFR",
+    "subtopic": "Disney",
+    "difficulty": "hard",
+    "question": "The standing TFRs over Disneyland (CA) and Walt Disney World (FL) restrict flight within:",
+    "choices": [
+      "A. 3 NM radius up to 3,000 ft AGL.",
+      "B. 1 NM radius from the surface to 400 ft AGL.",
+      "C. 5 NM radius from the surface to 10,000 ft MSL."
+    ],
+    "answer": "A",
+    "explanation": "FDC NOTAMs 4/0297 and 4/0301 restrict flight within a 3 NM radius surface to 3,000 ft AGL over the Disney parks. Part 107 sUAS are included.",
+    "reference": "FDC NOTAMs 4/0297, 4/0301"
+  },
+  {
+    "id": "AIR-045",
+    "topic": "other airspace",
+    "subtopic": "DC SFRA",
+    "difficulty": "hard",
+    "question": "The Washington, DC Special Flight Rules Area (SFRA) extends approximately:",
+    "choices": [
+      "A. 30 NM radius from the DCA VOR/DME, surface to 18,000 ft MSL; sUAS within the inner 15 NM FRZ are essentially prohibited.",
+      "B. 5 NM radius from the U.S. Capitol, surface to 400 ft AGL.",
+      "C. Only over federal buildings during business hours."
+    ],
+    "answer": "A",
+    "explanation": "The DC SFRA extends 30 NM from the DCA VOR/DME up to 18,000 ft MSL. The inner 15 NM Flight Restricted Zone (FRZ) has additional severe restrictions; sUAS flights in the FRZ are essentially prohibited without specific FAA/Secret Service approval.",
+    "reference": "14 CFR 93.335 / 91.161"
+  },
+  {
+    "id": "AIR-046",
+    "topic": "other airspace",
+    "subtopic": "FRZ",
+    "difficulty": "hard",
+    "question": "A Part 107 remote pilot wants to fly a sUAS in downtown Washington DC, 12 NM from the DCA VOR. This location lies within:",
+    "choices": [
+      "A. The Flight Restricted Zone (FRZ); sUAS operations are essentially prohibited without specific federal authorization.",
+      "B. Class G airspace requiring only daylight operations.",
+      "C. A Class E surface area that LAANC can auto-approve."
+    ],
+    "answer": "A",
+    "explanation": "The inner 15 NM FRZ around the U.S. Capitol prohibits virtually all sUAS operations. LAANC is not available, and any operation requires specific federal coordination.",
+    "reference": "14 CFR 93.335"
+  },
+  {
+    "id": "AIR-047",
+    "topic": "other airspace",
+    "subtopic": "wildlife refuge",
+    "difficulty": "medium",
+    "question": "The FAA advisory regarding National Wildlife Refuges, National Parks, and similar areas requests pilots to:",
+    "choices": [
+      "A. Maintain a minimum altitude of 2,000 ft AGL over these areas (advisory, not regulatory for civil aircraft, but enforced for sUAS by NPS/USFWS land-use rules).",
+      "B. Land at the nearest airport before crossing.",
+      "C. Obtain LAANC approval before overflight."
+    ],
+    "answer": "A",
+    "explanation": "FAA Advisory Circular 91-36 (currently AC 91-36D) recommends pilots maintain a minimum of 2,000 ft AGL over noise-sensitive areas such as National Parks, National Wildlife Refuges, and Wilderness Areas. This is advisory for civil aircraft. Separately, the National Park Service and U.S. Fish & Wildlife Service prohibit launching, landing, and operating UAS from lands under their jurisdiction.",
+    "reference": "FAA AC 91-36 / NPS 36 CFR 1.5 / USFWS 50 CFR 27.34"
+  },
+  {
+    "id": "AIR-048",
+    "topic": "Part 107 limits",
+    "subtopic": "400 AGL VLOS",
+    "difficulty": "easy",
+    "question": "Under Part 107, the maximum altitude a sUAS may operate is generally:",
+    "choices": [
+      "A. 400 ft AGL, OR within 400 ft of the top of a structure (lateral 400 ft).",
+      "B. 1,000 ft AGL anywhere.",
+      "C. The lower of 500 ft AGL or the floor of Class E airspace."
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.51(b) limits altitude to 400 ft AGL, except when the sUAS is within 400 ft of a structure and does not climb higher than 400 ft above that structure's immediate uppermost limit.",
+    "reference": "14 CFR 107.51"
+  },
+  {
+    "id": "AIR-049",
+    "topic": "sectional symbology",
+    "subtopic": "class B veil",
+    "difficulty": "medium",
+    "question": "A thin solid magenta circle approximately 30 NM out from the primary Class B airport indicates:",
+    "choices": [
+      "A. The Class B Mode-C veil; transponder requirement for manned aircraft, no direct Part 107 effect but useful for orientation.",
+      "B. A wildlife refuge.",
+      "C. The outer boundary of Class C airspace."
+    ],
+    "answer": "A",
+    "explanation": "The 30 NM Mode-C veil around Class B airports is shown as a thin solid magenta line. It mandates transponder/ADS-B for manned aircraft but does not by itself impose Part 107 authorization requirements.",
+    "reference": "14 CFR 91.215 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-050",
+    "topic": "sectional symbology",
+    "subtopic": "latitude longitude",
+    "difficulty": "medium",
+    "question": "Tick marks along the latitude and longitude lines on a sectional chart are spaced at:",
+    "choices": [
+      "A. Every 1 minute of arc, with longer ticks at 5- and 10-minute intervals.",
+      "B. Every 1 degree.",
+      "C. Every 10 NM."
+    ],
+    "answer": "A",
+    "explanation": "Lat/long tick marks are at 1-minute intervals, with longer ticks at 5 and 10 minutes, allowing precise position reference for remote pilots.",
+    "reference": "Chart Users Guide"
+  },
+  {
+    "id": "AIR-051",
+    "topic": "sectional symbology",
+    "subtopic": "ceiling floor numbers",
+    "difficulty": "medium",
+    "question": "On a sectional chart inside a Class C boundary, the annotation '40/SFC' means:",
+    "choices": [
+      "A. The Class C extends from the surface up to and including 4,000 ft MSL in that sector.",
+      "B. 40 NM radius surface coverage.",
+      "C. From 4,000 ft MSL to 40,000 ft MSL."
+    ],
+    "answer": "A",
+    "explanation": "Within Class B and C sectors, the top number is the ceiling in hundreds of feet MSL and the bottom is the floor. 'SFC' means surface. '40/SFC' = 4,000 ft MSL ceiling down to the surface.",
+    "reference": "Chart Users Guide - Class B/C depiction"
+  },
+  {
+    "id": "AIR-052",
+    "topic": "sectional symbology",
+    "subtopic": "ceiling floor numbers",
+    "difficulty": "medium",
+    "question": "The Class B shelf notation '100/40' indicates:",
+    "choices": [
+      "A. Floor of 10,000 ft MSL, ceiling of 4,000 ft MSL.",
+      "B. Ceiling of 10,000 ft MSL, floor of 4,000 ft MSL.",
+      "C. 100 NM radius up to 4,000 ft MSL."
+    ],
+    "answer": "B",
+    "explanation": "The top number is the ceiling and the bottom is the floor, both in hundreds of feet MSL. '100/40' = 10,000 ft MSL ceiling, 4,000 ft MSL floor.",
+    "reference": "Chart Users Guide - Class B"
+  },
+  {
+    "id": "AIR-053",
+    "topic": "Part 107 authorization",
+    "subtopic": "LAANC airports",
+    "difficulty": "medium",
+    "question": "A Part 107 pilot reviews the UAS Facility Map and sees a grid square marked '0' adjacent to an airport. This means:",
+    "choices": [
+      "A. The pilot may auto-approve up to 0 ft AGL via LAANC; any operation requires a 'Further Coordination' request or DroneZone application.",
+      "B. The airspace is Class G and no authorization is needed.",
+      "C. LAANC is not available at any altitude at that location."
+    ],
+    "answer": "A",
+    "explanation": "A '0' grid value means no auto-approval altitude is available — typically the area near runway approach/departure paths. Operations require Further Coordination (longer review) or a DroneZone application.",
+    "reference": "FAA UAS Facility Maps"
+  },
+  {
+    "id": "AIR-054",
+    "topic": "sectional chart figure",
+    "subtopic": "Savannah Class C",
+    "difficulty": "hard",
+    "question": "Referring to an area where Savannah/Hilton Head International (SAV) is depicted with two concentric solid magenta circles (Class C), a Part 107 pilot planning a flight at 200 ft AGL within the 5 NM inner core must:",
+    "choices": [
+      "A. Operate without authorization since 200 ft is below the Class C floor.",
+      "B. Obtain ATC authorization through LAANC (or DroneZone) before flying.",
+      "C. Monitor Savannah Tower's frequency only."
+    ],
+    "answer": "B",
+    "explanation": "Class C airspace inner core extends from the surface. Any Part 107 operation inside the surface area of Class B/C/D/E requires ATC authorization regardless of altitude. SAV participates in LAANC.",
+    "reference": "14 CFR 107.41 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-055",
+    "topic": "sectional chart figure",
+    "subtopic": "Lincoln Class C",
+    "difficulty": "hard",
+    "question": "Lincoln Municipal (LNK) is shown on a sectional with solid magenta Class C boundaries marked '41/SFC' over the inner core and '41/20' over the outer shelf. The outer shelf area:",
+    "choices": [
+      "A. Extends from the surface up to 4,100 ft MSL.",
+      "B. Extends from 2,000 ft MSL up to 4,100 ft MSL.",
+      "C. Has no defined floor or ceiling."
+    ],
+    "answer": "B",
+    "explanation": "'41/20' = ceiling 4,100 ft MSL, floor 2,000 ft MSL. The outer shelf of a Class C typically has a floor of 1,200 ft AGL (charted MSL) and a ceiling of 4,000 ft above airport elevation.",
+    "reference": "Chart Users Guide / AIM 3-2-4"
+  },
+  {
+    "id": "AIR-056",
+    "topic": "sectional chart figure",
+    "subtopic": "Cedar Lake non-tower",
+    "difficulty": "medium",
+    "question": "Referring to an area where Cedar Lake is depicted as a magenta airport symbol with no Class E surface boundary (no dashed magenta), a Part 107 pilot operating at 300 ft AGL nearby:",
+    "choices": [
+      "A. Requires LAANC authorization due to the airport's presence.",
+      "B. Is most likely in Class G airspace (surface to 700 or 1,200 AGL) and does not need ATC authorization, but must yield right of way to manned traffic and avoid traffic patterns.",
+      "C. Must not operate within 5 NM of the airport without notifying the operator."
+    ],
+    "answer": "B",
+    "explanation": "A non-towered airport without a Class E surface area sits in Class G airspace below the magenta vignette (700 AGL) or blue vignette (1,200 AGL). No ATC authorization is required for Part 107 flight, but pilots must yield to manned aircraft and avoid the traffic pattern (107.43).",
+    "reference": "14 CFR 107.41, 107.43"
+  },
+  {
+    "id": "AIR-057",
+    "topic": "sectional chart figure",
+    "subtopic": "Mercer County",
+    "difficulty": "medium",
+    "question": "Referring to a chart area showing Mercer County (HZY) as a magenta airport with a dashed magenta ring, the airspace inside the ring from the surface up is:",
+    "choices": [
+      "A. Class D, requiring two-way radio communication.",
+      "B. Class E surface area, requiring ATC authorization for Part 107 operations.",
+      "C. Class G, requiring no authorization."
+    ],
+    "answer": "B",
+    "explanation": "A dashed magenta ring at a non-towered airport indicates a Class E surface area established to support instrument approaches. Part 107.41 requires ATC authorization (LAANC or DroneZone) to operate inside it.",
+    "reference": "14 CFR 107.41 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-058",
+    "topic": "sectional chart figure",
+    "subtopic": "Detroit Class B",
+    "difficulty": "hard",
+    "question": "Referring to the Detroit Class B airspace depicted with solid blue rings and a shelf notation '80/SFC' over the primary core, then '80/40' on an outer shelf, a sUAS flight planned beneath the '80/40' shelf at 300 ft AGL:",
+    "choices": [
+      "A. Is in Class B airspace and requires LAANC/DroneZone authorization.",
+      "B. Is beneath the Class B shelf (floor 4,000 MSL) — outside Class B — and authorization status depends on the underlying airspace (typically Class E or G).",
+      "C. Is automatically prohibited until 1 hour after sunset."
+    ],
+    "answer": "B",
+    "explanation": "Below a Class B shelf, the operation is not inside Class B. The underlying airspace governs (often Class E from 700 AGL or Class G below). Part 107 authorization requirements depend on that underlying class.",
+    "reference": "Chart Users Guide / 14 CFR 107.41"
+  },
+  {
+    "id": "AIR-059",
+    "topic": "sectional symbology",
+    "subtopic": "communication box",
+    "difficulty": "medium",
+    "question": "A solid magenta circle with the letter 'C' inside, placed near a non-towered airport, indicates:",
+    "choices": [
+      "A. Class C airspace boundary.",
+      "B. The CTAF (Common Traffic Advisory Frequency) for the airport.",
+      "C. A Center frequency."
+    ],
+    "answer": "B",
+    "explanation": "The solid magenta circle with 'C' inside denotes the published CTAF, used by pilots to self-announce at non-towered fields. Remote pilots can monitor CTAF for situational awareness.",
+    "reference": "Chart Users Guide - Communications"
+  },
+  {
+    "id": "AIR-060",
+    "topic": "Part 107 limits",
+    "subtopic": "Class G default",
+    "difficulty": "easy",
+    "question": "Most Part 107 sUAS operations occur in Class G airspace because:",
+    "choices": [
+      "A. Class G typically extends from the surface up to 700 or 1,200 ft AGL in most of the country — well above the 400 ft AGL ceiling — and requires no ATC authorization.",
+      "B. Class G is the only airspace where VLOS is required.",
+      "C. Class G is the only airspace where sUAS are allowed by federal law."
+    ],
+    "answer": "A",
+    "explanation": "Class G (uncontrolled) covers most low-altitude airspace away from towered/controlled airports. Since Part 107 operations are typically at or below 400 ft AGL and Class G frequently begins at the surface and extends to 700/1,200 AGL, most operations occur there without authorization.",
+    "reference": "AIM 3-3-1 / 14 CFR 107.41"
+  },
+  {
+    "id": "AIR-061",
+    "topic": "sectional symbology",
+    "subtopic": "obstruction group",
+    "difficulty": "medium",
+    "question": "Two obstruction symbols drawn side-by-side at one location on a sectional indicates:",
+    "choices": [
+      "A. A group obstruction — multiple closely spaced structures (e.g., wind farm, antenna farm).",
+      "B. A lighted single obstruction.",
+      "C. Two airports adjacent to each other."
+    ],
+    "answer": "A",
+    "explanation": "Twin obstruction icons represent a group of closely spaced obstacles. Lighting status is shown with or without 'rays' on top of each icon.",
+    "reference": "Chart Users Guide - Obstructions"
+  },
+  {
+    "id": "AIR-062",
+    "topic": "Part 107 authorization",
+    "subtopic": "DroneZone use cases",
+    "difficulty": "medium",
+    "question": "When is the FAA DroneZone portal used (versus LAANC)?",
+    "choices": [
+      "A. To submit registration, accident reports, Part 107 waiver applications, and authorization requests that LAANC cannot auto-approve (e.g., above grid altitude, at non-participating facilities).",
+      "B. Only for hobbyist recreational fliers.",
+      "C. Exclusively for purchasing UAS insurance."
+    ],
+    "answer": "A",
+    "explanation": "DroneZone (faadronezone.faa.gov) is the portal for registration, accident reporting, waiver requests, and airspace authorizations that fall outside LAANC's near-real-time scope.",
+    "reference": "FAA DroneZone"
+  },
+  {
+    "id": "AIR-063",
+    "topic": "sectional symbology",
+    "subtopic": "victor airways",
+    "difficulty": "hard",
+    "question": "Light blue lines labeled 'V-23' (or similar) on a sectional chart depict:",
+    "choices": [
+      "A. Victor airways — low-altitude federal VOR airways used by IFR traffic from 1,200 AGL to 17,999 MSL.",
+      "B. Class B boundaries.",
+      "C. Magnetic variation lines."
+    ],
+    "answer": "A",
+    "explanation": "Victor airways are 8 NM-wide federal airways centered on VOR radials, extending from 1,200 ft AGL up to but not including 18,000 ft MSL. They are Class E airspace. sUAS at 400 ft AGL operate below them but should anticipate IFR traffic descending or climbing.",
+    "reference": "AIM 3-2-6 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-064",
+    "topic": "sectional symbology",
+    "subtopic": "NSA depiction",
+    "difficulty": "hard",
+    "question": "A heavy, broken (long-dash) magenta line on a sectional chart, with the label 'NSA' and altitudes, depicts:",
+    "choices": [
+      "A. A National Security Area — voluntary avoidance requested, may become mandatory by TFR.",
+      "B. A non-standard airspace requiring IFR clearance.",
+      "C. A national scenic airway."
+    ],
+    "answer": "A",
+    "explanation": "NSAs are shown with heavy broken magenta lines and altitude/time of designation. Avoidance is voluntary unless a TFR (FDC NOTAM) is issued making the restriction mandatory.",
+    "reference": "AIM 3-5-7 / Chart Users Guide"
+  },
+  {
+    "id": "AIR-065",
+    "topic": "Part 107 limits",
+    "subtopic": "structure 400 ft rule",
+    "difficulty": "medium",
+    "question": "A 1,500-ft-tall radio tower is being inspected. Under Part 107.51(b)(2), the sUAS may operate up to:",
+    "choices": [
+      "A. 400 ft AGL.",
+      "B. 1,900 ft AGL (400 ft above the structure), but must remain within a 400-ft horizontal radius of the structure.",
+      "C. Unlimited altitude, provided VLOS is maintained."
+    ],
+    "answer": "B",
+    "explanation": "Part 107.51(b) allows operation above 400 ft AGL when inspecting/inspecting near a structure, up to 400 ft above the structure's uppermost limit AND within 400 ft laterally of the structure.",
+    "reference": "14 CFR 107.51(b)"
+  }
+]

@@ -1,0 +1,977 @@
+[
+  {
+    "id": "AIRP-001",
+    "topic": "airport",
+    "subtopic": "traffic pattern",
+    "difficulty": "easy",
+    "question": "At a non-towered airport using standard left-traffic, manned aircraft typically enter the downwind leg at what angle?",
+    "choices": [
+      "A. 45 degrees to the downwind leg",
+      "B. 90 degrees to the base leg",
+      "C. Straight-in on final"
+    ],
+    "answer": "A",
+    "explanation": "Standard pattern entry at non-towered airports is on a 45-degree entry to the downwind leg at pattern altitude.",
+    "reference": "AIM 4-3-3"
+  },
+  {
+    "id": "AIRP-002",
+    "topic": "airport",
+    "subtopic": "right-of-way",
+    "difficulty": "easy",
+    "question": "Under 14 CFR Part 107, a small unmanned aircraft must:",
+    "choices": [
+      "A. Yield the right of way to all other aircraft",
+      "B. Take right of way over gliders only",
+      "C. Maintain right of way over airplanes operating below 500 ft AGL"
+    ],
+    "answer": "A",
+    "explanation": "Per 14 CFR 107.37, the remote PIC must yield the right of way to all manned aircraft, airborne vehicles, and launch/reentry vehicles.",
+    "reference": "14 CFR 107.37"
+  },
+  {
+    "id": "AIRP-003",
+    "topic": "airport",
+    "subtopic": "right-of-way",
+    "difficulty": "medium",
+    "question": "Which of the following aircraft has the highest right-of-way priority (excluding distress)?",
+    "choices": [
+      "A. Balloon",
+      "B. Airplane",
+      "C. Helicopter"
+    ],
+    "answer": "A",
+    "explanation": "The right-of-way order from highest to lowest is: balloons, gliders, airships, then airplanes/rotorcraft. Aircraft in distress always have priority.",
+    "reference": "14 CFR 91.113"
+  },
+  {
+    "id": "AIRP-004",
+    "topic": "airport",
+    "subtopic": "runway markings",
+    "difficulty": "medium",
+    "question": "A runway is marked '27'. Its approximate magnetic heading is:",
+    "choices": [
+      "A. 027 degrees",
+      "B. 270 degrees",
+      "C. 027 degrees true"
+    ],
+    "answer": "B",
+    "explanation": "Runway numbers represent the magnetic heading rounded to the nearest 10 degrees, with the trailing zero dropped. Runway 27 is approximately 270 degrees magnetic.",
+    "reference": "AIM 2-3-3"
+  },
+  {
+    "id": "AIRP-005",
+    "topic": "airport",
+    "subtopic": "wind indicators",
+    "difficulty": "easy",
+    "question": "A wind sock at a non-towered airport indicates:",
+    "choices": [
+      "A. Wind direction and approximate velocity",
+      "B. Runway in use only",
+      "C. Traffic pattern direction"
+    ],
+    "answer": "A",
+    "explanation": "A wind sock indicates wind direction (it points away from the wind, i.e., downwind) and provides an approximate indication of wind velocity by its angle.",
+    "reference": "AIM 4-3-2"
+  },
+  {
+    "id": "AIRP-006",
+    "topic": "airport",
+    "subtopic": "segmented circle",
+    "difficulty": "medium",
+    "question": "The segmented circle at a non-towered airport provides what primary information to pilots?",
+    "choices": [
+      "A. Traffic pattern direction and runway in use",
+      "B. Magnetic variation correction",
+      "C. Density altitude"
+    ],
+    "answer": "A",
+    "explanation": "The segmented circle system identifies the location of the wind indicator and provides traffic pattern information (landing direction indicators and traffic pattern indicators showing left or right traffic for each runway).",
+    "reference": "AIM 4-3-4"
+  },
+  {
+    "id": "AIRP-007",
+    "topic": "airport",
+    "subtopic": "right traffic",
+    "difficulty": "medium",
+    "question": "On a sectional chart, right-traffic at a non-towered airport is indicated by:",
+    "choices": [
+      "A. The letters 'RP' next to the runway number",
+      "B. A red dot near the airport symbol",
+      "C. The letter 'C' inside a circle"
+    ],
+    "answer": "A",
+    "explanation": "The notation 'RP' (Right Pattern) on a sectional chart's airport data block indicates right traffic for that runway. The segmented circle is the on-airport indicator.",
+    "reference": "FAA Chart Users Guide"
+  },
+  {
+    "id": "AIRP-008",
+    "topic": "airport",
+    "subtopic": "pattern legs",
+    "difficulty": "easy",
+    "question": "Which leg of the traffic pattern is flown immediately before final approach?",
+    "choices": [
+      "A. Crosswind",
+      "B. Base",
+      "C. Upwind"
+    ],
+    "answer": "B",
+    "explanation": "The legs in order are: upwind, crosswind, downwind, base, final. Base is flown perpendicular to the runway immediately before turning onto final.",
+    "reference": "AIM 4-3-3"
+  },
+  {
+    "id": "AIRP-009",
+    "topic": "airport",
+    "subtopic": "beacons",
+    "difficulty": "medium",
+    "question": "A rotating beacon showing alternating white and green flashes indicates:",
+    "choices": [
+      "A. A lighted civilian land airport",
+      "B. A military airport",
+      "C. A heliport"
+    ],
+    "answer": "A",
+    "explanation": "White-green alternating beacon indicates a lighted civilian land airport. White-white-green indicates a military airport. Green-yellow-white indicates a heliport.",
+    "reference": "AIM 2-1-9"
+  },
+  {
+    "id": "AIRP-010",
+    "topic": "airport",
+    "subtopic": "beacons",
+    "difficulty": "medium",
+    "question": "A military airport beacon is identified by:",
+    "choices": [
+      "A. Two quick white flashes between green flashes",
+      "B. Red and green alternating flashes",
+      "C. A steady white light"
+    ],
+    "answer": "A",
+    "explanation": "Military airports use a beacon with two quick white flashes between green flashes (white-white-green), distinguishing them from civilian airports.",
+    "reference": "AIM 2-1-9"
+  },
+  {
+    "id": "AIRP-011",
+    "topic": "airport",
+    "subtopic": "helicopters",
+    "difficulty": "medium",
+    "question": "When operating a small UAS near an airport with helicopter operations, the remote PIC should be aware that helicopters:",
+    "choices": [
+      "A. Are required to fly the same traffic pattern as fixed-wing aircraft",
+      "B. Typically avoid the fixed-wing traffic pattern and may approach from any direction",
+      "C. Always operate above 1,000 ft AGL"
+    ],
+    "answer": "B",
+    "explanation": "Helicopters generally avoid the flow of fixed-wing aircraft and may operate from non-standard areas and approach from any direction, requiring heightened vigilance.",
+    "reference": "AIM 4-3-17"
+  },
+  {
+    "id": "AIRP-012",
+    "topic": "airport",
+    "subtopic": "VASI/PAPI",
+    "difficulty": "medium",
+    "question": "A two-bar VASI showing 'red over white' indicates the aircraft is:",
+    "choices": [
+      "A. On the proper glide path",
+      "B. Above the glide path",
+      "C. Below the glide path"
+    ],
+    "answer": "A",
+    "explanation": "Red over white on a VASI means the pilot is on the correct glide path. Red over red = below; white over white = above.",
+    "reference": "AIM 2-1-2"
+  },
+  {
+    "id": "AIRP-013",
+    "topic": "airport",
+    "subtopic": "coordination",
+    "difficulty": "medium",
+    "question": "Before operating a small UAS within 5 statute miles of a non-towered airport, the remote PIC should:",
+    "choices": [
+      "A. Obtain ATC authorization through LAANC",
+      "B. Make every effort to be aware of and avoid manned aircraft traffic, including monitoring CTAF",
+      "C. File a flight plan with Flight Service"
+    ],
+    "answer": "B",
+    "explanation": "Operations in Class G airspace near non-towered airports do not require authorization, but the remote PIC is responsible for being aware of and avoiding manned traffic. Monitoring CTAF is strongly recommended.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "AIRP-014",
+    "topic": "airport",
+    "subtopic": "final approach",
+    "difficulty": "hard",
+    "question": "A manned aircraft on a 3-degree glideslope at 1 NM from the runway threshold will be at approximately what altitude AGL?",
+    "choices": [
+      "A. 100 ft",
+      "B. 320 ft",
+      "C. 600 ft"
+    ],
+    "answer": "B",
+    "explanation": "At a 3-degree glideslope, altitude is approximately 318 ft per NM (3 deg × 6,076 ft/NM × tan ≈ 318). At 1 NM the aircraft is about 320 ft AGL, an area sUAS must avoid.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "AIRP-015",
+    "topic": "airport",
+    "subtopic": "towered vs non-towered",
+    "difficulty": "easy",
+    "question": "At a towered (Class D) airport, sUAS operations require:",
+    "choices": [
+      "A. No coordination",
+      "B. Prior ATC authorization (e.g., via LAANC or DroneZone)",
+      "C. Only a phone call to UNICOM"
+    ],
+    "answer": "B",
+    "explanation": "Class B, C, D, and surface E airspace require prior ATC authorization for sUAS operations, typically obtained through LAANC or the FAA DroneZone.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "RADIO-001",
+    "topic": "radio",
+    "subtopic": "self-announce",
+    "difficulty": "medium",
+    "question": "The recommended self-announce format on CTAF is:",
+    "choices": [
+      "A. Facility / Position / Intentions / Facility",
+      "B. Position / Intentions only",
+      "C. Aircraft type / Pilot name / Destination"
+    ],
+    "answer": "A",
+    "explanation": "Self-announce broadcasts follow the format: facility (airport name), aircraft position/identification, intentions, then facility name again to bookend the call.",
+    "reference": "AIM 4-1-9"
+  },
+  {
+    "id": "RADIO-002",
+    "topic": "radio",
+    "subtopic": "CTAF",
+    "difficulty": "easy",
+    "question": "CTAF stands for:",
+    "choices": [
+      "A. Common Traffic Advisory Frequency",
+      "B. Class Traffic Air Frequency",
+      "C. Combined Tower Air Frequency"
+    ],
+    "answer": "A",
+    "explanation": "CTAF is the Common Traffic Advisory Frequency, used at non-towered airports for self-announce broadcasts.",
+    "reference": "AIM 4-1-9"
+  },
+  {
+    "id": "RADIO-003",
+    "topic": "radio",
+    "subtopic": "MULTICOM",
+    "difficulty": "medium",
+    "question": "If a non-towered airport has no published CTAF, UNICOM, or FSS, the default MULTICOM frequency is:",
+    "choices": [
+      "A. 121.5 MHz",
+      "B. 122.9 MHz",
+      "C. 123.0 MHz"
+    ],
+    "answer": "B",
+    "explanation": "122.9 MHz is the designated MULTICOM frequency for use at airports without a tower, FSS, or UNICOM.",
+    "reference": "AIM 4-1-11"
+  },
+  {
+    "id": "RADIO-004",
+    "topic": "radio",
+    "subtopic": "phonetic alphabet",
+    "difficulty": "easy",
+    "question": "The phonetic alphabet word for the letter 'K' is:",
+    "choices": [
+      "A. Kilo",
+      "B. King",
+      "C. Kite"
+    ],
+    "answer": "A",
+    "explanation": "ICAO phonetic alphabet: K = Kilo. Using standard phonetic letters improves communication clarity.",
+    "reference": "AIM 4-2-7"
+  },
+  {
+    "id": "RADIO-005",
+    "topic": "radio",
+    "subtopic": "phonetic alphabet",
+    "difficulty": "easy",
+    "question": "The phonetic word for the letter 'W' is:",
+    "choices": [
+      "A. Whiskey",
+      "B. Wilco",
+      "C. Wing"
+    ],
+    "answer": "A",
+    "explanation": "W = Whiskey in the ICAO phonetic alphabet.",
+    "reference": "AIM 4-2-7"
+  },
+  {
+    "id": "RADIO-006",
+    "topic": "radio",
+    "subtopic": "broadcast practice",
+    "difficulty": "medium",
+    "question": "Before transmitting on CTAF, the remote PIC (if equipped with a radio) should:",
+    "choices": [
+      "A. Listen on the frequency to avoid stepping on other transmissions",
+      "B. Transmit immediately to claim the frequency",
+      "C. Wait exactly 30 seconds"
+    ],
+    "answer": "A",
+    "explanation": "Pilots should always listen before transmitting to gain situational awareness and avoid simultaneous transmissions that cause garbled communication.",
+    "reference": "AIM 4-2-1"
+  },
+  {
+    "id": "RADIO-007",
+    "topic": "radio",
+    "subtopic": "self-announce sUAS",
+    "difficulty": "hard",
+    "question": "If a remote PIC chooses to self-announce sUAS operations on CTAF, the broadcast should use:",
+    "choices": [
+      "A. Standard aircraft call signs only",
+      "B. Plain language describing the sUAS operation (location, altitude, intentions)",
+      "C. Encrypted text codes"
+    ],
+    "answer": "B",
+    "explanation": "Self-announce broadcasts for sUAS use plain language describing operation, position, altitude, and intentions, since sUAS are not registered with standard call signs.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "RADIO-008",
+    "topic": "radio",
+    "subtopic": "UNICOM",
+    "difficulty": "medium",
+    "question": "UNICOM is best described as:",
+    "choices": [
+      "A. A non-government air-to-ground communication facility offering airport advisories",
+      "B. A government-operated ATC frequency",
+      "C. An emergency-only frequency"
+    ],
+    "answer": "A",
+    "explanation": "UNICOM is a privately operated air/ground radio communication station that may provide airport advisory information at non-towered airports.",
+    "reference": "AIM 4-1-11"
+  },
+  {
+    "id": "RADIO-009",
+    "topic": "radio",
+    "subtopic": "traffic advisory",
+    "difficulty": "medium",
+    "question": "When transmitting a self-announce broadcast at a non-towered airport, the call typically begins and ends with which word/phrase besides the airport name?",
+    "choices": [
+      "A. 'Traffic'",
+      "B. 'Mayday'",
+      "C. 'Roger'"
+    ],
+    "answer": "A",
+    "explanation": "The word 'Traffic' is used to identify the broadcast as a traffic advisory at a non-towered airport (e.g., 'Smith Traffic, Cessna 123, ten miles south, inbound, Smith Traffic').",
+    "reference": "AIM 4-1-9"
+  },
+  {
+    "id": "RADIO-010",
+    "topic": "radio",
+    "subtopic": "phonetic alphabet",
+    "difficulty": "easy",
+    "question": "The phonetic alphabet word for 'M' is:",
+    "choices": [
+      "A. Mike",
+      "B. Mary",
+      "C. Metro"
+    ],
+    "answer": "A",
+    "explanation": "M = Mike in the ICAO phonetic alphabet.",
+    "reference": "AIM 4-2-7"
+  },
+  {
+    "id": "MAINT-001",
+    "topic": "maintenance",
+    "subtopic": "schedule",
+    "difficulty": "easy",
+    "question": "The primary source for the recommended maintenance schedule of a small UAS is:",
+    "choices": [
+      "A. 14 CFR Part 43",
+      "B. The manufacturer's instructions/recommendations",
+      "C. The local FSDO"
+    ],
+    "answer": "B",
+    "explanation": "sUAS are not subject to Part 43. The remote PIC should follow the manufacturer's maintenance and inspection procedures, or develop a comparable program.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "MAINT-002",
+    "topic": "maintenance",
+    "subtopic": "preflight",
+    "difficulty": "easy",
+    "question": "Before each flight, the remote PIC must:",
+    "choices": [
+      "A. Conduct a preflight inspection of the sUAS to ensure it is in a condition for safe operation",
+      "B. Have the sUAS inspected by an A&P mechanic",
+      "C. Only check the battery if it has been more than 24 hours since last flight"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.49 requires the remote PIC to inspect the sUAS before each flight to ensure all systems and equipment are in a condition for safe operation.",
+    "reference": "14 CFR 107.49"
+  },
+  {
+    "id": "MAINT-003",
+    "topic": "maintenance",
+    "subtopic": "battery care",
+    "difficulty": "medium",
+    "question": "A LiPo battery shows visible swelling. The correct action is:",
+    "choices": [
+      "A. Continue using it until performance noticeably degrades",
+      "B. Remove from service and dispose of safely per manufacturer guidance",
+      "C. Puncture the swollen cell to release pressure"
+    ],
+    "answer": "B",
+    "explanation": "A swollen LiPo battery is damaged and a fire risk. It must be removed from service immediately and disposed of safely (typically discharged in saltwater per manufacturer instructions).",
+    "reference": "FAA-G-8082-22"
+  },
+  {
+    "id": "MAINT-004",
+    "topic": "maintenance",
+    "subtopic": "Part 43 applicability",
+    "difficulty": "hard",
+    "question": "Under Part 107, sUAS maintenance is:",
+    "choices": [
+      "A. Subject to 14 CFR Part 43 inspection rules",
+      "B. Not subject to Part 43; manufacturer guidance should be followed",
+      "C. Required to be performed only by certificated A&P mechanics"
+    ],
+    "answer": "B",
+    "explanation": "Part 43 does not apply to aircraft operated under Part 107. The remote PIC must ensure the sUAS is in a condition for safe operation; manufacturer guidance is the primary maintenance reference.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "MAINT-005",
+    "topic": "maintenance",
+    "subtopic": "preflight items",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT typically part of a sUAS preflight inspection?",
+    "choices": [
+      "A. Propeller condition and security",
+      "B. Engine compression test",
+      "C. Control link with the transmitter"
+    ],
+    "answer": "B",
+    "explanation": "Most sUAS use electric motors and do not have piston engines. Compression tests are not applicable. Preflight covers props, battery, motors, links, GPS, firmware, and structural integrity.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "MAINT-006",
+    "topic": "maintenance",
+    "subtopic": "vibration",
+    "difficulty": "medium",
+    "question": "During flight you notice excessive vibration from the sUAS. The most likely cause to investigate first is:",
+    "choices": [
+      "A. GPS signal interference",
+      "B. Damaged, unbalanced, or improperly installed propellers",
+      "C. Firmware version mismatch"
+    ],
+    "answer": "B",
+    "explanation": "Excessive vibration is most commonly caused by damaged, cracked, unbalanced, or improperly installed propellers, or by motor bearing wear.",
+    "reference": "FAA-G-8082-22"
+  },
+  {
+    "id": "MAINT-007",
+    "topic": "maintenance",
+    "subtopic": "recordkeeping",
+    "difficulty": "medium",
+    "question": "Maintenance records for a sUAS operated under Part 107:",
+    "choices": [
+      "A. Must follow Part 43 logbook requirements",
+      "B. Are not specifically required by Part 107 but are strongly recommended per manufacturer guidance",
+      "C. Must be filed with the FAA monthly"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 does not mandate specific maintenance recordkeeping; however, the FAA strongly recommends following manufacturer recordkeeping practices for safety and traceability.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "MAINT-008",
+    "topic": "maintenance",
+    "subtopic": "LiPo storage",
+    "difficulty": "medium",
+    "question": "LiPo batteries are best stored at:",
+    "choices": [
+      "A. Full (100%) charge at high temperatures",
+      "B. Storage charge (typically 40-60%) at moderate, cool temperatures",
+      "C. Fully discharged at freezing temperatures"
+    ],
+    "answer": "B",
+    "explanation": "LiPo cells should be stored at storage charge (approximately 3.7-3.85V per cell, around 40-60%) in a cool, dry place to maximize life and minimize fire risk.",
+    "reference": "Manufacturer guidance"
+  },
+  {
+    "id": "MAINT-009",
+    "topic": "maintenance",
+    "subtopic": "scheduled vs unscheduled",
+    "difficulty": "hard",
+    "question": "Replacing a motor that fails inspection due to excessive bearing wear is an example of:",
+    "choices": [
+      "A. Scheduled maintenance",
+      "B. Unscheduled maintenance",
+      "C. Preventive maintenance under Part 43"
+    ],
+    "answer": "B",
+    "explanation": "Unscheduled maintenance is performed when an inspection or operational anomaly reveals a need for repair outside of routine, time-based scheduled maintenance.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "MAINT-010",
+    "topic": "maintenance",
+    "subtopic": "firmware",
+    "difficulty": "medium",
+    "question": "Before flight, the remote PIC should verify:",
+    "choices": [
+      "A. Firmware and software versions are current per manufacturer recommendations",
+      "B. The aircraft has been polished within the last 7 days",
+      "C. A NOTAM has been filed for every flight"
+    ],
+    "answer": "A",
+    "explanation": "Current firmware/software is part of preflight; outdated firmware can cause control problems and is a manufacturer-recommended maintenance item.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "MAINT-011",
+    "topic": "maintenance",
+    "subtopic": "condition for safe operation",
+    "difficulty": "easy",
+    "question": "Who is responsible for ensuring the sUAS is in a condition for safe operation before each flight?",
+    "choices": [
+      "A. The visual observer",
+      "B. The remote pilot in command",
+      "C. The manufacturer"
+    ],
+    "answer": "B",
+    "explanation": "The remote PIC is directly responsible for the safe operation of the sUAS, including ensuring it is in a condition for safe flight before each operation.",
+    "reference": "14 CFR 107.49"
+  },
+  {
+    "id": "NIGHT-001",
+    "topic": "night",
+    "subtopic": "anti-collision lighting",
+    "difficulty": "easy",
+    "question": "To operate a small UAS at night under Part 107, the aircraft must have anti-collision lighting visible for at least:",
+    "choices": [
+      "A. 1 statute mile",
+      "B. 3 statute miles",
+      "C. 5 statute miles"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.29(b) requires anti-collision lighting visible for at least 3 statute miles when operating at night or during civil twilight.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "NIGHT-002",
+    "topic": "night",
+    "subtopic": "civil twilight",
+    "difficulty": "medium",
+    "question": "In the continental United States, civil twilight for Part 107 purposes is defined as:",
+    "choices": [
+      "A. 30 minutes before official sunrise to 30 minutes after official sunset",
+      "B. 60 minutes before sunrise to 60 minutes after sunset",
+      "C. Sunrise to sunset only"
+    ],
+    "answer": "A",
+    "explanation": "Civil twilight in the continental US is the period from 30 minutes before official sunrise to 30 minutes after official sunset.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "NIGHT-003",
+    "topic": "night",
+    "subtopic": "vision adaptation",
+    "difficulty": "medium",
+    "question": "Full adaptation of the eyes to darkness typically requires approximately:",
+    "choices": [
+      "A. 5 minutes",
+      "B. 30 minutes",
+      "C. 2 hours"
+    ],
+    "answer": "B",
+    "explanation": "Complete dark adaptation takes approximately 30 minutes. Exposure to bright lights can quickly destroy night adaptation.",
+    "reference": "FAA-H-8083-25 Ch 17"
+  },
+  {
+    "id": "NIGHT-004",
+    "topic": "night",
+    "subtopic": "rods and cones",
+    "difficulty": "medium",
+    "question": "Which type of photoreceptor cell is most responsible for night and peripheral vision?",
+    "choices": [
+      "A. Cones",
+      "B. Rods",
+      "C. Foveal receptors"
+    ],
+    "answer": "B",
+    "explanation": "Rods are responsible for low-light and peripheral vision; cones provide color vision and central acuity. Cones are nearly useless in low light.",
+    "reference": "FAA-H-8083-25 Ch 17"
+  },
+  {
+    "id": "NIGHT-005",
+    "topic": "night",
+    "subtopic": "off-center viewing",
+    "difficulty": "hard",
+    "question": "To see an object best at night, a pilot should:",
+    "choices": [
+      "A. Look directly at the object using central (foveal) vision",
+      "B. Use off-center viewing, scanning approximately 5-10 degrees to the side of the object",
+      "C. Close one eye to reduce light"
+    ],
+    "answer": "B",
+    "explanation": "Because cones (central vision) are ineffective at night and the fovea has no rods, pilots should use off-center viewing to allow rods to detect dim objects.",
+    "reference": "FAA-H-8083-25 Ch 17"
+  },
+  {
+    "id": "NIGHT-006",
+    "topic": "night",
+    "subtopic": "training",
+    "difficulty": "easy",
+    "question": "Under current Part 107 rules, night operations:",
+    "choices": [
+      "A. Require a waiver in all cases",
+      "B. Are permitted without a waiver if the aircraft has appropriate anti-collision lighting and the RPIC has completed the updated knowledge requirements",
+      "C. Are prohibited entirely"
+    ],
+    "answer": "B",
+    "explanation": "Following the 2021 rule change (effective April 2021), night operations are permitted without a waiver provided the sUAS has anti-collision lighting visible for 3 SM and the RPIC has completed the updated training/knowledge test.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "NIGHT-007",
+    "topic": "night",
+    "subtopic": "bright light",
+    "difficulty": "medium",
+    "question": "After exposure to bright cockpit or flashlight lights during night operations, the pilot should:",
+    "choices": [
+      "A. Expect immediate recovery of night vision",
+      "B. Allow approximately 30 minutes to re-adapt to darkness",
+      "C. Continue flying without concern, as night vision is unaffected"
+    ],
+    "answer": "B",
+    "explanation": "Bright light exposure destroys dark adaptation and re-adaptation can take approximately 30 minutes. Use red lighting to preserve night vision.",
+    "reference": "FAA-H-8083-25 Ch 17"
+  },
+  {
+    "id": "NIGHT-008",
+    "topic": "night",
+    "subtopic": "spatial disorientation",
+    "difficulty": "medium",
+    "question": "At night, the risk of spatial disorientation for the remote PIC is:",
+    "choices": [
+      "A. Lower because of reduced traffic",
+      "B. Increased due to limited visual references and the potential to lose orientation of the aircraft",
+      "C. The same as during daylight"
+    ],
+    "answer": "B",
+    "explanation": "Limited visual references at night increase the chance of misidentifying aircraft orientation, especially front-vs-back identification of a small UAS.",
+    "reference": "FAA-G-8082-22"
+  },
+  {
+    "id": "NIGHT-009",
+    "topic": "night",
+    "subtopic": "depth perception",
+    "difficulty": "medium",
+    "question": "At night the remote PIC's depth perception is:",
+    "choices": [
+      "A. Enhanced by darkness",
+      "B. Reduced, making distance estimation more difficult",
+      "C. Unaffected"
+    ],
+    "answer": "B",
+    "explanation": "Depth perception is significantly degraded at night, making it harder to judge distances to obstacles, terrain, and the aircraft itself.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "NIGHT-010",
+    "topic": "night",
+    "subtopic": "anti-collision lighting",
+    "difficulty": "hard",
+    "question": "During civil twilight, anti-collision lights on a sUAS:",
+    "choices": [
+      "A. Are not required since it is not technically 'night'",
+      "B. Must be operating and visible for at least 3 statute miles",
+      "C. May be turned off after sunrise"
+    ],
+    "answer": "B",
+    "explanation": "Per 14 CFR 107.29, anti-collision lighting visible for 3 SM is required during both night and civil twilight operations.",
+    "reference": "14 CFR 107.29(b)"
+  },
+  {
+    "id": "EMER-001",
+    "topic": "emergency",
+    "subtopic": "lost link",
+    "difficulty": "easy",
+    "question": "If the control link is lost during flight, most sUAS are programmed to:",
+    "choices": [
+      "A. Continue on the last commanded heading until battery exhaustion",
+      "B. Execute a return-to-home (RTH) sequence",
+      "C. Climb to maximum altitude"
+    ],
+    "answer": "B",
+    "explanation": "Most sUAS automatically execute an RTH (return-to-home) procedure on lost link, returning to the home point and landing. RPICs should know their aircraft's specific behavior.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "EMER-002",
+    "topic": "emergency",
+    "subtopic": "flyaway",
+    "difficulty": "medium",
+    "question": "If a sUAS becomes uncontrollable (flyaway), the remote PIC should:",
+    "choices": [
+      "A. Attempt to regain control, warn bystanders, notify ATC if operating in controlled airspace, and direct the aircraft toward the least-populated area if possible",
+      "B. Immediately abandon the operation and leave the area",
+      "C. Wait until the battery dies and report only if it lands on a person"
+    ],
+    "answer": "A",
+    "explanation": "In a flyaway, the RPIC should attempt to regain control, warn people in the area, notify ATC if appropriate, and try to direct or crash the aircraft into the least-populated area to minimize harm.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "EMER-003",
+    "topic": "emergency",
+    "subtopic": "accident reporting",
+    "difficulty": "medium",
+    "question": "An sUAS accident must be reported to the FAA within how many days?",
+    "choices": [
+      "A. 24 hours",
+      "B. 10 calendar days",
+      "C. 30 calendar days"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.9 requires reporting within 10 calendar days of an operation that results in serious injury, loss of consciousness, or property damage (other than the sUAS) of at least $500 to repair or fair market value exceeding $500.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "EMER-004",
+    "topic": "emergency",
+    "subtopic": "accident reporting threshold",
+    "difficulty": "hard",
+    "question": "Which event REQUIRES an FAA accident report under Part 107?",
+    "choices": [
+      "A. A hard landing that breaks one propeller (no injuries, no other damage)",
+      "B. The sUAS strikes a parked car causing $750 in damage",
+      "C. A successful return-to-home with low battery"
+    ],
+    "answer": "B",
+    "explanation": "Damage to property (other than the sUAS) with repair cost or fair market value exceeding $500 triggers the 10-day report requirement. Damage to the sUAS itself does not count.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "EMER-005",
+    "topic": "emergency",
+    "subtopic": "NTSB reporting",
+    "difficulty": "hard",
+    "question": "NTSB reporting under 49 CFR Part 830 for unmanned aircraft applies when the unmanned aircraft has a maximum gross takeoff weight of:",
+    "choices": [
+      "A. 0.55 lb or greater",
+      "B. 55 lb or greater",
+      "C. 300 lb or greater"
+    ],
+    "answer": "C",
+    "explanation": "NTSB Part 830 reporting for unmanned aircraft applies when the UA weighs 300 lb or more gross takeoff weight, or results in death, serious injury, or substantial damage.",
+    "reference": "49 CFR 830.5"
+  },
+  {
+    "id": "EMER-006",
+    "topic": "emergency",
+    "subtopic": "GPS loss",
+    "difficulty": "medium",
+    "question": "If a multirotor sUAS loses GPS during flight and enters attitude (ATTI) mode, the remote PIC should expect:",
+    "choices": [
+      "A. The aircraft to hold position automatically",
+      "B. The aircraft to drift with the wind, requiring active manual control",
+      "C. The aircraft to land immediately at the home point"
+    ],
+    "answer": "B",
+    "explanation": "In ATTI mode (no GPS), the aircraft maintains attitude but will drift with the wind. The RPIC must actively maintain position with manual inputs.",
+    "reference": "FAA-G-8082-22"
+  },
+  {
+    "id": "EMER-007",
+    "topic": "emergency",
+    "subtopic": "battery fire",
+    "difficulty": "medium",
+    "question": "A LiPo battery in thermal runaway should be:",
+    "choices": [
+      "A. Doused with water immediately and stored back in the case",
+      "B. Isolated in a non-flammable area (e.g., metal container, sand, away from combustibles) and allowed to burn out safely",
+      "C. Placed in a refrigerator to cool"
+    ],
+    "answer": "B",
+    "explanation": "LiPo fires are difficult to extinguish and will re-ignite. Best practice is to isolate the battery in a fire-safe area and let it burn out away from combustibles. Class D extinguishers or sand may help.",
+    "reference": "FAA-G-8082-22"
+  },
+  {
+    "id": "EMER-008",
+    "topic": "emergency",
+    "subtopic": "low battery",
+    "difficulty": "easy",
+    "question": "On a low-battery warning, the remote PIC should:",
+    "choices": [
+      "A. Continue the planned mission to completion",
+      "B. Land as soon as practical at a safe location",
+      "C. Climb to maximum altitude to extend glide range"
+    ],
+    "answer": "B",
+    "explanation": "A low-battery warning indicates that continued flight risks an uncontrolled descent. The safest action is to land as soon as practical at a planned safe location.",
+    "reference": "AC 107-2"
+  },
+  {
+    "id": "EMER-009",
+    "topic": "emergency",
+    "subtopic": "in-flight emergency priorities",
+    "difficulty": "medium",
+    "question": "If a crash is unavoidable, the remote PIC's priorities for impact location should be:",
+    "choices": [
+      "A. Avoid people first, then property, then other aircraft considerations",
+      "B. Avoid manned aircraft first, then people, then property",
+      "C. Aim for the launch point regardless of what is below"
+    ],
+    "answer": "B",
+    "explanation": "When ditching is unavoidable, priorities are: avoid manned aircraft (highest), avoid people, then minimize property damage. Pilot of an aircraft in distress has priority but sUAS still must yield to manned traffic where possible.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "EMER-010",
+    "topic": "emergency",
+    "subtopic": "deviation authority",
+    "difficulty": "medium",
+    "question": "During an in-flight emergency, the remote PIC may:",
+    "choices": [
+      "A. Never deviate from Part 107 rules under any circumstances",
+      "B. Deviate from any rule of Part 107 to the extent necessary to meet that emergency",
+      "C. Only deviate from altitude restrictions"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.21 allows the RPIC to deviate from any rule of Part 107 to the extent necessary to respond to an in-flight emergency. A written report may be required if requested by the Administrator.",
+    "reference": "14 CFR 107.21"
+  },
+  {
+    "id": "EMER-011",
+    "topic": "emergency",
+    "subtopic": "ATC notification",
+    "difficulty": "hard",
+    "question": "While operating in controlled airspace under a LAANC authorization, you experience a flyaway. You should:",
+    "choices": [
+      "A. Wait until the aircraft is recovered to notify ATC",
+      "B. Notify ATC as soon as practical with the aircraft's last known position, altitude, and direction of travel",
+      "C. Not contact ATC since sUAS are not tracked"
+    ],
+    "answer": "B",
+    "explanation": "In controlled airspace, notifying ATC promptly with the aircraft's last known position, altitude, and direction helps prevent conflicts with manned traffic.",
+    "reference": "AC 107-2 Ch 7"
+  },
+  {
+    "id": "NOTAM-001",
+    "topic": "notams",
+    "subtopic": "sources",
+    "difficulty": "easy",
+    "question": "An official source for NOTAMs and TFRs prior to flight is:",
+    "choices": [
+      "A. Local news broadcasts",
+      "B. The FAA NOTAM Search website or 1-800-WX-BRIEF (Flight Service)",
+      "C. Aircraft owner's manual"
+    ],
+    "answer": "B",
+    "explanation": "Official NOTAM information is available via the FAA NOTAM Search (notams.aim.faa.gov) and Flight Service at 1-800-WX-BRIEF.",
+    "reference": "AIM 5-1-3"
+  },
+  {
+    "id": "NOTAM-002",
+    "topic": "notams",
+    "subtopic": "stadium TFR",
+    "difficulty": "medium",
+    "question": "A standing FDC NOTAM stadium TFR applies to sporting events with seating capacity of:",
+    "choices": [
+      "A. 5,000 or more",
+      "B. 30,000 or more",
+      "C. 100,000 or more"
+    ],
+    "answer": "B",
+    "explanation": "FDC NOTAM 4/3621 establishes a TFR over major sporting events with 30,000+ seating capacity (MLB, NFL, NCAA Division I football, NASCAR Cup, Indy, and Champ series).",
+    "reference": "FDC NOTAM 4/3621"
+  },
+  {
+    "id": "NOTAM-003",
+    "topic": "notams",
+    "subtopic": "stadium TFR dimensions",
+    "difficulty": "hard",
+    "question": "The standing stadium TFR extends to what radius and altitude from the stadium?",
+    "choices": [
+      "A. 1 NM and 1,000 ft AGL",
+      "B. 3 NM and 3,000 ft AGL",
+      "C. 5 NM and 5,000 ft AGL"
+    ],
+    "answer": "B",
+    "explanation": "The stadium TFR is 3 NM radius up to 3,000 ft AGL, effective from 1 hour before the scheduled event start to 1 hour after the event ends.",
+    "reference": "FDC NOTAM 4/3621"
+  },
+  {
+    "id": "NOTAM-004",
+    "topic": "notams",
+    "subtopic": "stadium TFR timing",
+    "difficulty": "medium",
+    "question": "The stadium TFR is in effect from:",
+    "choices": [
+      "A. 30 minutes before to 30 minutes after the event",
+      "B. 1 hour before to 1 hour after the event",
+      "C. 2 hours before to 2 hours after the event"
+    ],
+    "answer": "B",
+    "explanation": "The TFR is active from 1 hour before scheduled event start time to 1 hour after the event ends.",
+    "reference": "FDC NOTAM 4/3621"
+  },
+  {
+    "id": "NOTAM-005",
+    "topic": "notams",
+    "subtopic": "FDC NOTAMs",
+    "difficulty": "medium",
+    "question": "FDC NOTAMs typically contain:",
+    "choices": [
+      "A. Routine airport advisories such as runway closures only",
+      "B. Regulatory information such as TFRs, amendments to instrument approach procedures, and other flight-related restrictions",
+      "C. Weather forecasts"
+    ],
+    "answer": "B",
+    "explanation": "FDC (Flight Data Center) NOTAMs contain regulatory information including TFRs, special instrument procedure amendments, and presidential TFRs.",
+    "reference": "AIM 5-1-3"
+  },
+  {
+    "id": "NOTAM-006",
+    "topic": "notams",
+    "subtopic": "presidential TFR",
+    "difficulty": "medium",
+    "question": "A presidential TFR is published as a(n):",
+    "choices": [
+      "A. NOTAM (D)",
+      "B. FDC NOTAM",
+      "C. UNICOM advisory"
+    ],
+    "answer": "B",
+    "explanation": "Presidential and VIP movement TFRs are published as FDC NOTAMs and contain detailed coordinates, altitudes, and restrictions that all pilots, including remote PICs, must comply with.",
+    "reference": "AIM 5-1-3"
+  },
+  {
+    "id": "NOTAM-007",
+    "topic": "notams",
+    "subtopic": "preflight responsibility",
+    "difficulty": "easy",
+    "question": "Before each Part 107 flight, the remote PIC must:",
+    "choices": [
+      "A. Review NOTAMs and TFRs that may affect the planned operation area",
+      "B. File a flight plan with ATC",
+      "C. Receive a weather briefing only if flying over 400 ft AGL"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.49 requires the RPIC to assess the operating environment, which includes reviewing applicable NOTAMs, TFRs, weather, and airspace before flight.",
+    "reference": "14 CFR 107.49"
+  },
+  {
+    "id": "NOTAM-008",
+    "topic": "notams",
+    "subtopic": "TFR compliance",
+    "difficulty": "easy",
+    "question": "Operating a sUAS inside an active TFR without authorization is:",
+    "choices": [
+      "A. Permitted as long as altitude is below 400 ft AGL",
+      "B. A violation of federal regulations that may result in certificate action and criminal/civil penalties",
+      "C. Allowed if the operator has a Part 107 certificate"
+    ],
+    "answer": "B",
+    "explanation": "TFRs apply to all aircraft, including sUAS. Unauthorized operation in a TFR can result in certificate suspension, civil penalties, and criminal prosecution.",
+    "reference": "14 CFR 91.137-141, 99.7"
+  }
+]

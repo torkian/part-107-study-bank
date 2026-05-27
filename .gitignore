@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Working materials — not part of the shipped product
+# /figures-pdf/ holds the original 176MB FAA-CT-8080-2H PDF (freely downloadable from faa.gov)
+# /youtube/ holds source captions used during content extraction
+# /scratch/ holds internal notes / inventories
+# /research/audit/ holds audit working files (corrections already applied)
+/figures-pdf/
+/youtube/
+/scratch/
+/research/audit/
+
+# Test artifacts
+*.log
+*.output

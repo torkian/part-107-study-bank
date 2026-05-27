@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "WX-001",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "easy",
+    "question": "What is the visibility and weather in this METAR? METAR KGFK 161053Z AUTO 18004KT 1/2SM FG VV002 02/02 A3030 RMK AO2 SLP262 T00220022",
+    "choices": [
+      "A. 1/2 statute mile visibility in fog, vertical visibility 200 feet",
+      "B. 2 statute miles visibility in mist, ceiling 200 feet broken",
+      "C. 1/2 kilometer visibility in fog, ceiling unlimited"
+    ],
+    "answer": "A",
+    "explanation": "1/2SM = one-half statute mile visibility. FG = fog. VV002 = vertical visibility 200 feet (used when sky is obscured).",
+    "reference": "AC 00-45H, FAA-H-8083-28"
+  },
+  {
+    "id": "WX-002",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "easy",
+    "question": "In a METAR, what does the 'Z' in the time group 161053Z indicate?",
+    "choices": [
+      "A. The report is for the Zulu (military) airfield",
+      "B. The time is in Coordinated Universal Time (UTC)",
+      "C. Zero visibility conditions are present"
+    ],
+    "answer": "B",
+    "explanation": "Z (Zulu) indicates UTC time. METAR times are always reported in UTC. 161053Z means the 16th day of the month at 1053 UTC.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-003",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "Decode the wind in this METAR: METAR KMSP 121456Z 27018G28KT 10SM FEW050 BKN250 24/12 A2998",
+    "choices": [
+      "A. Wind from 270° true at 18 knots, gusting to 28 knots",
+      "B. Wind from 270° magnetic at 18 knots, gusting to 28 knots",
+      "C. Wind from 018° at 27 knots, gusting to 28 knots"
+    ],
+    "answer": "A",
+    "explanation": "Format is dddffGff: 270 = direction (true north) in degrees, 18 = sustained wind in knots, G28 = gusting to 28 knots. METAR winds are always referenced to true north.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-004",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "In this METAR, what is the temperature and dewpoint? METAR KBOS 011251Z 28012KT 10SM SCT040 M05/M08 A3015",
+    "choices": [
+      "A. Temperature 5°C, dewpoint 8°C",
+      "B. Temperature minus 5°C, dewpoint minus 8°C",
+      "C. Temperature minus 5°F, dewpoint minus 8°F"
+    ],
+    "answer": "B",
+    "explanation": "The 'M' prefix indicates a minus (negative) value in Celsius. M05/M08 = temperature -5°C, dewpoint -8°C.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-005",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "What does 'BKN025' mean in a METAR sky condition group?",
+    "choices": [
+      "A. Broken clouds at 25 feet AGL",
+      "B. Broken clouds at 2,500 feet AGL",
+      "C. Broken clouds at 25,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "Cloud heights in METARs are in hundreds of feet AGL. 025 = 2,500 feet AGL. BKN = broken (5/8 to 7/8 sky coverage). A BKN or OVC layer constitutes a ceiling.",
+    "reference": "AC 00-45H, FAA-H-8083-28"
+  },
+  {
+    "id": "WX-006",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "easy",
+    "question": "What does the sky condition abbreviation 'OVC' mean?",
+    "choices": [
+      "A. Few clouds (1/8 to 2/8 sky coverage)",
+      "B. Scattered clouds (3/8 to 4/8 sky coverage)",
+      "C. Overcast (8/8 sky coverage)"
+    ],
+    "answer": "C",
+    "explanation": "OVC = Overcast = 8/8 sky coverage. FEW = 1/8-2/8, SCT = 3/8-4/8, BKN = 5/8-7/8, OVC = 8/8. SKC/CLR indicate clear skies.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-007",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "What does the altimeter setting 'A2992' in a METAR represent?",
+    "choices": [
+      "A. 2992 millibars of pressure",
+      "B. 29.92 inches of mercury",
+      "C. 2,992 feet altitude correction"
+    ],
+    "answer": "B",
+    "explanation": "The 'A' prefix indicates altimeter setting in inches of mercury. A2992 = 29.92 inHg, which is also standard sea-level pressure.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-008",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "Decode the weather in: METAR KORD 191453Z 09015G25KT 3SM +TSRA BKN015CB OVC040 22/20 A2985",
+    "choices": [
+      "A. Light thunderstorm with rain showers, broken clouds at 1,500 ft cumulus, overcast at 4,000 ft",
+      "B. Heavy thunderstorm with rain, broken cumulonimbus at 1,500 ft, overcast at 4,000 ft",
+      "C. Variable thunderstorm with hail, cumulonimbus at 15,000 ft"
+    ],
+    "answer": "B",
+    "explanation": "+ = heavy intensity, TS = thunderstorm, RA = rain. BKN015CB = broken cumulonimbus clouds at 1,500 ft AGL. OVC040 = overcast at 4,000 ft AGL.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-009",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "easy",
+    "question": "What does the prefix 'VC' mean in METAR weather group like 'VCTS'?",
+    "choices": [
+      "A. Very Cold thunderstorm",
+      "B. In the vicinity (within 5-10 SM) of the station",
+      "C. Variable cloud thunderstorm"
+    ],
+    "answer": "B",
+    "explanation": "VC = vicinity, indicating the weather phenomenon is between 5 and 10 statute miles from the station. VCTS = thunderstorm in the vicinity.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-010",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "easy",
+    "question": "In a METAR, the contraction '-SN' indicates:",
+    "choices": [
+      "A. Light snow",
+      "B. Heavy snow",
+      "C. Negative snow (no snow)"
+    ],
+    "answer": "A",
+    "explanation": "The minus sign (-) before a weather descriptor indicates light intensity. -SN = light snow. No sign = moderate, + = heavy.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-011",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "What is the difference between METAR and SPECI?",
+    "choices": [
+      "A. METAR is for civilian airports, SPECI is for military airports",
+      "B. METAR is a routine hourly observation; SPECI is an unscheduled (special) observation issued when conditions change significantly",
+      "C. METAR uses metric units, SPECI uses standard units"
+    ],
+    "answer": "B",
+    "explanation": "METAR = routine hourly aviation weather report. SPECI = special, unscheduled report issued when significant weather changes occur between routine reports (e.g., ceiling/visibility drops, wind shift).",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-012",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "Decode: METAR KLAX 050853Z 25006KT 10SM CLR 14/12 A3001",
+    "choices": [
+      "A. Wind 250° at 6 kts, visibility 10 SM, clear skies, temp 14°C, dewpoint 12°C, altimeter 30.01",
+      "B. Wind 25° at 6 kts, visibility 10 km, clear skies, temp 14°F, dewpoint 12°F",
+      "C. Wind 25° at 60 kts, ceiling 10,000 ft, clear, altimeter 3001 mb"
+    ],
+    "answer": "A",
+    "explanation": "25006KT = wind from 250° at 6 knots. 10SM = 10 statute miles visibility. CLR = clear below 12,000 ft (automated). 14/12 = temp 14°C / dewpoint 12°C. A3001 = altimeter 30.01 inHg.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-013",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "hard",
+    "question": "In this METAR, what is the temperature/dewpoint spread and what does it suggest? METAR KSEA 080053Z 18003KT 5SM BR OVC008 09/09 A3018",
+    "choices": [
+      "A. Spread is 18°, indicates dry stable air",
+      "B. Spread is 0°, air is saturated — fog or low clouds likely",
+      "C. Spread is 9°, indicates good VFR conditions"
+    ],
+    "answer": "B",
+    "explanation": "Temp 9°C / Dewpoint 9°C = spread of 0°C. When temp and dewpoint converge, air is saturated. BR = mist and OVC008 (overcast at 800 ft AGL) confirm near-saturation; fog formation is imminent if conditions persist.",
+    "reference": "AC 00-45H, FAA-H-8083-28"
+  },
+  {
+    "id": "WX-014",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "hard",
+    "question": "What does 'AO2' in METAR remarks indicate?",
+    "choices": [
+      "A. Automated station without precipitation discriminator",
+      "B. Automated station with a precipitation discriminator",
+      "C. Augmented observation by a certified weather observer"
+    ],
+    "answer": "B",
+    "explanation": "AO2 = automated station with precipitation discriminator (can distinguish rain from snow). AO1 = automated without precipitation discriminator.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-015",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "medium",
+    "question": "Decode the RVR in: METAR KJFK 121251Z 30010KT 1/4SM R04R/2400FT FG OVC002 04/04 A2998",
+    "choices": [
+      "A. Runway 04 Right Visual Range is 2,400 feet",
+      "B. Runway 04 Right has 2,400 feet remaining",
+      "C. Runway visual reference is at 2,400 ft AGL"
+    ],
+    "answer": "A",
+    "explanation": "RVR format: R[runway]/[distance]FT. R04R/2400FT means Runway 04 Right Visual Range is 2,400 feet. RVR is reported when prevailing visibility is 1 SM or less.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-016",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "easy",
+    "question": "What does a TAF (Terminal Aerodrome Forecast) typically cover?",
+    "choices": [
+      "A. Current weather observations only",
+      "B. Forecast weather for a 5 SM radius around an airport, typically valid 24 or 30 hours",
+      "C. Severe weather warnings for an entire region"
+    ],
+    "answer": "B",
+    "explanation": "A TAF is a forecast (not observation) valid for a 5 SM radius around an airport, typically issued 4x daily and valid for 24 or 30 hours.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-017",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "medium",
+    "question": "In a TAF, what does 'FM151800' indicate?",
+    "choices": [
+      "A. From the 15th at 1800Z, a rapid and significant change in conditions is forecast",
+      "B. For 15 minutes starting at 1800Z",
+      "C. The forecast was made on the 15th at 1800Z"
+    ],
+    "answer": "A",
+    "explanation": "FM (From) groups indicate a rapid, significant change in prevailing conditions. FM151800 means from the 15th day at 1800Z, new conditions are forecast to begin.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-018",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "medium",
+    "question": "What does 'TEMPO 1822 3SM TSRA' in a TAF mean?",
+    "choices": [
+      "A. Continuous thunderstorms with rain from 1800-2200Z, visibility 3 SM",
+      "B. Temporary fluctuations (lasting less than 1 hour and totaling less than half the period) of 3 SM visibility in thunderstorm with rain expected between 1800Z and 2200Z",
+      "C. Temperature 18-22°C with thunderstorms"
+    ],
+    "answer": "B",
+    "explanation": "TEMPO indicates temporary conditions expected to last less than 1 hour at a time and in total less than half the time period. 1822 = from 18Z to 22Z.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-019",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "medium",
+    "question": "What does 'BECMG 2024' indicate in a TAF?",
+    "choices": [
+      "A. Becoming the year 2024",
+      "B. A gradual change in conditions expected to take place between 2000Z and 2400Z",
+      "C. Best conditions between 20°C and 24°C"
+    ],
+    "answer": "B",
+    "explanation": "BECMG (Becoming) indicates a gradual change in conditions over a specified time period. 2024 = the change is forecast to occur between 2000Z and 2400Z.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-020",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "medium",
+    "question": "What does 'PROB30 0408 1SM BR' in a TAF mean?",
+    "choices": [
+      "A. Probability of 30% that conditions of 1 SM visibility in mist will occur between 0400Z and 0800Z",
+      "B. Probability of 30 thunderstorms between 0400Z and 0800Z",
+      "C. Pressure of 30 inHg from 0400Z to 0800Z"
+    ],
+    "answer": "A",
+    "explanation": "PROB30 = 30% probability of the conditions occurring. PROB30/PROB40 are used when probability is between 30-49%. Period 0408 = 0400Z to 0800Z.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-021",
+    "topic": "weather",
+    "subtopic": "taf decoding",
+    "difficulty": "hard",
+    "question": "Given the TAF: TAF KOKC 051130Z 0512/0612 14008KT P6SM SCT250 FM052000 18012G18KT P6SM BKN080. What conditions are forecast beginning at 2000Z on the 5th?",
+    "choices": [
+      "A. Wind 180° at 12 knots gusting 18, visibility greater than 6 SM, broken at 8,000 ft",
+      "B. Wind 140° at 8 knots, visibility 6 km, scattered at 25,000 ft",
+      "C. Wind 180° at 12 knots, visibility 6 SM only, broken at 800 ft"
+    ],
+    "answer": "A",
+    "explanation": "FM052000 = from the 5th at 2000Z. 18012G18KT = wind 180° at 12 kts gusting to 18. P6SM = greater than (Plus) 6 SM visibility. BKN080 = broken at 8,000 ft AGL.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-022",
+    "topic": "weather",
+    "subtopic": "density altitude",
+    "difficulty": "easy",
+    "question": "Density altitude is best defined as:",
+    "choices": [
+      "A. Pressure altitude corrected for nonstandard temperature",
+      "B. The height above sea level where the density of the standard atmosphere matches the actual local air density",
+      "C. The altitude at which density doubles due to compression"
+    ],
+    "answer": "B",
+    "explanation": "Density altitude is pressure altitude corrected for nonstandard temperature — it is the altitude in the standard atmosphere where air density equals the actual local air density. It directly affects aircraft (and sUAS) performance.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-023",
+    "topic": "weather",
+    "subtopic": "density altitude",
+    "difficulty": "easy",
+    "question": "What conditions produce HIGH density altitude?",
+    "choices": [
+      "A. Cool, dry air at low elevation",
+      "B. Hot, humid air at high elevation (high, hot, humid)",
+      "C. Cold, dense air during winter"
+    ],
+    "answer": "B",
+    "explanation": "Mnemonic: HIGH, HOT, HUMID = high density altitude. High elevation, high temperature, and high humidity all reduce air density, raising density altitude.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-024",
+    "topic": "weather",
+    "subtopic": "density altitude",
+    "difficulty": "medium",
+    "question": "How does high density altitude affect sUAS performance?",
+    "choices": [
+      "A. It increases motor power and rotor thrust",
+      "B. It decreases motor performance, decreases lift, and reduces battery cooling — degrading overall performance",
+      "C. It has no effect on multirotor aircraft because they use electric motors"
+    ],
+    "answer": "B",
+    "explanation": "High DA = less dense air, meaning rotors generate less lift, motors must work harder, and battery cooling is reduced. sUAS performance is reduced just like manned aircraft.",
+    "reference": "FAA-H-8083-28, FAA-G-8082-22 Ch.4"
+  },
+  {
+    "id": "WX-025",
+    "topic": "weather",
+    "subtopic": "atmospheric stability",
+    "difficulty": "easy",
+    "question": "Which characteristics are typical of a STABLE air mass?",
+    "choices": [
+      "A. Cumulus clouds, turbulence, showery precipitation, good visibility",
+      "B. Stratiform clouds, smooth air, steady precipitation, poor visibility (haze/fog)",
+      "C. Cumulonimbus, hail, lightning, gusty winds"
+    ],
+    "answer": "B",
+    "explanation": "Stable air resists vertical motion: stratus/stratiform clouds, smooth air, steady (not showery) precipitation, and poor visibility because pollutants stay trapped near the surface.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-026",
+    "topic": "weather",
+    "subtopic": "atmospheric stability",
+    "difficulty": "easy",
+    "question": "Characteristics of UNSTABLE air include:",
+    "choices": [
+      "A. Stratus clouds, drizzle, smooth flight conditions",
+      "B. Cumulus-type clouds, turbulence, showery precipitation, and good surface visibility",
+      "C. Fog, low ceilings, and steady rain"
+    ],
+    "answer": "B",
+    "explanation": "Unstable air encourages vertical motion: cumuliform clouds (including thunderstorms), turbulence, showers, and generally good visibility because vertical mixing clears pollutants.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-027",
+    "topic": "weather",
+    "subtopic": "atmospheric stability",
+    "difficulty": "medium",
+    "question": "Which of the following is a primary cause of atmospheric instability?",
+    "choices": [
+      "A. Warm air below cold air, allowing rising parcels to remain warmer than surrounding air",
+      "B. Cold air below warm air (a temperature inversion)",
+      "C. Uniform temperature throughout the troposphere"
+    ],
+    "answer": "A",
+    "explanation": "Instability is produced when warm air is beneath cold air. A rising parcel of warm air remains warmer (less dense) than surroundings and continues to rise — producing convection.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-028",
+    "topic": "weather",
+    "subtopic": "temperature dewpoint spread",
+    "difficulty": "easy",
+    "question": "Fog is most likely to form when the temperature/dewpoint spread is:",
+    "choices": [
+      "A. Greater than 10°C and increasing",
+      "B. 5°F (3°C) or less and converging",
+      "C. Exactly 15°C and stable"
+    ],
+    "answer": "B",
+    "explanation": "When temperature and dewpoint converge (spread <= 5°F / 3°C and shrinking), the air is approaching saturation and fog/low clouds are likely.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-029",
+    "topic": "weather",
+    "subtopic": "temperature dewpoint spread",
+    "difficulty": "medium",
+    "question": "What does the temperature/dewpoint spread tell a remote pilot?",
+    "choices": [
+      "A. Indication of relative humidity and likelihood of fog or cloud formation",
+      "B. The freezing level altitude",
+      "C. The strength of the surface wind"
+    ],
+    "answer": "A",
+    "explanation": "The closer the temperature and dewpoint, the higher the relative humidity, and the greater the likelihood of visible moisture (fog, low clouds) forming.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-030",
+    "topic": "weather",
+    "subtopic": "fog types",
+    "difficulty": "medium",
+    "question": "Radiation fog typically forms under what conditions?",
+    "choices": [
+      "A. Warm moist air flowing over a cool surface during the day",
+      "B. Clear nights with little wind and high humidity, when the ground cools rapidly",
+      "C. Air being forced up a mountain slope"
+    ],
+    "answer": "B",
+    "explanation": "Radiation fog forms on clear, calm (or light wind) nights over land as the ground radiates heat away, cooling the air near the surface to its dewpoint. Common at dawn in valleys.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-031",
+    "topic": "weather",
+    "subtopic": "fog types",
+    "difficulty": "medium",
+    "question": "Advection fog forms when:",
+    "choices": [
+      "A. Warm, moist air moves over a cooler surface",
+      "B. Air radiates heat at night under clear skies",
+      "C. Cold air sinks into a valley"
+    ],
+    "answer": "A",
+    "explanation": "Advection fog requires the horizontal movement (advection) of warm, moist air over a cooler surface. Common along coastlines (e.g., warm Gulf air over cooler land).",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-032",
+    "topic": "weather",
+    "subtopic": "fog types",
+    "difficulty": "medium",
+    "question": "Upslope fog forms when:",
+    "choices": [
+      "A. Moist, stable air is forced up sloping terrain, cooling adiabatically to its dewpoint",
+      "B. Cold, dry air sinks down a mountain slope",
+      "C. Warm rain falls through cool air below"
+    ],
+    "answer": "A",
+    "explanation": "Upslope fog forms when moist, stable air is lifted up sloping terrain and cools adiabatically to its dewpoint. Common on the eastern slopes of the Rocky Mountains.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-033",
+    "topic": "weather",
+    "subtopic": "fog types",
+    "difficulty": "hard",
+    "question": "Steam fog (sea smoke) forms when:",
+    "choices": [
+      "A. Warm moist air flows over a much colder surface",
+      "B. Cold, dry air moves over warmer water, causing rapid evaporation and condensation",
+      "C. Stable air is lifted up a slope"
+    ],
+    "answer": "B",
+    "explanation": "Steam fog occurs when cold, dry air moves over warmer water. Water evaporates into the cold air, immediately condensing into fog that appears to 'steam' off the water.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-034",
+    "topic": "weather",
+    "subtopic": "fog types",
+    "difficulty": "hard",
+    "question": "Precipitation-induced fog forms when:",
+    "choices": [
+      "A. Warm rain falls through a cool air mass, evaporates, and saturates the cooler air",
+      "B. Snow melts and refreezes on the surface",
+      "C. Ice crystals fall through warm air"
+    ],
+    "answer": "A",
+    "explanation": "Precipitation-induced (frontal) fog forms when relatively warm rain or drizzle falls through cool air below, evaporating and raising the dewpoint of the cool air until saturation. Common with warm fronts.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-035",
+    "topic": "weather",
+    "subtopic": "fronts",
+    "difficulty": "easy",
+    "question": "A COLD front is typically associated with which weather?",
+    "choices": [
+      "A. Slow-moving stratiform clouds, steady drizzle, low ceilings",
+      "B. Fast movement, towering cumulus or cumulonimbus, brief intense precipitation, possible squall lines",
+      "C. No weather change; only a temperature shift"
+    ],
+    "answer": "B",
+    "explanation": "Cold fronts move quickly, forcing warm air up steeply. This produces towering cumulus/cumulonimbus, thunderstorms, brief but intense precipitation, gusty winds, and sometimes squall lines.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-036",
+    "topic": "weather",
+    "subtopic": "fronts",
+    "difficulty": "easy",
+    "question": "A WARM front is typically associated with:",
+    "choices": [
+      "A. Towering cumulus and severe turbulence",
+      "B. Slow movement, stratiform clouds, steady drizzle or light rain, low ceilings and visibility",
+      "C. Squall lines and tornadoes"
+    ],
+    "answer": "B",
+    "explanation": "Warm fronts advance slowly, with warm air gliding up gently over cold air. This produces stratiform clouds, steady (not showery) precipitation, drizzle, low ceilings, and reduced visibility — often over a wide area.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-037",
+    "topic": "weather",
+    "subtopic": "fronts",
+    "difficulty": "medium",
+    "question": "An OCCLUDED front forms when:",
+    "choices": [
+      "A. A cold front overtakes a warm front, lifting the warm air aloft",
+      "B. Two warm fronts merge over the ocean",
+      "C. A stationary front becomes warmer"
+    ],
+    "answer": "A",
+    "explanation": "An occluded front forms when a faster cold front overtakes a slower warm front, lifting the warm air mass off the surface. Weather can include features of both warm and cold fronts.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-038",
+    "topic": "weather",
+    "subtopic": "fronts",
+    "difficulty": "medium",
+    "question": "A STATIONARY front is best described as:",
+    "choices": [
+      "A. A front moving rapidly with thunderstorms",
+      "B. A boundary between two air masses where neither is advancing — weather can persist for days",
+      "C. The leading edge of a high pressure system"
+    ],
+    "answer": "B",
+    "explanation": "A stationary front is one where the opposing air masses are roughly balanced and neither advances. Weather (often warm-front-like, with stratus and steady precipitation) can persist for days.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-039",
+    "topic": "weather",
+    "subtopic": "thunderstorms",
+    "difficulty": "easy",
+    "question": "What three ingredients are required for thunderstorm formation?",
+    "choices": [
+      "A. Cold air, dry air, and high pressure",
+      "B. Unstable (lapse) air, sufficient moisture, and a lifting force",
+      "C. High wind, freezing temperatures, and ice crystals"
+    ],
+    "answer": "B",
+    "explanation": "Thunderstorm formation requires: (1) unstable air (steep lapse rate), (2) moisture, and (3) a lifting force (e.g., front, convection, terrain).",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-040",
+    "topic": "weather",
+    "subtopic": "thunderstorms",
+    "difficulty": "medium",
+    "question": "What are the three stages of a thunderstorm?",
+    "choices": [
+      "A. Cumulus, mature, dissipating",
+      "B. Forming, peak, gone",
+      "C. Convective, electrical, rain"
+    ],
+    "answer": "A",
+    "explanation": "The three stages of a thunderstorm life cycle: (1) Cumulus (building) — dominant updraft, (2) Mature — both updrafts and downdrafts, most dangerous, (3) Dissipating — dominant downdraft.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-041",
+    "topic": "weather",
+    "subtopic": "thunderstorms",
+    "difficulty": "medium",
+    "question": "Which stage of a thunderstorm is the MOST hazardous to flight operations?",
+    "choices": [
+      "A. Cumulus stage",
+      "B. Mature stage — most intense turbulence, lightning, hail, microbursts",
+      "C. Dissipating stage"
+    ],
+    "answer": "B",
+    "explanation": "The mature stage features the most violent conditions: strong updrafts AND downdrafts, lightning, heavy precipitation, hail, and possible microbursts. The beginning of the mature stage is signaled by precipitation reaching the ground.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-042",
+    "topic": "weather",
+    "subtopic": "thunderstorms",
+    "difficulty": "hard",
+    "question": "Embedded thunderstorms are particularly hazardous because:",
+    "choices": [
+      "A. They are concealed within stratiform cloud layers and not visually distinguishable from less hazardous clouds",
+      "B. They produce only light rain",
+      "C. They occur only over water"
+    ],
+    "answer": "A",
+    "explanation": "Embedded thunderstorms are obscured within stratiform clouds (often associated with warm fronts). Pilots can fly into them without seeing them, making them especially dangerous.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-043",
+    "topic": "weather",
+    "subtopic": "wind shear",
+    "difficulty": "easy",
+    "question": "Wind shear is best defined as:",
+    "choices": [
+      "A. A change in wind direction and/or speed over a short distance in the atmosphere",
+      "B. Steady wind from one direction",
+      "C. Wind that always flows perpendicular to the runway"
+    ],
+    "answer": "A",
+    "explanation": "Wind shear is a sudden change in wind direction and/or speed over a relatively short distance, either horizontally or vertically. It can be hazardous at any altitude but especially during takeoff/landing.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-044",
+    "topic": "weather",
+    "subtopic": "wind shear",
+    "difficulty": "medium",
+    "question": "A microburst is characterized by:",
+    "choices": [
+      "A. A small but powerful downdraft, with downdrafts up to 6,000 fpm and horizontal outflow winds up to 45 knots, lasting typically less than 15 minutes",
+      "B. A long, steady horizontal wind across a runway",
+      "C. A slow rising thermal over hot terrain"
+    ],
+    "answer": "A",
+    "explanation": "A microburst is a small-scale, intense downdraft (up to ~6,000 fpm) that produces strong horizontal outflow (up to ~45 kts) on hitting the ground. Lifespan is usually under 15 minutes — particularly hazardous to small UAS.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-045",
+    "topic": "weather",
+    "subtopic": "wind shear",
+    "difficulty": "hard",
+    "question": "Why is a microburst especially hazardous to a small UAS?",
+    "choices": [
+      "A. Small UAS cannot detect lightning",
+      "B. The intense downdrafts and rapidly changing horizontal winds can exceed the aircraft's performance envelope and cause loss of control",
+      "C. UAS batteries discharge faster in cold downdrafts"
+    ],
+    "answer": "B",
+    "explanation": "Small UAS have limited power and control authority. Microburst downdrafts (up to 6,000 fpm) and the rapid 90° wind shifts in the outflow can quickly overwhelm a small UAS, causing loss of control.",
+    "reference": "FAA-G-8082-22 Ch.4"
+  },
+  {
+    "id": "WX-046",
+    "topic": "weather",
+    "subtopic": "turbulence",
+    "difficulty": "medium",
+    "question": "What is the difference between convective and mechanical turbulence?",
+    "choices": [
+      "A. Convective turbulence is caused by heating (rising thermals); mechanical turbulence is caused by air flowing over obstructions (buildings, terrain)",
+      "B. Convective turbulence happens only at altitude; mechanical only at the surface",
+      "C. There is no functional difference"
+    ],
+    "answer": "A",
+    "explanation": "Convective turbulence arises from uneven surface heating (thermals rising). Mechanical turbulence arises when wind flows over obstructions (buildings, trees, terrain) creating eddies. Both are common low-altitude hazards for sUAS.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-047",
+    "topic": "weather",
+    "subtopic": "turbulence",
+    "difficulty": "medium",
+    "question": "When operating a sUAS near a row of large buildings with wind blowing across them, you should expect:",
+    "choices": [
+      "A. Smooth, predictable airflow",
+      "B. Mechanical turbulence and possible rotors/eddies on the downwind side of the buildings",
+      "C. No effect from the buildings"
+    ],
+    "answer": "B",
+    "explanation": "Wind crossing obstructions creates mechanical turbulence and rotor-type eddies on the downwind (lee) side. This can be hazardous to a low-flying sUAS.",
+    "reference": "FAA-G-8082-22 Ch.4"
+  },
+  {
+    "id": "WX-048",
+    "topic": "weather",
+    "subtopic": "standard atmosphere",
+    "difficulty": "easy",
+    "question": "Standard atmospheric conditions at sea level are:",
+    "choices": [
+      "A. 59°F (15°C) and 29.92 inHg",
+      "B. 32°F (0°C) and 30.00 inHg",
+      "C. 70°F (21°C) and 28.92 inHg"
+    ],
+    "answer": "A",
+    "explanation": "Standard atmosphere at sea level: 59°F / 15°C temperature and 29.92 inHg (1013.2 mb) pressure.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-049",
+    "topic": "weather",
+    "subtopic": "standard atmosphere",
+    "difficulty": "medium",
+    "question": "The standard temperature lapse rate in the lower atmosphere is approximately:",
+    "choices": [
+      "A. 2°C per 1,000 ft (about 3.5°F per 1,000 ft)",
+      "B. 10°C per 1,000 ft",
+      "C. 1°F per 100 ft"
+    ],
+    "answer": "A",
+    "explanation": "Standard lapse rate is approximately 2°C (3.5°F) decrease per 1,000 ft of altitude gain in the troposphere.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-050",
+    "topic": "weather",
+    "subtopic": "wind circulation",
+    "difficulty": "medium",
+    "question": "In the Northern Hemisphere, wind around a HIGH pressure system circulates:",
+    "choices": [
+      "A. Counterclockwise and inward toward the center",
+      "B. Clockwise and outward away from the center",
+      "C. Straight outward from the center"
+    ],
+    "answer": "B",
+    "explanation": "In the Northern Hemisphere, wind flows CLOCKWISE and OUTWARD around a high (anticyclone). Around a LOW it flows counterclockwise and inward.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-051",
+    "topic": "weather",
+    "subtopic": "wind circulation",
+    "difficulty": "medium",
+    "question": "In the Northern Hemisphere, wind around a LOW pressure system circulates:",
+    "choices": [
+      "A. Counterclockwise and inward toward the center",
+      "B. Clockwise and outward",
+      "C. Straight inward toward the center"
+    ],
+    "answer": "A",
+    "explanation": "Around a low (cyclone) in the Northern Hemisphere, wind flows COUNTERCLOCKWISE and INWARD due to the pressure gradient and Coriolis effect. Convergence at the center forces air upward, producing clouds and precipitation.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-052",
+    "topic": "weather",
+    "subtopic": "coriolis effect",
+    "difficulty": "medium",
+    "question": "The Coriolis effect causes air in the Northern Hemisphere to:",
+    "choices": [
+      "A. Deflect to the right of its intended path",
+      "B. Deflect to the left of its intended path",
+      "C. Move straight without deflection"
+    ],
+    "answer": "A",
+    "explanation": "The Coriolis effect (due to Earth's rotation) deflects moving air to the RIGHT in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-053",
+    "topic": "weather",
+    "subtopic": "geostrophic wind",
+    "difficulty": "hard",
+    "question": "Compared to winds aloft (geostrophic wind), surface wind typically:",
+    "choices": [
+      "A. Is the same speed and direction",
+      "B. Backs (turns counterclockwise in NH) and slows due to surface friction",
+      "C. Veers (turns clockwise) and speeds up"
+    ],
+    "answer": "B",
+    "explanation": "Friction at the surface slows the wind, reducing the Coriolis force; as a result, surface wind in the Northern Hemisphere BACKS (turns counterclockwise) compared to wind aloft and is slower.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-054",
+    "topic": "weather",
+    "subtopic": "land sea breeze",
+    "difficulty": "medium",
+    "question": "During a sunny afternoon at a coastal area, a SEA BREEZE typically:",
+    "choices": [
+      "A. Blows from land out to sea because the sea heats faster",
+      "B. Blows from the cooler sea toward the warmer land because the land heats faster, creating lower pressure inland",
+      "C. Does not occur unless a front is present"
+    ],
+    "answer": "B",
+    "explanation": "During daytime, land heats faster than water, creating relative low pressure over land. The cooler, denser air over the sea flows inland — the sea breeze. At night the reverse happens (land breeze).",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-055",
+    "topic": "weather",
+    "subtopic": "mountain wave",
+    "difficulty": "hard",
+    "question": "Mountain wave turbulence is most pronounced when:",
+    "choices": [
+      "A. Wind is light and variable, parallel to the ridge",
+      "B. Strong winds (typically >25 kts) blow perpendicular to a mountain ridge with stable air aloft",
+      "C. There is no temperature inversion"
+    ],
+    "answer": "B",
+    "explanation": "Mountain waves form when strong winds (>25 kts) blow nearly perpendicular to a ridge with stable air aloft. The resulting standing waves produce severe turbulence and dangerous downdrafts on the lee side — extremely hazardous to sUAS.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-056",
+    "topic": "weather",
+    "subtopic": "icing",
+    "difficulty": "medium",
+    "question": "Structural icing requires which two conditions?",
+    "choices": [
+      "A. Clear skies and high temperatures",
+      "B. Visible moisture (clouds, rain, drizzle) and aircraft surface temperature at or below freezing (0°C / 32°F)",
+      "C. Strong winds and low humidity"
+    ],
+    "answer": "B",
+    "explanation": "Structural icing requires (1) flight through visible moisture (clouds, rain, drizzle, fog) and (2) ambient/surface temperature at or below freezing. Without both, structural icing cannot form.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-057",
+    "topic": "weather",
+    "subtopic": "icing",
+    "difficulty": "medium",
+    "question": "Why is icing a concern for sUAS operations?",
+    "choices": [
+      "A. Ice has no effect on sUAS",
+      "B. Ice accumulation on rotors disrupts airflow, reduces lift, adds weight, and can quickly cause loss of control",
+      "C. Ice only affects fixed-wing UAS"
+    ],
+    "answer": "B",
+    "explanation": "Even small ice accumulation on rotors/propellers or wings disrupts the airfoil, reduces lift, adds weight, and degrades performance — potentially causing loss of control. Avoid flight in visible moisture below freezing.",
+    "reference": "FAA-G-8082-22 Ch.4"
+  },
+  {
+    "id": "WX-058",
+    "topic": "weather",
+    "subtopic": "weather sources",
+    "difficulty": "easy",
+    "question": "Which is an official FAA-recognized source for aviation weather?",
+    "choices": [
+      "A. Local TV weather broadcast",
+      "B. Aviation Weather Center (aviationweather.gov / ADDS), Flight Service (1-800-WX-BRIEF), and AWOS/ASOS",
+      "C. Personal weather station readings"
+    ],
+    "answer": "B",
+    "explanation": "Official aviation weather sources include the Aviation Weather Center (aviationweather.gov / Aviation Digital Data Service), Flight Service Stations (1-800-WX-BRIEF), AWOS/ASOS automated stations, and approved EFB apps using FAA data.",
+    "reference": "FAA-G-8082-22 Ch.4"
+  },
+  {
+    "id": "WX-059",
+    "topic": "weather",
+    "subtopic": "weather sources",
+    "difficulty": "easy",
+    "question": "What does AWOS stand for?",
+    "choices": [
+      "A. Aviation Weather Observation System",
+      "B. Automated Weather Observing System",
+      "C. Airport Wind Observation Station"
+    ],
+    "answer": "B",
+    "explanation": "AWOS = Automated Weather Observing System. Like ASOS (Automated Surface Observing System), it provides continuous weather observations at many airports, broadcast via VHF radio or phone.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-060",
+    "topic": "weather",
+    "subtopic": "airmets sigmets",
+    "difficulty": "medium",
+    "question": "What does AIRMET Sierra warn pilots of?",
+    "choices": [
+      "A. Severe icing",
+      "B. IFR conditions and mountain obscuration",
+      "C. Severe turbulence"
+    ],
+    "answer": "B",
+    "explanation": "AIRMET SIERRA = IFR ceilings/visibility (less than 1,000 ft and/or 3 SM) and mountain obscuration. TANGO = turbulence. ZULU = icing and freezing levels.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-061",
+    "topic": "weather",
+    "subtopic": "airmets sigmets",
+    "difficulty": "medium",
+    "question": "AIRMET Tango covers:",
+    "choices": [
+      "A. Moderate turbulence, sustained surface winds of 30 kts or more, and low-level wind shear",
+      "B. Thunderstorms and tornadoes",
+      "C. IFR conditions"
+    ],
+    "answer": "A",
+    "explanation": "AIRMET TANGO covers moderate turbulence, sustained surface winds of 30 kts or more, and low-level wind shear (LLWS).",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-062",
+    "topic": "weather",
+    "subtopic": "airmets sigmets",
+    "difficulty": "medium",
+    "question": "AIRMET Zulu covers:",
+    "choices": [
+      "A. Volcanic ash",
+      "B. Moderate icing and freezing levels",
+      "C. Severe convective activity"
+    ],
+    "answer": "B",
+    "explanation": "AIRMET ZULU = moderate icing and freezing levels. (Severe icing is covered by a SIGMET.)",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-063",
+    "topic": "weather",
+    "subtopic": "airmets sigmets",
+    "difficulty": "medium",
+    "question": "A SIGMET is issued for which kinds of hazards?",
+    "choices": [
+      "A. Light turbulence and IFR conditions",
+      "B. Severe icing, severe or extreme turbulence, dust/sand storms reducing visibility below 3 SM, and volcanic ash — hazards significant to ALL aircraft",
+      "C. Routine cloud and visibility forecasts"
+    ],
+    "answer": "B",
+    "explanation": "A SIGMET (Significant Meteorological Information) covers weather hazards significant to all aircraft: severe icing not associated with thunderstorms, severe/extreme turbulence/clear-air turbulence not associated with thunderstorms, widespread dust/sand storms reducing visibility below 3 SM, and volcanic ash.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-064",
+    "topic": "weather",
+    "subtopic": "airmets sigmets",
+    "difficulty": "hard",
+    "question": "A Convective SIGMET is issued for what kinds of weather?",
+    "choices": [
+      "A. Severe thunderstorms, embedded thunderstorms, lines of thunderstorms, hail >= 3/4 inch, tornadoes, and/or surface winds >= 50 kts",
+      "B. Light rain and drizzle",
+      "C. Mountain obscuration only"
+    ],
+    "answer": "A",
+    "explanation": "Convective SIGMETs are issued for: (1) severe thunderstorms with surface winds >=50 kts, hail >=3/4 inch, or tornadoes; (2) embedded thunderstorms; (3) a line of thunderstorms; or (4) an area of thunderstorms (>=40% coverage over an area >=3,000 sq mi) with VIP level 4 or greater. Valid for 2 hours; issued for the eastern, central, and western US.",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-065",
+    "topic": "weather",
+    "subtopic": "pireps",
+    "difficulty": "medium",
+    "question": "What is a PIREP?",
+    "choices": [
+      "A. A pilot's flight plan",
+      "B. A Pilot Report — a report of weather conditions encountered by a pilot in flight",
+      "C. A pre-flight inspection requirement"
+    ],
+    "answer": "B",
+    "explanation": "A PIREP (Pilot Report) provides actual, in-flight weather observed by pilots. PIREPs help confirm or refute forecasts and provide data that automated stations cannot (e.g., turbulence, icing, cloud tops).",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-066",
+    "topic": "weather",
+    "subtopic": "pireps",
+    "difficulty": "hard",
+    "question": "Decode the PIREP element: UA /OV KOKC-KTUL /TM 1800 /FL120 /TP BE20 /SK BKN018-TOP025 /TA -02 /TB MOD",
+    "choices": [
+      "A. Routine report over OKC-TUL at 1800Z, FL120, Beech King Air 200, broken clouds 1,800-2,500 ft, temp -2°C, moderate turbulence",
+      "B. Urgent report from Oklahoma to Texas, flight level 12,000 mb",
+      "C. Wind 180° at 12 kts, ceiling 1,800 ft, temp -2°F"
+    ],
+    "answer": "A",
+    "explanation": "UA = routine (UUA = urgent). /OV = over (route). /TM = time UTC. /FL = flight level (FL120 = 12,000 ft). /TP = type aircraft. /SK = sky cover (BKN base 1,800 ft, tops 2,500 ft). /TA = temp °C. /TB = turbulence (MOD = moderate).",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-067",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "hard",
+    "question": "Given METAR KMRY 080654Z AUTO VRB03KT 1/4SM FG VV001 12/12 A3001 RMK AO2, can a remote pilot legally fly under Part 107?",
+    "choices": [
+      "A. Yes, Part 107 has no visibility minimum",
+      "B. No — visibility is 1/4 SM, below the Part 107 minimum of 3 SM, and ceiling/vertical visibility 100 ft is below the 500 ft cloud clearance requirement",
+      "C. Yes, only the wind matters"
+    ],
+    "answer": "B",
+    "explanation": "Part 107.51 requires minimum 3 SM visibility from the control station and 500 ft below clouds. With 1/4 SM visibility and VV001 (vertical visibility 100 ft), the operation cannot meet Part 107 weather minimums.",
+    "reference": "14 CFR 107.51, AC 00-45H"
+  },
+  {
+    "id": "WX-068",
+    "topic": "weather",
+    "subtopic": "metar decoding",
+    "difficulty": "hard",
+    "question": "Decode the wind in: METAR KDEN 121553Z 31015G30KT 280V350 10SM FEW080 SCT200 18/M02 A2992",
+    "choices": [
+      "A. Wind 310° at 15 kts, gusting 30, variable in direction between 280° and 350°",
+      "B. Wind variable from 280° to 350° at 15 kts steady",
+      "C. Wind from 31° at 15 kts, gusting 30, direction varying 28°-35°"
+    ],
+    "answer": "A",
+    "explanation": "31015G30KT = wind 310° at 15 kts gusting 30. 280V350 = direction is variable between 280° and 350° (reported when variation is 60° or more with speeds >6 kts).",
+    "reference": "AC 00-45H"
+  },
+  {
+    "id": "WX-069",
+    "topic": "weather",
+    "subtopic": "density altitude",
+    "difficulty": "medium",
+    "question": "An airport is at 5,000 ft MSL with temperature 35°C. Compared to standard, the density altitude will be:",
+    "choices": [
+      "A. Significantly higher than 5,000 ft (much higher than pressure altitude) due to high temperature",
+      "B. Significantly lower than 5,000 ft because high temperature increases density",
+      "C. Equal to 5,000 ft regardless of temperature"
+    ],
+    "answer": "A",
+    "explanation": "Standard temp at 5,000 ft is ~5°C. Actual temp 35°C is 30°C above standard — air is much less dense, so density altitude is significantly higher than the field elevation/pressure altitude. Performance is degraded.",
+    "reference": "FAA-H-8083-28"
+  },
+  {
+    "id": "WX-070",
+    "topic": "weather",
+    "subtopic": "thunderstorms",
+    "difficulty": "medium",
+    "question": "What signals the beginning of the mature stage of a thunderstorm?",
+    "choices": [
+      "A. The first appearance of cumulus clouds",
+      "B. Precipitation beginning to fall at the surface",
+      "C. The anvil top dissipating"
+    ],
+    "answer": "B",
+    "explanation": "Precipitation beginning to fall at the surface signals the start of the mature stage, when both updrafts and downdrafts coexist. This is the most violent and dangerous phase of a thunderstorm.",
+    "reference": "FAA-H-8083-28"
+  }
+]

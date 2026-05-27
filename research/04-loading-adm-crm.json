@@ -1,0 +1,917 @@
+[
+  {
+    "id": "LOAD-001",
+    "topic": "loading",
+    "subtopic": "weight and balance",
+    "difficulty": "easy",
+    "question": "What does CG stand for in the context of sUAS loading?",
+    "choices": [
+      "A. Control Gain",
+      "B. Center of Gravity",
+      "C. Climb Gradient"
+    ],
+    "answer": "B",
+    "explanation": "CG stands for Center of Gravity, the point at which the aircraft's weight is considered to be concentrated. Proper CG location is critical to stability and controllability.",
+    "reference": "FAA-H-8083-25 Ch.10 Weight and Balance"
+  },
+  {
+    "id": "LOAD-002",
+    "topic": "loading",
+    "subtopic": "weight effects",
+    "difficulty": "easy",
+    "question": "What is the general effect of increased weight on a small unmanned aircraft?",
+    "choices": [
+      "A. Shorter takeoff and faster climb",
+      "B. Longer takeoff, reduced climb performance, and shorter endurance",
+      "C. No change as long as the aircraft is below maximum gross weight"
+    ],
+    "answer": "B",
+    "explanation": "Increased weight requires more lift, which means longer takeoff distance, reduced rate of climb, higher stall speed, increased landing distance, and shorter endurance.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "LOAD-003",
+    "topic": "loading",
+    "subtopic": "forward CG",
+    "difficulty": "medium",
+    "question": "What is an effect of a forward center of gravity on an aircraft?",
+    "choices": [
+      "A. Less stable, with a lower stall speed",
+      "B. More stable, with a higher stall speed",
+      "C. Neutral stability with no effect on stall speed"
+    ],
+    "answer": "B",
+    "explanation": "A forward CG makes the aircraft more stable but harder to maneuver. It also increases stall speed because the tail must produce more downforce, requiring the wing to produce more lift.",
+    "reference": "FAA-H-8083-25 Ch.10 Weight and Balance"
+  },
+  {
+    "id": "LOAD-004",
+    "topic": "loading",
+    "subtopic": "aft CG",
+    "difficulty": "medium",
+    "question": "What is an effect of an aft center of gravity?",
+    "choices": [
+      "A. Less stable, lower stall speed, and harder to recover from a stall",
+      "B. More stable and easier to recover from a stall",
+      "C. Increased takeoff distance and slower cruise speed"
+    ],
+    "answer": "A",
+    "explanation": "An aft CG decreases stability, lowers the stall speed slightly, and makes stall recovery more difficult. An extremely aft CG can make the aircraft uncontrollable.",
+    "reference": "FAA-H-8083-25 Ch.10 Weight and Balance"
+  },
+  {
+    "id": "LOAD-005",
+    "topic": "loading",
+    "subtopic": "payload tradeoff",
+    "difficulty": "easy",
+    "question": "How does adding payload to a multirotor sUAS typically affect flight time?",
+    "choices": [
+      "A. It increases flight time because the aircraft is more stable",
+      "B. It reduces flight time because more battery energy is required to maintain lift",
+      "C. It has no effect as long as battery capacity is unchanged"
+    ],
+    "answer": "B",
+    "explanation": "Heavier payload requires more motor power and battery energy to maintain altitude, which reduces total flight time/endurance.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-006",
+    "topic": "loading",
+    "subtopic": "battery",
+    "difficulty": "easy",
+    "question": "What is the recommended way to store LiPo batteries for an extended period?",
+    "choices": [
+      "A. Fully charged (100%)",
+      "B. Fully discharged (0%)",
+      "C. At storage voltage, typically 30%–60% of full charge"
+    ],
+    "answer": "C",
+    "explanation": "LiPo batteries should be stored at approximately 3.7–3.85V per cell (around 30–60% charge) to maximize lifespan and reduce the risk of swelling or fire.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-007",
+    "topic": "loading",
+    "subtopic": "battery hazard",
+    "difficulty": "medium",
+    "question": "You notice a LiPo battery is swollen and warm to the touch. What is the correct action?",
+    "choices": [
+      "A. Use it for one more flight to drain it before disposal",
+      "B. Discontinue use immediately, isolate the battery in a fire-safe container, and dispose of it properly",
+      "C. Puncture it to release the gases before charging again"
+    ],
+    "answer": "B",
+    "explanation": "A swollen LiPo battery indicates damage or chemical breakdown and presents a fire/explosion risk. Discontinue use, isolate it (a LiPo-safe bag or metal container), and dispose at a battery recycling facility. Never puncture a LiPo.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-008",
+    "topic": "loading",
+    "subtopic": "battery hazard",
+    "difficulty": "medium",
+    "question": "What is 'thermal runaway' in the context of LiPo batteries?",
+    "choices": [
+      "A. A normal cooling cycle after heavy use",
+      "B. A self-sustaining chemical reaction where a cell rapidly overheats, potentially causing fire",
+      "C. The temperature warning that triggers an automatic landing"
+    ],
+    "answer": "B",
+    "explanation": "Thermal runaway is a cascading reaction in a damaged or overheated cell that releases energy faster than it can dissipate, often resulting in fire that is difficult to extinguish.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-009",
+    "topic": "performance",
+    "subtopic": "density altitude",
+    "difficulty": "medium",
+    "question": "How does high density altitude affect sUAS performance?",
+    "choices": [
+      "A. Increases lift and motor efficiency",
+      "B. Degrades performance — reduced lift, longer takeoff, lower climb rate",
+      "C. Has no measurable effect on small multirotors"
+    ],
+    "answer": "B",
+    "explanation": "High density altitude (hot, high, humid) means thinner air. Propellers produce less thrust and wings produce less lift, degrading takeoff, climb, and overall performance.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "LOAD-010",
+    "topic": "performance",
+    "subtopic": "density altitude",
+    "difficulty": "hard",
+    "question": "Which combination produces the highest density altitude and therefore the worst sUAS performance?",
+    "choices": [
+      "A. Cold temperature, low elevation, low humidity",
+      "B. High temperature, high elevation, high humidity",
+      "C. Standard temperature, sea level, low humidity"
+    ],
+    "answer": "B",
+    "explanation": "Density altitude increases with temperature, elevation, and humidity. The 'high, hot, and humid' combination produces the highest DA and the worst aircraft performance.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "LOAD-011",
+    "topic": "performance",
+    "subtopic": "wind effects",
+    "difficulty": "easy",
+    "question": "How does a steady headwind affect a multirotor sUAS hovering in place?",
+    "choices": [
+      "A. It has no effect because the aircraft is stationary",
+      "B. It increases power demand as the aircraft works to hold position, reducing endurance",
+      "C. It increases lift and extends flight time"
+    ],
+    "answer": "B",
+    "explanation": "Even when stationary relative to the ground, the aircraft must counter the wind to maintain position. This increases motor load and reduces battery endurance.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-012",
+    "topic": "performance",
+    "subtopic": "wind effects",
+    "difficulty": "medium",
+    "question": "An sUAS flying directly into a headwind will experience what change in groundspeed?",
+    "choices": [
+      "A. Groundspeed increases",
+      "B. Groundspeed decreases",
+      "C. Groundspeed is unchanged"
+    ],
+    "answer": "B",
+    "explanation": "Groundspeed equals airspeed minus headwind component. A headwind reduces groundspeed, while a tailwind increases it.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "LOAD-013",
+    "topic": "performance",
+    "subtopic": "wind planning",
+    "difficulty": "hard",
+    "question": "Why is it generally recommended to take off and land a fixed-wing sUAS into the wind?",
+    "choices": [
+      "A. It reduces ground roll and provides better controllability at lower groundspeeds",
+      "B. It increases groundspeed for faster takeoff",
+      "C. It reduces battery drain by tailwind assistance"
+    ],
+    "answer": "A",
+    "explanation": "Taking off and landing into the wind reduces the required ground roll because the aircraft reaches flying airspeed at a lower groundspeed, providing safer, more controllable operation.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "LOAD-014",
+    "topic": "loading",
+    "subtopic": "pre-flight",
+    "difficulty": "easy",
+    "question": "During a pre-flight inspection of the propellers, what should you look for?",
+    "choices": [
+      "A. Cracks, nicks, chips, or deformities",
+      "B. Only the proper rotation direction",
+      "C. Only that the propellers are tightened"
+    ],
+    "answer": "A",
+    "explanation": "Damaged propellers (cracks, nicks, chips, bends) can cause vibration, asymmetric thrust, or in-flight failure. Always inspect for any defects and replace damaged props.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-015",
+    "topic": "loading",
+    "subtopic": "pre-flight",
+    "difficulty": "medium",
+    "question": "Why is establishing GPS lock important before flying a GPS-equipped multirotor?",
+    "choices": [
+      "A. It allows the aircraft to maintain position hold and enables return-to-home",
+      "B. It is only required for indoor flight",
+      "C. GPS lock primarily controls motor speed"
+    ],
+    "answer": "A",
+    "explanation": "GPS lock enables stable position hold, accurate navigation, geofencing, and return-to-home (RTH) functions. Flying without a solid GPS lock relies on less precise stabilization modes.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-016",
+    "topic": "performance",
+    "subtopic": "load factor",
+    "difficulty": "hard",
+    "question": "How does load factor change in a steep banked turn?",
+    "choices": [
+      "A. Load factor decreases as bank angle increases",
+      "B. Load factor increases as bank angle increases, which also raises stall speed",
+      "C. Load factor is unaffected by bank angle"
+    ],
+    "answer": "B",
+    "explanation": "In a level turn, load factor increases with bank angle (e.g., ~2 G at 60° bank). Increased load factor raises stall speed, which is why steep turns are riskier.",
+    "reference": "FAA-H-8083-25 Ch.5 Aerodynamics"
+  },
+  {
+    "id": "LOAD-017",
+    "topic": "loading",
+    "subtopic": "weight effects",
+    "difficulty": "medium",
+    "question": "Adding a heavy camera payload to a multirotor sUAS most likely results in which effect?",
+    "choices": [
+      "A. Reduced maneuverability and shorter flight time",
+      "B. Improved climb rate",
+      "C. Lower stall speed and longer endurance"
+    ],
+    "answer": "A",
+    "explanation": "Heavier payload reduces maneuverability, increases motor demand, and shortens endurance. The aircraft is also more susceptible to wind disturbance.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "LOAD-018",
+    "topic": "performance",
+    "subtopic": "performance charts",
+    "difficulty": "hard",
+    "question": "When using a manufacturer's performance chart for an sUAS, which inputs are typically required?",
+    "choices": [
+      "A. Pressure altitude and temperature (to derive density altitude)",
+      "B. Only the aircraft's serial number",
+      "C. Only the magnetic heading"
+    ],
+    "answer": "A",
+    "explanation": "Performance charts generally require pressure altitude and temperature so the remote pilot can derive density altitude and predict performance.",
+    "reference": "FAA-H-8083-25 Ch.11 Aircraft Performance"
+  },
+  {
+    "id": "ADM-001",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "easy",
+    "question": "Which of the following is one of the five hazardous attitudes identified by the FAA?",
+    "choices": [
+      "A. Curiosity",
+      "B. Invulnerability",
+      "C. Patience"
+    ],
+    "answer": "B",
+    "explanation": "The five hazardous attitudes are Anti-authority, Impulsivity, Invulnerability, Macho, and Resignation.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-002",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "easy",
+    "question": "What is the antidote to the 'Anti-Authority' hazardous attitude?",
+    "choices": [
+      "A. 'Follow the rules. They are usually right.'",
+      "B. 'Not so fast. Think first.'",
+      "C. 'Taking chances is foolish.'"
+    ],
+    "answer": "A",
+    "explanation": "The antidote to Anti-Authority ('Don't tell me!') is 'Follow the rules. They are usually right.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-003",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "easy",
+    "question": "What is the antidote to 'Impulsivity'?",
+    "choices": [
+      "A. 'I can do it.'",
+      "B. 'Not so fast. Think first.'",
+      "C. 'It won't happen to me.'"
+    ],
+    "answer": "B",
+    "explanation": "The antidote to Impulsivity ('Do something quickly!') is 'Not so fast. Think first.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-004",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "medium",
+    "question": "A remote pilot decides to fly in marginal weather, thinking, 'I've flown in worse — nothing bad has happened before.' Which hazardous attitude is this?",
+    "choices": [
+      "A. Resignation",
+      "B. Invulnerability",
+      "C. Anti-Authority"
+    ],
+    "answer": "B",
+    "explanation": "Invulnerability is the belief that accidents happen to others, not to you. The antidote is 'It could happen to me.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-005",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "medium",
+    "question": "A pilot says 'I can fly this mission — I've handled tougher conditions.' Which hazardous attitude does this best illustrate?",
+    "choices": [
+      "A. Macho",
+      "B. Resignation",
+      "C. Impulsivity"
+    ],
+    "answer": "A",
+    "explanation": "Macho ('I can do it!') is the attitude of trying to prove oneself by taking unnecessary risks. The antidote is 'Taking chances is foolish.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-006",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "medium",
+    "question": "A pilot encounters a problem and thinks, 'What's the use? It's out of my hands.' Which hazardous attitude is this, and what is the antidote?",
+    "choices": [
+      "A. Resignation; 'I'm not helpless. I can make a difference.'",
+      "B. Macho; 'Taking chances is foolish.'",
+      "C. Anti-Authority; 'Follow the rules.'"
+    ],
+    "answer": "A",
+    "explanation": "Resignation ('What's the use?') leads pilots to give up. The antidote is 'I'm not helpless. I can make a difference.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-007",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "hard",
+    "question": "A remote pilot is told by ATC to remain clear of Class B airspace but thinks, 'These rules are too restrictive — I'll just slip in for a quick shot.' Which hazardous attitude is most clearly demonstrated?",
+    "choices": [
+      "A. Impulsivity",
+      "B. Anti-Authority",
+      "C. Resignation"
+    ],
+    "answer": "B",
+    "explanation": "Disregarding rules or established procedures is characteristic of the Anti-Authority attitude. The antidote is 'Follow the rules. They are usually right.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-008",
+    "topic": "adm",
+    "subtopic": "3P model",
+    "difficulty": "easy",
+    "question": "The 3P model for risk management stands for:",
+    "choices": [
+      "A. Plan, Practice, Perform",
+      "B. Perceive, Process, Perform",
+      "C. Predict, Prevent, Protect"
+    ],
+    "answer": "B",
+    "explanation": "The 3P model is Perceive (the hazards), Process (the level of risk), and Perform (risk mitigation).",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "ADM-009",
+    "topic": "adm",
+    "subtopic": "PAVE",
+    "difficulty": "medium",
+    "question": "In the PAVE checklist for preflight risk assessment, what does each letter stand for?",
+    "choices": [
+      "A. Pilot, Aircraft, enVironment, External pressures",
+      "B. Plan, Approach, Visualize, Execute",
+      "C. Preflight, Altitude, Visibility, Endurance"
+    ],
+    "answer": "A",
+    "explanation": "PAVE divides risks into four categories: Pilot, Aircraft, enVironment, and External pressures.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "ADM-010",
+    "topic": "adm",
+    "subtopic": "DECIDE model",
+    "difficulty": "medium",
+    "question": "What does the DECIDE model stand for?",
+    "choices": [
+      "A. Detect, Estimate, Choose, Identify, Do, Evaluate",
+      "B. Decide, Engage, Continue, Inform, Demonstrate, Exit",
+      "C. Determine, Execute, Check, Investigate, Document, End"
+    ],
+    "answer": "A",
+    "explanation": "DECIDE is a six-step decision-making process: Detect a change, Estimate the need to counter it, Choose an outcome, Identify actions, Do the action, Evaluate the effect.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "ADM-011",
+    "topic": "adm",
+    "subtopic": "IMSAFE",
+    "difficulty": "easy",
+    "question": "What does the IMSAFE checklist help a remote pilot evaluate?",
+    "choices": [
+      "A. The mechanical condition of the aircraft",
+      "B. The pilot's personal fitness for flight",
+      "C. The airspace and weather conditions"
+    ],
+    "answer": "B",
+    "explanation": "IMSAFE is a personal pilot self-assessment for Illness, Medication, Stress, Alcohol, Fatigue, and Eating/Emotion.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-012",
+    "topic": "adm",
+    "subtopic": "IMSAFE",
+    "difficulty": "medium",
+    "question": "What does the 'M' in IMSAFE refer to?",
+    "choices": [
+      "A. Mission complexity",
+      "B. Medication (prescription or over-the-counter)",
+      "C. Maintenance status of the aircraft"
+    ],
+    "answer": "B",
+    "explanation": "M stands for Medication. Even OTC medications (like antihistamines) can impair the pilot and disqualify them from operating.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-013",
+    "topic": "adm",
+    "subtopic": "IMSAFE",
+    "difficulty": "medium",
+    "question": "In the IMSAFE checklist, what does the 'E' represent?",
+    "choices": [
+      "A. Equipment",
+      "B. Endurance",
+      "C. Eating (and/or Emotion)"
+    ],
+    "answer": "C",
+    "explanation": "The 'E' stands for Eating (proper nutrition/hydration) and/or Emotion. Hunger, low blood sugar, or strong emotions impair judgment.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-014",
+    "topic": "adm",
+    "subtopic": "risk assessment",
+    "difficulty": "medium",
+    "question": "A risk assessment matrix typically rates risk based on which two factors?",
+    "choices": [
+      "A. Likelihood (probability) and severity (consequence)",
+      "B. Cost and duration",
+      "C. Distance and altitude"
+    ],
+    "answer": "A",
+    "explanation": "Risk is the combination of likelihood that an event will occur and the severity of its consequence. The matrix helps classify risks as low, medium, high, or extreme.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.3"
+  },
+  {
+    "id": "ADM-015",
+    "topic": "adm",
+    "subtopic": "stress",
+    "difficulty": "medium",
+    "question": "How does acute stress typically affect a remote pilot's decision-making?",
+    "choices": [
+      "A. It generally improves attention and judgment",
+      "B. It can narrow attention and lead to poor or rushed decisions",
+      "C. It has no measurable effect on short flights"
+    ],
+    "answer": "B",
+    "explanation": "Acute (short-term) stress can cause tunnel vision, rushed judgment, and missed cues. Recognizing stress and using IMSAFE/PAVE helps mitigate it.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-016",
+    "topic": "adm",
+    "subtopic": "stress",
+    "difficulty": "hard",
+    "question": "What is the difference between acute and chronic stress?",
+    "choices": [
+      "A. Acute is short-term from a specific event; chronic is long-term and persistent",
+      "B. Acute is mild; chronic is severe",
+      "C. Acute occurs only during flight; chronic only on the ground"
+    ],
+    "answer": "A",
+    "explanation": "Acute stress is a short-term response to a specific event. Chronic stress is long-term, persistent, and may impair health and judgment until resolved.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-017",
+    "topic": "adm",
+    "subtopic": "fatigue",
+    "difficulty": "medium",
+    "question": "Chronic fatigue is best described as:",
+    "choices": [
+      "A. Tiredness from a single late night",
+      "B. Long-term, persistent fatigue resulting from prolonged stress or inadequate rest",
+      "C. The sleepy feeling that follows a large meal"
+    ],
+    "answer": "B",
+    "explanation": "Chronic fatigue accumulates over time from inadequate rest, ongoing stress, or other factors and is not fully relieved by a single night's sleep. It significantly degrades performance.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-018",
+    "topic": "adm",
+    "subtopic": "fatigue",
+    "difficulty": "easy",
+    "question": "What is the best remedy for acute fatigue?",
+    "choices": [
+      "A. Caffeine and continuing to fly",
+      "B. Adequate rest, proper nutrition, and recovery",
+      "C. Increased flight workload to stay alert"
+    ],
+    "answer": "B",
+    "explanation": "The only true remedy for fatigue is rest. Acute fatigue (from a single event/missed sleep) is typically resolved by adequate sleep and recovery.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "ADM-019",
+    "topic": "adm",
+    "subtopic": "external pressures",
+    "difficulty": "hard",
+    "question": "A client insists you complete a roof inspection today despite gusting winds approaching the sUAS limit. This represents which PAVE category?",
+    "choices": [
+      "A. Pilot",
+      "B. External pressures",
+      "C. Aircraft"
+    ],
+    "answer": "B",
+    "explanation": "Client demands, schedule pressure, and 'get-there-itis' are External pressures in the PAVE model. They can lead to bad decisions if not consciously managed.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "ADM-020",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes",
+    "difficulty": "hard",
+    "question": "A remote pilot quickly launches without finishing the pre-flight checklist to catch a fleeting photo opportunity. Which hazardous attitude is most evident?",
+    "choices": [
+      "A. Impulsivity",
+      "B. Resignation",
+      "C. Invulnerability"
+    ],
+    "answer": "A",
+    "explanation": "Acting without thinking — skipping checklists to do something quickly — is Impulsivity. The antidote is 'Not so fast. Think first.'",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.2"
+  },
+  {
+    "id": "ADM-021",
+    "topic": "adm",
+    "subtopic": "single-pilot risk management",
+    "difficulty": "medium",
+    "question": "Single-pilot resource management (SRM) is best described as:",
+    "choices": [
+      "A. The art of managing all resources available to a single pilot before and during flight",
+      "B. A rule preventing pilots from accepting passengers",
+      "C. A maintenance requirement"
+    ],
+    "answer": "A",
+    "explanation": "SRM is the practice of gathering and managing all available information and resources (checklists, automation, ATC, etc.) to ensure safe outcome of a flight by a single pilot.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "CRM-001",
+    "topic": "crm",
+    "subtopic": "definition",
+    "difficulty": "easy",
+    "question": "What is Crew Resource Management (CRM) in sUAS operations?",
+    "choices": [
+      "A. The effective use of all available resources — human, hardware, information — to achieve safe flight",
+      "B. A maintenance log requirement",
+      "C. The certification of crew schedules"
+    ],
+    "answer": "A",
+    "explanation": "CRM is the effective coordination and use of all available resources — crewmembers, equipment, and information — to operate safely.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "CRM-002",
+    "topic": "crm",
+    "subtopic": "visual observer",
+    "difficulty": "easy",
+    "question": "What is the primary role of a Visual Observer (VO) during sUAS operations?",
+    "choices": [
+      "A. To operate the camera payload",
+      "B. To assist the remote PIC in seeing and avoiding other air traffic and hazards",
+      "C. To file the flight plan with ATC"
+    ],
+    "answer": "B",
+    "explanation": "The Visual Observer helps the remote PIC maintain awareness of the sUAS and the surrounding airspace, including other aircraft, people, and hazards.",
+    "reference": "14 CFR Part 107.33"
+  },
+  {
+    "id": "CRM-003",
+    "topic": "crm",
+    "subtopic": "visual observer",
+    "difficulty": "medium",
+    "question": "Per 14 CFR §107.33, which of the following is required when using a Visual Observer?",
+    "choices": [
+      "A. The RPIC, person manipulating the controls, and VO must be able to communicate effectively at all times",
+      "B. The VO must hold a remote pilot certificate",
+      "C. The VO must remain within 100 feet of the aircraft"
+    ],
+    "answer": "A",
+    "explanation": "Under §107.33, the RPIC, person manipulating the controls, and VO must maintain effective communication and the VO must scan the airspace for hazards.",
+    "reference": "14 CFR Part 107.33"
+  },
+  {
+    "id": "CRM-004",
+    "topic": "crm",
+    "subtopic": "crew briefing",
+    "difficulty": "medium",
+    "question": "Which of the following is the best item to include in a pre-flight crew briefing?",
+    "choices": [
+      "A. Roles, responsibilities, emergency procedures, lost-link/RTH plan, and communication signals",
+      "B. Only the client's name and contact information",
+      "C. Just the takeoff time"
+    ],
+    "answer": "A",
+    "explanation": "A complete crew briefing should cover roles, contingencies (lost link, fly-away, low battery), communication methods, and emergency response.",
+    "reference": "FAA-G-8082-22 Remote Pilot Study Guide"
+  },
+  {
+    "id": "CRM-005",
+    "topic": "crm",
+    "subtopic": "communication",
+    "difficulty": "medium",
+    "question": "If a Visual Observer spots a manned aircraft approaching the sUAS, what should they do?",
+    "choices": [
+      "A. Wait until the aircraft is closer to confirm a conflict",
+      "B. Immediately alert the RPIC so the sUAS can yield right-of-way",
+      "C. Take control of the aircraft from the RPIC"
+    ],
+    "answer": "B",
+    "explanation": "VOs must immediately notify the RPIC of any traffic conflict so the sUAS can yield right-of-way to all manned aircraft (§107.37).",
+    "reference": "14 CFR Part 107.37"
+  },
+  {
+    "id": "CRM-006",
+    "topic": "crm",
+    "subtopic": "resources",
+    "difficulty": "hard",
+    "question": "Which of the following is an example of an internal resource a remote pilot should manage as part of CRM?",
+    "choices": [
+      "A. ATC communication",
+      "B. Crew briefing skills, situational awareness, and personal experience",
+      "C. METAR weather reports"
+    ],
+    "answer": "B",
+    "explanation": "Internal resources are those within the cockpit or the pilot — knowledge, experience, situational awareness, and onboard automation. External resources include ATC, weather services, and other support.",
+    "reference": "FAA-H-8083-2 Risk Management Handbook Ch.6"
+  },
+  {
+    "id": "CRM-007",
+    "topic": "crm",
+    "subtopic": "responsibility",
+    "difficulty": "easy",
+    "question": "When operating under Part 107, who is ultimately responsible for the safe operation of the sUAS?",
+    "choices": [
+      "A. The Visual Observer",
+      "B. The Remote Pilot in Command (RPIC)",
+      "C. The client or customer"
+    ],
+    "answer": "B",
+    "explanation": "The RPIC is directly responsible for and is the final authority on the operation of the small unmanned aircraft system (14 CFR §107.19).",
+    "reference": "14 CFR Part 107.19"
+  },
+  {
+    "id": "CRM-008",
+    "topic": "crm",
+    "subtopic": "visual observer",
+    "difficulty": "medium",
+    "question": "True or false: Using a Visual Observer eliminates the RPIC's requirement to maintain visual line of sight of the sUAS.",
+    "choices": [
+      "A. True — the VO can act as the sole observer",
+      "B. False — the RPIC (or person manipulating controls) must still be able to see the aircraft",
+      "C. True, but only at night"
+    ],
+    "answer": "B",
+    "explanation": "The RPIC, person manipulating the controls, and VO must each be able to see the aircraft with vision unaided (other than corrective lenses). §107.31(b) allows the RPIC or person manipulating the controls to momentarily lose visual contact only when the VO maintains VLOS and the crew can communicate effectively. A VO does not eliminate the RPIC's underlying VLOS capability.",
+    "reference": "14 CFR §107.31(a)(b)"
+  },
+  {
+    "id": "CRM-009",
+    "topic": "crm",
+    "subtopic": "communication",
+    "difficulty": "hard",
+    "question": "A crew is operating in a loud industrial environment. What is the best CRM practice to ensure RPIC–VO communication remains effective?",
+    "choices": [
+      "A. Rely on hand signals exclusively",
+      "B. Pre-brief on communication methods such as radios, hand signals, and pre-agreed phraseology, and confirm comms before launch",
+      "C. Move further apart to better see the aircraft"
+    ],
+    "answer": "B",
+    "explanation": "Effective CRM requires pre-briefed communication methods (radios, headsets, agreed signals) and a comm check before flight. The RPIC and VO must be able to communicate at all times.",
+    "reference": "14 CFR Part 107.33 / FAA-H-8083-2"
+  },
+  {
+    "id": "PHYS-001",
+    "topic": "physiology",
+    "subtopic": "alcohol",
+    "difficulty": "easy",
+    "question": "What is the minimum time required between consumption of alcohol and operating an sUAS under Part 107?",
+    "choices": [
+      "A. 4 hours",
+      "B. 8 hours",
+      "C. 12 hours"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR §107.27 incorporates §91.17, which prohibits operation within 8 hours after consuming any alcoholic beverage.",
+    "reference": "14 CFR §107.27 / §91.17"
+  },
+  {
+    "id": "PHYS-002",
+    "topic": "physiology",
+    "subtopic": "alcohol",
+    "difficulty": "medium",
+    "question": "What is the maximum allowable blood alcohol concentration (BAC) for operating an sUAS under Part 107?",
+    "choices": [
+      "A. 0.02%",
+      "B. 0.04%",
+      "C. 0.08%"
+    ],
+    "answer": "B",
+    "explanation": "A remote pilot may not operate with a BAC of 0.04% or greater, while under the influence of alcohol, or within 8 hours of consuming alcohol.",
+    "reference": "14 CFR §91.17"
+  },
+  {
+    "id": "PHYS-003",
+    "topic": "physiology",
+    "subtopic": "drugs",
+    "difficulty": "medium",
+    "question": "A remote pilot is taking an over-the-counter antihistamine that causes drowsiness. May they fly?",
+    "choices": [
+      "A. Yes, OTC medications are exempt from Part 107 restrictions",
+      "B. No — any drug (including OTC) that affects faculties contrary to safety is prohibited",
+      "C. Yes, as long as the flight is short"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 prohibits operation while using any drug that affects the person's faculties in any way contrary to safety. This includes many OTC medications such as sedating antihistamines.",
+    "reference": "14 CFR §91.17 / §107.27"
+  },
+  {
+    "id": "PHYS-004",
+    "topic": "physiology",
+    "subtopic": "hyperventilation",
+    "difficulty": "medium",
+    "question": "What is a recommended remedy for hyperventilation?",
+    "choices": [
+      "A. Breathe more rapidly to restore oxygen",
+      "B. Slow the breathing rate, breathe into a bag, or talk aloud",
+      "C. Inhale pure oxygen"
+    ],
+    "answer": "B",
+    "explanation": "Hyperventilation is caused by excessive loss of CO2. Remedy by slowing the breathing rate, breathing into a paper bag, or talking aloud to restore CO2 balance.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-005",
+    "topic": "physiology",
+    "subtopic": "dehydration",
+    "difficulty": "easy",
+    "question": "Which symptom is commonly associated with dehydration during flight operations?",
+    "choices": [
+      "A. Improved alertness and stamina",
+      "B. Headache, fatigue, dizziness, and reduced concentration",
+      "C. Tunnel vision and color blindness"
+    ],
+    "answer": "B",
+    "explanation": "Dehydration causes fatigue, headache, dizziness, cramps, and impaired concentration — all of which degrade pilot performance, especially in hot environments.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-006",
+    "topic": "physiology",
+    "subtopic": "vision",
+    "difficulty": "medium",
+    "question": "Which is the most effective scanning technique for detecting other aircraft?",
+    "choices": [
+      "A. Quickly sweeping the eyes across the entire sky",
+      "B. A series of short, regularly spaced eye movements, focusing on small sectors at a time",
+      "C. Staring at the horizon"
+    ],
+    "answer": "B",
+    "explanation": "Effective scanning uses short eye movements that focus on small sectors (about 10 degrees each), pausing at each for a second or two. Sweeping motions do not allow the eyes to detect targets.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-007",
+    "topic": "physiology",
+    "subtopic": "night vision",
+    "difficulty": "hard",
+    "question": "How long does it typically take for the eyes to fully adapt to darkness for night vision?",
+    "choices": [
+      "A. About 5 minutes",
+      "B. About 30 minutes",
+      "C. About 2 hours"
+    ],
+    "answer": "B",
+    "explanation": "The rods in the eye take approximately 30 minutes to fully adapt to darkness. Even brief exposure to bright light can quickly destroy that adaptation.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-008",
+    "topic": "physiology",
+    "subtopic": "night vision",
+    "difficulty": "hard",
+    "question": "What technique is recommended for seeing dim objects at night?",
+    "choices": [
+      "A. Stare directly at the object to focus the cones",
+      "B. Use off-center viewing, looking 5–10 degrees to the side of the object",
+      "C. Close one eye to improve focus"
+    ],
+    "answer": "B",
+    "explanation": "Because rods (sensitive to low light) are concentrated outside the fovea, off-center viewing (looking slightly to the side) provides better detection of dim objects at night.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-009",
+    "topic": "physiology",
+    "subtopic": "vision",
+    "difficulty": "medium",
+    "question": "Which type of photoreceptor in the eye is primarily responsible for low-light (night) vision?",
+    "choices": [
+      "A. Cones",
+      "B. Rods",
+      "C. Lenses"
+    ],
+    "answer": "B",
+    "explanation": "Rods detect light and motion at low levels and are responsible for night vision. Cones detect color and detail in daylight.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-010",
+    "topic": "physiology",
+    "subtopic": "hypoxia",
+    "difficulty": "hard",
+    "question": "Which of the following is an early symptom of hypoxia?",
+    "choices": [
+      "A. Increased visual acuity and improved judgment",
+      "B. Euphoria, impaired judgment, and cyanosis (bluish skin)",
+      "C. Sudden loss of consciousness with no warning"
+    ],
+    "answer": "B",
+    "explanation": "Early hypoxia symptoms include euphoria, impaired judgment, headache, dizziness, and tingling. Cyanosis (bluish skin) is a later sign. Recognizing the early symptoms is critical because perception and judgment are degraded before more obvious physical signs appear.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-011",
+    "topic": "physiology",
+    "subtopic": "fatigue",
+    "difficulty": "medium",
+    "question": "How does fatigue most directly affect a remote pilot's vision and judgment?",
+    "choices": [
+      "A. It sharpens focus and reaction time",
+      "B. It impairs reaction time, attention, and decision-making and can cause eye strain",
+      "C. It only affects motor skills, not cognition"
+    ],
+    "answer": "B",
+    "explanation": "Fatigue degrades reaction time, attention, situational awareness, decision-making, and visual scanning ability, all of which threaten safe flight.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  },
+  {
+    "id": "PHYS-012",
+    "topic": "physiology",
+    "subtopic": "alcohol",
+    "difficulty": "hard",
+    "question": "A pilot consumed a single beer 6 hours ago. May they operate an sUAS under Part 107?",
+    "choices": [
+      "A. Yes — only multiple drinks count toward the 8-hour rule",
+      "B. No — the 8-hour 'bottle-to-throttle' rule applies to any amount of alcohol consumption",
+      "C. Yes — 4 hours is sufficient for any single drink"
+    ],
+    "answer": "B",
+    "explanation": "The 8-hour rule applies regardless of the amount consumed. The pilot must also not be under the influence and have a BAC less than 0.04%.",
+    "reference": "14 CFR §91.17 / §107.27"
+  },
+  {
+    "id": "PHYS-013",
+    "topic": "physiology",
+    "subtopic": "night vision",
+    "difficulty": "medium",
+    "question": "What is the best practice to preserve night vision while preparing for or conducting a night sUAS operation?",
+    "choices": [
+      "A. Use a bright white flashlight to read charts",
+      "B. Avoid bright white lights; use red or low-intensity lighting and allow 30 minutes for adaptation",
+      "C. Wear sunglasses"
+    ],
+    "answer": "B",
+    "explanation": "Bright lights quickly destroy dark adaptation. Use red or dim lighting for reading and allow ~30 minutes for the eyes to adapt to darkness.",
+    "reference": "FAA-H-8083-25 Ch.17 Aeromedical Factors"
+  }
+]

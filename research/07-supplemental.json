@@ -1,0 +1,2372 @@
+[
+  {
+    "id": "MIKE-LNK-001",
+    "topic": "regulations",
+    "subtopic": "Accident reporting",
+    "difficulty": "medium",
+    "question": "Under what conditions must you report an accident caused by your drone to the FAA and within how many days must it be reported?",
+    "choices": [
+      "A. Any physical injury or any property damage, within 10 calendar days",
+      "B. Serious injury to any person, any loss of consciousness, or damage to property other than the small unmanned aircraft exceeding $500, within 10 calendar days",
+      "C. Only if the small unmanned aircraft is destroyed, within 30 calendar days"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.9, the remote PIC must report no later than 10 calendar days after an operation involving at least serious injury to any person, any loss of consciousness, or damage to property other than the small unmanned aircraft unless repair cost or total-loss fair market value does not exceed $500.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "MIKE-LNK-002",
+    "topic": "regulations",
+    "subtopic": "FRIA - Remote ID",
+    "difficulty": "medium",
+    "question": "Which of the following statements is true regarding FAA Recognized Identification Areas (FRIA)?",
+    "choices": [
+      "A. Designated zones where drones must have remote ID broadcast modules",
+      "B. Allows drones without remote ID to fly legally, but only under FAA supervision",
+      "C. Areas where drones without remote ID can operate and be flown within VLOS"
+    ],
+    "answer": "C",
+    "explanation": "FRIAs are FAA-recognized areas (sponsored by community-based organizations or educational institutions) where drones without Remote ID can be flown within visual line of sight. The FAA does not supervise FRIAs; the sponsor does.",
+    "reference": "14 CFR Part 89"
+  },
+  {
+    "id": "MIKE-LNK-003",
+    "topic": "regulations",
+    "subtopic": "Prohibited operations",
+    "difficulty": "easy",
+    "question": "Under 14 CFR Part 107, which operation is explicitly prohibited?",
+    "choices": [
+      "A. Remote PIC is driving a moving vehicle while operating an sUAS in a sparsely populated area",
+      "B. Remote PIC is a passenger on an aircraft in flight while operating a drone",
+      "C. Remote PIC is a passenger on a moving boat while operating an sUAS in an unpopulated area"
+    ],
+    "answer": "B",
+    "explanation": "Per 14 CFR 107.25, operating an sUAS from a moving aircraft is prohibited. Operation from a moving vehicle/boat is only allowed in sparsely populated areas and not for transporting property for compensation.",
+    "reference": "14 CFR 107.25"
+  },
+  {
+    "id": "MIKE-LNK-004",
+    "topic": "regulations",
+    "subtopic": "Registration",
+    "difficulty": "easy",
+    "question": "Which of the following drones needs to be registered under FAA Part 107 rules and regulations?",
+    "choices": [
+      "A. A drone weighing 0.55 lb or less flown exclusively for recreation",
+      "B. A drone weighing exactly 55 lb on takeoff operated under Part 107",
+      "C. A drone weighing 0.5 lb flown commercially under Part 107"
+    ],
+    "answer": "C",
+    "explanation": "Part 48 exempts only aircraft operated exclusively under 49 U.S.C. 44809 that weigh 0.55 lb or less on takeoff. Part 107 operations are not exclusively recreational, so the aircraft must be registered even if it weighs 0.55 lb or less. A 55-lb aircraft is not a small unmanned aircraft under Part 107.",
+    "reference": "14 CFR 48.15; 14 CFR 48.100; 14 CFR 107.3; 14 CFR 107.13"
+  },
+  {
+    "id": "MIKE-LNK-006",
+    "topic": "performance",
+    "subtopic": "Control surfaces",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of the rudder on an aircraft?",
+    "choices": [
+      "A. To control the aircraft's pitch attitude",
+      "B. To control the aircraft's roll movement",
+      "C. To control the aircraft's yaw movement"
+    ],
+    "answer": "C",
+    "explanation": "The rudder controls yaw (rotation about the vertical axis). Ailerons control roll, elevators control pitch.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, flight controls"
+  },
+  {
+    "id": "MIKE-LNK-007",
+    "topic": "performance",
+    "subtopic": "Density altitude",
+    "difficulty": "medium",
+    "question": "During UAS operations, you determine that the density altitude at your site is much higher than normal due to hot temperatures and low pressure. How will this affect the performance of your drone?",
+    "choices": [
+      "A. It will improve performance because the air is less dense, reducing drag",
+      "B. It will decrease performance because the rotors and propellers are less efficient in thin air",
+      "C. It will have no significant effect because drones don't rely on aerodynamic lift"
+    ],
+    "answer": "B",
+    "explanation": "High density altitude means thinner air, which reduces the lift produced by rotors/propellers and degrades drone performance.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, density altitude and aircraft performance"
+  },
+  {
+    "id": "MIKE-LNK-009",
+    "topic": "regulations",
+    "subtopic": "Weight limits",
+    "difficulty": "medium",
+    "question": "You plan to operate an unmanned aircraft that weighs exactly 55 lbs on takeoff, including payload. Select a condition where you can legally operate this UAS under Part 107.",
+    "choices": [
+      "A. You may operate under Part 107 if you obtain a waiver",
+      "B. You cannot operate under Part 107; you need a special airworthiness certificate or a Section 44807 exemption to operate legally",
+      "C. You can operate under Part 107 because the sUAS weight is 55 lb and meets all FAA requirements"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 applies only to sUAS weighing less than 55 lbs. An aircraft that is exactly 55 lbs or more requires a special airworthiness certificate or a Section 44807 exemption.",
+    "reference": "14 CFR 107.3"
+  },
+  {
+    "id": "MIKE-LNK-010",
+    "topic": "airspace",
+    "subtopic": "Class D dimensions",
+    "difficulty": "medium",
+    "question": "Regarding Class D airspace, unless otherwise depicted on the sectional chart, what are the standard vertical and lateral dimensions of Class D airspace surrounding an airport with an operational control tower?",
+    "choices": [
+      "A. Surface up to 2,500 ft above airport elevation, extending 4 NM from the airport",
+      "B. Surface up to 2,500 ft above airport elevation, extending 4.4 NM from the airport (approximately)",
+      "C. 500 ft above airport elevation up to 3,500 ft, extending 10 NM from the airport"
+    ],
+    "answer": "A",
+    "explanation": "Standard Class D extends from the surface up to 2,500 ft above airport elevation with a lateral radius of approximately 4 NM.",
+    "reference": "AIM 3-2-5; FAA-H-8083-25, National Airspace System"
+  },
+  {
+    "id": "MIKE-LNK-011",
+    "topic": "weather",
+    "subtopic": "TAF cloud types",
+    "difficulty": "hard",
+    "question": "Which type of clouds are specifically identified by name in a TAF forecast?",
+    "choices": [
+      "A. Cumulonimbus (CB) and Towering Cumulus (TCU)",
+      "B. Stratus and Nimbostratus",
+      "C. Cirrus and Altocumulus"
+    ],
+    "answer": "A",
+    "explanation": "Only cumulonimbus (CB) and towering cumulus (TCU) are identified by type on TAFs because of their hazard to aviation. Other cloud groups indicate coverage, not type.",
+    "reference": "FAA-H-8083-28, Aviation Weather Handbook, TAF sky condition coding"
+  },
+  {
+    "id": "MIKE-LNK-012",
+    "topic": "airspace",
+    "subtopic": "Faded magenta / non-towered airport",
+    "difficulty": "medium",
+    "question": "You plan to fly your sUAS under Part 107 within a faded magenta area on a sectional chart around a non-towered airport. You will operate at 200 ft AGL, but you have not obtained ATC authorization. Are you in compliance with Part 107?",
+    "choices": [
+      "A. Yes, because you are below 700 ft AGL and flying in Class G airspace",
+      "B. No, because you are inside of Class G airspace and need ATC authorization",
+      "C. No, a non-towered airport's airspace usually begins at the surface"
+    ],
+    "answer": "A",
+    "explanation": "A faded magenta ring depicts Class E airspace beginning at 700 ft AGL. Below 700 ft AGL it is Class G, and no ATC authorization is required in Class G under Part 107.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class E airspace depictions; 14 CFR 107.41"
+  },
+  {
+    "id": "MIKE-LNK-013",
+    "topic": "performance",
+    "subtopic": "Control surfaces",
+    "difficulty": "easy",
+    "question": "Which of the following statements about aircraft control surfaces is correct?",
+    "choices": [
+      "A. The ailerons control pitch by moving symmetrically",
+      "B. The rudder controls yaw around the vertical axis",
+      "C. The elevator controls roll by moving one side up and the other side down"
+    ],
+    "answer": "B",
+    "explanation": "The rudder controls yaw about the vertical axis. Ailerons control roll; elevators control pitch.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, flight controls"
+  },
+  {
+    "id": "MIKE-LNK-014",
+    "topic": "performance",
+    "subtopic": "Stalls / angle of attack",
+    "difficulty": "easy",
+    "question": "A stall occurs when the smooth airflow over the wing of an airplane is disrupted and the lift degenerates rapidly. This is caused when the wing:",
+    "choices": [
+      "A. Exceeds the maximum allowable altitude",
+      "B. Exceeds the required weight limit of the aircraft",
+      "C. Exceeds the critical angle of attack"
+    ],
+    "answer": "C",
+    "explanation": "A stall occurs when the wing exceeds its critical angle of attack, regardless of airspeed or attitude.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, stalls and angle of attack"
+  },
+  {
+    "id": "MIKE-LNK-015",
+    "topic": "regulations",
+    "subtopic": "Public aircraft / COA",
+    "difficulty": "hard",
+    "question": "A California state agency plans to fly a 20-lb drone for official wildlife research. Must the operation comply with Part 107?",
+    "choices": [
+      "A. Yes, because all drone flights must follow Part 107",
+      "B. No, if the agency elects to operate as a public aircraft under an FAA Certificate of Waiver or Authorization instead of as a civil Part 107 operation",
+      "C. Yes, unless the drone is under 55 lb"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 applies to civil small UAS operations. A qualifying governmental operation may instead be conducted as a public aircraft operation under FAA public COA authority, so Part 107 is not the only available compliance path.",
+    "reference": "14 CFR 107.1; 49 U.S.C. 40102(a)(41); 49 U.S.C. 40125"
+  },
+  {
+    "id": "MIKE-LNK-016",
+    "topic": "regulations",
+    "subtopic": "Category 1 OOP",
+    "difficulty": "medium",
+    "question": "Which of the following best describes a requirement for Category 1 sUAS operations over people?",
+    "choices": [
+      "A. The sUAS weighs 0.55 lb or less (including everything on board at takeoff), has no exposed rotating parts that could lacerate human skin, and complies with Remote ID requirements",
+      "B. The sUAS must not exceed 11 ft-lbs of kinetic energy on impact and requires an FAA-accepted means of compliance",
+      "C. The sUAS must not exceed 25 ft-lbs of kinetic energy on impact and requires a declaration of compliance"
+    ],
+    "answer": "A",
+    "explanation": "Category 1 requires the sUAS weigh 0.55 lb or less (including everything on board), have no exposed rotating parts capable of lacerating skin, and meet Remote ID requirements.",
+    "reference": "14 CFR 107.110"
+  },
+  {
+    "id": "MIKE-LNK-017",
+    "topic": "regulations",
+    "subtopic": "Category 2 OOP",
+    "difficulty": "medium",
+    "question": "What is required for flying over people in Category 2?",
+    "choices": [
+      "A. The drone must weigh 0.55 lb or less and have no exposed rotating parts",
+      "B. The small UA must be eligible for Category 2: injury severity below the 11 ft-lb rigid-object impact threshold, no exposed rotating parts that would lacerate human skin, no safety defects, FAA-accepted means/declaration of compliance, required labeling/instructions, and applicable Remote ID compliance",
+      "C. The drone must not exceed 25 ft-lbs of kinetic energy and have an airworthiness certificate"
+    ],
+    "answer": "B",
+    "explanation": "Category 2 operations require use of a small UA eligible under 107.120, listed on an FAA-accepted declaration of compliance, and labeled for Category 2. Eligibility includes the 11 ft-lb injury-severity threshold, no exposed lacerating rotating parts, and no safety defects; means of compliance and declaration of compliance provisions apply.",
+    "reference": "14 CFR 107.115; 14 CFR 107.120; 14 CFR 107.155; 14 CFR 107.160; 14 CFR Part 89"
+  },
+  {
+    "id": "MIKE-LNK-020",
+    "topic": "night",
+    "subtopic": "Night operations requirements",
+    "difficulty": "medium",
+    "question": "Drone operations being conducted at night are specified under 14 CFR 107.29. What is required under the rules and regulations?",
+    "choices": [
+      "A. The remote pilot must obtain a waiver and the drone must have a strobe",
+      "B. Only anti-collision lights visible for 3 statute miles are required",
+      "C. The remote pilot must have completed the updated initial or recurrent training, the sUAS must be equipped with anti-collision lighting visible for at least 3 statute miles, and the lights must have a flash rate sufficient to avoid a collision"
+    ],
+    "answer": "C",
+    "explanation": "Per 14 CFR 107.29, night operations require a certificated/trained remote pilot, anti-collision lighting visible for at least 3 SM, with a flash rate sufficient to avoid a collision.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "MIKE-LNK-021",
+    "topic": "notams",
+    "subtopic": "TFR compliance",
+    "difficulty": "easy",
+    "question": "You plan a commercial drone flight near a stadium on game day. A temporary flight restriction has been issued for the event. What must you do before operating your sUAS in the TFR area?",
+    "choices": [
+      "A. File a flight plan with the local ATC tower",
+      "B. Obtain permission from the issuing authority (FAA) as published in the NOTAM",
+      "C. Notify the stadium operator and local law enforcement"
+    ],
+    "answer": "B",
+    "explanation": "Operations within a TFR require permission from the issuing authority (the FAA), as published in the NOTAM establishing the TFR.",
+    "reference": "14 CFR 91.137-145"
+  },
+  {
+    "id": "MIKE-LNK-022",
+    "topic": "airport",
+    "subtopic": "Hold short / surface markings",
+    "difficulty": "medium",
+    "question": "What does the solid double yellow lines with double yellow dashed lines at an airport indicate (refer to figure 65, item G)?",
+    "choices": [
+      "A. Taxiway ending marker",
+      "B. Runway hold short marker (holding position marking)",
+      "C. No entry marker"
+    ],
+    "answer": "B",
+    "explanation": "Two solid and two dashed yellow lines form a runway holding position marking. Aircraft must hold short of the runway until ATC clears them to cross.",
+    "reference": "AIM 2-3-5; FAA AC 150/5340-1, runway holding position markings"
+  },
+  {
+    "id": "MIKE-LNK-023",
+    "topic": "airport",
+    "subtopic": "Mandatory instruction sign",
+    "difficulty": "easy",
+    "question": "Refer to figure 65, item A. What does this red sign with white numbers (4-22) indicate?",
+    "choices": [
+      "A. A taxiway direction sign indicating taxiway 4-22",
+      "B. A mandatory instruction sign indicating a runway holding position; runway 4 is to the left and runway 22 is to the right",
+      "C. A runway distance remaining sign showing 4,000 and 22,000 feet"
+    ],
+    "answer": "B",
+    "explanation": "A red background with white numbers is a mandatory instruction sign marking a runway holding position; the numbers identify the runways and their directions.",
+    "reference": "AIM 2-3-8; FAA AC 150/5340-18, airport signs"
+  },
+  {
+    "id": "MIKE-LNK-024",
+    "topic": "airport",
+    "subtopic": "Sign colors",
+    "difficulty": "easy",
+    "question": "What are the primary colors of a mandatory instruction sign at an airport?",
+    "choices": [
+      "A. Yellow background with black letters",
+      "B. Red background with white letters",
+      "C. Black background with yellow letters"
+    ],
+    "answer": "B",
+    "explanation": "Mandatory instruction signs have a red background with white inscriptions, denoting an area entry to which is prohibited without ATC clearance.",
+    "reference": "AIM 2-3-8; FAA AC 150/5340-18, mandatory instruction signs"
+  },
+  {
+    "id": "MIKE-LNK-025",
+    "topic": "regulations",
+    "subtopic": "Max altitude / structure",
+    "difficulty": "medium",
+    "question": "Refer to figure 23. What is the maximum altitude you are permitted to fly when inspecting the high-intensity towers 6 miles southwest of Savannah Hilton Head Airport (SAV)?",
+    "choices": [
+      "A. 1,545 ft MSL",
+      "B. 400 ft AGL",
+      "C. 1,945 ft MSL"
+    ],
+    "answer": "C",
+    "explanation": "Part 107 permits flight up to 400 ft above a structure when within 400 ft horizontally. The tower top is 1,545 ft MSL, so 1,545 + 400 = 1,945 ft MSL.",
+    "reference": "14 CFR 107.51"
+  },
+  {
+    "id": "MIKE-LNK-026",
+    "topic": "airport",
+    "subtopic": "Traffic pattern entry",
+    "difficulty": "easy",
+    "question": "The recommended angle of entry and point of entry for a manned aircraft to enter an airport traffic pattern is:",
+    "choices": [
+      "A. 45 degrees to the base leg just below the traffic pattern altitude",
+      "B. 45 degrees at the midpoint of the downwind leg at the traffic pattern altitude",
+      "C. 45 degrees at the upwind leg toward the traffic pattern"
+    ],
+    "answer": "B",
+    "explanation": "Standard traffic pattern entry is at a 45-degree angle to the midpoint of the downwind leg at traffic pattern altitude.",
+    "reference": "AIM 4-3-3; AC 90-66, non-towered airport traffic patterns"
+  },
+  {
+    "id": "MIKE-LNK-027",
+    "topic": "crm",
+    "subtopic": "Challenging decisions",
+    "difficulty": "easy",
+    "question": "Which of the following statements about crew resource management in an sUAS operation is false?",
+    "choices": [
+      "A. Individuals who exhibit signs of hazardous attitudes should be approached",
+      "B. Crew members should not under any circumstances challenge the decisions of the remote pilot in command",
+      "C. The remote PIC and all crew members should communicate concerns to each other"
+    ],
+    "answer": "B",
+    "explanation": "CRM requires open communication. Crew members have both a right and responsibility to challenge decisions that affect safety.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, crew resource management"
+  },
+  {
+    "id": "MIKE-LNK-028",
+    "topic": "airport",
+    "subtopic": "Runway numbering",
+    "difficulty": "medium",
+    "question": "The numbers 9 and 27 on a red and white airport sign indicate that the runways are oriented approximately:",
+    "choices": [
+      "A. 9 degrees and 27 degrees magnetic",
+      "B. 90 degrees and 270 degrees true",
+      "C. 90 degrees and 270 degrees magnetic"
+    ],
+    "answer": "C",
+    "explanation": "Runway numbers represent magnetic headings rounded to the nearest 10 degrees, with the last zero dropped. 9/27 = 090/270 magnetic.",
+    "reference": "AIM 2-3-3; FAA-H-8083-25, runway numbering"
+  },
+  {
+    "id": "MIKE-LNK-029",
+    "topic": "radio",
+    "subtopic": "Position reporting",
+    "difficulty": "medium",
+    "question": "An aircraft announces that they are on short final for runway niner. Where is the aircraft in relation to the airport?",
+    "choices": [
+      "A. West of the airport, approaching to land on a runway oriented 090 degrees magnetic",
+      "B. East of the airport, approaching to land on a runway oriented 090 degrees magnetic",
+      "C. North of the airport, departing on runway 9"
+    ],
+    "answer": "A",
+    "explanation": "Runway 9 has a 090-degree magnetic heading; an aircraft on short final is approaching from the opposite direction of the runway heading - therefore west of the airport.",
+    "reference": "AIM 4-3-3; FAA-H-8083-25, traffic pattern terminology and runway numbering"
+  },
+  {
+    "id": "MIKE-LNK-030",
+    "topic": "weather",
+    "subtopic": "Wind shear",
+    "difficulty": "easy",
+    "question": "Wind shear can exist:",
+    "choices": [
+      "A. At all altitudes",
+      "B. Only at lower altitudes",
+      "C. Only at higher altitudes"
+    ],
+    "answer": "A",
+    "explanation": "Wind shear can occur at any altitude, in any direction, and in any wind condition.",
+    "reference": "FAA-H-8083-28, Aviation Weather Handbook, wind shear"
+  },
+  {
+    "id": "MIKE-LNK-031",
+    "topic": "weather",
+    "subtopic": "TAF wind decoding",
+    "difficulty": "medium",
+    "question": "A TAF report has winds coded as 18012KT. What does this mean?",
+    "choices": [
+      "A. Wind from 180 degrees true at 12 km/hour",
+      "B. Wind is from 180 degrees magnetic at 12 knots",
+      "C. Wind is from 180 degrees true at 12 knots"
+    ],
+    "answer": "C",
+    "explanation": "Winds in METARs and TAFs are reported in degrees true (since they are surface-based observations referenced to true north) and in knots.",
+    "reference": "FAA-H-8083-28, Aviation Weather Handbook, METAR/TAF wind coding"
+  },
+  {
+    "id": "MIKE-LNK-032",
+    "topic": "regulations",
+    "subtopic": "Registration age",
+    "difficulty": "easy",
+    "question": "According to 14 CFR Part 48, when would a person NOT be permitted to register an sUAS?",
+    "choices": [
+      "A. If the owner does not possess a valid state-issued driver's license",
+      "B. When the owner is less than 13 years of age",
+      "C. When the owner is less than 16 years of age"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR Part 48, a person must be at least 13 years old to register an sUAS (a parent or guardian must register for a younger owner).",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-LNK-033",
+    "topic": "loading",
+    "subtopic": "Load factor",
+    "difficulty": "medium",
+    "question": "Refer to figure 2. If an sUAS weighs 50 lbs, what approximate weight would the sUAS structure be required to support during a 45-degree bank turn while maintaining altitude?",
+    "choices": [
+      "A. 50 lbs",
+      "B. 100 lbs",
+      "C. 70 lbs"
+    ],
+    "answer": "C",
+    "explanation": "The load factor at a 45-degree bank is approximately 1.414G. 50 lbs x 1.414 = approximately 70 lbs.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, load factor in turns"
+  },
+  {
+    "id": "MIKE-LNK-034",
+    "topic": "airspace",
+    "subtopic": "Class G / authorization",
+    "difficulty": "medium",
+    "question": "Refer to figure 78. You have been hired to inspect the railroad tracks from Blencoe to Onawa, southeast of Sioux City. You will be flying your sUAS to conduct the inspection. What authorization is required?",
+    "choices": [
+      "A. ATC authorization through LAANC for Class E surface area",
+      "B. Authorization from the local airport manager",
+      "C. No authorization required (Class G airspace) below 400 ft AGL"
+    ],
+    "answer": "C",
+    "explanation": "The area defaults to Class G airspace and no ATC authorization is required for sUAS operations in Class G airspace under Part 107.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "MIKE-LNK-035",
+    "topic": "airspace",
+    "subtopic": "Military training routes",
+    "difficulty": "medium",
+    "question": "Refer to figure 59, area 2. The chart shows gray lines with VR1667, VR1617, and VR1668. Could this area present a hazard to operation of a small UAS?",
+    "choices": [
+      "A. Yes, these are military training routes (MTRs) with four-digit identifiers, indicating segments flown at or below 1,500 ft AGL where military aircraft may operate below 400 ft AGL",
+      "B. No, military training routes only affect manned IFR traffic above 10,000 ft",
+      "C. No, VR routes are only used during published activation hours which do not affect sUAS"
+    ],
+    "answer": "A",
+    "explanation": "VR (Visual Route) MTRs with four-digit identifiers indicate operations conducted ENTIRELY at or below 1,500 ft AGL ft AGL, posing a collision hazard to sUAS that can operate at the same altitudes. Per AIM 3-5-2: 4-digit MTR identifiers (e.g., VR-1667) indicate operations conducted ENTIRELY at or below 1,500 ft AGL; 3-digit identifiers include at least one segment above 1,500 ft AGL.",
+    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide, military training routes"
+  },
+  {
+    "id": "MIKE-LNK-036",
+    "topic": "adm",
+    "subtopic": "Five hazardous attitudes",
+    "difficulty": "medium",
+    "question": "Hazardous attitudes occur to every pilot to some degree. What are the five hazardous attitudes?",
+    "choices": [
+      "A. Antisocial, impatient, machoism, reserved, insecurity",
+      "B. Anti-authority, impulsivity, macho, resignation, invulnerability",
+      "C. Angry, insensitive, malicious, rebellious, introverted"
+    ],
+    "answer": "B",
+    "explanation": "The five hazardous attitudes identified by the FAA are: anti-authority, impulsivity, macho, resignation, and invulnerability.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, hazardous attitudes"
+  },
+  {
+    "id": "MIKE-LNK-037",
+    "topic": "weather",
+    "subtopic": "Root cause of weather",
+    "difficulty": "medium",
+    "question": "Every physical weather process is accompanied by or results from which one of the following?",
+    "choices": [
+      "A. Movement of air",
+      "B. Pressure differential",
+      "C. Heat exchange"
+    ],
+    "answer": "C",
+    "explanation": "Heat exchange (uneven solar heating of Earth) is the root cause of weather; it drives temperature differences, which create pressure differentials, which cause air movement.",
+    "reference": "FAA-H-8083-28, Aviation Weather Handbook, heat exchange and weather processes"
+  },
+  {
+    "id": "MIKE-LNK-038",
+    "topic": "adm",
+    "subtopic": "Risk management",
+    "difficulty": "medium",
+    "question": "Safety is an important element for a remote pilot to consider prior to operating an unmanned aircraft system. To prevent the final link in the accident chain, a remote pilot must consider which methodology?",
+    "choices": [
+      "A. Crew resource management",
+      "B. Safety management system",
+      "C. Risk management"
+    ],
+    "answer": "C",
+    "explanation": "Risk management is the active process used in the field to identify and mitigate hazards and prevent the final link in the accident chain.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, risk management and accident chain"
+  },
+  {
+    "id": "MIKE-LNK-039",
+    "topic": "adm",
+    "subtopic": "ADM acronym",
+    "difficulty": "easy",
+    "question": "What does the acronym ADM stand for?",
+    "choices": [
+      "A. Aeronautical Decision-Making",
+      "B. Aircraft Determination Methodology",
+      "C. Aviation Diagnostic Management"
+    ],
+    "answer": "A",
+    "explanation": "ADM stands for Aeronautical Decision-Making - the systematic mental process pilots use to make sound, safe decisions in flight.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, aeronautical decision-making"
+  },
+  {
+    "id": "MIKE-LNK-040",
+    "topic": "adm",
+    "subtopic": "In-flight ADM",
+    "difficulty": "easy",
+    "question": "While conducting a commercial drone flight, you notice that the battery on the drone is draining faster than usual due to colder than normal temperatures. What is the most appropriate action under good ADM principles?",
+    "choices": [
+      "A. Continue the mission since the battery will probably last long enough",
+      "B. Land the drone immediately in a safe area, assess the situation, and postpone the mission if necessary",
+      "C. Increase altitude to reduce battery drain and continue the mission"
+    ],
+    "answer": "B",
+    "explanation": "Good ADM requires recognizing the hazard and acting conservatively: land safely, reassess, and only continue if it is truly safe to do so.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, aeronautical decision-making"
+  },
+  {
+    "id": "MIKE-LNK-041",
+    "topic": "crm",
+    "subtopic": "CRM integration",
+    "difficulty": "easy",
+    "question": "When incorporating crew resource management (CRM) into an unmanned aircraft operation, where should CRM be integrated?",
+    "choices": [
+      "A. Only during the pre-flight planning phase",
+      "B. Only when an emergency occurs",
+      "C. Into all phases of the operation"
+    ],
+    "answer": "C",
+    "explanation": "CRM should be integrated throughout all phases of the operation - planning, pre-flight, flight, and post-flight.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, crew resource management"
+  },
+  {
+    "id": "MIKE-LNK-042",
+    "topic": "adm",
+    "subtopic": "Final stage of accident",
+    "difficulty": "easy",
+    "question": "What approach should a remote pilot prioritize to avert the final stage of an accident sequence?",
+    "choices": [
+      "A. Safety management system",
+      "B. Risk management",
+      "C. Crew resource management"
+    ],
+    "answer": "B",
+    "explanation": "Risk management is the active in-the-field methodology used to break the final link in the accident chain.",
+    "reference": "FAA-H-8083-2, Risk Management Handbook, risk management and accident chain"
+  },
+  {
+    "id": "MIKE-LNK-043",
+    "topic": "regulations",
+    "subtopic": "Category 4 airworthiness",
+    "difficulty": "easy",
+    "question": "Which classification of small unmanned aircraft requires an airworthiness certificate issued by the FAA?",
+    "choices": [
+      "A. Category 2",
+      "B. Category 4",
+      "C. Category 3"
+    ],
+    "answer": "B",
+    "explanation": "Category 4 operations over people require an airworthiness certificate issued under 14 CFR Part 21.",
+    "reference": "14 CFR 107.140"
+  },
+  {
+    "id": "MIKE-LNK-044",
+    "topic": "performance",
+    "subtopic": "Load factor and stall speed",
+    "difficulty": "hard",
+    "question": "An increase in load factor will cause the aircraft to:",
+    "choices": [
+      "A. Stall at a higher airspeed",
+      "B. Cause the aircraft to spin",
+      "C. Become difficult to control"
+    ],
+    "answer": "A",
+    "explanation": "As load factor increases (e.g., during a banked turn), stall speed increases. The aircraft must fly faster to maintain lift and avoid an accelerated stall.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, load factor and stall speed"
+  },
+  {
+    "id": "MIKE-FYM-001",
+    "topic": "regulations",
+    "subtopic": "airspace classes (Class G)",
+    "difficulty": "easy",
+    "question": "You have been hired to inspect a railroad near Kookooskia (Figure 22, area 1). Do you need ATC approval?",
+    "choices": [
+      "A. Yes, because the railroad is under Class B airspace.",
+      "B. Yes, because the railroad is under Class E surface area airspace.",
+      "C. No, because the railroad is under Class G airspace."
+    ],
+    "answer": "C",
+    "explanation": "Operations in Class G (uncontrolled) airspace do not require ATC authorization under 14 CFR Part 107.41. Only Class B, C, D, and surface-based Class E require ATC authorization (LAANC).",
+    "reference": "14 CFR 107.41; Sectional Chart Figure 22"
+  },
+  {
+    "id": "MIKE-FYM-003",
+    "topic": "regulations",
+    "subtopic": "operations over people - Category 3",
+    "difficulty": "medium",
+    "question": "Regarding Category 3 operations over people, the small unmanned aircraft must not cause injury equivalent to or greater than the impact of:",
+    "choices": [
+      "A. 25 ft-lbs of kinetic energy",
+      "B. 5 ft-lbs of kinetic energy",
+      "C. 11 ft-lbs of kinetic energy"
+    ],
+    "answer": "A",
+    "explanation": "Category 3 eligibility requires that the small unmanned aircraft not cause injury equivalent to or greater than the severity caused by transfer of 25 foot-pounds of kinetic energy upon impact from a rigid object, along with the other Category 3 eligibility requirements. Category 3 operating limits are in 107.125.",
+    "reference": "14 CFR 107.125; 14 CFR 107.130"
+  },
+  {
+    "id": "MIKE-FYM-004",
+    "topic": "performance",
+    "subtopic": "load factor in turns",
+    "difficulty": "medium",
+    "question": "When operating an unmanned airplane, the remote pilot should consider that the load factor on the wings may be increased anytime:",
+    "choices": [
+      "A. the center of gravity is shifted rearward to the aft CG limit.",
+      "B. the airplane is subjected to maneuvers other than straight and level flight.",
+      "C. the gross weight is reduced."
+    ],
+    "answer": "B",
+    "explanation": "Load factor increases anytime the aircraft is subjected to acceleration other than that of straight-and-level flight, such as turns, climbs, descents, or turbulence.",
+    "reference": "FAA-H-8083-25 (Pilot's Handbook), Load Factor"
+  },
+  {
+    "id": "MIKE-FYM-008",
+    "topic": "airport",
+    "subtopic": "hold-short markings",
+    "difficulty": "easy",
+    "question": "At an airport, when approaching a hold-short line consisting of two solid yellow lines (closest to the aircraft) and two dashed yellow lines, the pilot:",
+    "choices": [
+      "A. may continue crossing over.",
+      "B. should not cross the lines without ATC clearance.",
+      "C. should continue taxiing until all parts of the aircraft have crossed the lines."
+    ],
+    "answer": "B",
+    "explanation": "When the two solid lines are on the side closest to the aircraft, the pilot must hold short and not cross without an ATC clearance. The dashed-line side allows exiting the runway without a clearance.",
+    "reference": "AIM 2-3-5; AC 150/5340-1"
+  },
+  {
+    "id": "MIKE-FYM-010",
+    "topic": "regulations",
+    "subtopic": "responsibility for safe condition",
+    "difficulty": "easy",
+    "question": "According to 14 CFR Part 107, the responsibility to inspect the small unmanned aircraft system (sUAS) and ensure it is in a safe operational condition rests with the:",
+    "choices": [
+      "A. visual observer.",
+      "B. owner of the aircraft.",
+      "C. remote pilot in command."
+    ],
+    "answer": "C",
+    "explanation": "Per 14 CFR 107.15 and 107.49, the remote pilot in command is responsible for ensuring the sUAS is in a condition for safe operation before each flight.",
+    "reference": "14 CFR 107.15, 107.49"
+  },
+  {
+    "id": "MIKE-FYM-011",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes - macho",
+    "difficulty": "easy",
+    "question": "Identify the hazardous attitude or characteristic a remote pilot-in-command displays while taking risks in order to impress others.",
+    "choices": [
+      "A. Impulsivity",
+      "B. Invulnerability",
+      "C. Macho"
+    ],
+    "answer": "C",
+    "explanation": "The 'Macho' hazardous attitude is characterized by taking risks to impress others. Its antidote is 'Taking chances is foolish.'",
+    "reference": "FAA-H-8083-2 (Risk Management Handbook); PHAK Ch. 2"
+  },
+  {
+    "id": "MIKE-FYM-013",
+    "topic": "airport",
+    "subtopic": "sectional chart symbols",
+    "difficulty": "easy",
+    "question": "On a VFR sectional chart, what does the letter 'R' enclosed in a circle represent?",
+    "choices": [
+      "A. Remote pilot checkpoint",
+      "B. Refueling facility",
+      "C. Private or restricted airport"
+    ],
+    "answer": "C",
+    "explanation": "The encircled 'R' symbol on a sectional chart denotes a private (non-public-use) or restricted-use airport, per the Chart Supplement / sectional chart legend.",
+    "reference": "FAA Aeronautical Chart Users' Guide"
+  },
+  {
+    "id": "MIKE-FYM-014",
+    "topic": "weather",
+    "subtopic": "stable air characteristics",
+    "difficulty": "medium",
+    "question": "A stable air mass is most likely to have which characteristic?",
+    "choices": [
+      "A. Good visibility",
+      "B. Showery precipitation",
+      "C. Poor visibility"
+    ],
+    "answer": "C",
+    "explanation": "Stable air is characterized by stratiform clouds, steady precipitation, smooth air, and poor visibility (due to accumulated haze, smoke, and moisture trapped near the surface). Unstable air has good visibility.",
+    "reference": "FAA-H-8083-25 Aviation Weather"
+  },
+  {
+    "id": "MIKE-FYM-015",
+    "topic": "adm",
+    "subtopic": "hazardous attitudes - impulsivity",
+    "difficulty": "easy",
+    "question": "You have been hired as a remote pilot in command by a local TV news station to film breaking news with a small unmanned aircraft. You expressed your safety concern and the station manager instructed you to 'fly first, ask questions later.' What type of hazardous attitude does this represent?",
+    "choices": [
+      "A. Impulsivity",
+      "B. Macho",
+      "C. Invulnerability"
+    ],
+    "answer": "A",
+    "explanation": "Impulsivity is the hazardous attitude of feeling the need to do something - anything - immediately, without thinking. 'Fly first, ask questions later' is the textbook example. Antidote: 'Not so fast. Think first.'",
+    "reference": "FAA-H-8083-2; PHAK Ch. 2"
+  },
+  {
+    "id": "MIKE-FYM-016",
+    "topic": "regulations",
+    "subtopic": "accident reporting",
+    "difficulty": "medium",
+    "question": "While operating a small unmanned aircraft system (sUAS), you experience a flyaway and several people suffer injuries. Which one of the following injuries requires reporting to the FAA?",
+    "choices": [
+      "A. An injury treated with an over-the-counter pain reliever and no follow-up care.",
+      "B. A serious injury (e.g., requiring hospitalization for more than 48 hours, or a bone fracture).",
+      "C. A minor scrape treated with a bandage at the scene."
+    ],
+    "answer": "B",
+    "explanation": "Per 14 CFR 107.9, a remote PIC must report any operation that results in serious injury (defined by reference to the Abbreviated Injury Scale Level 3 or higher - typically requiring hospitalization >48 hr, bone fractures, or similar), loss of consciousness, or property damage exceeding $500 to the FAA within 10 calendar days.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "MIKE-FYM-017",
+    "topic": "weather",
+    "subtopic": "unstable air characteristics",
+    "difficulty": "easy",
+    "question": "What is a characteristic of unstable air?",
+    "choices": [
+      "A. Good visibility with showery precipitation",
+      "B. Poor surface visibility with steady precipitation",
+      "C. Poor surface visibility with stratiform clouds"
+    ],
+    "answer": "A",
+    "explanation": "Unstable air is characterized by cumuliform clouds, showery (turbulent) precipitation, rough air, and good visibility.",
+    "reference": "FAA-H-8083-25 Aviation Weather"
+  },
+  {
+    "id": "MIKE-FYM-018",
+    "topic": "night",
+    "subtopic": "anti-collision lighting at civil twilight",
+    "difficulty": "easy",
+    "question": "According to 14 CFR Part 107, what is required to operate a small unmanned aircraft within 30 minutes after sunset?",
+    "choices": [
+      "A. Use of a visual observer.",
+      "B. Anti-collision lights visible for at least 3 statute miles.",
+      "C. ATC authorization."
+    ],
+    "answer": "B",
+    "explanation": "Per 14 CFR 107.29(b), operations during civil twilight (30 minutes before official sunrise to 30 minutes after official sunset) require the small UA to be equipped with anti-collision lighting visible for at least 3 statute miles with a flash rate sufficient to avoid collision.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "MIKE-FYM-020",
+    "topic": "weather",
+    "subtopic": "standard atmosphere",
+    "difficulty": "easy",
+    "question": "What are the standard temperature and pressure values at sea level?",
+    "choices": [
+      "A. 15 degrees C and 29.92 inches Hg",
+      "B. 0 degrees C and 29.92 inches Hg",
+      "C. 59 degrees C and 1013.2 millibars"
+    ],
+    "answer": "A",
+    "explanation": "ICAO/FAA standard atmosphere at sea level is 15 degrees C (59 degrees F) and 29.92 inches of mercury (1013.2 hPa).",
+    "reference": "FAA-H-8083-25; ICAO Standard Atmosphere"
+  },
+  {
+    "id": "MIKE-FYM-021",
+    "topic": "weather",
+    "subtopic": "thunderstorm stages - dissipating",
+    "difficulty": "medium",
+    "question": "During the life cycle of a thunderstorm, which stage is characterized predominantly by downdrafts?",
+    "choices": [
+      "A. Cumulus stage",
+      "B. Mature stage",
+      "C. Dissipating stage"
+    ],
+    "answer": "C",
+    "explanation": "The dissipating stage is dominated by downdrafts as the updrafts collapse. The cumulus stage is dominated by updrafts; the mature stage has both updrafts and downdrafts (and is the most dangerous).",
+    "reference": "AC 00-6 Aviation Weather; FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-FYM-023",
+    "topic": "regulations",
+    "subtopic": "sUAS registration renewal",
+    "difficulty": "easy",
+    "question": "Under Part 107 regulations, how often must a remote pilot renew the registration of an sUAS?",
+    "choices": [
+      "A. Every 12 months",
+      "B. Every 24 months",
+      "C. Every 36 months"
+    ],
+    "answer": "C",
+    "explanation": "A Certificate of Aircraft Registration issued under Part 48 for a small unmanned aircraft operated for any purpose other than exclusively limited recreational operations expires 3 years after the date of issue unless renewed.",
+    "reference": "14 CFR 48.100(c); 14 CFR 48.105(c)"
+  },
+  {
+    "id": "MIKE-FYM-024",
+    "topic": "airspace",
+    "subtopic": "Victor Airways",
+    "difficulty": "medium",
+    "question": "On a sectional chart, what do the light blue lines labeled with 'V' followed by a number represent?",
+    "choices": [
+      "A. Military training routes",
+      "B. Victor airways (low-altitude VOR Federal airways)",
+      "C. Visual flight rules corridors"
+    ],
+    "answer": "B",
+    "explanation": "The light blue lines marked V-XX (e.g., V80) are Victor airways - low-altitude Federal airways based on VOR navigation, used primarily by IFR traffic below 18,000 feet MSL.",
+    "reference": "FAA Aeronautical Chart Users' Guide; AIM 5-3-4"
+  },
+  {
+    "id": "MIKE-FYM-025",
+    "topic": "airspace",
+    "subtopic": "military training routes - IR designation",
+    "difficulty": "medium",
+    "question": "A Military Training Route depicted on a sectional chart as 'IR 678' indicates flights conducted:",
+    "choices": [
+      "A. under VFR, generally at or below 1,500 feet AGL.",
+      "B. under IFR, with at least one segment above 1,500 feet AGL.",
+      "C. under IFR, entirely at or below 1,500 feet AGL."
+    ],
+    "answer": "B",
+    "explanation": "IR means the route is flown under IFR. Under AIM 3-5-2, MTRs with no segment above 1,500 ft AGL have four number characters, while MTRs that include one or more segments above 1,500 ft AGL have three number characters. IR 678 therefore indicates IFR training on an MTR with at least one segment above 1,500 ft AGL.",
+    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide"
+  },
+  {
+    "id": "MIKE-HRP-001",
+    "topic": "regulations",
+    "subtopic": "drone registration weight threshold",
+    "difficulty": "easy",
+    "question": "Which of the following unmanned aircraft requires registration under FAA Part 107?",
+    "choices": [
+      "A. Only drones flown exclusively for recreation that weigh 0.55 lb or less",
+      "B. Only drones that weigh exactly 250 g",
+      "C. Any small unmanned aircraft operated under Part 107, regardless of weight; recreational aircraft over 0.55 lb also must be registered"
+    ],
+    "answer": "C",
+    "explanation": "Part 48 requires registration unless the aircraft is operated exclusively in compliance with 49 U.S.C. 44809 and weighs 0.55 lb or less on takeoff. Part 107 aircraft must be registered under Part 48/47 before operation.",
+    "reference": "14 CFR 48.15; 14 CFR 48.100; 14 CFR 107.13"
+  },
+  {
+    "id": "MIKE-HRP-003",
+    "topic": "regulations",
+    "subtopic": "drone registration validity",
+    "difficulty": "easy",
+    "question": "How long does a drone registration remain valid?",
+    "choices": [
+      "A. 1 year",
+      "B. 3 years",
+      "C. 5 years"
+    ],
+    "answer": "B",
+    "explanation": "A drone registration with the FAA is valid for 3 years. Don't confuse this with a remote pilot certificate (which has its own currency requirements).",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-HRP-004",
+    "topic": "regulations",
+    "subtopic": "Remote ID exceptions",
+    "difficulty": "medium",
+    "question": "Under which operating condition may a small unmanned aircraft be operated without Remote ID?",
+    "choices": [
+      "A. If the operation is being flown within visual line of sight",
+      "B. If the operation is being flown in a FRIA beyond visual line of sight",
+      "C. If the operation is being conducted for aeronautical research or to show compliance with regulations"
+    ],
+    "answer": "C",
+    "explanation": "Under 14 CFR 89.120, the Administrator may authorize operations without Remote ID when the operation is solely for the purpose of aeronautical research or to show compliance with regulations. Visual line of sight is always required regardless, and FRIA operations still require visual line of sight.",
+    "reference": "14 CFR 89.120"
+  },
+  {
+    "id": "MIKE-HRP-006",
+    "topic": "airspace",
+    "subtopic": "Class E floor on sectional chart",
+    "difficulty": "medium",
+    "question": "A shaded magenta boundary on a sectional chart identifies the floor of Class E airspace will begin at:",
+    "choices": [
+      "A. The surface",
+      "B. 700 ft AGL",
+      "C. 1,200 ft MSL"
+    ],
+    "answer": "B",
+    "explanation": "A faded/shaded magenta boundary on a sectional chart indicates that Class E airspace begins at 700 ft AGL. It is referenced AGL because Class G airspace lies directly beneath it, starting at the surface.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class E airspace depictions"
+  },
+  {
+    "id": "MIKE-HRP-007",
+    "topic": "airspace",
+    "subtopic": "Class B floor over Hicks Airport",
+    "difficulty": "medium",
+    "question": "Refer to figure 25, area 4. What is the base altitude of the Class B airspace directly over Hicks Airport (T67)?",
+    "choices": [
+      "A. 4,000 ft AGL",
+      "B. 11,000 ft MSL",
+      "C. 4,000 ft MSL"
+    ],
+    "answer": "C",
+    "explanation": "Class B airspace is always referenced in MSL. The sectional chart shows '110/40' directly over Hicks, meaning a ceiling of 11,000 ft MSL and a floor of 4,000 ft MSL.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class B altitude depictions"
+  },
+  {
+    "id": "MIKE-HRP-008",
+    "topic": "airspace",
+    "subtopic": "airspace classification on sectional",
+    "difficulty": "easy",
+    "question": "Refer to figure 74, area 6. What airspace is Hayward Executive (HWD) in?",
+    "choices": [
+      "A. Class C",
+      "B. Class D",
+      "C. Class E"
+    ],
+    "answer": "B",
+    "explanation": "Hayward Executive (HWD) is surrounded by dashed blue lines on the sectional chart, which indicates Class D airspace.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class D airspace depictions"
+  },
+  {
+    "id": "MIKE-HRP-009",
+    "topic": "airspace",
+    "subtopic": "Class D ceiling",
+    "difficulty": "medium",
+    "question": "What is the ceiling of the Class D airspace at Hayward Executive Airport?",
+    "choices": [
+      "A. 1,500 ft AGL",
+      "B. 1,500 ft MSL",
+      "C. 1,499 ft MSL"
+    ],
+    "answer": "C",
+    "explanation": "The boxed [15] with a minus sign on the sectional chart means Class D extends up to but not including 1,500 ft MSL, so the ceiling is 1,499 ft MSL.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class D ceiling depictions"
+  },
+  {
+    "id": "MIKE-HRP-010",
+    "topic": "airspace",
+    "subtopic": "latitude and longitude on sectional",
+    "difficulty": "medium",
+    "question": "Refer to figure 20, area 3. What are the latitude and longitude coordinates for Elizabeth City Coast Guard Air Station / Regional Airport?",
+    "choices": [
+      "A. North 36 degrees 16 minutes, West 76 degrees 10 minutes",
+      "B. North 37 degrees 16 minutes, West 76 degrees 10 minutes",
+      "C. North 36 degrees 16 minutes, West 77 degrees 10 minutes"
+    ],
+    "answer": "A",
+    "explanation": "Counting down from the 37 degree latitude line to 36 degrees 16 minutes and east from the 76 degree longitude line to 76 degrees 10 minutes places you at the airport.",
+    "reference": "FAA Aeronautical Chart Users Guide, latitude/longitude on VFR charts"
+  },
+  {
+    "id": "MIKE-HRP-011",
+    "topic": "airport",
+    "subtopic": "runway numbering and heading",
+    "difficulty": "easy",
+    "question": "Numbers 9 and 27 on an airport runway indicate that the runway is oriented approximately:",
+    "choices": [
+      "A. 090 degrees and 270 degrees true",
+      "B. 009 degrees and 027 degrees magnetic",
+      "C. 090 degrees and 270 degrees magnetic"
+    ],
+    "answer": "C",
+    "explanation": "Runway numbers correspond to the magnetic heading rounded to the nearest 10 degrees, with the last zero dropped. Runways are labeled to align with magnetic compass headings so pilots can navigate using cockpit instruments.",
+    "reference": "AIM 2-3-3; FAA-H-8083-25, runway numbering"
+  },
+  {
+    "id": "MIKE-HRP-013",
+    "topic": "airport",
+    "subtopic": "airport symbol colors",
+    "difficulty": "easy",
+    "question": "What is the difference between an airport symbol colored blue and an airport symbol colored magenta on a sectional chart?",
+    "choices": [
+      "A. Blue means Class B and magenta means Class C",
+      "B. Blue means bigger airports and magenta means smaller airports",
+      "C. Blue means there is a control tower, magenta means there is no control tower"
+    ],
+    "answer": "C",
+    "explanation": "Airport symbol color on a sectional indicates whether the airport has a control tower. Blue = towered; magenta = non-towered. It does not necessarily reflect the airspace classification.",
+    "reference": "FAA Aeronautical Chart Users Guide, airport symbol colors"
+  },
+  {
+    "id": "MIKE-HRP-016",
+    "topic": "performance",
+    "subtopic": "density altitude effect on propeller",
+    "difficulty": "medium",
+    "question": "What effect does a low density altitude have on the efficiency of an sUAS propeller?",
+    "choices": [
+      "A. Propeller efficiency will be decreased",
+      "B. Propeller efficiency will be increased",
+      "C. Density altitude has no effect on propeller performance"
+    ],
+    "answer": "B",
+    "explanation": "Low density altitude means denser air (more air molecules per unit volume), so the propeller has more air to bite and produces more thrust. Air density is determined by pressure, temperature, and humidity.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, density altitude and propeller performance"
+  },
+  {
+    "id": "MIKE-HRP-017",
+    "topic": "performance",
+    "subtopic": "load factor calculation",
+    "difficulty": "medium",
+    "question": "Refer to figure 2. An aircraft weighs 45 lb. What would the G force be on the aircraft in a 45 degree angle of bank?",
+    "choices": [
+      "A. 45 lb",
+      "B. 90 lb",
+      "C. 63.6 lb"
+    ],
+    "answer": "C",
+    "explanation": "At a 45 degree bank, the load factor is approximately 1.414. Multiplying 45 lb x 1.414 = 63.6 lb of effective load on the aircraft.",
+    "reference": "FAA-H-8083-25 Ch.5 (Aerodynamics) / FAA-CT-8080-2 Figure 2"
+  },
+  {
+    "id": "MIKE-HRP-018",
+    "topic": "regulations",
+    "subtopic": "accident reporting timeline",
+    "difficulty": "easy",
+    "question": "A small UA causes an accident and your crew member loses consciousness. When do you report the accident?",
+    "choices": [
+      "A. 1.0 G (45 lb of load)",
+      "B. 2.0 G (90 lb of load)",
+      "C. 1.414 G (about 63.6 lb of load)"
+    ],
+    "answer": "C",
+    "explanation": "At a 45-degree bank in level flight, load factor is approximately 1.414 G. For a 45-lb aircraft, the equivalent structural load is 45 x 1.414, or about 63.6 lb.",
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, load factor in turns"
+  },
+  {
+    "id": "MIKE-HRP-019",
+    "topic": "regulations",
+    "subtopic": "minimum age to register drone",
+    "difficulty": "easy",
+    "question": "According to 14 CFR Part 48, when can a person register a small UA with the Federal Aviation Administration?",
+    "choices": [
+      "A. 16 years of age",
+      "B. 13 years of age",
+      "C. 18 years of age"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR Part 48, a person must be at least 13 years old to register a small UA. Note that Part 107 remote pilot certification requires a minimum age of 16; do not confuse drone registration age with pilot certification age.",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-HRP-021",
+    "topic": "regulations",
+    "subtopic": "broadcast identification system",
+    "difficulty": "easy",
+    "question": "When operating a small UAS under Part 107, which system is used to comply with the FAA requirement for broadcast identification and location information?",
+    "choices": [
+      "A. ADS-B Out (automatic dependent surveillance-broadcast)",
+      "B. Remote Identification (Remote ID)",
+      "C. ATC radar beacon system transponder (mode C/S)"
+    ],
+    "answer": "B",
+    "explanation": "Remote ID is the system used by Part 107 sUAS to broadcast identification and location, per 14 CFR Part 89. ADS-B Out and transponders are generally not used on Part 107 drones (and would clutter ATC systems); they are used on manned aircraft.",
+    "reference": "14 CFR Part 89; 14 CFR 89.305"
+  },
+  {
+    "id": "MIKE-HRP-022",
+    "topic": "regulations",
+    "subtopic": "property damage reporting threshold",
+    "difficulty": "medium",
+    "question": "While operating under Part 107, your drone causes damage estimated at exactly $500. Are you required to report this incident to the FAA?",
+    "choices": [
+      "A. Yes, because the damage equals the reportable threshold",
+      "B. No, because the damage must be greater than $500",
+      "C. Yes, all property damage must be reported"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.9, only property damage exceeding $500 (to property other than the small UA) must be reported. Damage of exactly $500 falls below the reporting threshold.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "MIKE-HRP-024",
+    "topic": "airspace",
+    "subtopic": "Class C ceiling T symbol",
+    "difficulty": "hard",
+    "question": "Refer to figure 74, area 6. Designations on the sectional show Class C ceiling data with the letter T over a numerical indicator (e.g., T/SFC). What ceiling does the symbol T represent over Metropolitan Oakland International Airport?",
+    "choices": [
+      "A. 2,100 ft MSL",
+      "B. 2,000 ft MSL",
+      "C. 2,099 ft MSL"
+    ],
+    "answer": "C",
+    "explanation": "On a sectional, T means the ceiling extends 'up to but not including' the floor of the overlying airspace. With Class B above at 2,100 ft MSL, the Class C ceiling reaches 2,099 ft MSL.",
+    "reference": "FAA Aeronautical Chart Users Guide, Class C/Class B altitude depictions"
+  },
+  {
+    "id": "MIKE-HRP-026",
+    "topic": "regulations",
+    "subtopic": "Remote ID failure inflight",
+    "difficulty": "easy",
+    "question": "What must a person who is manipulating the controls of a small unmanned aircraft do if the standard Remote Identification fails during flight?",
+    "choices": [
+      "A. Notify ATC and the FAA air traffic facility",
+      "B. Land the aircraft as soon as practically possible",
+      "C. Use GPS for the aircraft's navigation"
+    ],
+    "answer": "B",
+    "explanation": "Remote ID must broadcast at all times during flight. If it fails, the operator must land the aircraft as soon as practicable.",
+    "reference": "14 CFR Part 89"
+  },
+  {
+    "id": "MIKE-HRP-028",
+    "topic": "airport",
+    "subtopic": "downwind heading calculation",
+    "difficulty": "medium",
+    "question": "An aircraft announces left downwind of runway 16. This means that the aircraft is on a heading of:",
+    "choices": [
+      "A. 160 degrees",
+      "B. 250 degrees",
+      "C. 340 degrees"
+    ],
+    "answer": "C",
+    "explanation": "Runway 16 has a landing heading of 160 degrees. Downwind is flown opposite the landing direction, so the aircraft heading is 160 + 180 = 340 degrees.",
+    "reference": "AIM 4-3-3, traffic pattern terminology"
+  },
+  {
+    "id": "MIKE-HRP-029",
+    "topic": "airspace",
+    "subtopic": "altitude for inspection of structure",
+    "difficulty": "medium",
+    "question": "Refer to figure 20, area 1. You are hired to inspect a group of structures under construction six nautical miles south of Norfolk International Airport. What is the highest you are allowed to fly without needing authorization, given the structure reaches 453 ft AGL?",
+    "choices": [
+      "A. 400 ft AGL",
+      "B. 853 ft AGL",
+      "C. 453 ft AGL"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.51, a small UA may fly up to 400 ft above the top of a structure when within a 400 ft radius of that structure. With a structure at 453 ft AGL, the maximum allowable altitude is 453 + 400 = 853 ft AGL.",
+    "reference": "14 CFR 107.51"
+  },
+  {
+    "id": "MIKE-HRP-030",
+    "topic": "airport",
+    "subtopic": "midfield downwind position",
+    "difficulty": "medium",
+    "question": "While monitoring Coopertown CTAF you hear an aircraft announce that they are midfield left downwind of runway 13. Where would the aircraft be relative to the runway?",
+    "choices": [
+      "A. East of the airport",
+      "B. South of the airport",
+      "C. West of the airport"
+    ],
+    "answer": "A",
+    "explanation": "Runway 13 has a landing heading of 130 degrees (southeast). On a left-hand pattern, the downwind leg is flown opposite the landing direction (heading 310 degrees) on the left side of the runway, placing the aircraft northeast/east of the airport.",
+    "reference": "AIM 4-3-3, traffic pattern terminology"
+  },
+  {
+    "id": "MIKE-HRP-031",
+    "topic": "radio",
+    "subtopic": "CTAF frequency identification",
+    "difficulty": "easy",
+    "question": "Refer to figure 76. What is the CTAF frequency at Perry Regional Airport (PIR)?",
+    "choices": [
+      "A. 122.95",
+      "B. 122.7",
+      "C. 122.2"
+    ],
+    "answer": "B",
+    "explanation": "On a sectional chart, the CTAF (Common Traffic Advisory Frequency) is always denoted by a 'C' symbol next to the frequency. At Perry Regional that frequency is 122.7.",
+    "reference": "FAA Aeronautical Chart Users Guide; Chart Supplement U.S., communications data"
+  },
+  {
+    "id": "MIKE-HRP-032",
+    "topic": "airspace",
+    "subtopic": "military training route interpretation",
+    "difficulty": "hard",
+    "question": "Refer to figure 21. What type of military flight operations should a pilot expect along IR-644 in the Devils Lake West MOA?",
+    "choices": [
+      "A. IFR training flights above 1,500 ft AGL at speeds greater than 250 knots",
+      "B. VFR training flights below 1,500 ft AGL at speeds less than 250 knots",
+      "C. IFR training flights below 1,500 ft AGL at speeds less than 250 knots"
+    ],
+    "answer": "A",
+    "explanation": "IR indicates an IFR Military Training Route. Under AIM 3-5-2, MTRs with no segment above 1,500 ft AGL use four number characters; MTRs with one or more segments above 1,500 ft AGL use three number characters. MTRs are generally used for high-speed military training and can create a hazard to sUAS operations near the route.",
+    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide"
+  },
+  {
+    "id": "MIKE-HRP-033",
+    "topic": "regulations",
+    "subtopic": "Remote ID broadcast content",
+    "difficulty": "medium",
+    "question": "What specific information is NOT required to be broadcast by a standard Remote ID drone?",
+    "choices": [
+      "A. The unmanned aircraft identity, consisting of the serial number or a session ID",
+      "B. The unmanned aircraft location, geometric altitude, and velocity",
+      "C. The remote pilot's FAA Part 107 certificate number"
+    ],
+    "answer": "C",
+    "explanation": "Standard Remote ID message elements include aircraft identity (serial number or session ID), control-station location/altitude, unmanned-aircraft location/altitude/velocity, time mark, and emergency status. The remote pilot certificate number is not a required broadcast element.",
+    "reference": "14 CFR 89.305"
+  },
+  {
+    "id": "MIKE-HRP-034",
+    "topic": "regulations",
+    "subtopic": "Remote ID broadcast module timing",
+    "difficulty": "hard",
+    "question": "What performance requirements must the Remote ID broadcast module meet regarding message timing and frequency?",
+    "choices": [
+      "A. Broadcast the full message once every 10 seconds on FM radio",
+      "B. Broadcast at least one Remote ID message per second using a non-proprietary broadcast specification and RF spectrum compatible with personal wireless devices under 47 CFR Part 15",
+      "C. Broadcast Remote ID every 5 seconds on frequency 122.9 MHz"
+    ],
+    "answer": "B",
+    "explanation": "Standard Remote ID and broadcast-module performance rules require broadcast using a non-proprietary specification on RF spectrum compatible with personal wireless devices under 47 CFR Part 15, and require message elements at a rate of at least one message per second.",
+    "reference": "14 CFR 89.310(g), 89.310(h)(5); 14 CFR 89.320(g), 89.320(h)(6)"
+  },
+  {
+    "id": "MIKE-HRP-035",
+    "topic": "regulations",
+    "subtopic": "Remote ID inside a FRIA",
+    "difficulty": "medium",
+    "question": "Which type of Remote ID is permitted for flight inside an FAA-Recognized Identification Area (FRIA)?",
+    "choices": [
+      "A. Standard Remote ID only; broadcast modules are prohibited in a FRIA",
+      "B. Broadcast-module Remote ID only; Standard Remote ID is prohibited in a FRIA",
+      "C. Remote ID is not required if the unmanned aircraft and person manipulating the controls remain within the FRIA and VLOS; Standard Remote ID or a broadcast module may also be used"
+    ],
+    "answer": "C",
+    "explanation": "Part 89 allows operation without Remote ID equipment in a FRIA when the unmanned aircraft and the person manipulating the controls remain within the FRIA boundaries and the person can see the aircraft throughout the operation. A compliant Standard Remote ID aircraft or broadcast-module aircraft is not prohibited from operating there.",
+    "reference": "14 CFR 89.110; 14 CFR 89.115(a), 89.115(b)"
+  },
+  {
+    "id": "MIKE-HRP-036",
+    "topic": "regulations",
+    "subtopic": "Remote ID frequency bands",
+    "difficulty": "medium",
+    "question": "Which frequency bands are Remote ID broadcasts required to use?",
+    "choices": [
+      "A. VHF aviation band (118-137 MHz)",
+      "B. No specific named band; broadcasts must use a non-proprietary specification on RF spectrum compatible with personal wireless devices under 47 CFR Part 15",
+      "C. UHF military band (225-400 MHz)"
+    ],
+    "answer": "B",
+    "explanation": "The Remote ID performance rules specify the type of broadcast specification and spectrum compatibility, not a named aviation frequency band or a single 2.4 GHz requirement.",
+    "reference": "14 CFR 89.310(g); 14 CFR 89.320(g)"
+  },
+  {
+    "id": "MIKE-HRP-037",
+    "topic": "regulations",
+    "subtopic": "FRIA eligibility",
+    "difficulty": "medium",
+    "question": "Under FAA Remote ID regulations, who is eligible to apply for an FAA-Recognized Identification Area (FRIA)?",
+    "choices": [
+      "A. Any individual recreational flyer who owns land suitable for model aircraft flying",
+      "B. FAA-recognized community-based organizations (CBOs) and educational institutions",
+      "C. Commercial drone operators with a valid Part 107 certificate"
+    ],
+    "answer": "B",
+    "explanation": "Only FAA-recognized community-based organizations and educational institutions (including primary and secondary schools, trade schools, and accredited colleges/universities) are eligible to apply to establish a FRIA.",
+    "reference": "14 CFR Part 89"
+  },
+  {
+    "id": "MIKE-RP-001",
+    "topic": "regulations",
+    "subtopic": "Part 107 weight applicability",
+    "difficulty": "easy",
+    "question": "Under 14 CFR Part 107, what is the maximum allowable takeoff weight of a small unmanned aircraft system (sUAS)?",
+    "choices": [
+      "A. Less than 55 pounds",
+      "B. 55 pounds or more",
+      "C. Exactly 55 pounds"
+    ],
+    "answer": "A",
+    "explanation": "Part 107 applies to small unmanned aircraft with a total takeoff weight of less than 55 pounds. A drone weighing exactly 55 pounds or more is not eligible for operation under Part 107 and is regulated under a different rule.",
+    "reference": "14 CFR 107.3"
+  },
+  {
+    "id": "MIKE-RP-002",
+    "topic": "regulations",
+    "subtopic": "Maximum altitude",
+    "difficulty": "easy",
+    "question": "Under Part 107, what is the maximum altitude a small unmanned aircraft may be operated above ground level (AGL) in uncontrolled airspace away from structures?",
+    "choices": [
+      "A. 500 feet AGL",
+      "B. 400 feet AGL",
+      "C. 1,200 feet AGL"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 limits sUAS operations to a maximum altitude of 400 feet AGL. This creates a buffer between drones and manned aircraft and helps the remote pilot maintain visual line of sight.",
+    "reference": "14 CFR 107.51(b)"
+  },
+  {
+    "id": "MIKE-RP-003",
+    "topic": "regulations",
+    "subtopic": "Altitude exception near structures",
+    "difficulty": "medium",
+    "question": "When operating a small unmanned aircraft near a tall structure, how high above the structure may the sUAS be flown under Part 107?",
+    "choices": [
+      "A. No higher than 200 feet above the structure",
+      "B. No higher than 400 feet above the structure's immediate uppermost limit",
+      "C. No higher than 100 feet above the structure"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 allows operation above 400 feet AGL provided the aircraft remains within a 400-foot radius of a structure and does not fly higher than 400 feet above the structure's immediate uppermost limit.",
+    "reference": "14 CFR 107.51(b)(2)"
+  },
+  {
+    "id": "MIKE-RP-004",
+    "topic": "regulations",
+    "subtopic": "Maximum ground speed",
+    "difficulty": "easy",
+    "question": "Under Part 107, what is the maximum allowable ground speed of a small unmanned aircraft?",
+    "choices": [
+      "A. 87 knots (100 mph)",
+      "B. 100 knots (115 mph)",
+      "C. 60 knots (70 mph)"
+    ],
+    "answer": "A",
+    "explanation": "Part 107 limits the ground speed of a small unmanned aircraft to no more than 87 knots (100 mph). A waiver is required to exceed this limit.",
+    "reference": "14 CFR 107.51(a)"
+  },
+  {
+    "id": "MIKE-RP-006",
+    "topic": "weather",
+    "subtopic": "Cloud clearance",
+    "difficulty": "medium",
+    "question": "What is the minimum distance from clouds that must be maintained when operating a small unmanned aircraft under Part 107?",
+    "choices": [
+      "A. 1,000 feet below and 1 statute mile horizontally",
+      "B. 500 feet below and 2,000 feet horizontally",
+      "C. 500 feet above and 1,000 feet horizontally"
+    ],
+    "answer": "B",
+    "explanation": "Under Part 107, a remote pilot must maintain at least 500 feet below clouds and at least 2,000 feet horizontally from clouds.",
+    "reference": "14 CFR 107.51(d)"
+  },
+  {
+    "id": "MIKE-RP-007",
+    "topic": "regulations",
+    "subtopic": "Civil twilight anti-collision lighting",
+    "difficulty": "medium",
+    "question": "During civil twilight operations under Part 107, anti-collision lights on the small unmanned aircraft must be visible for at least how far?",
+    "choices": [
+      "A. 1 statute mile",
+      "B. 3 statute miles",
+      "C. 5 statute miles"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 requires that anti-collision lights used during civil twilight and night operations be visible for at least 3 statute miles and have a flash rate sufficient to avoid a collision.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "MIKE-RP-008",
+    "topic": "regulations",
+    "subtopic": "Accident reporting",
+    "difficulty": "medium",
+    "question": "Following an accident with a small unmanned aircraft, within how many days must the remote pilot in command report the accident to the FAA if it caused serious injury or property damage of at least $500 to repair or replace?",
+    "choices": [
+      "A. Within 24 hours",
+      "B. Within 10 calendar days for serious injury, loss of consciousness, or damage to property other than the small unmanned aircraft exceeding $500",
+      "C. Within 30 days"
+    ],
+    "answer": "B",
+    "explanation": "A report is due no later than 10 calendar days after an operation involving at least serious injury, loss of consciousness, or qualifying damage to property other than the small unmanned aircraft. Property damage is reportable unless repair cost or total-loss fair market value does not exceed $500.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "MIKE-RP-009",
+    "topic": "physiology",
+    "subtopic": "Alcohol bottle-to-throttle",
+    "difficulty": "easy",
+    "question": "Under Part 107, no person may act or attempt to act as a remote pilot in command or visual observer of a small unmanned aircraft within how many hours of consuming alcohol?",
+    "choices": [
+      "A. 4 hours",
+      "B. 8 hours",
+      "C. 12 hours"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 prohibits operating or acting as a crewmember of a small unmanned aircraft within 8 hours after the consumption of any alcoholic beverage.",
+    "reference": "14 CFR 107.27 / 91.17"
+  },
+  {
+    "id": "MIKE-RP-011",
+    "topic": "regulations",
+    "subtopic": "Remote pilot certificate renewal",
+    "difficulty": "easy",
+    "question": "How often must a remote pilot complete recurrent training to maintain currency of their remote pilot certificate?",
+    "choices": [
+      "A. Every 12 calendar months",
+      "B. Every 24 calendar months",
+      "C. Every 36 calendar months"
+    ],
+    "answer": "B",
+    "explanation": "A remote pilot must complete the FAA's online recurrent training every 24 calendar months to remain current.",
+    "reference": "14 CFR 107.65"
+  },
+  {
+    "id": "MIKE-RP-012",
+    "topic": "regulations",
+    "subtopic": "Minimum age",
+    "difficulty": "easy",
+    "question": "What is the minimum age requirement to act as a remote pilot in command under Part 107?",
+    "choices": [
+      "A. 14 years old",
+      "B. 16 years old",
+      "C. 18 years old"
+    ],
+    "answer": "B",
+    "explanation": "A person must be at least 16 years of age to be eligible for a remote pilot certificate and to act as a remote pilot in command.",
+    "reference": "14 CFR 107.61"
+  },
+  {
+    "id": "MIKE-RP-013",
+    "topic": "regulations",
+    "subtopic": "Change of address",
+    "difficulty": "medium",
+    "question": "After a permanent change of address, within how many days must a certificated remote pilot notify the FAA of the new address?",
+    "choices": [
+      "A. Within 14 days",
+      "B. Within 30 days",
+      "C. Within 60 days"
+    ],
+    "answer": "B",
+    "explanation": "A remote pilot must notify the FAA of an address change within 30 days of the move.",
+    "reference": "14 CFR 107.77"
+  },
+  {
+    "id": "MIKE-RP-014",
+    "topic": "regulations",
+    "subtopic": "Exam passing score",
+    "difficulty": "easy",
+    "question": "What minimum score is required to pass the FAA Part 107 Remote Pilot aeronautical knowledge test?",
+    "choices": [
+      "A. 60%",
+      "B. 70%",
+      "C. 80%"
+    ],
+    "answer": "B",
+    "explanation": "The FAA Part 107 knowledge test consists of 60 multiple-choice questions, and a minimum score of 70% is required to pass.",
+    "reference": "FAA Part 107 Airman Certification Standards"
+  },
+  {
+    "id": "MIKE-RP-015",
+    "topic": "airspace",
+    "subtopic": "Class A altitude",
+    "difficulty": "medium",
+    "question": "Class A airspace extends from what altitude up to and including FL600?",
+    "choices": [
+      "A. 10,000 feet MSL",
+      "B. 14,500 feet MSL",
+      "C. 18,000 feet MSL"
+    ],
+    "answer": "C",
+    "explanation": "Class A airspace begins at 18,000 feet MSL and extends up to and including flight level 600 (60,000 feet MSL). Operations in Class A require IFR clearance and are not applicable to Part 107 operations.",
+    "reference": "14 CFR 71 / AIM 3-2-2"
+  },
+  {
+    "id": "MIKE-RP-019",
+    "topic": "airspace",
+    "subtopic": "Controlled airspace authorization",
+    "difficulty": "medium",
+    "question": "What must a remote pilot obtain before operating a small unmanned aircraft in Class B, C, D, or surface-area Class E airspace?",
+    "choices": [
+      "A. Nothing — these airspaces are open to all sUAS operations",
+      "B. ATC authorization (commonly obtained via LAANC or DroneZone)",
+      "C. A separate Part 91 IFR clearance"
+    ],
+    "answer": "B",
+    "explanation": "No person may operate a small unmanned aircraft in Class B, C, D, or the surface area of Class E airspace without prior authorization from Air Traffic Control. This is typically obtained through LAANC or via FAA DroneZone.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "MIKE-RP-020",
+    "topic": "regulations",
+    "subtopic": "Registration validity",
+    "difficulty": "easy",
+    "question": "How long is an FAA small unmanned aircraft registration valid before renewal is required?",
+    "choices": [
+      "A. 1 year",
+      "B. 3 years",
+      "C. 5 years"
+    ],
+    "answer": "B",
+    "explanation": "An FAA small unmanned aircraft registration is valid for 3 years, after which it must be renewed.",
+    "reference": "14 CFR 48.105"
+  },
+  {
+    "id": "MIKE-055-001",
+    "topic": "regulations",
+    "subtopic": "Part 48 registration threshold",
+    "difficulty": "easy",
+    "question": "Under FAA registration rules, a small unmanned aircraft flown strictly for recreational purposes is exempt from registration only if it weighs:",
+    "choices": [
+      "A. 0.55 pounds (250 grams) or less",
+      "B. Less than 1 pound",
+      "C. Less than 55 pounds"
+    ],
+    "answer": "A",
+    "explanation": "Per FAA Part 48 and the recreational flyer rules, a drone flown exclusively for recreation is exempt from registration only if it weighs 0.55 pounds (250 grams) or less. Heavier recreational drones and all drones flown under Part 107 must be registered.",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-055-002",
+    "topic": "regulations",
+    "subtopic": "Commercial registration requirement",
+    "difficulty": "medium",
+    "question": "A remote pilot wants to operate a 0.5-pound drone commercially under Part 107. Must the drone be registered with the FAA?",
+    "choices": [
+      "A. No — drones weighing 0.55 pounds or less are always exempt from registration",
+      "B. Yes — all drones operated under Part 107 must be registered regardless of weight",
+      "C. No — registration is only required for drones weighing more than 1 pound"
+    ],
+    "answer": "B",
+    "explanation": "The weight exemption for registration (0.55 lb or less) applies only to drones flown strictly for recreation. Any drone operated under Part 107 for commercial purposes must be registered regardless of its weight.",
+    "reference": "14 CFR Part 48 / 14 CFR Part 107"
+  },
+  {
+    "id": "MIKE-TRK-001",
+    "topic": "regulations",
+    "subtopic": "right of way vs manned aircraft",
+    "difficulty": "easy",
+    "question": "You are flying your drone near an airport and you notice a manned aircraft approaching your area at a lower altitude than expected. What should you do?",
+    "choices": [
+      "A. Maintain altitude and continue your mission",
+      "B. Descend immediately and yield the right of way",
+      "C. Increase altitude to avoid the conflict"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.37, the remote pilot in command must always yield the right of way to manned aircraft regardless of altitude, and must take immediate action to avoid a conflict.",
+    "reference": "14 CFR 107.37"
+  },
+  {
+    "id": "MIKE-TRK-002",
+    "topic": "crm",
+    "subtopic": "transfer of control between remote pilots",
+    "difficulty": "easy",
+    "question": "You are flying a mission and need to hand over the controls to another certified remote pilot. What must occur?",
+    "choices": [
+      "A. Nothing. Control can be transferred freely",
+      "B. A clear (positive) transfer of control must be established",
+      "C. The drone must land first before transfer"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 requires a positive exchange of control so that both pilots clearly acknowledge who is the responsible remote pilot in command at any given time.",
+    "reference": "14 CFR 107.19; AC 107-2A"
+  },
+  {
+    "id": "MIKE-TRK-003",
+    "topic": "regulations",
+    "subtopic": "ADS-B Out on drones",
+    "difficulty": "medium",
+    "question": "You are flying near a manned aircraft that is broadcasting ADS-B Out signals. What is required of your drone?",
+    "choices": [
+      "A. Your drone must also broadcast ADS-B Out",
+      "B. Your drone must not use ADS-B Out unless otherwise authorized; continue to maintain VLOS, yield right of way, and remain well clear",
+      "C. You must land immediately solely because the aircraft is transmitting ADS-B Out"
+    ],
+    "answer": "B",
+    "explanation": "Small UAS generally may not operate with ADS-B Out equipment unless otherwise authorized by the Administrator. The remote PIC must still yield right of way to other aircraft and remain well clear.",
+    "reference": "14 CFR 107.37; 14 CFR 107.53; 14 CFR 89.125"
+  },
+  {
+    "id": "MIKE-TRK-004",
+    "topic": "weather",
+    "subtopic": "atmospheric stability / smoke indicator",
+    "difficulty": "medium",
+    "question": "While conducting a drone inspection near an industrial facility, you observe a smokestack plume that is rapidly rising, breaking apart, and swirling in multiple directions shortly after exiting the stack. What type of atmospheric condition is most likely present?",
+    "choices": [
+      "A. Stable air with calm wind conditions",
+      "B. Unstable air with possible turbulence",
+      "C. No wind condition with smooth flow"
+    ],
+    "answer": "B",
+    "explanation": "Smoke that rises rapidly, breaks apart, and swirls indicates unstable air with vertical motion and possible turbulence, which can affect drone control.",
+    "reference": "FAA-H-8083-25 (Pilot's Handbook of Aeronautical Knowledge)"
+  },
+  {
+    "id": "MIKE-TRK-005",
+    "topic": "regulations",
+    "subtopic": "right of way - unmanned balloons",
+    "difficulty": "medium",
+    "question": "During flight you encounter an unmanned free balloon. What should you do?",
+    "choices": [
+      "A. Maintain course since it is unmanned",
+      "B. Yield the right of way",
+      "C. Fly above the balloon"
+    ],
+    "answer": "B",
+    "explanation": "Under Part 107, the small UA must yield the right of way to all other aircraft, including unmanned free balloons, which often have hard-to-see cables or instruments hanging beneath them.",
+    "reference": "14 CFR 107.37"
+  },
+  {
+    "id": "MIKE-TRK-006",
+    "topic": "regulations",
+    "subtopic": "remote ID failure",
+    "difficulty": "easy",
+    "question": "In mid-flight your Remote ID system fails. What should you do?",
+    "choices": [
+      "A. Continue with the flight if it appears safe",
+      "B. Land as soon as practicable",
+      "C. Turn off your drone in flight"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR Part 89, Remote ID is required for nearly all operations. If it fails in flight, the remote pilot must land as soon as practicable.",
+    "reference": "14 CFR Part 89"
+  },
+  {
+    "id": "MIKE-TRK-007",
+    "topic": "night",
+    "subtopic": "anti-collision light brightness",
+    "difficulty": "easy",
+    "question": "You are flying at night and your anti-collision lights appear to be too bright for the operating environment. What may you do?",
+    "choices": [
+      "A. Turn the anti-collision lights off",
+      "B. Reduce intensity, but do not extinguish the anti-collision lighting, if the remote PIC determines the reduction is in the interest of safety",
+      "C. Ignore the issue and continue"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 requires anti-collision lighting visible for at least 3 statute miles for night/civil-twilight operations, but the remote PIC may reduce intensity, without extinguishing the lighting, if operating conditions make that reduction in the interest of safety.",
+    "reference": "14 CFR 107.29(a)(2), 107.29(b)"
+  },
+  {
+    "id": "MIKE-TRK-008",
+    "topic": "night",
+    "subtopic": "visual observer at night",
+    "difficulty": "medium",
+    "question": "You are conducting a night flight with a visual observer (VO). Which of the following is required?",
+    "choices": [
+      "A. The VO may maintain visual line of sight using binoculars",
+      "B. The VO may monitor the drone only on a screen if they cannot see it directly",
+      "C. The VO must maintain unaided visual line of sight with the drone at all times"
+    ],
+    "answer": "C",
+    "explanation": "Part 107 requires that the visual observer maintain unaided visual line of sight with the small UA at all times, day or night. Corrective lenses are allowed but binoculars or screens are not.",
+    "reference": "14 CFR 107.31, 107.33"
+  },
+  {
+    "id": "MIKE-TRK-009",
+    "topic": "airspace",
+    "subtopic": "dashed magenta on sectional chart",
+    "difficulty": "easy",
+    "question": "While planning a flight near a small municipal airport, you notice a dashed magenta circle on the sectional chart surrounding the airport. What does this indicate?",
+    "choices": [
+      "A. Class B airspace boundary",
+      "B. Class D airspace boundary",
+      "C. Class E airspace that begins at the surface"
+    ],
+    "answer": "C",
+    "explanation": "A dashed magenta line around an airport on a sectional chart indicates Class E airspace that begins at the surface. ATC (LAANC) authorization is required to operate in this airspace under Part 107.",
+    "reference": "FAA Aeronautical Chart User's Guide"
+  },
+  {
+    "id": "MIKE-TRK-010",
+    "topic": "physiology",
+    "subtopic": "motion parallax",
+    "difficulty": "medium",
+    "question": "During an inspection flight you notice that objects closer to the drone appear to move across your visual field faster than distant objects. What phenomenon are you observing?",
+    "choices": [
+      "A. An optical illusion unrelated to depth perception",
+      "B. Motion parallax, which helps judge relative distance",
+      "C. Standard depth perception that is unaffected by movement"
+    ],
+    "answer": "B",
+    "explanation": "Motion parallax is a visual cue in which nearer objects appear to move faster than distant objects as the observer moves. It is used by pilots to judge relative distance.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-TRK-011",
+    "topic": "physiology",
+    "subtopic": "acute fatigue",
+    "difficulty": "easy",
+    "question": "After pulling an all-nighter to prepare for a flight, you feel extreme tiredness and your reaction time is slowed. What type of fatigue is this?",
+    "choices": [
+      "A. Chronic fatigue",
+      "B. Acute fatigue",
+      "C. Stress reaction"
+    ],
+    "answer": "B",
+    "explanation": "Acute fatigue is short-term tiredness caused by recent lack of sleep or intense effort. It can be addressed by rest before flight.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-TRK-012",
+    "topic": "physiology",
+    "subtopic": "chronic stress",
+    "difficulty": "easy",
+    "question": "You have been under persistent work-related stress for several months that is starting to affect your focus during drone operations. What type of stress is this?",
+    "choices": [
+      "A. Acute stress",
+      "B. Chronic stress",
+      "C. Temporary fatigue"
+    ],
+    "answer": "B",
+    "explanation": "Chronic stress is a long-term condition that negatively affects judgment, focus, and decision-making and must be managed before flight.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-TRK-013",
+    "topic": "regulations",
+    "subtopic": "inadvertent flight over people",
+    "difficulty": "medium",
+    "question": "During a survey flight you realize your drone is flying over a crowd of bystanders for a few seconds. What is your immediate responsibility?",
+    "choices": [
+      "A. Continue the flight briefly since the exposure is minimal",
+      "B. Move the drone immediately to a safe location away from the people",
+      "C. Slowly descend over the crowd to land"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.39, operations over people are limited to the Category 1-4 framework. If the operation is not authorized, the pilot must take immediate action to move the drone away from non-participants.",
+    "reference": "14 CFR 107.39"
+  },
+  {
+    "id": "MIKE-TRK-014",
+    "topic": "regulations",
+    "subtopic": "remote ID broadcast module",
+    "difficulty": "easy",
+    "question": "You are using a drone that does not have built-in (Standard) Remote ID capabilities. What must you do to comply with FAA regulations?",
+    "choices": [
+      "A. Nothing - built-in Remote ID is optional for Part 107 operations",
+      "B. Equip the aircraft with an FAA-accepted Remote ID broadcast module before flight, unless operating wholly inside a FRIA or under another FAA-authorized exception",
+      "C. File for a waiver each time you fly"
+    ],
+    "answer": "B",
+    "explanation": "After September 16, 2023, an unmanned aircraft required to be registered must meet Part 89 Remote ID requirements unless otherwise authorized. A non-Standard Remote ID aircraft may comply with a broadcast module, may operate within a FRIA if all FRIA conditions are met, or may use another authorized exception.",
+    "reference": "14 CFR 89.105; 14 CFR 89.115; 14 CFR 89.120"
+  },
+  {
+    "id": "MIKE-TRK-015",
+    "topic": "regulations",
+    "subtopic": "visual line of sight via screen",
+    "difficulty": "easy",
+    "question": "You are monitoring your drone exclusively through the onboard camera feed on a display screen. Is this compliant with Part 107?",
+    "choices": [
+      "A. Yes, the screen can replace direct visual line of sight",
+      "B. No, the remote pilot or VO must maintain unaided visual line of sight with the aircraft",
+      "C. Yes, if a visual observer is also present"
+    ],
+    "answer": "B",
+    "explanation": "Part 107.31 requires that the aircraft be seen with unaided vision (corrective lenses permitted). Cameras, FPV goggles, and monitors do not satisfy this requirement.",
+    "reference": "14 CFR 107.31"
+  },
+  {
+    "id": "MIKE-TRK-016",
+    "topic": "weather",
+    "subtopic": "cloud clearance",
+    "difficulty": "hard",
+    "question": "You are flying a drone near an industrial site. You are currently at 350 ft AGL and the cloud bases appear to be at 500 ft AGL. Visibility is good. What must you do to comply with Part 107?",
+    "choices": [
+      "A. Continue at your current altitude since you are below the clouds",
+      "B. Maintain at least 500 ft below the clouds even if it requires descending (and you may be unable to fly legally if no altitude provides 500 ft of clearance)",
+      "C. Maintain 500 ft horizontally from the clouds with no vertical requirement"
+    ],
+    "answer": "B",
+    "explanation": "Part 107.51 requires the small UA to remain at least 500 ft below clouds and 2,000 ft horizontally from clouds. If the cloud base is at 500 ft AGL, no flight altitude provides legal vertical clearance.",
+    "reference": "14 CFR 107.51"
+  },
+  {
+    "id": "MIKE-TRK-017",
+    "topic": "regulations",
+    "subtopic": "altitude near a structure",
+    "difficulty": "hard",
+    "question": "You are inspecting a communication tower that rises 550 ft AGL. You position your drone within 200 ft horizontally of the tower and climb to 750 ft AGL to capture imagery. Is this operation compliant with Part 107?",
+    "choices": [
+      "A. No, because the drone may never exceed 400 ft AGL",
+      "B. Yes, because you are within 400 ft of the structure and below its top plus 400 ft",
+      "C. No, because the drone must stay below the height of the structure"
+    ],
+    "answer": "B",
+    "explanation": "Part 107.51(b) allows the drone to fly higher than 400 ft AGL if it remains within a 400-foot radius of a structure and does not exceed 400 ft above the structure's immediate uppermost limit.",
+    "reference": "14 CFR 107.51(b)"
+  },
+  {
+    "id": "MIKE-TRK-018",
+    "topic": "airspace",
+    "subtopic": "Class G operations",
+    "difficulty": "easy",
+    "question": "You are planning a flight in a rural area with no nearby airport. The sectional chart shows Class G airspace at the surface. What must you do before flying?",
+    "choices": [
+      "A. Request ATC authorization",
+      "B. Nothing - authorization is not required in Class G",
+      "C. File a flight plan"
+    ],
+    "answer": "B",
+    "explanation": "Part 107 does not require ATC authorization or a flight plan to operate in uncontrolled (Class G) airspace, provided all other Part 107 rules are met.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "MIKE-TRK-019",
+    "topic": "airspace",
+    "subtopic": "Class E surface authorization",
+    "difficulty": "medium",
+    "question": "You want to fly near a regional airport where the sectional chart shows Class E airspace starting at the surface. You plan to operate at 300 ft AGL. What is required?",
+    "choices": [
+      "A. ATC authorization (e.g., via LAANC) prior to flight",
+      "B. Nothing - you may fly freely below 400 ft",
+      "C. A waiver only if flying at night"
+    ],
+    "answer": "A",
+    "explanation": "Class E airspace that begins at the surface (shown by a dashed magenta line) is controlled airspace, and Part 107 operations require ATC authorization before flight regardless of altitude.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "MIKE-TRK-020",
+    "topic": "notams",
+    "subtopic": "temporary flight restriction",
+    "difficulty": "easy",
+    "question": "While planning an aerial survey, you notice a TFR over a stadium for a major sporting event. Your planned flight path intersects this area. What must you do?",
+    "choices": [
+      "A. Fly under the TFR as long as you remain below 400 ft",
+      "B. Avoid the TFR completely unless specifically authorized",
+      "C. Request permission from ATC after takeoff"
+    ],
+    "answer": "B",
+    "explanation": "TFRs are legally binding airspace restrictions. Drones may not operate within a TFR without specific authorization, regardless of altitude.",
+    "reference": "14 CFR 91.137-91.145; 14 CFR 107.47"
+  },
+  {
+    "id": "MIKE-UNX-001",
+    "topic": "night",
+    "subtopic": "closure rate at night",
+    "difficulty": "medium",
+    "question": "You are flying at night and observe an airplane flying at low altitude in your area. How can you determine whether the aircraft is getting closer or moving farther away?",
+    "choices": [
+      "A. The aircraft will appear to be descending as it moves closer",
+      "B. The lights on the aircraft will increase or decrease in intensity",
+      "C. The aircraft's lights will appear to change colors"
+    ],
+    "answer": "B",
+    "explanation": "At night, closure rate is judged by light intensity. Lights become brighter as an aircraft approaches and dimmer as it moves away.",
+    "reference": "14 CFR 107.29; FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-002",
+    "topic": "regulations",
+    "subtopic": "hot air balloon hazards",
+    "difficulty": "medium",
+    "question": "Why would it be unsafe to operate a small unmanned aircraft in the vicinity of hot air balloons?",
+    "choices": [
+      "A. Balloons may behave unpredictably and may be tethered with cables that are difficult to see",
+      "B. The Coriolis effect distorts drone navigation near balloons",
+      "C. There is no safety concern; balloons are easy to avoid"
+    ],
+    "answer": "A",
+    "explanation": "Hot air balloons and unmanned free balloons are aircraft/airborne hazards to which a small UA must yield and remain well clear. During launch, landing, or tethered operations, balloon movement and tether lines can create hard-to-see hazards, so the remote PIC should keep extra separation.",
+    "reference": "14 CFR 107.37; FAA Balloon Flying Handbook, balloon launch/landing and tethered-operation safety guidance"
+  },
+  {
+    "id": "MIKE-UNX-003",
+    "topic": "crm",
+    "subtopic": "transfer of control",
+    "difficulty": "medium",
+    "question": "Two certified remote pilots want to transfer control of a small UA during active flight. How may this be accomplished?",
+    "choices": [
+      "A. Only one remote pilot in command may have control at a time, and the transfer is accomplished by clearly communicating the exchange while both maintain visual line of sight",
+      "B. Both pilots share control responsibility simultaneously",
+      "C. The aircraft must be landed safely before any transfer of control"
+    ],
+    "answer": "A",
+    "explanation": "Part 107 permits in-flight transfer of control between certified remote pilots so long as one pilot maintains designated RPIC status at all times and both can maintain visual line of sight without loss of control.",
+    "reference": "AC 107-2A, Chapter 5"
+  },
+  {
+    "id": "MIKE-UNX-004",
+    "topic": "regulations",
+    "subtopic": "falsification of reports",
+    "difficulty": "easy",
+    "question": "If a remote PIC intentionally falsifies a required report, the FAA may do what?",
+    "choices": [
+      "A. Issue a verbal warning only",
+      "B. Deny, suspend, revoke, withdraw, or otherwise act against applicable FAA certificates, waivers, authorizations, approvals, or similar privileges, and/or impose a civil penalty",
+      "C. Require remedial training and nothing else"
+    ],
+    "answer": "B",
+    "explanation": "Current FAA falsification rules prohibit fraudulent or intentionally false statements in required records, reports, applications, certificates, authorizations, and similar documents. A violation can support denial, suspension, revocation, withdrawal, or similar FAA action, and civil penalties.",
+    "reference": "14 CFR 3.401; 14 CFR 3.403; 14 CFR 107.5 [reserved]"
+  },
+  {
+    "id": "MIKE-UNX-005",
+    "topic": "physiology",
+    "subtopic": "motion parallax",
+    "difficulty": "easy",
+    "question": "While flying forward, nearby trees appear to move quickly while distant mountains move slowly. This is an example of:",
+    "choices": [
+      "A. Motion parallax",
+      "B. Vection illusion",
+      "C. False horizon"
+    ],
+    "answer": "A",
+    "explanation": "Motion parallax is the visual depth cue in which closer objects appear to move faster than distant objects as the observer moves.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-006",
+    "topic": "adm",
+    "subtopic": "situational awareness",
+    "difficulty": "easy",
+    "question": "A remote PIC correctly identifies all hazards in the operating environment and understands how these hazards could affect the flight outcome. This best describes:",
+    "choices": [
+      "A. Risk management",
+      "B. Aeronautical decision-making",
+      "C. Situational awareness"
+    ],
+    "answer": "C",
+    "explanation": "Situational awareness is the accurate perception of all operational hazards and understanding of how they may affect the safety of the flight.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-007",
+    "topic": "airspace",
+    "subtopic": "Class B authorization",
+    "difficulty": "medium",
+    "question": "A remote pilot plans to operate a small UAS within Class B airspace. Which of the following is required?",
+    "choices": [
+      "A. The drone must be equipped with a Mode C transponder",
+      "B. The remote PIC must obtain ATC authorization before operating in Class B airspace",
+      "C. The drone must broadcast ADS-B Out"
+    ],
+    "answer": "B",
+    "explanation": "Part 107.41 requires ATC authorization (typically via LAANC) for operations in Class B airspace. Drones are generally prohibited from using ATC transponders or ADS-B Out (14 CFR 107.52, 107.53).",
+    "reference": "14 CFR 107.41, 107.52, 107.53"
+  },
+  {
+    "id": "MIKE-UNX-008",
+    "topic": "maintenance",
+    "subtopic": "lithium battery safety",
+    "difficulty": "easy",
+    "question": "What precaution should a remote PIC take to reduce the risk of in-flight emergencies when using lithium-based batteries?",
+    "choices": [
+      "A. Store batteries fully discharged",
+      "B. Use batteries that show signs of swelling",
+      "C. Follow the manufacturer's charging, storage, and temperature guidelines"
+    ],
+    "answer": "C",
+    "explanation": "Improper handling of lithium batteries (fully discharging, using swollen cells, exceeding temperature limits) increases the risk of failure or fire. Following the manufacturer's guidelines is the recommended safe practice.",
+    "reference": "FAA UAS Safety Guidance"
+  },
+  {
+    "id": "MIKE-UNX-009",
+    "topic": "regulations",
+    "subtopic": "recreational altitude limits",
+    "difficulty": "medium",
+    "question": "A recreational drone pilot is flying in Class G airspace near a 600-ft radio tower under 49 USC 44809. Under which condition may the pilot legally fly above 400 ft AGL?",
+    "choices": [
+      "A. When within 400 ft of the tower, just like Part 107 operators",
+      "B. Generally no - 49 USC 44809 limits altitudes to 400 ft AGL in Class G. The Part 107 'within 400 ft of a structure' exception does not apply to recreational flyers under 44809",
+      "C. Only with prior LAANC authorization"
+    ],
+    "answer": "B",
+    "explanation": "Recreational flyers operate under 49 USC 44809 and FAA-recognized CBO safety guidelines, which generally limit flight to 400 ft AGL in Class G. The Part 107 'within 400 ft of a structure' altitude exception (107.51(b)(2)) applies only to Part 107 operators - not to recreational operations under 44809.",
+    "reference": "49 USC 44809; AC 91-57C"
+  },
+  {
+    "id": "MIKE-UNX-010",
+    "topic": "adm",
+    "subtopic": "external pressure",
+    "difficulty": "easy",
+    "question": "Which situation best represents an external pressure affecting a remote pilot's decision-making?",
+    "choices": [
+      "A. Poor weather conditions at the launch site",
+      "B. The desire to complete a paid flight on time to satisfy a client",
+      "C. An equipment malfunction during preflight"
+    ],
+    "answer": "B",
+    "explanation": "External pressures are influences from outside the operation (clients, schedules, financial incentives) that push pilots toward unsafe decisions. Weather and equipment issues are environmental/mechanical hazards, not external pressures.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-011",
+    "topic": "regulations",
+    "subtopic": "registration recreational vs commercial",
+    "difficulty": "medium",
+    "question": "A remote pilot previously registered a small UA for recreational use and now plans to use the same aircraft for paid aerial photography. What action is required before the commercial flight?",
+    "choices": [
+      "A. No action - one registration covers both uses",
+      "B. The aircraft must be re-registered under Part 107 before being used commercially",
+      "C. Only the pilot certification needs to be updated"
+    ],
+    "answer": "B",
+    "explanation": "Recreational registration under Part 48 cannot be used for Part 107 operations. The aircraft must be re-registered under Part 107 at FAA DroneZone before commercial use.",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-UNX-012",
+    "topic": "loading",
+    "subtopic": "center of gravity reference",
+    "difficulty": "easy",
+    "question": "To ensure that the unmanned aircraft's center of gravity (CG) limits are not exceeded, follow the loading instructions specified in which document?",
+    "choices": [
+      "A. The aircraft Pilot's Operating Handbook (POH) or UAS flight manual",
+      "B. FAA Order 8900.1",
+      "C. The sectional chart legend"
+    ],
+    "answer": "A",
+    "explanation": "Manufacturer weight, balance, and CG limits are published in the POH or UAS flight manual provided by the manufacturer. These limits must be followed when loading the aircraft.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-013",
+    "topic": "regulations",
+    "subtopic": "foreign operator commercial ops",
+    "difficulty": "hard",
+    "question": "A non-U.S. citizen visiting the United States plans to conduct a commercial drone operation using an FAA-registered drone. Which statement is correct?",
+    "choices": [
+      "A. The operation is permitted if the drone is FAA-registered and the operator holds an FAA Part 107 remote pilot certificate",
+      "B. The operation is prohibited because only U.S. citizens may operate FAA-registered drones",
+      "C. The operation is permitted only if the drone was manufactured in the United States"
+    ],
+    "answer": "A",
+    "explanation": "The FAA does not restrict drone operations based on citizenship. A non-U.S. citizen may conduct commercial operations in U.S. airspace if the drone is properly FAA-registered and the operator holds a Part 107 remote pilot certificate.",
+    "reference": "14 CFR Part 48; 14 CFR Part 107"
+  },
+  {
+    "id": "MIKE-UNX-014",
+    "topic": "weather",
+    "subtopic": "altimeter setting 29.92",
+    "difficulty": "medium",
+    "question": "When the altimeter setting is adjusted to 29.92 in Hg, what altitude is being displayed?",
+    "choices": [
+      "A. True altitude above ground level",
+      "B. Pressure altitude",
+      "C. Density altitude"
+    ],
+    "answer": "B",
+    "explanation": "Setting the altimeter to the standard pressure of 29.92 in Hg causes it to display pressure altitude (height above the standard datum plane). Density altitude is pressure altitude corrected for non-standard temperature.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-015",
+    "topic": "crm",
+    "subtopic": "communication breakdown",
+    "difficulty": "easy",
+    "question": "During a complex drone operation a visual observer notices another aircraft approaching but hesitates to inform the remote PIC, assuming the pilot already sees it. This best illustrates a breakdown in:",
+    "choices": [
+      "A. Situational awareness",
+      "B. Crew resource management",
+      "C. Aeronautical decision-making"
+    ],
+    "answer": "B",
+    "explanation": "Crew resource management (CRM) is the effective use of all available resources - people, equipment, and information - through clear communication and teamwork. The VO's failure to communicate is a CRM breakdown.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-017",
+    "topic": "physiology",
+    "subtopic": "dehydration",
+    "difficulty": "easy",
+    "question": "As a remote pilot, long extended flights during hot summer temperatures increase the susceptibility to dehydration because:",
+    "choices": [
+      "A. Hot conditions increase the rate of water loss from the body",
+      "B. Hot conditions slow the body's metabolism",
+      "C. Hot conditions reduce the body's oxygen demand"
+    ],
+    "answer": "A",
+    "explanation": "Heat increases sweat production and the rate of fluid loss, leading to dehydration that degrades cognitive and physical performance.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-UNX-018",
+    "topic": "airspace",
+    "subtopic": "LAANC time window",
+    "difficulty": "medium",
+    "question": "A remote pilot receives LAANC authorization for controlled airspace but launches 15 minutes earlier than the approved start time. Which statement is correct?",
+    "choices": [
+      "A. The authorization remains valid as long as altitude limits are followed",
+      "B. The operation is unauthorized because it falls outside the approved time window",
+      "C. Early operations are allowed if ATC is not actively monitoring"
+    ],
+    "answer": "B",
+    "explanation": "ATC authorization for controlled airspace is valid only for the approved location, altitude, date, and time window. Launching before the approved start time is outside the authorization, so the operation is unauthorized under 14 CFR 107.41.",
+    "reference": "14 CFR 107.41; FAA LAANC/DroneZone authorization terms and conditions"
+  },
+  {
+    "id": "MIKE-UNX-019",
+    "topic": "emergency",
+    "subtopic": "deviation reporting",
+    "difficulty": "medium",
+    "question": "During a Part 107 operation the remote PIC deviates from a regulation to avoid an unexpected manned helicopter that enters the operating area. What must the remote PIC do after the flight?",
+    "choices": [
+      "A. Nothing, because emergency authority resolves the situation",
+      "B. Submit a written report to the FAA upon request",
+      "C. Immediately notify ATC after landing"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.21, a remote PIC may deviate from Part 107 to the extent necessary to respond to an in-flight emergency, and must submit a written report to the FAA if requested.",
+    "reference": "14 CFR 107.21"
+  },
+  {
+    "id": "MIKE-UNX-020",
+    "topic": "regulations",
+    "subtopic": "automated flight responsibility",
+    "difficulty": "medium",
+    "question": "A remote pilot launches a Part 107 operation in a manufacturer-provided automated flight mode. The aircraft independently adjusts altitude and briefly exceeds the authorized altitude without pilot input or warning. Who is responsible?",
+    "choices": [
+      "A. The aircraft manufacturer",
+      "B. The remote pilot in command",
+      "C. No one - it was an automation error"
+    ],
+    "answer": "B",
+    "explanation": "Under Part 107 the remote pilot in command is directly responsible for the operation of the small UA at all times, including when automated modes are used. The RPIC must monitor and override automation to remain compliant.",
+    "reference": "14 CFR 107.19, 107.49"
+  },
+  {
+    "id": "MIKE-DIF-001",
+    "topic": "airport",
+    "subtopic": "sectional chart - airport runway color",
+    "difficulty": "easy",
+    "question": "On a sectional chart, an airport symbol depicted in magenta (with a non-hard-surface runway shape) indicates what about the airport?",
+    "choices": [
+      "A. The airport has an operating control tower",
+      "B. The airport is non-towered",
+      "C. The airport is closed to civilian traffic"
+    ],
+    "answer": "B",
+    "explanation": "On sectional charts, airport symbols depicted in magenta indicate non-towered airports, while airports depicted in blue have an operating control tower.",
+    "reference": "FAA Aeronautical Chart User's Guide"
+  },
+  {
+    "id": "MIKE-DIF-002",
+    "topic": "airport",
+    "subtopic": "sectional chart - seaplane base symbol",
+    "difficulty": "easy",
+    "question": "On a sectional chart, what does a magenta anchor symbol represent?",
+    "choices": [
+      "A. A non-towered seaplane base",
+      "B. A military restricted area",
+      "C. An emergency landing zone"
+    ],
+    "answer": "A",
+    "explanation": "An anchor symbol indicates a seaplane base. Magenta coloring indicates the base is non-towered.",
+    "reference": "FAA Aeronautical Chart User's Guide"
+  },
+  {
+    "id": "MIKE-DIF-003",
+    "topic": "airspace",
+    "subtopic": "Class D vertical limit interpretation",
+    "difficulty": "medium",
+    "question": "A Class D airspace shows a boxed '-30' on the sectional chart. What is the highest altitude at which Class D airspace exists at that location?",
+    "choices": [
+      "A. 3,000 ft MSL",
+      "B. 2,999 ft MSL (up to but not including 3,000 ft MSL)",
+      "C. 3,000 ft AGL"
+    ],
+    "answer": "B",
+    "explanation": "A boxed number with a minus sign (e.g., '-30') indicates that the airspace extends up to but not including that altitude in hundreds of feet MSL. So '-30' means up to but not including 3,000 ft MSL.",
+    "reference": "FAA Aeronautical Chart User's Guide"
+  },
+  {
+    "id": "MIKE-DIF-004",
+    "topic": "airspace",
+    "subtopic": "Class E fills gaps",
+    "difficulty": "medium",
+    "question": "Between the top of a Class D airspace (2,999 ft MSL) and the floor of an overlying Class B shelf (4,000 ft MSL), what class of airspace exists?",
+    "choices": [
+      "A. Class G",
+      "B. Class E",
+      "C. Class A"
+    ],
+    "answer": "B",
+    "explanation": "Class E airspace fills the gaps where no other controlled airspace is designated, including vertically between the top of a lower controlled airspace and the floor of an overlying one.",
+    "reference": "FAA-H-8083-25; Aeronautical Chart User's Guide"
+  },
+  {
+    "id": "MIKE-DIF-005",
+    "topic": "airport",
+    "subtopic": "runway numbering convention",
+    "difficulty": "easy",
+    "question": "A runway is aligned so that aircraft landing on it are heading approximately 270 degrees magnetic. What is the runway number?",
+    "choices": [
+      "A. Runway 9",
+      "B. Runway 27",
+      "C. Runway 36"
+    ],
+    "answer": "B",
+    "explanation": "Runway numbers correspond to the magnetic heading of the runway rounded to the nearest 10 degrees, with the trailing zero dropped. 270 degrees becomes Runway 27.",
+    "reference": "FAA-H-8083-25; AIM"
+  },
+  {
+    "id": "MIKE-DIF-006",
+    "topic": "airport",
+    "subtopic": "reciprocal runway numbering",
+    "difficulty": "easy",
+    "question": "If one end of a runway is designated Runway 16, what is the designation of the opposite end?",
+    "choices": [
+      "A. Runway 16",
+      "B. Runway 34",
+      "C. Runway 26"
+    ],
+    "answer": "B",
+    "explanation": "The reciprocal runway is found by adding or subtracting 180 degrees. Runway 16 (160 degrees magnetic) plus 180 degrees = 340 degrees = Runway 34.",
+    "reference": "FAA-H-8083-25; AIM"
+  },
+  {
+    "id": "MIKE-DIF-007",
+    "topic": "airport",
+    "subtopic": "traffic pattern - downwind position",
+    "difficulty": "hard",
+    "question": "An aircraft is reported on the downwind leg for Runway 16 at an airport using a standard left-hand traffic pattern. Where is the aircraft positioned relative to the runway?",
+    "choices": [
+      "A. East of the runway, flying northwest",
+      "B. West of the runway, flying northwest",
+      "C. North of the runway, flying south"
+    ],
+    "answer": "A",
+    "explanation": "On Runway 16 (heading 160 degrees), the downwind leg is the opposite direction (about 340 degrees, northwest). With a standard left-hand pattern, left turns toward the runway place the downwind leg east of the runway.",
+    "reference": "AIM 4-3-3"
+  },
+  {
+    "id": "MIKE-DIF-008",
+    "topic": "regulations",
+    "subtopic": "AGL over rising terrain (mountains)",
+    "difficulty": "medium",
+    "question": "Under Part 107, the 400 ft AGL altitude limit is measured from what reference?",
+    "choices": [
+      "A. The takeoff point's elevation only",
+      "B. Mean sea level (MSL)",
+      "C. The ground (terrain) directly beneath the drone"
+    ],
+    "answer": "C",
+    "explanation": "AGL altitude is measured from the terrain directly beneath the drone. As terrain rises, the legal maximum altitude rises with it. (Note: a mountain is terrain, not a structure, so the '400 ft above a structure' exception does not apply.)",
+    "reference": "14 CFR 107.51"
+  },
+  {
+    "id": "MIKE-DIF-009",
+    "topic": "regulations",
+    "subtopic": "drone registration belongs to owner",
+    "difficulty": "easy",
+    "question": "You sell your registered Part 107 drone to another pilot. What must occur regarding FAA registration?",
+    "choices": [
+      "A. The registration automatically transfers to the new owner with the aircraft",
+      "B. The new owner must register the aircraft under their own FAA account before operating it",
+      "C. Registration only needs to be updated if the new owner flies commercially"
+    ],
+    "answer": "B",
+    "explanation": "FAA drone registration belongs to the owner, not the aircraft. The seller should remove the aircraft from their FAA DroneZone account and the new owner must register it under their own account before flight.",
+    "reference": "14 CFR Part 48"
+  },
+  {
+    "id": "MIKE-DIF-010",
+    "topic": "regulations",
+    "subtopic": "Part 48 update timeframe",
+    "difficulty": "hard",
+    "question": "Within how many days must a small unmanned aircraft registration be updated after the aircraft is destroyed, lost, or transferred?",
+    "choices": [
+      "A. 10 days",
+      "B. 14 days",
+      "C. 30 days"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR Part 48, the registration must be updated within 14 days after the aircraft is destroyed, lost, transferred, or exported, or after a change of ownership.",
+    "reference": "14 CFR 48.115"
+  },
+  {
+    "id": "MIKE-DIF-012",
+    "topic": "adm",
+    "subtopic": "RPIC authority",
+    "difficulty": "easy",
+    "question": "Which of the following actions is within the authority of the remote pilot in command under Part 107?",
+    "choices": [
+      "A. Refuse or terminate a mission for safety reasons, even over client objections",
+      "B. Authorize a non-certified visual observer to take over the controls",
+      "C. Override a TFR to complete a contracted flight"
+    ],
+    "answer": "A",
+    "explanation": "Part 107 gives the RPIC final authority over the safety of the operation. The RPIC may refuse or terminate any flight if conditions, fatigue, or other risks make it unsafe.",
+    "reference": "14 CFR 107.19"
+  },
+  {
+    "id": "MIKE-DIF-013",
+    "topic": "performance",
+    "subtopic": "load factor in turns",
+    "difficulty": "medium",
+    "question": "What happens to load factor and stall speed as an aircraft increases its angle of bank in a level turn?",
+    "choices": [
+      "A. Both load factor and stall speed decrease",
+      "B. Load factor increases and stall speed increases",
+      "C. Load factor increases but stall speed stays the same"
+    ],
+    "answer": "B",
+    "explanation": "As bank angle increases in a level turn, the wings must produce more lift to maintain altitude, increasing the load factor (G-force). Because stall speed is proportional to the square root of the load factor, stall speed also increases.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-DIF-014",
+    "topic": "performance",
+    "subtopic": "1G straight-and-level flight",
+    "difficulty": "easy",
+    "question": "An aircraft in straight-and-level unaccelerated flight is experiencing what load factor?",
+    "choices": [
+      "A. 0 G",
+      "B. 1 G",
+      "C. 2 G"
+    ],
+    "answer": "B",
+    "explanation": "In straight-and-level unaccelerated flight, lift equals weight and the aircraft and occupants experience a load factor of 1 G.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-DIF-015",
+    "topic": "regulations",
+    "subtopic": "Part 107 certificate minimum age",
+    "difficulty": "easy",
+    "question": "What is the minimum age to be issued a Part 107 remote pilot certificate?",
+    "choices": [
+      "A. 14 years",
+      "B. 16 years",
+      "C. 18 years"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.61, an applicant must be at least 16 years old to be issued a remote pilot certificate with a small UAS rating.",
+    "reference": "14 CFR 107.61"
+  },
+  {
+    "id": "MIKE-DIF-016",
+    "topic": "regulations",
+    "subtopic": "knowledge test validity",
+    "difficulty": "medium",
+    "question": "How long does an initial Part 107 aeronautical knowledge test result remain valid for use in applying for a remote pilot certificate?",
+    "choices": [
+      "A. 12 months",
+      "B. 24 months",
+      "C. 36 months"
+    ],
+    "answer": "B",
+    "explanation": "An initial aeronautical knowledge test satisfies Part 107 aeronautical knowledge recency for 24 calendar months. An applicant relying on that test result should complete certification while the result is still within that recency window.",
+    "reference": "14 CFR 107.61; 14 CFR 107.63; 14 CFR 107.65"
+  },
+  {
+    "id": "MIKE-DIF-017",
+    "topic": "weather",
+    "subtopic": "pressure vs density altitude",
+    "difficulty": "medium",
+    "question": "Which statement correctly distinguishes pressure altitude from density altitude?",
+    "choices": [
+      "A. Pressure altitude depends only on atmospheric pressure; density altitude depends on pressure and temperature",
+      "B. Pressure altitude depends only on temperature; density altitude depends only on pressure",
+      "C. They are the same thing under standard conditions only at sea level"
+    ],
+    "answer": "A",
+    "explanation": "Pressure altitude is the height above the standard datum plane (29.92 in Hg). Density altitude is pressure altitude corrected for non-standard temperature, and it changes with temperature even when pressure does not.",
+    "reference": "FAA-H-8083-25"
+  },
+  {
+    "id": "MIKE-DIF-018",
+    "topic": "weather",
+    "subtopic": "cloud clearance and VLOS on mountain",
+    "difficulty": "hard",
+    "question": "You are operating a drone from the top of a mountain. Clouds are present below your launch position. Under Part 107, can you legally fly the drone?",
+    "choices": [
+      "A. Only if you can maintain at least 500 ft below clouds, 2,000 ft horizontally from clouds, and unaided visual line of sight with the aircraft",
+      "B. Yes - cloud clearance does not apply when you are above the clouds",
+      "C. No - you may never legally fly when clouds are present in the operating area"
+    ],
+    "answer": "A",
+    "explanation": "Part 107.51 cloud-clearance requirements (500 ft below, 2,000 ft horizontal) and the visual-line-of-sight requirement of 107.31 apply at all times. If clouds prevent meeting any of these, the flight is not legal.",
+    "reference": "14 CFR 107.31, 107.51"
+  }
+]

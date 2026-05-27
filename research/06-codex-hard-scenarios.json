@@ -1,0 +1,902 @@
+[
+  {
+    "id": "HARD-001",
+    "topic": "scenario",
+    "subtopic": "cross-domain airspace weather night",
+    "difficulty": "hard",
+    "question": "You plan a roof inspection 20 minutes after official sunset from a site inside the dashed blue Class D circle of KXYZ. The LAANC/FAA authorization has not been obtained. The METAR is KXYZ 181955Z 19008KT 4SM BR OVC008 18/17 A2998. If the aircraft has a 3 statute mile anti-collision light, what is the controlling decision?",
+    "choices": [
+      "A. Launch to 400 ft AGL because visibility is above 3 statute miles and the light satisfies civil twilight.",
+      "B. Do not launch until controlled-airspace authorization is obtained; if authorized, remain no higher than 300 ft AGL to stay 500 ft below the 800 ft ceiling.",
+      "C. Launch without authorization but remain below 800 ft because Class D starts at 700 ft AGL when the ceiling is overcast."
+    ],
+    "answer": "B",
+    "explanation": "Class D requires prior ATC authorization under Part 107. The 4 SM visibility meets the minimum, but OVC008 is a ceiling at 800 ft AGL, so 500 ft below clouds limits the operation to 300 ft AGL. Civil twilight also requires anti-collision lighting.",
+    "reference": "14 CFR 107.29, 107.41, 107.51; AC 00-45H METAR cloud and visibility coding"
+  },
+  {
+    "id": "HARD-002",
+    "topic": "scenario",
+    "subtopic": "cross-domain surface class e weather twilight",
+    "difficulty": "hard",
+    "question": "A construction site lies inside a dashed magenta surface Class E area designated for an airport. You want to launch 15 minutes before sunrise. The METAR is KABC 121115Z 00000KT 2 1/2SM BR SCT006 OVC012 09/08 A3012. You have a 3 statute mile strobe but no airspace authorization. What must you do?",
+    "choices": [
+      "A. Launch only below 500 ft AGL because the overcast layer is 1,200 ft AGL.",
+      "B. Launch because surface Class E does not require authorization below 400 ft AGL.",
+      "C. Do not launch; the flight visibility is below 3 statute miles and the surface Class E area also requires authorization."
+    ],
+    "answer": "C",
+    "explanation": "Part 107 requires at least 3 SM flight visibility and prior authorization in the lateral boundaries of Class E surface airspace designated for an airport. The strobe addresses civil twilight lighting only; it does not cure visibility or airspace authorization requirements.",
+    "reference": "14 CFR 107.29, 107.41, 107.51; FAA-G-8082-22 airspace and weather"
+  },
+  {
+    "id": "HARD-003",
+    "topic": "scenario",
+    "subtopic": "cross-domain class c shelf weather altitude",
+    "difficulty": "hard",
+    "question": "A sectional shows a Class C shelf labeled 40/20 over your launch site. The ground elevation is 1,700 ft MSL. You plan to fly at 350 ft AGL during daylight. The METAR is 10SM OVC015 with light winds. Which statement is correct?",
+    "choices": [
+      "A. Prior ATC authorization is required because 350 ft AGL places the aircraft at 2,050 ft MSL, inside the Class C shelf.",
+      "B. No authorization is required because small UAS operations are always measured in AGL, not MSL.",
+      "C. The operation is prohibited solely because OVC015 requires a maximum altitude of 100 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "The shelf starts at 2,000 ft MSL and extends to 4,000 ft MSL. At 1,700 ft MSL terrain plus 350 ft AGL, the aircraft would be in Class C airspace, requiring authorization. OVC015 leaves 1,000 ft below the ceiling when flown at 500 ft below clouds, so weather is not the limiting factor at 350 ft AGL.",
+    "reference": "14 CFR 107.41, 107.51; FAA-G-8082-22 sectional chart airspace notation"
+  },
+  {
+    "id": "HARD-004",
+    "topic": "scenario",
+    "subtopic": "cross-domain class e floor twilight ceiling",
+    "difficulty": "hard",
+    "question": "A magenta shaded vignette surrounds a non-towered airport, indicating Class E begins at 700 ft AGL. You plan a mapping flight at 400 ft AGL, 25 minutes before official sunrise. The METAR is KDEF 141130Z 04004KT 6SM BKN009 11/10 A3005. What is required for this operation from an airspace/weather/night standpoint?",
+    "choices": [
+      "A. ATC authorization is required because all Class E airspace requires authorization under Part 107.",
+      "B. No ATC authorization is required for the 400 ft AGL flight below the 700 ft Class E floor, but civil twilight anti-collision lighting is required and 400 ft AGL is the cloud-clearance limit.",
+      "C. The flight is prohibited because BKN009 always prevents any Part 107 operation below it."
+    ],
+    "answer": "B",
+    "explanation": "A magenta vignette indicates Class E beginning at 700 ft AGL, not a surface area. At 400 ft AGL the operation remains below that floor. BKN009 is a ceiling at 900 ft AGL, so 400 ft AGL is exactly 500 ft below it. Civil twilight requires anti-collision lighting.",
+    "reference": "14 CFR 107.29, 107.41, 107.51; FAA-G-8082-22 chart symbols"
+  },
+  {
+    "id": "HARD-005",
+    "topic": "scenario",
+    "subtopic": "cross-domain mode c veil weather operating limitations",
+    "difficulty": "hard",
+    "question": "Your site is inside the 30 NM Mode C veil of a Class B airport but outside all Class B, C, D, and surface Class E airspace. The METAR at the nearest airport is 10SM OVC006. You want to fly at 400 ft AGL. Which is the best answer?",
+    "choices": [
+      "A. You may fly at 400 ft AGL only if the aircraft has a transponder because the Mode C veil applies.",
+      "B. You do not need ATC authorization solely because of the Mode C veil, but cloud clearance limits the flight to no more than 100 ft AGL.",
+      "C. You may fly at 400 ft AGL because Part 107 cloud clearance is only horizontal, not vertical."
+    ],
+    "answer": "B",
+    "explanation": "The Mode C veil by itself does not create a Part 107 airspace authorization requirement, and Part 107 generally prohibits transponders unless otherwise authorized. With an overcast ceiling at 600 ft AGL, the aircraft must remain at least 500 ft below clouds, limiting altitude to 100 ft AGL.",
+    "reference": "14 CFR 107.41, 107.51, 107.52; FAA-G-8082-22 Mode C veil and weather minimums"
+  },
+  {
+    "id": "HARD-006",
+    "topic": "scenario",
+    "subtopic": "cross-domain class d authorization wind ceiling",
+    "difficulty": "hard",
+    "question": "You have a Class D authorization limiting a job site to 200 ft AGL. The METAR is KJKL 222055Z 22018G30KT 5SM -RA OVC007 16/15 A2989. Your small UAS flight manual lists a maximum demonstrated wind of 25 kt. Which decision is most defensible?",
+    "choices": [
+      "A. Launch because the authorization, 5 SM visibility, and 200 ft AGL cloud clearance satisfy Part 107.",
+      "B. Do not launch because the reported gust exceeds the manufacturer's operating limitation even though the Part 107 visibility, ceiling, and authorization items can be satisfied.",
+      "C. Launch if a visual observer is used because a VO may waive manufacturer wind limitations."
+    ],
+    "answer": "B",
+    "explanation": "The airspace authorization and weather minima are not the only constraints. The remote PIC must determine the aircraft is in a condition for safe operation and account for operating limitations. A 30 kt gust exceeds the listed 25 kt wind limit.",
+    "reference": "14 CFR 107.15, 107.41, 107.49, 107.51; FAA-G-8082-22 preflight and weather"
+  },
+  {
+    "id": "HARD-007",
+    "topic": "scenario",
+    "subtopic": "cross-domain taf thunderstorms visibility",
+    "difficulty": "hard",
+    "question": "A daylight job is in Class G airspace near a non-towered airport. The valid TAF includes TEMPO 2018/2021 2SM TSRA BKN008CB. Your planned flight window is 1900Z to 1930Z. What should the remote PIC conclude?",
+    "choices": [
+      "A. The operation should be delayed because the forecast temporary condition during the planned time includes visibility below 3 SM and thunderstorms.",
+      "B. The operation is legal because TEMPO groups are not used for Part 107 weather decisions.",
+      "C. The operation is legal if the aircraft remains below 300 ft AGL because BKN008CB is above the aircraft."
+    ],
+    "answer": "A",
+    "explanation": "The TEMPO group applies to the planned window and forecasts 2 SM visibility, below the Part 107 minimum. The cumulonimbus/thunderstorm forecast is also an important safety-of-flight factor.",
+    "reference": "14 CFR 107.49, 107.51; AC 00-45H TAF TEMPO and thunderstorm coding"
+  },
+  {
+    "id": "HARD-008",
+    "topic": "scenario",
+    "subtopic": "cross-domain class b shelf civil twilight",
+    "difficulty": "hard",
+    "question": "Sunset is 1900 local. At 1920 you plan to fly in Class G airspace underneath a Class B shelf labeled 100/30. Terrain is 650 ft MSL, planned altitude is 400 ft AGL, and the METAR is 5SM BKN012. What is the correct conclusion?",
+    "choices": [
+      "A. Class B authorization is required because the site is laterally under the shelf.",
+      "B. Class B authorization is not required if the aircraft remains below the 3,000 ft MSL shelf floor, but anti-collision lighting is required during civil twilight.",
+      "C. The operation is prohibited because BKN012 limits the aircraft to 200 ft AGL."
+    ],
+    "answer": "B",
+    "explanation": "At 400 ft AGL over 650 ft MSL terrain, the aircraft is about 1,050 ft MSL, well below the 3,000 ft MSL floor of the Class B shelf. BKN012 gives a 1,200 ft AGL ceiling, so 400 ft AGL remains more than 500 ft below clouds. At 20 minutes after sunset, civil twilight anti-collision lighting is required.",
+    "reference": "14 CFR 107.29, 107.41, 107.51; FAA-G-8082-22 Class B shelf notation"
+  },
+  {
+    "id": "HARD-009",
+    "topic": "scenario",
+    "subtopic": "remote id standard uas broadcast loss",
+    "difficulty": "hard",
+    "question": "During a paid roof inspection, a standard Remote ID UAS displays a warning that its Remote ID broadcast has stopped. The control link, GPS, and camera still work normally. What must the person manipulating the controls do?",
+    "choices": [
+      "A. Continue the mission because the aircraft is still controllable and the internet flight log can be uploaded afterward.",
+      "B. Land the unmanned aircraft as soon as practicable because a standard Remote ID UAS must broadcast from takeoff to shutdown.",
+      "C. Continue only if operating below 400 ft AGL because Remote ID is not required at low altitude."
+    ],
+    "answer": "B",
+    "explanation": "A standard Remote ID unmanned aircraft must broadcast the required message elements from takeoff to shutdown. If it is no longer broadcasting, the person manipulating the controls must land as soon as practicable.",
+    "reference": "14 CFR 89.105, 89.110"
+  },
+  {
+    "id": "HARD-010",
+    "topic": "scenario",
+    "subtopic": "remote id broadcast module requirements",
+    "difficulty": "hard",
+    "question": "You retrofit an older registered small UAS with an FAA-accepted Remote ID broadcast module for a Part 107 job. Which operating condition is required when using the module method?",
+    "choices": [
+      "A. The aircraft may be flown beyond visual line of sight if the module has cellular service.",
+      "B. The person manipulating the controls must be able to see the unmanned aircraft at all times, and the module must broadcast from the aircraft from takeoff to shutdown.",
+      "C. The module may remain at the control station because it broadcasts the takeoff location."
+    ],
+    "answer": "B",
+    "explanation": "The broadcast module alternative requires the module to be installed on the aircraft, functioning before takeoff, broadcasting from takeoff to shutdown, and the person manipulating the controls must maintain visual line of sight throughout the operation.",
+    "reference": "14 CFR 89.115(a), 89.315, 89.320"
+  },
+  {
+    "id": "HARD-011",
+    "topic": "scenario",
+    "subtopic": "remote id broadcast not network",
+    "difficulty": "hard",
+    "question": "A client says the job site has no LTE or Wi-Fi internet coverage, so a standard Remote ID drone cannot legally fly there. The drone's Remote ID system is functional. Which response is correct?",
+    "choices": [
+      "A. Remote ID compliance is based on required broadcast, not a network upload, so lack of internet coverage alone does not prevent the operation.",
+      "B. Remote ID requires continuous network connectivity to the FAA during every Part 107 flight.",
+      "C. Remote ID is optional whenever the control station is outside internet coverage."
+    ],
+    "answer": "A",
+    "explanation": "Remote ID under Part 89 is a broadcast requirement. A standard Remote ID UAS must broadcast required message elements directly; Part 89 does not require a continuous network connection to the FAA for ordinary compliance.",
+    "reference": "14 CFR 89.105, 89.110, 89.305"
+  },
+  {
+    "id": "HARD-012",
+    "topic": "scenario",
+    "subtopic": "remote id registration edge case",
+    "difficulty": "hard",
+    "question": "A remote pilot wants to use a 240 gram aircraft for paid real estate photos and argues that aircraft under 0.55 lb do not need registration or Remote ID. Which statement is correct for the Part 107 operation?",
+    "choices": [
+      "A. Under Part 107 the aircraft must be registered, and aircraft that are registered or required to be registered must comply with Remote ID unless an allowed exception applies.",
+      "B. Remote ID never applies to aircraft under 0.55 lb, regardless of operation type.",
+      "C. Registration is optional for Part 107 aircraft if they qualify for Category 1 operations over people."
+    ],
+    "answer": "A",
+    "explanation": "The under-0.55-lb recreational registration exception does not remove Part 107 registration requirements. Remote ID applies to unmanned aircraft registered or required to be registered, unless operating under an allowed Part 89 exception such as within a FRIA.",
+    "reference": "14 CFR 107.13; 14 CFR 89.101, 89.105, 89.115"
+  },
+  {
+    "id": "HARD-013",
+    "topic": "scenario",
+    "subtopic": "remote id fria operations",
+    "difficulty": "hard",
+    "question": "A legacy registered UAS has no Remote ID equipment. The proposed Part 107 training flight will remain entirely inside an FAA-recognized identification area, and both the aircraft and the person manipulating the controls will remain within the FRIA boundaries with visual line of sight. Which Remote ID answer is correct?",
+    "choices": [
+      "A. The flight can satisfy the Part 89 alternative for operations at a FRIA if all FRIA boundary and visual-line-of-sight conditions are met.",
+      "B. The flight is illegal because FRIAs can never be used by registered aircraft.",
+      "C. The flight is legal only if the pilot also broadcasts ADS-B Out from the UAS."
+    ],
+    "answer": "A",
+    "explanation": "Part 89 allows unmanned aircraft without Remote ID equipment to operate at a FRIA when the aircraft and person manipulating the controls remain within the boundaries and the aircraft remains visible throughout the operation. ADS-B Out is not an acceptable Remote ID substitute.",
+    "reference": "14 CFR 89.115(b), 89.125"
+  },
+  {
+    "id": "HARD-014",
+    "topic": "scenario",
+    "subtopic": "remote id broadcast module bvlos",
+    "difficulty": "hard",
+    "question": "An operator has a Part 107 waiver for a limited beyond-visual-line-of-sight inspection route. The aircraft is not a standard Remote ID UAS and uses a broadcast module for Remote ID. No Part 89 authorization is held. What is the Remote ID issue?",
+    "choices": [
+      "A. A Part 107 BVLOS waiver automatically waives the Remote ID broadcast-module visual-line-of-sight requirement.",
+      "B. The broadcast module alternative requires the person manipulating the controls to be able to see the aircraft at all times unless otherwise authorized, so the Remote ID method is not sufficient for the BVLOS route as described.",
+      "C. Remote ID is not required for any operation conducted under a Part 107 waiver."
+    ],
+    "answer": "B",
+    "explanation": "The broadcast module alternative includes its own visual-line-of-sight condition in Part 89. A Part 107 waiver does not by itself waive Part 89 operating requirements.",
+    "reference": "14 CFR 89.105, 89.115(a); 14 CFR 107.200"
+  },
+  {
+    "id": "HARD-015",
+    "topic": "scenario",
+    "subtopic": "remote id open-air assembly category 1",
+    "difficulty": "hard",
+    "question": "A 0.52 lb aircraft with protected rotors is used under Part 107 to hover for several minutes over an outdoor concert crowd. The aircraft otherwise meets Category 1 requirements, but it has no Remote ID compliance. What is the correct conclusion?",
+    "choices": [
+      "A. Category 1 aircraft may conduct sustained flight over open-air assemblies without Remote ID because they weigh less than 0.55 lb.",
+      "B. Sustained flight over an open-air assembly under Category 1 requires compliance with standard Remote ID or the broadcast-module alternative.",
+      "C. Remote ID is required only for Category 2 and Category 3 operations over people."
+    ],
+    "answer": "B",
+    "explanation": "For Category 1 operations, sustained flight over open-air assemblies of human beings requires compliance with the cited Remote ID operating requirements. Weight alone does not remove that condition for a Part 107 operation.",
+    "reference": "14 CFR 107.110(b); 14 CFR 89.110, 89.115(a)"
+  },
+  {
+    "id": "HARD-016",
+    "topic": "scenario",
+    "subtopic": "operations over people category 1 edge",
+    "difficulty": "hard",
+    "question": "A study note says Category 1 equals less than 0.8 ft-lb of kinetic energy. You are applying current Part 107 to a 0.54 lb aircraft with prop guards and no exposed rotating parts that would lacerate skin. What is the defensible Category 1 analysis?",
+    "choices": [
+      "A. Current Part 107 Category 1 is based on 0.55 lb or less throughout the operation and no exposed lacerating rotating parts, not a remote pilot's self-calculated 0.8 ft-lb test.",
+      "B. The remote pilot may qualify any aircraft as Category 1 by calculating less than 0.8 ft-lb at the planned cruise speed.",
+      "C. Category 1 requires an FAA-accepted declaration of compliance showing 11 ft-lb or less impact energy."
+    ],
+    "answer": "A",
+    "explanation": "Current 14 CFR 107.110 states the Category 1 requirements as weight of 0.55 lb or less, including everything attached, throughout the operation, and no exposed rotating parts that would lacerate human skin. The 11 ft-lb declaration framework belongs to Category 2.",
+    "reference": "14 CFR 107.110, 107.120"
+  },
+  {
+    "id": "HARD-017",
+    "topic": "scenario",
+    "subtopic": "operations over people category 2 kinetic energy",
+    "difficulty": "hard",
+    "question": "A manufacturer test report for a 1.5 lb aircraft shows an impact speed of 20 ft/s in the declared configuration. Using KE = W x V^2 / 64.3, the impact energy is about 9.3 ft-lb. What does that mean for Category 2 operations over people?",
+    "choices": [
+      "A. The energy screen is below the 11 ft-lb Category 2 threshold, but Category 2 still requires no exposed lacerating parts, no safety defects, labeling, and an FAA-accepted declaration of compliance.",
+      "B. The aircraft automatically qualifies for Category 2 because the remote pilot calculated less than 11 ft-lb.",
+      "C. The aircraft cannot qualify for Category 2 because every aircraft over 0.55 lb must have an airworthiness certificate."
+    ],
+    "answer": "A",
+    "explanation": "9.3 ft-lb is below the 11 ft-lb Category 2 injury-severity threshold, but the regulation requires manufacturer/applicant compliance steps, labeling, instructions, no lacerating exposed rotating parts, no safety defects, and an FAA-accepted declaration of compliance.",
+    "reference": "14 CFR 107.115, 107.120, 107.135, 107.160"
+  },
+  {
+    "id": "HARD-018",
+    "topic": "scenario",
+    "subtopic": "operations over people category 3 kinetic energy",
+    "difficulty": "hard",
+    "question": "A 3.0 lb small UAS has a measured impact speed of 16 ft/s in its parachute configuration. Using KE = W x V^2 / 64.3, the impact energy is about 11.9 ft-lb. Which category analysis is correct?",
+    "choices": [
+      "A. It can be Category 2 because 11.9 is close enough to 11 ft-lb for operational judgment.",
+      "B. It fails the Category 2 energy threshold but may satisfy the Category 3 energy threshold if all other Category 3 eligibility, declaration, labeling, and operating restrictions are met.",
+      "C. It automatically qualifies for Category 4 because the energy is below 25 ft-lb."
+    ],
+    "answer": "B",
+    "explanation": "11.9 ft-lb exceeds the 11 ft-lb Category 2 threshold but is below the 25 ft-lb Category 3 threshold. Category 3 still requires compliance through an accepted means/declaration and is subject to operating restrictions, including no open-air assemblies.",
+    "reference": "14 CFR 107.120, 107.125, 107.130, 107.160"
+  },
+  {
+    "id": "HARD-019",
+    "topic": "scenario",
+    "subtopic": "operations over people category 2 3 energy failure",
+    "difficulty": "hard",
+    "question": "A 4.0 lb aircraft in its emergency descent configuration impacts at 21 ft/s. Using KE = W x V^2 / 64.3, the energy is about 27.4 ft-lb. Which conclusion is most accurate for operations over people without a waiver?",
+    "choices": [
+      "A. It exceeds the Category 2 and Category 3 energy thresholds, so it cannot use those categories based on this configuration; it would need another qualifying category such as Category 4 or avoid operations over people.",
+      "B. It qualifies for Category 3 because Category 3 allows up to 30 ft-lb.",
+      "C. It qualifies for Category 2 if the remote pilot warns people before flying overhead."
+    ],
+    "answer": "A",
+    "explanation": "Category 2 uses an 11 ft-lb injury-severity threshold and Category 3 uses 25 ft-lb. A 27.4 ft-lb impact exceeds both. Notice to people does not convert a nonqualified aircraft into Category 2 or 3.",
+    "reference": "14 CFR 107.120, 107.130, 107.140"
+  },
+  {
+    "id": "HARD-020",
+    "topic": "scenario",
+    "subtopic": "operations over people category 3 restrictions",
+    "difficulty": "hard",
+    "question": "A Category 3 labeled and FAA-declared aircraft will be used over a construction site. The site is fenced, access is controlled, and all workers have been told small UAS may fly overhead. Which operation is allowed under Category 3?",
+    "choices": [
+      "A. Sustained flight over a public sidewalk outside the fence because the aircraft is Category 3.",
+      "B. Flight over workers within the closed or restricted-access site after notice, while complying with all other Part 107 rules.",
+      "C. Sustained flight over an open-air concert next door because the aircraft is below the 25 ft-lb threshold."
+    ],
+    "answer": "B",
+    "explanation": "Category 3 permits operations over people in a closed or restricted-access site if everyone inside is on notice. Category 3 does not allow operations over open-air assemblies, and sustained flight over nonparticipants outside the site is not covered.",
+    "reference": "14 CFR 107.125, 107.130"
+  },
+  {
+    "id": "HARD-021",
+    "topic": "scenario",
+    "subtopic": "operations over people open-air assemblies",
+    "difficulty": "hard",
+    "question": "A Category 2 aircraft has an FAA-accepted declaration of compliance, the required label, no exposed lacerating rotating parts, and standard Remote ID. The plan is sustained flight over an outdoor festival crowd. Which statement is correct?",
+    "choices": [
+      "A. Category 2 may be used for sustained flight over an open-air assembly only when the operation also meets the Remote ID requirements cited in Part 107.",
+      "B. Category 2 can never be used over an open-air assembly under any circumstances.",
+      "C. Remote ID is unnecessary because the aircraft has a Category 2 declaration."
+    ],
+    "answer": "A",
+    "explanation": "Category 2 operations over people require the aircraft to meet Category 2 requirements, and sustained flight over open-air assemblies requires compliance with the specified Remote ID operating requirements.",
+    "reference": "14 CFR 107.115, 107.120; 14 CFR 89.110, 89.115(a)"
+  },
+  {
+    "id": "HARD-022",
+    "topic": "scenario",
+    "subtopic": "operations over people category 4 airworthiness",
+    "difficulty": "hard",
+    "question": "A small unmanned aircraft has a special airworthiness certificate issued under Part 21. Its FAA-approved operating limitations state, 'Operations over human beings are prohibited.' Can the remote PIC use Category 4 to fly over people?",
+    "choices": [
+      "A. Yes, any Part 21 airworthiness certificate is enough for Category 4 operations over people.",
+      "B. No, Category 4 also requires operation in accordance with the operating limitations, and those limitations must not prohibit operations over human beings.",
+      "C. Yes, if the aircraft broadcasts Remote ID and remains below 100 ft AGL."
+    ],
+    "answer": "B",
+    "explanation": "Category 4 requires an airworthiness certificate and compliance with operating limitations specified by the Administrator. The limitations must not prohibit operations over human beings.",
+    "reference": "14 CFR 107.140"
+  },
+  {
+    "id": "HARD-023",
+    "topic": "scenario",
+    "subtopic": "operations over people category 1 attached equipment",
+    "difficulty": "hard",
+    "question": "A 0.54 lb Category 1 aircraft needs a strobe for a civil twilight flight over people. The strobe brings takeoff weight to 0.57 lb. The rotors remain guarded. What is the Category 1 consequence?",
+    "choices": [
+      "A. It remains Category 1 because the aircraft alone is under 0.55 lb.",
+      "B. It no longer qualifies for Category 1 because the 0.55 lb limit includes everything on board or otherwise attached throughout the operation.",
+      "C. It becomes Category 2 automatically because the added strobe is safety equipment."
+    ],
+    "answer": "B",
+    "explanation": "Category 1 weight includes everything on board or otherwise attached at takeoff and throughout the operation. Exceeding 0.55 lb removes Category 1 eligibility unless another category or waiver applies.",
+    "reference": "14 CFR 107.110; 14 CFR 107.29"
+  },
+  {
+    "id": "HARD-024",
+    "topic": "scenario",
+    "subtopic": "night operations anti-collision lighting",
+    "difficulty": "hard",
+    "question": "A flight is scheduled 45 minutes after official sunset. The aircraft has steady red and green position lights visible for 3 statute miles but no flashing anti-collision light. The remote pilot has current night training. Is the operation compliant with Part 107 night requirements?",
+    "choices": [
+      "A. Yes, any lights visible for 3 statute miles meet the requirement.",
+      "B. No, the aircraft must have lighted anti-collision lighting visible for at least 3 statute miles with a flash rate sufficient to avoid a collision.",
+      "C. Yes, because anti-collision lighting is required only during civil twilight, not at night."
+    ],
+    "answer": "B",
+    "explanation": "Night operations require the applicable knowledge/training and anti-collision lighting visible for at least 3 SM with a flash rate sufficient to avoid collision. Steady position lights do not satisfy the flash-rate requirement by themselves.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "HARD-025",
+    "topic": "scenario",
+    "subtopic": "night operations lighting failure",
+    "difficulty": "hard",
+    "question": "During civil twilight, your required anti-collision light fails while the aircraft is 250 ft AGL over an empty field. What is the best Part 107 response?",
+    "choices": [
+      "A. Continue the mission because the light was working at takeoff.",
+      "B. Safely terminate the operation as soon as practicable because the required anti-collision light may be dimmed for safety but may not be extinguished.",
+      "C. Continue if the aircraft's camera light remains on."
+    ],
+    "answer": "B",
+    "explanation": "Part 107 allows reducing anti-collision light intensity when safety warrants, but not extinguishing it. If the required light fails during civil twilight or night, continuing the planned mission would not meet the lighting requirement.",
+    "reference": "14 CFR 107.29(b)"
+  },
+  {
+    "id": "HARD-026",
+    "topic": "scenario",
+    "subtopic": "night operations visibility exact minimum",
+    "difficulty": "hard",
+    "question": "At night, the METAR reports 3SM BR OVC010. Your aircraft has a compliant strobe, and the remote PIC has completed the required updated training. You plan to fly at 400 ft AGL in Class G. From the weather minima standpoint, which is correct?",
+    "choices": [
+      "A. The reported visibility meets the 3 statute mile minimum, and 400 ft AGL is 600 ft below the 1,000 ft ceiling.",
+      "B. The flight is illegal because Part 107 requires more than 3 statute miles visibility.",
+      "C. The flight is illegal because night operations require 5 statute miles visibility."
+    ],
+    "answer": "A",
+    "explanation": "Part 107 requires flight visibility of no less than 3 statute miles. OVC010 gives a 1,000 ft AGL ceiling, so 400 ft AGL remains at least 500 ft below clouds.",
+    "reference": "14 CFR 107.29, 107.51"
+  },
+  {
+    "id": "HARD-027",
+    "topic": "scenario",
+    "subtopic": "night operations recurrent training",
+    "difficulty": "hard",
+    "question": "A certificated remote pilot last completed recurrent training in 2020 and holds an old night waiver issued before the 2021 rule changes. The pilot wants to fly tonight with a compliant strobe. What is the regulatory issue?",
+    "choices": [
+      "A. The pilot must have completed the applicable initial test or training under 107.65 after April 6, 2021; old night waivers do not replace the current 107.29 requirement.",
+      "B. The pilot may fly because any recurrent training never expires for night operations.",
+      "C. The pilot may fly because a strobe is the only night requirement under Part 107."
+    ],
+    "answer": "A",
+    "explanation": "Current Part 107 night operations require the remote PIC to have completed the applicable initial knowledge test or training under 107.65 after April 6, 2021, and to use compliant anti-collision lighting. Waivers issued under the former night rule do not replace this requirement because 107.29(d) terminated qualifying pre-2021 107.29 waivers after May 17, 2021.",
+    "reference": "14 CFR 107.29(a)(1), 107.29(d), 107.65"
+  },
+  {
+    "id": "HARD-028",
+    "topic": "scenario",
+    "subtopic": "night operations alaska civil twilight",
+    "difficulty": "hard",
+    "question": "You are planning a Part 107 operation in Alaska around sunrise. Which civil twilight rule should you use to decide when anti-collision lighting is required?",
+    "choices": [
+      "A. Always use exactly 30 minutes before sunrise and 30 minutes after sunset, including Alaska.",
+      "B. In Alaska, use the period of civil twilight as defined in the Air Almanac.",
+      "C. Alaska has no civil twilight rule for Part 107."
+    ],
+    "answer": "B",
+    "explanation": "For most locations, Part 107 defines civil twilight as 30 minutes before sunrise and 30 minutes after sunset. In Alaska, civil twilight is the period defined in the Air Almanac.",
+    "reference": "14 CFR 107.29(c)"
+  },
+  {
+    "id": "HARD-029",
+    "topic": "scenario",
+    "subtopic": "accident reporting damage to uas only",
+    "difficulty": "hard",
+    "question": "A small UAS hits a tree during a mapping job and destroys the aircraft and onboard camera. No person is injured and no property other than the small UAS is damaged. The loss is $2,000. Is a Part 107 safety event report required?",
+    "choices": [
+      "A. Yes, because any damage over $500 must be reported.",
+      "B. No, the property-damage reporting threshold excludes damage to the small unmanned aircraft itself.",
+      "C. Yes, but only if the aircraft was registered."
+    ],
+    "answer": "B",
+    "explanation": "Part 107.9 requires reporting for serious injury, loss of consciousness, or qualifying damage to property other than the small unmanned aircraft. Damage only to the UAS does not trigger the property-damage report.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "HARD-030",
+    "topic": "scenario",
+    "subtopic": "accident reporting loss of consciousness",
+    "difficulty": "hard",
+    "question": "A drone strikes a parked car windshield, causing $480 in repair cost. A bystander faints and briefly loses consciousness after being startled, but has no lasting injury. What is required under 107.9?",
+    "choices": [
+      "A. A report is required within 10 calendar days because the operation involved loss of consciousness.",
+      "B. No report is required because property damage did not exceed $500.",
+      "C. No report is required unless the bystander files an insurance claim."
+    ],
+    "answer": "A",
+    "explanation": "Loss of consciousness independently triggers the Part 107.9 reporting requirement. The property damage amount does not remove the obligation created by the loss of consciousness.",
+    "reference": "14 CFR 107.9(a)"
+  },
+  {
+    "id": "HARD-031",
+    "topic": "scenario",
+    "subtopic": "accident reporting total loss fair market value",
+    "difficulty": "hard",
+    "question": "A small UAS destroys a third-party survey target. The target is a total loss. Its fair market value immediately before the accident was $450, although buying a new replacement would cost $700. No one is injured. Is a Part 107.9 report required based on property damage?",
+    "choices": [
+      "A. No, for total loss the reporting exception applies when fair market value does not exceed $500.",
+      "B. Yes, because replacement cost exceeds $500.",
+      "C. Yes, because any damage to third-party property is reportable."
+    ],
+    "answer": "A",
+    "explanation": "For total loss, Part 107.9 looks to whether the fair market value of the property exceeds $500. A $450 fair market value does not trigger the property-damage report by itself.",
+    "reference": "14 CFR 107.9(b)(2)"
+  },
+  {
+    "id": "HARD-032",
+    "topic": "scenario",
+    "subtopic": "accident reporting repair cost threshold",
+    "difficulty": "hard",
+    "question": "A UAS clips a fence at a job site. The fence repair invoice is $501 for materials and labor. No one is injured. What is the reporting requirement?",
+    "choices": [
+      "A. Report to the FAA no later than 10 calendar days after the operation.",
+      "B. No report is required because the threshold is $5,000.",
+      "C. Report only if the fence owner requests FAA involvement."
+    ],
+    "answer": "A",
+    "explanation": "Damage to property other than the UAS is reportable unless repair cost including materials and labor does not exceed $500. A $501 repair cost exceeds the exception.",
+    "reference": "14 CFR 107.9(b)(1)"
+  },
+  {
+    "id": "HARD-033",
+    "topic": "scenario",
+    "subtopic": "accident reporting serious injury",
+    "difficulty": "hard",
+    "question": "A falling small UAS fractures a person's wrist. There is no loss of consciousness and property damage is less than $100. What should the remote PIC do under Part 107?",
+    "choices": [
+      "A. Report the operation to the FAA within 10 calendar days because it involved serious injury.",
+      "B. Do not report because the property damage was below $500.",
+      "C. Report only to local police; the FAA report is voluntary."
+    ],
+    "answer": "A",
+    "explanation": "Serious injury to any person triggers the Part 107.9 safety event reporting requirement regardless of the amount of property damage.",
+    "reference": "14 CFR 107.9(a)"
+  },
+  {
+    "id": "HARD-034",
+    "topic": "scenario",
+    "subtopic": "accident reporting calendar days",
+    "difficulty": "hard",
+    "question": "A reportable Part 107 accident occurs on a Friday afternoon. The operator plans to wait 10 business days because the office is closed on weekends. Is that correct?",
+    "choices": [
+      "A. Yes, the reporting period excludes weekends and federal holidays.",
+      "B. No, the report must be made no later than 10 calendar days after the operation.",
+      "C. Yes, if the operator first notifies the property owner's insurer."
+    ],
+    "answer": "B",
+    "explanation": "Part 107.9 specifies 10 calendar days, not business days. Insurance or local notifications do not replace the FAA reporting requirement.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "HARD-035",
+    "topic": "scenario",
+    "subtopic": "sectional chart magenta airport",
+    "difficulty": "hard",
+    "question": "A sectional shows a magenta airport symbol with no control tower frequency and no dashed controlled-airspace boundary. Your launch site is 1 NM from the airport in Class G airspace below a 700 ft Class E transition area. What does the airport symbol imply for Part 107 authorization?",
+    "choices": [
+      "A. A magenta airport symbol by itself means a non-towered airport; it does not create a 107.41 authorization requirement, though airport-vicinity safety and right-of-way duties still apply.",
+      "B. A magenta airport symbol means Class D, so ATC authorization is required.",
+      "C. Any airport symbol creates a 5 NM no-fly zone for Part 107 operations."
+    ],
+    "answer": "A",
+    "explanation": "Magenta airport symbols generally indicate non-towered airports. Without Class B, C, D, or surface Class E airspace, Part 107.41 authorization is not triggered solely by proximity, but the remote PIC must avoid creating hazards and yield right of way.",
+    "reference": "FAA-G-8082-22 sectional chart symbols; 14 CFR 107.37, 107.41, 107.43"
+  },
+  {
+    "id": "HARD-036",
+    "topic": "scenario",
+    "subtopic": "sectional chart blue dashed class d",
+    "difficulty": "hard",
+    "question": "A sectional shows a blue airport symbol and a dashed blue circle labeled SFC-25 around the airport. Your job site is inside that circle. What does this mean for a 300 ft AGL Part 107 operation?",
+    "choices": [
+      "A. The dashed blue circle is Class D surface airspace, so prior ATC authorization is required.",
+      "B. The dashed blue circle means Class E begins at 2,500 ft MSL, so no authorization is needed below 400 ft AGL.",
+      "C. Blue airport symbols are advisory only and have no effect on drone operations."
+    ],
+    "answer": "A",
+    "explanation": "A dashed blue circle depicts Class D airspace, normally from the surface to the charted ceiling. Part 107 operations in Class D require prior ATC authorization.",
+    "reference": "FAA-G-8082-22 airspace charting; 14 CFR 107.41"
+  },
+  {
+    "id": "HARD-037",
+    "topic": "scenario",
+    "subtopic": "sectional chart dashed magenta surface e",
+    "difficulty": "hard",
+    "question": "Your launch point is inside a dashed magenta boundary surrounding an airport. The charted airspace is Class E to the surface. You plan to remain at 100 ft AGL. Which statement is correct?",
+    "choices": [
+      "A. No authorization is required because Class E never applies below 700 ft AGL.",
+      "B. Prior authorization is required because Part 107.41 includes the lateral boundaries of the surface area of Class E airspace designated for an airport.",
+      "C. Authorization is required only if the airport has a control tower."
+    ],
+    "answer": "B",
+    "explanation": "Dashed magenta indicates Class E surface area. Part 107.41 specifically requires authorization for operations within the lateral boundaries of a surface area of Class E airspace designated for an airport.",
+    "reference": "FAA-G-8082-22 chart symbols; 14 CFR 107.41"
+  },
+  {
+    "id": "HARD-038",
+    "topic": "scenario",
+    "subtopic": "sectional chart magenta vignette",
+    "difficulty": "hard",
+    "question": "A site is under a faded magenta vignette, not a dashed magenta line. The vignette indicates Class E begins at 700 ft AGL. What is the airspace authorization result for a 400 ft AGL Part 107 flight?",
+    "choices": [
+      "A. No 107.41 authorization is required solely because the Class E floor is 700 ft AGL and the operation remains below it.",
+      "B. Authorization is required because all magenta chart markings indicate surface Class E.",
+      "C. Authorization is required only after sunset."
+    ],
+    "answer": "A",
+    "explanation": "A magenta vignette indicates a Class E transition area with a 700 ft AGL floor, not surface Class E. A 400 ft AGL operation below that floor is not in controlled airspace requiring Part 107.41 authorization.",
+    "reference": "FAA-G-8082-22 sectional chart symbols; 14 CFR 107.41"
+  },
+  {
+    "id": "HARD-039",
+    "topic": "scenario",
+    "subtopic": "sectional chart class c floor ceiling",
+    "difficulty": "hard",
+    "question": "A Class C shelf over your site is labeled 40/12. Terrain elevation is 900 ft MSL. You plan to fly at 350 ft AGL. What is the airspace implication?",
+    "choices": [
+      "A. The aircraft would be about 1,250 ft MSL, inside the Class C shelf that starts at 1,200 ft MSL, so authorization is required.",
+      "B. The aircraft is outside Class C because 350 ft AGL is below 1,200 ft AGL.",
+      "C. The 40/12 label means the shelf extends from 400 ft AGL to 1,200 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "Class C shelf labels are in hundreds of feet MSL. 40/12 means from 1,200 ft MSL to 4,000 ft MSL. Terrain at 900 ft MSL plus 350 ft AGL equals about 1,250 ft MSL, inside the shelf.",
+    "reference": "FAA-G-8082-22 airspace notation; 14 CFR 107.41"
+  },
+  {
+    "id": "HARD-040",
+    "topic": "scenario",
+    "subtopic": "sectional chart mode c veil",
+    "difficulty": "hard",
+    "question": "A sectional shows your site inside the magenta 30 NM Mode C veil of a Class B airport, but the site is outside the Class B lateral boundaries and outside all other controlled surface areas. What does the veil require for a normal Part 107 flight?",
+    "choices": [
+      "A. It requires a Mode C transponder on the small UAS.",
+      "B. By itself, it does not require Part 107 airspace authorization or a transponder; transponder and ADS-B Out use are generally prohibited unless otherwise authorized.",
+      "C. It prohibits all UAS operations below 400 ft AGL."
+    ],
+    "answer": "B",
+    "explanation": "The Mode C veil is important chart context, but it does not by itself create a Part 107.41 authorization requirement outside controlled airspace. Part 107 separately prohibits ATC transponders and ADS-B Out unless otherwise authorized.",
+    "reference": "FAA-G-8082-22 Mode C veil; 14 CFR 107.41, 107.52, 107.53"
+  },
+  {
+    "id": "HARD-041",
+    "topic": "scenario",
+    "subtopic": "sectional chart vor symbol",
+    "difficulty": "hard",
+    "question": "A sectional shows a blue compass-rose VOR symbol near your rural mapping site. There is no airport symbol, no controlled-airspace boundary, and no TFR. What should you infer for Part 107 airspace authorization?",
+    "choices": [
+      "A. A VOR is a navigation aid, not an airport or controlled-airspace boundary, so it does not by itself require Part 107.41 authorization.",
+      "B. A VOR creates a 4 NM Class D surface area requiring ATC authorization.",
+      "C. A VOR creates a permanent prohibited area for all UAS operations."
+    ],
+    "answer": "A",
+    "explanation": "A VOR symbol identifies a radio navigation facility. It is not itself an airport traffic area or a Part 107 controlled-airspace authorization trigger.",
+    "reference": "FAA-G-8082-22 sectional chart symbols; 14 CFR 107.41, 107.45, 107.47"
+  },
+  {
+    "id": "HARD-042",
+    "topic": "scenario",
+    "subtopic": "sectional chart blue vignette class e 1200",
+    "difficulty": "hard",
+    "question": "A sectional around your site has a blue shaded vignette indicating Class E begins at 1,200 ft AGL. You will fly at 300 ft AGL in daylight with 10 SM visibility. What is correct?",
+    "choices": [
+      "A. The blue vignette means Class B and requires a clearance.",
+      "B. The Class E floor is far above the planned altitude, so the vignette does not create a Part 107.41 authorization requirement for the 300 ft AGL flight.",
+      "C. Class E at 1,200 ft AGL means drones may fly up to 1,199 ft AGL without a waiver."
+    ],
+    "answer": "B",
+    "explanation": "Blue vignette indicates Class E beginning at 1,200 ft AGL. The operation at 300 ft AGL is below that floor, but the normal Part 107 400 ft AGL limit still applies unless another rule such as the structure allowance applies.",
+    "reference": "FAA-G-8082-22 chart symbols; 14 CFR 107.41, 107.51"
+  },
+  {
+    "id": "HARD-043",
+    "topic": "scenario",
+    "subtopic": "performance density altitude calculation",
+    "difficulty": "hard",
+    "question": "A launch site elevation is 5,200 ft MSL. The altimeter setting is 30.12 inHg and outside air temperature is 31 C. Estimate pressure altitude and density altitude using PA = elevation + (29.92 - altimeter) x 1000 and DA = PA + 120 x (OAT - ISA temp).",
+    "choices": [
+      "A. PA about 5,000 ft; DA about 8,100 ft, reducing climb and hover performance.",
+      "B. PA about 5,400 ft; DA about 5,400 ft, with little performance effect.",
+      "C. PA about 4,000 ft; DA about 3,100 ft, improving propeller thrust."
+    ],
+    "answer": "A",
+    "explanation": "Pressure altitude is 5,200 + (29.92 - 30.12) x 1000 = about 5,000 ft. ISA temperature at 5,000 ft is about 5 C, so 31 C is 26 C above ISA. DA is about 5,000 + 120 x 26 = 8,120 ft.",
+    "reference": "FAA-H-8083-25 density altitude; FAA-G-8082-22 performance"
+  },
+  {
+    "id": "HARD-044",
+    "topic": "scenario",
+    "subtopic": "performance pressure altitude calculation",
+    "difficulty": "hard",
+    "question": "A field elevation is 800 ft MSL, altimeter setting is 29.42 inHg, and OAT is 35 C. What is the approximate density altitude?",
+    "choices": [
+      "A. 300 ft because low altimeter settings lower density altitude.",
+      "B. 4,000 ft because pressure altitude is about 1,300 ft and the temperature is well above ISA.",
+      "C. 8,000 ft because density altitude always doubles field elevation in summer."
+    ],
+    "answer": "B",
+    "explanation": "Pressure altitude is 800 + (29.92 - 29.42) x 1000 = 1,300 ft. ISA near 1,300 ft is about 12 C, and 35 C is about 23 C warmer. DA is about 1,300 + 120 x 23 = roughly 4,000 ft.",
+    "reference": "FAA-H-8083-25 pressure altitude and density altitude"
+  },
+  {
+    "id": "HARD-045",
+    "topic": "scenario",
+    "subtopic": "performance high density altitude effects",
+    "difficulty": "hard",
+    "question": "A multirotor that normally climbs well at sea level feels sluggish at a 7,500 ft density altitude launch site with a payload installed. Which explanation is most accurate?",
+    "choices": [
+      "A. High density altitude reduces air density, which reduces propeller thrust and climb margin and may increase takeoff distance or hover power required.",
+      "B. High density altitude increases air density, improving propeller efficiency.",
+      "C. Density altitude affects only manned aircraft engines, not electric UAS propellers."
+    ],
+    "answer": "A",
+    "explanation": "High density altitude means thinner air. Propellers and rotors generate less thrust for a given RPM and the aircraft may need more power to hover, leaving less climb and maneuvering margin.",
+    "reference": "FAA-H-8083-25 density altitude; FAA-G-8082-22 small UAS performance"
+  },
+  {
+    "id": "HARD-046",
+    "topic": "scenario",
+    "subtopic": "performance payload hot day decision",
+    "difficulty": "hard",
+    "question": "A job requires a near-maximum payload at a 6,000 ft MSL site on a 34 C afternoon. The manufacturer performance table shows hover power near the continuous limit and reduced battery endurance. What should the remote PIC do?",
+    "choices": [
+      "A. Use the sea-level endurance number because electric motors are not affected by altitude.",
+      "B. Reassess or reduce the payload/temperature exposure and operate only if the aircraft can safely meet performance margins under the actual density altitude conditions.",
+      "C. Launch and rely on emergency authority if the aircraft cannot climb."
+    ],
+    "answer": "B",
+    "explanation": "Preflight planning must include aircraft performance under actual conditions. Hot, high, heavy operations reduce margin; emergency authority is not a planning substitute.",
+    "reference": "14 CFR 107.15, 107.49; FAA-H-8083-25 density altitude"
+  },
+  {
+    "id": "HARD-047",
+    "topic": "scenario",
+    "subtopic": "performance ridge operations",
+    "difficulty": "hard",
+    "question": "You launch from a ridge at 9,000 ft density altitude. The UAS can hover out of ground effect only at 88 percent power without payload, and the planned camera payload adds 12 percent power demand. What is the best decision?",
+    "choices": [
+      "A. Launch because 100 percent power is available for hover and Part 107 allows it.",
+      "B. Do not launch with that payload because there is essentially no climb, gust, or maneuvering margin.",
+      "C. Launch only if flying downwind first."
+    ],
+    "answer": "B",
+    "explanation": "Operating at or near maximum power leaves no practical performance margin for climb, gusts, maneuvering, or battery voltage sag. Part 107 preflight and safe-condition duties require accounting for those limitations.",
+    "reference": "14 CFR 107.15, 107.49; FAA-G-8082-22 performance"
+  },
+  {
+    "id": "HARD-048",
+    "topic": "scenario",
+    "subtopic": "performance density altitude formula",
+    "difficulty": "hard",
+    "question": "Field elevation is 1,350 ft MSL, altimeter is 29.72 inHg, and OAT is 20 C. Using the standard approximations, which result is closest?",
+    "choices": [
+      "A. Pressure altitude 1,550 ft and density altitude about 2,500 ft.",
+      "B. Pressure altitude 1,150 ft and density altitude about 500 ft.",
+      "C. Pressure altitude 2,350 ft and density altitude about 6,000 ft."
+    ],
+    "answer": "A",
+    "explanation": "Pressure altitude is 1,350 + (29.92 - 29.72) x 1000 = 1,550 ft. ISA temperature there is about 12 C, so 20 C is 8 C above ISA. DA is about 1,550 + 120 x 8 = 2,510 ft.",
+    "reference": "FAA-H-8083-25 pressure altitude and density altitude"
+  },
+  {
+    "id": "HARD-049",
+    "topic": "scenario",
+    "subtopic": "metar decoding visibility ceiling",
+    "difficulty": "hard",
+    "question": "Decode this METAR for a planned Part 107 flight at 300 ft AGL in Class G: KABC 121855Z 21012G20KT 2SM -RA BR OVC006 18/17 A2992 RMK AO2. Which conclusion is correct?",
+    "choices": [
+      "A. Do not launch because visibility is 2 SM, below the Part 107 minimum, and the 600 ft overcast ceiling leaves only 100 ft maximum altitude for cloud clearance.",
+      "B. Launch because light rain and mist are allowed when the aircraft stays below 400 ft AGL.",
+      "C. Launch because OVC006 means clouds are at 6,000 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "The METAR reports 2 statute miles visibility, below the 3 SM minimum. OVC006 is an overcast ceiling at 600 ft AGL, requiring the aircraft to remain at least 500 ft below clouds.",
+    "reference": "AC 00-45H METAR coding; 14 CFR 107.51"
+  },
+  {
+    "id": "HARD-050",
+    "topic": "scenario",
+    "subtopic": "metar decoding scattered vs ceiling",
+    "difficulty": "hard",
+    "question": "For a daylight Class G flight, the METAR is KXYZ 041753Z 00000KT 10SM SCT020 BKN050 30/12 A3010. Which weather interpretation is correct?",
+    "choices": [
+      "A. The ceiling is 2,000 ft AGL because SCT020 is the first cloud layer.",
+      "B. The ceiling is 5,000 ft AGL because broken or overcast layers define a ceiling; visibility is 10 SM.",
+      "C. The report is below Part 107 minimums because calm wind means fog is present."
+    ],
+    "answer": "B",
+    "explanation": "Scattered clouds are not a ceiling. The first broken layer, BKN050, is the ceiling at 5,000 ft AGL, and 10SM visibility exceeds the Part 107 minimum.",
+    "reference": "AC 00-45H METAR sky condition coding; 14 CFR 107.51"
+  },
+  {
+    "id": "HARD-051",
+    "topic": "scenario",
+    "subtopic": "metar decoding gusts ceiling manufacturer limits",
+    "difficulty": "hard",
+    "question": "The METAR is KDEF 221456Z 34018G28KT 5SM HZ BKN009 32/29 A2984. Your UAS manual lists a maximum wind, including gusts, of 25 kt. You plan to fly at 400 ft AGL. What is the best conclusion?",
+    "choices": [
+      "A. Do not launch because the reported 28 kt gust exceeds the aircraft limitation, even though 5 SM visibility and a 900 ft ceiling could satisfy Part 107 minima at 400 ft AGL.",
+      "B. Launch because only sustained wind matters for UAS limitations.",
+      "C. Do not launch solely because BKN009 makes the maximum legal altitude 300 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "BKN009 is a 900 ft AGL ceiling, so 400 ft AGL is 500 ft below clouds. Visibility is 5 SM. The limiting item is the 28 kt gust exceeding the manufacturer's stated wind limitation.",
+    "reference": "AC 00-45H METAR wind and ceiling; 14 CFR 107.15, 107.49, 107.51"
+  },
+  {
+    "id": "HARD-052",
+    "topic": "scenario",
+    "subtopic": "taf decoding tempo thunderstorms",
+    "difficulty": "hard",
+    "question": "The TAF is KABC 261720Z 2618/2718 18010KT P6SM SCT040 FM262300 21015G25KT 3SM TSRA BKN015CB TEMPO 2623/2702 1SM +TSRA OVC008CB. You plan to fly at 0000Z on the 27th. What should you conclude?",
+    "choices": [
+      "A. The TEMPO period includes the planned time and forecasts 1 SM heavy thunderstorm rain, so the operation should be postponed.",
+      "B. The flight is acceptable because the prevailing line says 3SM, exactly the Part 107 minimum.",
+      "C. The flight is acceptable if the aircraft remains under 800 ft AGL."
+    ],
+    "answer": "A",
+    "explanation": "The TEMPO group from 2300Z to 0200Z includes 0000Z and forecasts 1 SM visibility with heavy thunderstorms and cumulonimbus clouds. That is below Part 107 visibility and presents a clear safety hazard.",
+    "reference": "AC 00-45H TAF FM and TEMPO groups; 14 CFR 107.49, 107.51"
+  },
+  {
+    "id": "HARD-053",
+    "topic": "scenario",
+    "subtopic": "taf decoding improvement timing",
+    "difficulty": "hard",
+    "question": "The TAF is KXYZ 151130Z 1512/1612 VRB03KT 1/2SM FG VV002 FM151600 20008KT P6SM SCT025. You need daylight weather that meets Part 107 visibility and cloud-clearance requirements for a 200 ft AGL flight. Which time period first meets the weather requirement in the TAF?",
+    "choices": [
+      "A. 1500Z, because fog is forecast but winds are light.",
+      "B. 1600Z and after, when the forecast changes to more than 6 SM visibility and scattered clouds at 2,500 ft.",
+      "C. Any time after 1200Z because vertical visibility counts as unlimited ceiling."
+    ],
+    "answer": "B",
+    "explanation": "Before 1600Z the TAF forecasts 1/2 SM fog and vertical visibility 200 ft, both unsuitable. From 1600Z, P6SM and SCT025 satisfy the weather minimums for a 200 ft AGL Part 107 flight, assuming actual conditions match.",
+    "reference": "AC 00-45H TAF and vertical visibility; 14 CFR 107.51"
+  },
+  {
+    "id": "HARD-054",
+    "topic": "scenario",
+    "subtopic": "metar speci vicinity thunderstorms",
+    "difficulty": "hard",
+    "question": "A SPECI reports KLMN 081945Z 27022G35KT 10SM VCTS SCT030 BKN045 24/20 A3001. Your UAS maximum wind is 30 kt. Which decision best reflects Part 107 preflight responsibilities?",
+    "choices": [
+      "A. Launch because visibility and ceiling exceed Part 107 minimums.",
+      "B. Do not launch now because gusts exceed the aircraft limitation and thunderstorms are in the vicinity.",
+      "C. Launch if you stay below the scattered layer at 3,000 ft."
+    ],
+    "answer": "B",
+    "explanation": "Although visibility and ceiling are adequate, the 35 kt gust exceeds the aircraft's 30 kt limit, and VCTS indicates thunderstorms in the vicinity. Preflight action requires considering weather risks and aircraft limitations.",
+    "reference": "AC 00-45H METAR/SPECI coding; 14 CFR 107.15, 107.49"
+  },
+  {
+    "id": "HARD-055",
+    "topic": "scenario",
+    "subtopic": "waivers bvlos carriage of property",
+    "difficulty": "hard",
+    "question": "An operator requests a waiver of visual line of sight so one remote pilot can fly a small UAS beyond visual line of sight while carrying another person's package for compensation. What is the key 107.205 limitation?",
+    "choices": [
+      "A. A 107.31 waiver may not be issued to allow carriage of property of another by aircraft for compensation or hire.",
+      "B. All carriage of property is prohibited under Part 107, even within visual line of sight.",
+      "C. A visual-line-of-sight waiver automatically authorizes package delivery for compensation."
+    ],
+    "answer": "A",
+    "explanation": "Section 107.205 lists 107.31 as waiverable but states that no waiver of that provision will be issued to allow carriage of property of another by aircraft for compensation or hire.",
+    "reference": "14 CFR 107.31, 107.200, 107.205(c)"
+  },
+  {
+    "id": "HARD-056",
+    "topic": "scenario",
+    "subtopic": "waivers night anti-collision light",
+    "difficulty": "hard",
+    "question": "A wildlife survey operator wants to fly at night without visible anti-collision lighting because the light affects animal behavior. Which waiver analysis is correct?",
+    "choices": [
+      "A. The anti-collision lighting requirements in 107.29(a)(2) and (b) are listed as waiverable, but the remote PIC night knowledge/training requirement in 107.29(a)(1) is not the listed waiver item.",
+      "B. No part of 107.29 can ever be waived.",
+      "C. A waiver of 107.29 allows the remote PIC to ignore all other Part 107 operating rules."
+    ],
+    "answer": "A",
+    "explanation": "The waiver list specifically includes 107.29(a)(2) and (b), the anti-collision light requirements for night and civil twilight. A waiver authorizes deviations only to the extent specified and subject to its conditions.",
+    "reference": "14 CFR 107.29, 107.200, 107.205(b)"
+  },
+  {
+    "id": "HARD-057",
+    "topic": "scenario",
+    "subtopic": "waivers application contents limitations",
+    "difficulty": "hard",
+    "question": "A company submits a one-sentence waiver request: 'We can safely fly multiple drones at night because our pilots are experienced.' What is missing under 107.200?",
+    "choices": [
+      "A. A waiver request must contain a complete description of the proposed operation and a justification showing it can be safely conducted under the certificate of waiver.",
+      "B. Nothing is missing; pilot experience alone is the required showing.",
+      "C. The request must be submitted only after conducting the operation successfully."
+    ],
+    "answer": "A",
+    "explanation": "The Administrator may issue a waiver only after finding the proposed operation can be safely conducted. The request must describe the operation completely and provide safety justification; the FAA may prescribe additional limitations.",
+    "reference": "14 CFR 107.200"
+  },
+  {
+    "id": "HARD-058",
+    "topic": "scenario",
+    "subtopic": "waivers nonwaiverable rules",
+    "difficulty": "hard",
+    "question": "Which requested deviation is not in the 107.205 list of regulations subject to waiver?",
+    "choices": [
+      "A. Operating multiple small UAS with one remote pilot under 107.35.",
+      "B. Operating over people under 107.39.",
+      "C. Carrying hazardous material under 107.36."
+    ],
+    "answer": "C",
+    "explanation": "Section 107.205 lists specific waiverable rules, including multiple UAS and operations over people. Carriage of hazardous material under 107.36 is not listed as waiverable.",
+    "reference": "14 CFR 107.36, 107.200, 107.205"
+  },
+  {
+    "id": "HARD-059",
+    "topic": "scenario",
+    "subtopic": "emergency safety of flight manned aircraft conflict",
+    "difficulty": "hard",
+    "question": "During a legal Class G inspection, a low-flying helicopter unexpectedly approaches. The safest immediate action requires descending behind a building and momentarily losing visual line of sight while landing. What does Part 107 allow?",
+    "choices": [
+      "A. The remote PIC may deviate from Part 107 rules to the extent necessary to meet an in-flight emergency requiring immediate action, and must provide a written report only if requested by the Administrator.",
+      "B. The remote PIC may never deviate from visual line of sight, even to avoid a collision.",
+      "C. The remote PIC may deviate from any aviation regulation permanently after declaring an emergency."
+    ],
+    "answer": "A",
+    "explanation": "In an in-flight emergency requiring immediate action, the remote PIC may deviate from Part 107 to the extent necessary to meet the emergency. The written deviation report is required upon FAA request.",
+    "reference": "14 CFR 107.21, 107.37"
+  },
+  {
+    "id": "HARD-060",
+    "topic": "scenario",
+    "subtopic": "emergency deviation and accident reporting",
+    "difficulty": "hard",
+    "question": "A flyaway begins drifting toward a crowded roadway. To avoid people and vehicles, the remote PIC commands a climb above the normal Part 107 altitude limit before steering to an empty field, where the UAS damages a storage shed with a $900 repair cost. What is the best regulatory analysis?",
+    "choices": [
+      "A. The emergency deviation may be allowed to the extent necessary for safety, but the property damage to non-UAS property over $500 still triggers a 107.9 report within 10 calendar days.",
+      "B. Declaring an emergency cancels all accident reporting duties.",
+      "C. The remote PIC may not deviate from the altitude limit for any reason and should allow the aircraft to continue toward the roadway."
+    ],
+    "answer": "A",
+    "explanation": "Part 107.21 allows necessary deviations during an in-flight emergency, but it does not erase separate reporting duties. Damage to property other than the UAS over the $500 threshold must be reported within 10 calendar days.",
+    "reference": "14 CFR 107.9, 107.21, 107.51"
+  }
+]

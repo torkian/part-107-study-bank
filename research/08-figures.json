@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "FIG-002-001",
+    "topic": "performance",
+    "subtopic": "load factor chart figure 2",
+    "difficulty": "easy",
+    "question": "Refer to Figure 2. According to the load factor chart, what is the approximate load factor in a 60-degree bank coordinated turn?",
+    "choices": [
+      "A. 1.414 Gs",
+      "B. 2.000 Gs",
+      "C. 2.923 Gs"
+    ],
+    "answer": "B",
+    "explanation": "Figure 2's table shows that a 60-degree angle of bank produces a load factor of 2.000 Gs in a level coordinated turn.",
+    "reference": "FAA-CT-8080-2 Figure 2",
+    "figure": "figure-2"
+  },
+  {
+    "id": "FIG-002-002",
+    "topic": "performance",
+    "subtopic": "load factor chart figure 2",
+    "difficulty": "medium",
+    "question": "Refer to Figure 2. As bank angle increases from 45 degrees to 60 degrees in a level turn, the load factor changes from approximately:",
+    "choices": [
+      "A. 1.0 G to 1.414 Gs",
+      "B. 1.154 Gs to 2.000 Gs",
+      "C. 1.414 Gs to 2.000 Gs"
+    ],
+    "answer": "C",
+    "explanation": "From the table in Figure 2, 45 degrees of bank yields a load factor of 1.414, and 60 degrees yields 2.000 Gs.",
+    "reference": "FAA-CT-8080-2 Figure 2",
+    "figure": "figure-2"
+  },
+  {
+    "id": "FIG-002-003",
+    "topic": "performance",
+    "subtopic": "load factor chart figure 2",
+    "difficulty": "medium",
+    "question": "Refer to Figure 2. The chart shows that the load factor approaches infinity at what bank angle?",
+    "choices": [
+      "A. 80 degrees",
+      "B. 85 degrees",
+      "C. 90 degrees"
+    ],
+    "answer": "C",
+    "explanation": "Figure 2 shows the load factor curve becoming asymptotic at 90 degrees of bank, where load factor is infinite because a level coordinated turn is geometrically impossible.",
+    "reference": "FAA-CT-8080-2 Figure 2",
+    "figure": "figure-2"
+  },
+  {
+    "id": "FIG-008-001",
+    "topic": "performance",
+    "subtopic": "density altitude chart figure 8",
+    "difficulty": "medium",
+    "question": "Refer to Figure 8. The density altitude chart shows that temperatures negative (below standard) generally produce a density altitude that is:",
+    "choices": [
+      "A. Higher than pressure altitude",
+      "B. Lower than pressure altitude",
+      "C. Equal to pressure altitude"
+    ],
+    "answer": "B",
+    "explanation": "Figure 8's density altitude chart shows that as OAT decreases below the standard temperature line, density altitude drops below pressure altitude, improving aircraft performance.",
+    "reference": "FAA-CT-8080-2 Figure 8",
+    "figure": "figure-8"
+  },
+  {
+    "id": "FIG-008-002",
+    "topic": "performance",
+    "subtopic": "density altitude chart figure 8",
+    "difficulty": "medium",
+    "question": "Refer to Figure 8. Using the altimeter setting conversion table at the right side of the chart, an altimeter setting of 29.92 in. Hg corresponds to a pressure altitude conversion factor of:",
+    "choices": [
+      "A. 0 feet",
+      "B. +1,824 feet",
+      "C. -485 feet"
+    ],
+    "answer": "A",
+    "explanation": "On Figure 8, 29.92 in. Hg is the standard altimeter setting, so the pressure altitude conversion factor is 0 feet (indicated altitude equals pressure altitude).",
+    "reference": "FAA-CT-8080-2 Figure 8",
+    "figure": "figure-8"
+  },
+  {
+    "id": "FIG-008-003",
+    "topic": "performance",
+    "subtopic": "density altitude chart figure 8",
+    "difficulty": "hard",
+    "question": "Refer to Figure 8. At a pressure altitude of 6,000 feet and an OAT of +30 C, the density altitude is approximately:",
+    "choices": [
+      "A. 6,000 feet",
+      "B. 8,500 feet",
+      "C. 9,500 feet"
+    ],
+    "answer": "C",
+    "explanation": "Plotting +30 C on the OAT scale up to the 6,000-foot pressure altitude line on Figure 8's density altitude chart yields a density altitude of approximately 9,000-9,500 feet (well above pressure altitude due to high temperature).",
+    "reference": "FAA-CT-8080-2 Figure 8",
+    "figure": "figure-8"
+  },
+  {
+    "id": "FIG-012-001",
+    "topic": "weather",
+    "subtopic": "METAR figure 12",
+    "difficulty": "easy",
+    "question": "Refer to Figure 12. According to the METAR for KINK, what is the wind?",
+    "choices": [
+      "A. 110 degrees at 12 knots gusting to 18 knots",
+      "B. 110 degrees at 18 knots gusting to 12 knots",
+      "C. 011 degrees at 1218 knots"
+    ],
+    "answer": "A",
+    "explanation": "The KINK METAR shows '11012G18KT' which decodes to wind from 110 degrees true at 12 knots, gusting to 18 knots.",
+    "reference": "FAA-CT-8080-2 Figure 12",
+    "figure": "figure-12"
+  },
+  {
+    "id": "FIG-012-002",
+    "topic": "weather",
+    "subtopic": "METAR figure 12",
+    "difficulty": "medium",
+    "question": "Refer to Figure 12. The KLAX METAR reports visibility and obstruction to vision as:",
+    "choices": [
+      "A. 6 statute miles in mist (BR)",
+      "B. 6 statute miles in rain",
+      "C. 1/2 statute mile in fog"
+    ],
+    "answer": "A",
+    "explanation": "KLAX METAR shows '6SM BR' which is 6 statute miles visibility with mist (BR = Brume/mist).",
+    "reference": "FAA-CT-8080-2 Figure 12",
+    "figure": "figure-12"
+  },
+  {
+    "id": "FIG-012-003",
+    "topic": "weather",
+    "subtopic": "METAR figure 12",
+    "difficulty": "medium",
+    "question": "Refer to Figure 12. According to the SPECI for KJFK, what are the present weather conditions?",
+    "choices": [
+      "A. 1/2 SM fog, overcast at 500 feet",
+      "B. 1 1/2 SM rain, overcast at 700 feet",
+      "C. Sky clear, 15 SM visibility"
+    ],
+    "answer": "A",
+    "explanation": "KJFK SPECI shows '1/2SM FG' (1/2 statute mile visibility in fog) and 'OVC005' (overcast ceiling at 500 feet AGL).",
+    "reference": "FAA-CT-8080-2 Figure 12",
+    "figure": "figure-12"
+  },
+  {
+    "id": "FIG-012-004",
+    "topic": "weather",
+    "subtopic": "METAR figure 12",
+    "difficulty": "medium",
+    "question": "Refer to Figure 12. What is the altimeter setting reported in the KBOI METAR?",
+    "choices": [
+      "A. 30.00 in. Hg",
+      "B. 30.15 in. Hg",
+      "C. 29.91 in. Hg"
+    ],
+    "answer": "B",
+    "explanation": "KBOI METAR ends with 'A3015' which decodes to altimeter setting 30.15 in. Hg.",
+    "reference": "FAA-CT-8080-2 Figure 12",
+    "figure": "figure-12"
+  },
+  {
+    "id": "FIG-012-005",
+    "topic": "weather",
+    "subtopic": "METAR figure 12",
+    "difficulty": "hard",
+    "question": "Refer to Figure 12. The KMDW SPECI remark 'RAB35' indicates:",
+    "choices": [
+      "A. Rain began at 35 minutes past the hour",
+      "B. Rain ended at 35 minutes past the hour",
+      "C. Rain shower at 3,500 feet"
+    ],
+    "answer": "A",
+    "explanation": "In the remarks section, 'RAB35' means Rain Began at 35 minutes past the hour. 'B' = began, 'E' would mean ended.",
+    "reference": "FAA-CT-8080-2 Figure 12",
+    "figure": "figure-12"
+  },
+  {
+    "id": "FIG-014-001",
+    "topic": "weather",
+    "subtopic": "PIREP figure 14",
+    "difficulty": "easy",
+    "question": "Refer to Figure 14. According to the PIREP, what type of aircraft submitted the report?",
+    "choices": [
+      "A. Boeing 737",
+      "B. Beechcraft King Air 90 (BE90)",
+      "C. Cessna 172"
+    ],
+    "answer": "B",
+    "explanation": "The 'TP BE90' field in the PIREP indicates the reporting aircraft type is a Beechcraft 90 (King Air).",
+    "reference": "FAA-CT-8080-2 Figure 14",
+    "figure": "figure-14"
+  },
+  {
+    "id": "FIG-014-002",
+    "topic": "weather",
+    "subtopic": "PIREP figure 14",
+    "difficulty": "medium",
+    "question": "Refer to Figure 14. What was the reported flight level (altitude) for this PIREP?",
+    "choices": [
+      "A. 1,800 feet",
+      "B. 12,000 feet",
+      "C. 120,000 feet"
+    ],
+    "answer": "B",
+    "explanation": "The 'FL120' field indicates the aircraft was at flight level 120, which is 12,000 feet.",
+    "reference": "FAA-CT-8080-2 Figure 14",
+    "figure": "figure-14"
+  },
+  {
+    "id": "FIG-014-003",
+    "topic": "weather",
+    "subtopic": "PIREP figure 14",
+    "difficulty": "medium",
+    "question": "Refer to Figure 14. The PIREP entry 'TA M7' indicates that the outside air temperature was:",
+    "choices": [
+      "A. Minus 7 degrees Celsius",
+      "B. 7 degrees Celsius",
+      "C. 7,000 feet"
+    ],
+    "answer": "A",
+    "explanation": "In a PIREP, 'TA' is temperature aloft and 'M7' decodes to minus 7 degrees Celsius (M = minus).",
+    "reference": "FAA-CT-8080-2 Figure 14",
+    "figure": "figure-14"
+  },
+  {
+    "id": "FIG-014-004",
+    "topic": "weather",
+    "subtopic": "PIREP figure 14",
+    "difficulty": "hard",
+    "question": "Refer to Figure 14. The icing element 'IC LGT-MOD RIME 072-089' indicates icing of what severity and type and within what altitude band?",
+    "choices": [
+      "A. Light to moderate rime ice from 7,200 to 8,900 feet",
+      "B. Light to moderate mixed ice from 720 to 890 feet",
+      "C. Light to moderate clear ice from 7,200 to 8,900 feet"
+    ],
+    "answer": "A",
+    "explanation": "'IC LGT-MOD RIME 072-089' decodes as Icing Light to Moderate, Rime type, between 7,200 and 8,900 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 14",
+    "figure": "figure-14"
+  },
+  {
+    "id": "FIG-015-001",
+    "topic": "weather",
+    "subtopic": "TAF figure 15",
+    "difficulty": "easy",
+    "question": "Refer to Figure 15. The KMEM TAF was issued at what date/time?",
+    "choices": [
+      "A. The 12th at 1720Z",
+      "B. The 17th at 2012Z",
+      "C. The 18th at 1324Z"
+    ],
+    "answer": "A",
+    "explanation": "'KMEM 121720Z' indicates issuance on the 12th of the month at 1720Z.",
+    "reference": "FAA-CT-8080-2 Figure 15",
+    "figure": "figure-15"
+  },
+  {
+    "id": "FIG-015-002",
+    "topic": "weather",
+    "subtopic": "TAF figure 15",
+    "difficulty": "medium",
+    "question": "Refer to Figure 15. The KMEM TAF valid period is:",
+    "choices": [
+      "A. From 1800Z on the 12th through 2400Z on the 13th (30 hours)",
+      "B. From 1720Z to 2200Z",
+      "C. 12 hours starting at 1218Z"
+    ],
+    "answer": "A",
+    "explanation": "In a TAF valid-period group, each four-digit value is day/hour. In Figure 15, KMEM 1218/1324 is valid from the 12th at 1800Z until the 13th at 2400Z.",
+    "reference": "FAA-CT-8080-2 Figure 15; AIM 7-1-28",
+    "figure": "figure-15"
+  },
+  {
+    "id": "FIG-015-003",
+    "topic": "weather",
+    "subtopic": "TAF figure 15",
+    "difficulty": "medium",
+    "question": "Refer to Figure 15. In the KMEM TAF, the conditions forecast 'FM122200' includes a wind from:",
+    "choices": [
+      "A. 330 degrees at 15 knots gusting 20",
+      "B. 030 degrees at 15 knots",
+      "C. 220 degrees at 33 knots"
+    ],
+    "answer": "A",
+    "explanation": "The FM122200 group reads '33015G20KT' = wind from 330 degrees true at 15 knots gusting 20 knots.",
+    "reference": "FAA-CT-8080-2 Figure 15",
+    "figure": "figure-15"
+  },
+  {
+    "id": "FIG-015-004",
+    "topic": "weather",
+    "subtopic": "TAF figure 15",
+    "difficulty": "hard",
+    "question": "Refer to Figure 15. In the KOKC TAF, what does 'PROB40 0600/0606' indicate?",
+    "choices": [
+      "A. A 40% probability of the listed conditions from 0000Z to 0600Z on the 6th day",
+      "B. A 40-knot wind probability",
+      "C. Conditions valid 40 hours after 0600Z"
+    ],
+    "answer": "A",
+    "explanation": "TAF change-group periods use day/hour pairs. In Figure 15, KOKC PROB40 0600/0606 covers the 6th day from 0000Z through 0600Z.",
+    "reference": "FAA-CT-8080-2 Figure 15; AIM 7-1-28",
+    "figure": "figure-15"
+  },
+  {
+    "id": "FIG-015-005",
+    "topic": "weather",
+    "subtopic": "TAF figure 15",
+    "difficulty": "medium",
+    "question": "Refer to Figure 15. P6SM in the TAF means:",
+    "choices": [
+      "A. Visibility greater than 6 statute miles",
+      "B. Pressure of 6 inches of mercury",
+      "C. 6 statute miles in precipitation"
+    ],
+    "answer": "A",
+    "explanation": "P6SM means 'Plus 6 Statute Miles', i.e., visibility greater than 6 statute miles.",
+    "reference": "FAA-CT-8080-2 Figure 15",
+    "figure": "figure-15"
+  },
+  {
+    "id": "FIG-017-001",
+    "topic": "weather",
+    "subtopic": "winds aloft figure 17",
+    "difficulty": "medium",
+    "question": "Refer to Figure 17. The forecast at STL for 12,000 feet is '2339-04'. This indicates wind from:",
+    "choices": [
+      "A. 230 degrees at 39 knots, temperature -4 C",
+      "B. 023 degrees at 39 knots, temperature +4 C",
+      "C. 233 degrees at 9 knots, temperature -4 C"
+    ],
+    "answer": "A",
+    "explanation": "Winds aloft '2339-04' decodes to wind from 230 degrees true at 39 knots with temperature minus 4 degrees Celsius.",
+    "reference": "FAA-CT-8080-2 Figure 17",
+    "figure": "figure-17"
+  },
+  {
+    "id": "FIG-017-002",
+    "topic": "weather",
+    "subtopic": "winds aloft figure 17",
+    "difficulty": "medium",
+    "question": "Refer to Figure 17. According to the heading note, temperatures above what altitude are always negative?",
+    "choices": [
+      "A. 12,000 feet",
+      "B. 24,000 feet",
+      "C. 39,000 feet"
+    ],
+    "answer": "B",
+    "explanation": "The heading states 'TEMPS NEG ABV 24000', meaning temperatures above 24,000 feet are always negative and the minus sign is omitted.",
+    "reference": "FAA-CT-8080-2 Figure 17",
+    "figure": "figure-17"
+  },
+  {
+    "id": "FIG-017-003",
+    "topic": "weather",
+    "subtopic": "winds aloft figure 17",
+    "difficulty": "hard",
+    "question": "Refer to Figure 17. At STL, the 30,000-foot forecast '239440' decodes to:",
+    "choices": [
+      "A. Wind from 230 degrees at 94 knots, temperature -40 C",
+      "B. Wind from 239 degrees at 44 knots, temperature 0 C",
+      "C. Wind from 320 degrees at 94 knots, temperature +40 C"
+    ],
+    "answer": "A",
+    "explanation": "First two digits (23) are below 51, so wind direction is 230 degrees true. Next two digits (94) are wind speed in knots. Last two digits (40) are temperature in degrees Celsius. Per the header note 'TEMPS NEG ABV 24000', the temperature at 30,000 feet is -40 C.",
+    "reference": "FAA-CT-8080-2 Figure 17",
+    "figure": "figure-17"
+  },
+  {
+    "id": "FIG-017-004",
+    "topic": "weather",
+    "subtopic": "winds aloft figure 17",
+    "difficulty": "easy",
+    "question": "Refer to Figure 17. The forecast at MKC for 3,000 feet is '0507'. Wind direction and speed are:",
+    "choices": [
+      "A. 050 degrees at 7 knots",
+      "B. 005 degrees at 7 knots",
+      "C. 050 degrees at 70 knots"
+    ],
+    "answer": "A",
+    "explanation": "'0507' decodes to wind from 050 degrees true at 7 knots. No temperature is provided for the 3,000-foot level.",
+    "reference": "FAA-CT-8080-2 Figure 17",
+    "figure": "figure-17"
+  },
+  {
+    "id": "FIG-020-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 20",
+    "difficulty": "easy",
+    "question": "Refer to Figure 20. The airspace shown labeled 'W-50' off the Virginia coast is what type of special use airspace?",
+    "choices": [
+      "A. Warning Area",
+      "B. Restricted Area",
+      "C. Military Operations Area"
+    ],
+    "answer": "A",
+    "explanation": "The 'W-' prefix on areas like W-50 designates a Warning Area, an offshore area extending from 3 NM outward from the U.S. coast.",
+    "reference": "FAA-CT-8080-2 Figure 20",
+    "figure": "figure-20"
+  },
+  {
+    "id": "FIG-020-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 20",
+    "difficulty": "medium",
+    "question": "Refer to Figure 20. The 'Norfolk' Class B airspace shown on the chart has surface-area rings extending up to what altitude (MSL)?",
+    "choices": [
+      "A. 4,000 feet MSL",
+      "B. 1,700 feet MSL",
+      "C. 10,000 feet MSL"
+    ],
+    "answer": "A",
+    "explanation": "The solid magenta Norfolk Class C area in Figure 20 is labeled 40/SFC. On sectional charts, the top number is the ceiling in hundreds of feet MSL and SFC is the floor.",
+    "reference": "FAA-CT-8080-2 Figure 20; AIM 3-2-4; FAA Aeronautical Chart User's Guide",
+    "figure": "figure-20"
+  },
+  {
+    "id": "FIG-020-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 20",
+    "difficulty": "medium",
+    "question": "Refer to Figure 20. The maximum elevation figure (MEF) in the quadrangle containing Norfolk is shown as 07, which means terrain/obstructions up to:",
+    "choices": [
+      "A. 700 feet AGL",
+      "B. 700 feet MSL",
+      "C. 7,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "MEFs on sectionals are depicted in thousands and hundreds of feet MSL. '07' means 700 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 20",
+    "figure": "figure-20"
+  },
+  {
+    "id": "FIG-021-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 21",
+    "difficulty": "medium",
+    "question": "Refer to Figure 21. The 'Devils Lake West MOA' shown in the chart is what type of special use airspace?",
+    "choices": [
+      "A. Restricted Area",
+      "B. Military Operations Area",
+      "C. Prohibited Area"
+    ],
+    "answer": "B",
+    "explanation": "MOA stands for Military Operations Area, which is shown by magenta hashed boundaries on sectional charts.",
+    "reference": "FAA-CT-8080-2 Figure 21",
+    "figure": "figure-21"
+  },
+  {
+    "id": "FIG-021-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 21",
+    "difficulty": "easy",
+    "question": "Refer to Figure 21. The airport at the top of the chart with a blue airport symbol and Class D airspace ring (Grand Forks area) most likely has:",
+    "choices": [
+      "A. A part-time control tower",
+      "B. No services",
+      "C. Class B airspace"
+    ],
+    "answer": "A",
+    "explanation": "Figure 21's top airport is Minot Intl (MOT), not Grand Forks. The blue airport symbol and associated Class D/airport data indicate a towered airport, with tower/airspace operating details checked in the Chart Supplement.",
+    "reference": "FAA-CT-8080-2 Figure 21; FAA Aeronautical Chart User's Guide",
+    "figure": "figure-21"
+  },
+  {
+    "id": "FIG-021-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 21",
+    "difficulty": "medium",
+    "question": "Refer to Figure 21. The maximum elevation figure (MEF) shown as '26' within one of the quadrangles indicates terrain/obstructions up to:",
+    "choices": [
+      "A. 260 feet MSL",
+      "B. 2,600 feet MSL",
+      "C. 2,600 feet AGL"
+    ],
+    "answer": "B",
+    "explanation": "Large blue MEF numbers on sectionals are expressed in thousands and hundreds of feet MSL. '26' = 2,600 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 21",
+    "figure": "figure-21"
+  },
+  {
+    "id": "FIG-022-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 22",
+    "difficulty": "medium",
+    "question": "Refer to Figure 22. The maximum elevation figure shown as '74' indicates terrain/obstructions up to:",
+    "choices": [
+      "A. 740 feet MSL",
+      "B. 7,400 feet AGL",
+      "C. 7,400 feet MSL"
+    ],
+    "answer": "C",
+    "explanation": "MEFs are expressed in thousands and hundreds of feet MSL. '74' = 7,400 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 22",
+    "figure": "figure-22"
+  },
+  {
+    "id": "FIG-022-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 22",
+    "difficulty": "medium",
+    "question": "Refer to Figure 22. The contour interval shown in the legend at the upper right of Figure 22 is:",
+    "choices": [
+      "A. 100 feet",
+      "B. 500 feet",
+      "C. 1,000 feet"
+    ],
+    "answer": "B",
+    "explanation": "The legend in Figure 22 states 'CONTOUR INTERVAL 500 feet', indicating each contour line represents a 500-foot elevation change.",
+    "reference": "FAA-CT-8080-2 Figure 22",
+    "figure": "figure-22"
+  },
+  {
+    "id": "FIG-022-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 22",
+    "difficulty": "medium",
+    "question": "Refer to Figure 22. A magenta dashed circle around an airport on the sectional indicates:",
+    "choices": [
+      "A. Class E airspace extending down to the surface",
+      "B. Class B airspace",
+      "C. Restricted Area"
+    ],
+    "answer": "A",
+    "explanation": "A magenta dashed circle around an airport indicates Class E airspace extending to the surface around that airport.",
+    "reference": "FAA-CT-8080-2 Figure 22",
+    "figure": "figure-22"
+  },
+  {
+    "id": "FIG-024-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 24",
+    "difficulty": "medium",
+    "question": "Refer to Figure 24. A faded magenta vignette (shaded) ring around an airport on the sectional indicates that Class E airspace begins at:",
+    "choices": [
+      "A. The surface",
+      "B. 700 feet AGL",
+      "C. 1,200 feet AGL"
+    ],
+    "answer": "B",
+    "explanation": "A faded/soft magenta vignette indicates Class E airspace with a floor of 700 feet AGL. A faded blue vignette would indicate 1,200 feet AGL.",
+    "reference": "FAA-CT-8080-2 Figure 24",
+    "figure": "figure-24"
+  },
+  {
+    "id": "FIG-024-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 24",
+    "difficulty": "easy",
+    "question": "Refer to Figure 24. The maximum elevation figure shown as '15' indicates terrain/obstacles up to:",
+    "choices": [
+      "A. 150 feet MSL",
+      "B. 1,500 feet MSL",
+      "C. 15,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "Large blue MEF numbers are read in thousands + hundreds of feet MSL. '15' represents 1,500 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 24",
+    "figure": "figure-24"
+  },
+  {
+    "id": "FIG-024-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 24",
+    "difficulty": "medium",
+    "question": "Refer to Figure 24. The latitude tick marker '33 deg' on the chart indicates:",
+    "choices": [
+      "A. The longitude 33 degrees West",
+      "B. The parallel of latitude at 33 degrees North",
+      "C. Magnetic variation 33 degrees"
+    ],
+    "answer": "B",
+    "explanation": "The labels along the chart neatline reading '33 deg' identify the parallel of latitude (north of the equator) at that location on the sectional.",
+    "reference": "FAA-CT-8080-2 Figure 24",
+    "figure": "figure-24"
+  },
+  {
+    "id": "FIG-025-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 25",
+    "difficulty": "easy",
+    "question": "Refer to Figure 25. The solid blue concentric rings around the central airport indicate:",
+    "choices": [
+      "A. Class B airspace",
+      "B. Class C airspace",
+      "C. Class D airspace"
+    ],
+    "answer": "A",
+    "explanation": "Solid blue concentric rings depict Class B airspace. The central airport in Figure 25 is shown as a Class B primary airport (Dallas/Fort Worth area).",
+    "reference": "FAA-CT-8080-2 Figure 25",
+    "figure": "figure-25"
+  },
+  {
+    "id": "FIG-025-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 25",
+    "difficulty": "medium",
+    "question": "Refer to Figure 25. The Class B airspace floor/ceiling notation typically appears as a fraction next to each ring (e.g., 110/SFC). What does the top number represent?",
+    "choices": [
+      "A. The floor of the Class B airspace, in hundreds of feet MSL",
+      "B. The ceiling of the Class B airspace, in hundreds of feet MSL",
+      "C. The radius in nautical miles"
+    ],
+    "answer": "B",
+    "explanation": "Class B airspace fractions on sectionals show ceiling on top and floor on bottom, both in hundreds of feet MSL. SFC indicates the surface.",
+    "reference": "FAA-CT-8080-2 Figure 25",
+    "figure": "figure-25"
+  },
+  {
+    "id": "FIG-025-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 25",
+    "difficulty": "medium",
+    "question": "Refer to Figure 25. A Part 107 remote pilot wishing to operate within the Class B airspace shown must:",
+    "choices": [
+      "A. Obtain ATC authorization (e.g., via LAANC or DroneZone)",
+      "B. Only file a NOTAM",
+      "C. Stay below 200 feet AGL without further coordination"
+    ],
+    "answer": "A",
+    "explanation": "Part 107.41 requires prior ATC authorization to operate in Class B, C, D, or surface Class E airspace. LAANC and FAA DroneZone are the primary methods.",
+    "reference": "14 CFR 107.41; FAA-CT-8080-2 Figure 25",
+    "figure": "figure-25"
+  },
+  {
+    "id": "FIG-025-004",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 25",
+    "difficulty": "hard",
+    "question": "Refer to Figure 25. A Class B veil typically extends outward to a radius of approximately how many nautical miles from the primary airport?",
+    "choices": [
+      "A. 5 NM",
+      "B. 20 NM",
+      "C. 30 NM"
+    ],
+    "answer": "C",
+    "explanation": "The Class B Mode C veil extends 30 NM from the primary airport, requiring transponder operation by manned aircraft within that radius from the surface up to 10,000 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 25; 14 CFR 91.215",
+    "figure": "figure-25"
+  },
+  {
+    "id": "FIG-026-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 26",
+    "difficulty": "easy",
+    "question": "Refer to Figure 26. The blue hatched areas labeled 'RESTRICTED' indicate what type of special use airspace?",
+    "choices": [
+      "A. Military Operations Area (MOA)",
+      "B. Restricted Area",
+      "C. Warning Area"
+    ],
+    "answer": "B",
+    "explanation": "Restricted Areas are depicted with blue hatched borders and an 'R-' prefix. Restricted airspace requires authorization for entry due to invisible hazards (artillery, missiles, etc.).",
+    "reference": "FAA-CT-8080-2 Figure 26",
+    "figure": "figure-26"
+  },
+  {
+    "id": "FIG-026-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 26",
+    "difficulty": "medium",
+    "question": "Refer to Figure 26. A drone operator cannot fly inside an active Restricted Area without:",
+    "choices": [
+      "A. A NOTAM",
+      "B. Permission from the controlling/using agency",
+      "C. Class G airspace clearance"
+    ],
+    "answer": "B",
+    "explanation": "A small UAS may not operate in restricted or prohibited areas unless it has permission from the using or controlling agency, as required by 14 CFR 107.45.",
+    "reference": "14 CFR 107.45; FAA-CT-8080-2 Figure 26; AIM 3-4-3",
+    "figure": "figure-26"
+  },
+  {
+    "id": "FIG-026-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 26",
+    "difficulty": "medium",
+    "question": "Refer to Figure 26. The MEF of '24' shown in one of the quadrangles represents what altitude?",
+    "choices": [
+      "A. 240 feet MSL",
+      "B. 2,400 feet AGL",
+      "C. 2,400 feet MSL"
+    ],
+    "answer": "C",
+    "explanation": "Maximum Elevation Figures are in thousands and hundreds of feet MSL. '24' = 2,400 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 26",
+    "figure": "figure-26"
+  },
+  {
+    "id": "FIG-027-001",
+    "topic": "ops",
+    "subtopic": "time conversion figure 27",
+    "difficulty": "easy",
+    "question": "Refer to Figure 27. To convert local time to UTC (Zulu) in the Central Standard Time zone, the conversion is:",
+    "choices": [
+      "A. Add 6 hours",
+      "B. Subtract 6 hours",
+      "C. Add 5 hours"
+    ],
+    "answer": "A",
+    "explanation": "Per Figure 27's time conversion table, Central Standard Time = UTC - 6 hours, so to convert local CST to UTC, add 6 hours.",
+    "reference": "FAA-CT-8080-2 Figure 27",
+    "figure": "figure-27"
+  },
+  {
+    "id": "FIG-027-002",
+    "topic": "ops",
+    "subtopic": "time conversion figure 27",
+    "difficulty": "medium",
+    "question": "Refer to Figure 27. To convert from Pacific Standard Time to UTC, add:",
+    "choices": [
+      "A. 5 hours",
+      "B. 7 hours",
+      "C. 8 hours"
+    ],
+    "answer": "C",
+    "explanation": "PST is UTC - 8, so to convert local PST to UTC (Z), add 8 hours.",
+    "reference": "FAA-CT-8080-2 Figure 27",
+    "figure": "figure-27"
+  },
+  {
+    "id": "FIG-027-003",
+    "topic": "ops",
+    "subtopic": "time conversion figure 27",
+    "difficulty": "medium",
+    "question": "Refer to Figure 27. If local time is 1500 Mountain Standard Time, what is the equivalent UTC?",
+    "choices": [
+      "A. 0800Z",
+      "B. 2200Z",
+      "C. 2100Z"
+    ],
+    "answer": "B",
+    "explanation": "MST is UTC - 7. 1500 local + 7 = 2200Z.",
+    "reference": "FAA-CT-8080-2 Figure 27",
+    "figure": "figure-27"
+  },
+  {
+    "id": "FIG-031-001",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 31",
+    "difficulty": "easy",
+    "question": "Refer to Figure 31. The chart supplement entry shown is for an airport in what U.S. state?",
+    "choices": [
+      "A. Idaho",
+      "B. Iowa",
+      "C. Indiana"
+    ],
+    "answer": "A",
+    "explanation": "Figure 31's chart supplement page is from the Idaho section, with the state name shown at the top.",
+    "reference": "FAA-CT-8080-2 Figure 31",
+    "figure": "figure-31"
+  },
+  {
+    "id": "FIG-031-002",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 31",
+    "difficulty": "medium",
+    "question": "Refer to Figure 31. The chart supplement uses 'CTAF' to identify what frequency?",
+    "choices": [
+      "A. Common Traffic Advisory Frequency",
+      "B. Center Traffic Approach Frequency",
+      "C. Class Tower Air Frequency"
+    ],
+    "answer": "A",
+    "explanation": "CTAF stands for Common Traffic Advisory Frequency, the recommended frequency for self-announcing at non-towered airports.",
+    "reference": "FAA-CT-8080-2 Figure 31; AIM 4-1-9",
+    "figure": "figure-31"
+  },
+  {
+    "id": "FIG-031-003",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 31",
+    "difficulty": "medium",
+    "question": "Refer to Figure 31. The airport elevation listed in the chart supplement entry header is given as:",
+    "choices": [
+      "A. Height above ground in feet",
+      "B. Height of the highest point on the usable runway in feet MSL",
+      "C. Average runway height in meters"
+    ],
+    "answer": "B",
+    "explanation": "Chart Supplement airport elevation is published as the highest point of any usable runway, in feet above mean sea level.",
+    "reference": "FAA-CT-8080-2 Figure 31",
+    "figure": "figure-31"
+  },
+  {
+    "id": "FIG-047-001",
+    "topic": "airport",
+    "subtopic": "VASI figure 47",
+    "difficulty": "easy",
+    "question": "Refer to Figure 47. A standard two-bar VASI showing red lights over white lights (illustration A) indicates the aircraft is:",
+    "choices": [
+      "A. Above the glidepath",
+      "B. On the glidepath",
+      "C. Below the glidepath"
+    ],
+    "answer": "B",
+    "explanation": "Illustration A shows red lights on top (far bar) and white lights on bottom (near bar) - the standard on-glidepath indication. Mnemonic: 'red over white, you're alright'.",
+    "reference": "FAA-CT-8080-2 Figure 47; AIM 2-1-2",
+    "figure": "figure-47"
+  },
+  {
+    "id": "FIG-047-002",
+    "topic": "airport",
+    "subtopic": "VASI figure 47",
+    "difficulty": "medium",
+    "question": "Refer to Figure 47. A two-bar VASI showing all red lights (illustration D) indicates the aircraft is:",
+    "choices": [
+      "A. On the glidepath",
+      "B. Above the glidepath",
+      "C. Below the glidepath"
+    ],
+    "answer": "C",
+    "explanation": "All red lights on a VASI means the aircraft is below the glidepath. Mnemonic: 'all red, you're dead' (too low).",
+    "reference": "FAA-CT-8080-2 Figure 47; AIM 2-1-2",
+    "figure": "figure-47"
+  },
+  {
+    "id": "FIG-047-003",
+    "topic": "airport",
+    "subtopic": "VASI figure 47",
+    "difficulty": "medium",
+    "question": "Refer to Figure 47. A two-bar VASI showing all white lights (illustration C) indicates the aircraft is:",
+    "choices": [
+      "A. On the glidepath",
+      "B. Above the glidepath",
+      "C. Below the glidepath"
+    ],
+    "answer": "B",
+    "explanation": "All white lights on a VASI indicates the aircraft is above the glidepath ('white, white, out of sight').",
+    "reference": "FAA-CT-8080-2 Figure 47; AIM 2-1-2",
+    "figure": "figure-47"
+  },
+  {
+    "id": "FIG-048-001",
+    "topic": "airport",
+    "subtopic": "airport diagram figure 48",
+    "difficulty": "medium",
+    "question": "Refer to Figure 48. The displaced threshold markings shown at position A on the runway indicate that the area before the threshold:",
+    "choices": [
+      "A. Is available for taxi, takeoff, and landing rollout, but not landing touchdown",
+      "B. Cannot be used at all",
+      "C. Is only for emergency use"
+    ],
+    "answer": "A",
+    "explanation": "A displaced threshold means the area before the displaced threshold can be used for taxi, takeoff, and landing rollout (after touching down beyond the threshold) but cannot be used for landing touchdown.",
+    "reference": "FAA-CT-8080-2 Figure 48; AIM 2-3-3",
+    "figure": "figure-48"
+  },
+  {
+    "id": "FIG-048-002",
+    "topic": "airport",
+    "subtopic": "airport diagram figure 48",
+    "difficulty": "easy",
+    "question": "Refer to Figure 48. The 'Air Carrier Terminal' label identifies an area used primarily for:",
+    "choices": [
+      "A. Cargo storage",
+      "B. Loading and unloading commercial airline passengers",
+      "C. General aviation parking"
+    ],
+    "answer": "B",
+    "explanation": "An Air Carrier Terminal is where scheduled commercial airline operations load and unload passengers, as shown in the airport diagram.",
+    "reference": "FAA-CT-8080-2 Figure 48",
+    "figure": "figure-48"
+  },
+  {
+    "id": "FIG-049-001",
+    "topic": "airport",
+    "subtopic": "airport diagram figure 49",
+    "difficulty": "easy",
+    "question": "Refer to Figure 49. The large 'X' painted on runways 4/22 indicates:",
+    "choices": [
+      "A. The runway is the preferred runway",
+      "B. The runway is closed",
+      "C. The runway is for emergency use only"
+    ],
+    "answer": "B",
+    "explanation": "A yellow 'X' on a runway indicates the runway is closed and unusable for landing or takeoff.",
+    "reference": "FAA-CT-8080-2 Figure 49; AIM 2-3-3",
+    "figure": "figure-49"
+  },
+  {
+    "id": "FIG-049-002",
+    "topic": "airport",
+    "subtopic": "airport diagram figure 49",
+    "difficulty": "medium",
+    "question": "Refer to Figure 49. The tetrahedron (arrow inside the circle of L-shaped markers) on the airport indicates:",
+    "choices": [
+      "A. Recommended landing direction",
+      "B. Wind speed in knots",
+      "C. The location of the airport beacon"
+    ],
+    "answer": "A",
+    "explanation": "A tetrahedron is a wind direction indicator and points in the direction of landing (into the wind). The L-shaped segmented circle around it indicates the traffic pattern direction.",
+    "reference": "FAA-CT-8080-2 Figure 49; AIM 4-3-4",
+    "figure": "figure-49"
+  },
+  {
+    "id": "FIG-049-003",
+    "topic": "airport",
+    "subtopic": "airport diagram figure 49",
+    "difficulty": "medium",
+    "question": "Refer to Figure 49. Based on the tetrahedron orientation and the open runways 18/36 shown, the appropriate landing runway is:",
+    "choices": [
+      "A. Runway 18 (south)",
+      "B. Runway 36 (north)",
+      "C. Runway 22 (closed)"
+    ],
+    "answer": "B",
+    "explanation": "The tetrahedron arrow points roughly north, indicating the favored landing direction is to the north. Runway 36 is oriented to the north and is open (not marked with X), making it the appropriate landing runway.",
+    "reference": "FAA-CT-8080-2 Figure 49; AIM 4-3-4",
+    "figure": "figure-49"
+  },
+  {
+    "id": "FIG-050-001",
+    "topic": "airport",
+    "subtopic": "wind sock figure 50",
+    "difficulty": "easy",
+    "question": "Refer to Figure 50. The wind sock (cone) is pointed toward the southwest, with the open/large end facing toward the northeast. The wind is therefore coming from the:",
+    "choices": [
+      "A. Northwest",
+      "B. Southeast",
+      "C. Northeast"
+    ],
+    "answer": "A",
+    "explanation": "A windsock points downwind. In Figure 50, the narrow end trails toward the southeast and the open end faces northwest, so the wind is coming from the northwest.",
+    "reference": "FAA-CT-8080-2 Figure 50; AIM 4-3-4",
+    "figure": "figure-50"
+  },
+  {
+    "id": "FIG-050-002",
+    "topic": "airport",
+    "subtopic": "wind sock figure 50",
+    "difficulty": "medium",
+    "question": "Refer to Figure 50. The L-shaped markers arranged around the wind cone make up a:",
+    "choices": [
+      "A. Segmented circle traffic pattern indicator",
+      "B. Runway closure marker",
+      "C. Helipad designator"
+    ],
+    "answer": "A",
+    "explanation": "The L-shaped extensions on each segment of the dashed circle form a segmented circle that depicts the direction of the traffic pattern legs for each runway.",
+    "reference": "FAA-CT-8080-2 Figure 50; AIM 4-3-4",
+    "figure": "figure-50"
+  },
+  {
+    "id": "FIG-052-001",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 52",
+    "difficulty": "easy",
+    "question": "Refer to Figure 52. The chart supplement entries shown are for airports in what U.S. state?",
+    "choices": [
+      "A. Nevada",
+      "B. Nebraska",
+      "C. North Carolina"
+    ],
+    "answer": "B",
+    "explanation": "The header 'NEBRASKA' is shown above the chart supplement entries in Figure 52.",
+    "reference": "FAA-CT-8080-2 Figure 52",
+    "figure": "figure-52"
+  },
+  {
+    "id": "FIG-052-002",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 52",
+    "difficulty": "medium",
+    "question": "Refer to Figure 52. The 'COMMUNICATIONS' section of a chart supplement typically lists:",
+    "choices": [
+      "A. Frequencies for CTAF, UNICOM, ATIS, ground/tower, and approach/departure control",
+      "B. The airport manager's phone number only",
+      "C. Only emergency frequencies"
+    ],
+    "answer": "A",
+    "explanation": "The COMMUNICATIONS section lists all radio frequencies available at the airport: CTAF, UNICOM, ATIS, ground, tower, approach/departure, and FSS.",
+    "reference": "FAA-CT-8080-2 Figure 52",
+    "figure": "figure-52"
+  },
+  {
+    "id": "FIG-058-001",
+    "topic": "ops",
+    "subtopic": "compass card figure 58",
+    "difficulty": "easy",
+    "question": "Refer to Figure 58. According to the compass card, to fly a magnetic heading of due North (000 degrees), the pilot should steer:",
+    "choices": [
+      "A. 0 degrees",
+      "B. 27 degrees",
+      "C. 181 degrees"
+    ],
+    "answer": "A",
+    "explanation": "The compass card shows 'For N, Steer 0', meaning to fly a heading of North, the compass should read 0 degrees.",
+    "reference": "FAA-CT-8080-2 Figure 58",
+    "figure": "figure-58"
+  },
+  {
+    "id": "FIG-058-002",
+    "topic": "ops",
+    "subtopic": "compass card figure 58",
+    "difficulty": "medium",
+    "question": "Refer to Figure 58. To fly a magnetic heading of 120 degrees, the pilot should steer what compass heading?",
+    "choices": [
+      "A. 116 degrees",
+      "B. 148 degrees",
+      "C. 085 degrees"
+    ],
+    "answer": "A",
+    "explanation": "Per the compass card, to fly 120, steer 116 degrees (correcting for compass deviation).",
+    "reference": "FAA-CT-8080-2 Figure 58",
+    "figure": "figure-58"
+  },
+  {
+    "id": "FIG-058-003",
+    "topic": "ops",
+    "subtopic": "compass card figure 58",
+    "difficulty": "medium",
+    "question": "Refer to Figure 58. To fly a magnetic heading of due West (270 degrees), the pilot should steer:",
+    "choices": [
+      "A. 274 degrees",
+      "B. 300 degrees",
+      "C. 244 degrees"
+    ],
+    "answer": "A",
+    "explanation": "Per the compass card, 'For W, Steer 274'.",
+    "reference": "FAA-CT-8080-2 Figure 58",
+    "figure": "figure-58"
+  },
+  {
+    "id": "FIG-059-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 59",
+    "difficulty": "easy",
+    "question": "Refer to Figure 59. Solid magenta circles around an airport on a sectional chart indicate what class of airspace?",
+    "choices": [
+      "A. Class B",
+      "B. Class C",
+      "C. Class D"
+    ],
+    "answer": "B",
+    "explanation": "Solid magenta circles around an airport designate Class C airspace. Class D is dashed blue, Class B is solid blue.",
+    "reference": "FAA-CT-8080-2 Figure 59",
+    "figure": "figure-59"
+  },
+  {
+    "id": "FIG-059-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 59",
+    "difficulty": "medium",
+    "question": "Refer to Figure 59. The number stack near a Class C airspace ring, for example '40/SFC', means:",
+    "choices": [
+      "A. Ceiling 4,000 feet MSL, floor at surface",
+      "B. Ceiling 40,000 feet MSL, floor at surface",
+      "C. Floor 4,000 feet MSL, ceiling at surface"
+    ],
+    "answer": "A",
+    "explanation": "Class C airspace altitudes are expressed in hundreds of feet MSL. '40/SFC' means a ceiling of 4,000 feet MSL with a floor at the surface.",
+    "reference": "FAA-CT-8080-2 Figure 59",
+    "figure": "figure-59"
+  },
+  {
+    "id": "FIG-059-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 59",
+    "difficulty": "medium",
+    "question": "Refer to Figure 59. To operate a small UAS within the Class C airspace depicted, a remote pilot must:",
+    "choices": [
+      "A. Receive prior ATC authorization (via LAANC or DroneZone)",
+      "B. File a flight plan with ATC",
+      "C. Maintain a 5 SM standoff"
+    ],
+    "answer": "A",
+    "explanation": "Per 14 CFR 107.41, a remote pilot must obtain prior ATC authorization before operating in Class B, C, D, or surface Class E airspace.",
+    "reference": "14 CFR 107.41; FAA-CT-8080-2 Figure 59",
+    "figure": "figure-59"
+  },
+  {
+    "id": "FIG-059-004",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 59",
+    "difficulty": "medium",
+    "question": "Refer to Figure 59. The MEF labeled '18' on the southern portion of the chart represents terrain/obstructions up to:",
+    "choices": [
+      "A. 180 feet MSL",
+      "B. 1,800 feet MSL",
+      "C. 18,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "MEFs are read in thousands and hundreds of feet MSL. '18' = 1,800 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 59",
+    "figure": "figure-59"
+  },
+  {
+    "id": "FIG-063-001",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 63",
+    "difficulty": "easy",
+    "question": "Refer to Figure 63. The chart supplement entries shown are for airports in what state?",
+    "choices": [
+      "A. Ohio",
+      "B. Oklahoma",
+      "C. Oregon"
+    ],
+    "answer": "A",
+    "explanation": "The header 'OHIO' appears above the chart supplement entries in Figure 63 (Toledo Executive, Toledo Express).",
+    "reference": "FAA-CT-8080-2 Figure 63",
+    "figure": "figure-63"
+  },
+  {
+    "id": "FIG-063-002",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 63",
+    "difficulty": "medium",
+    "question": "Refer to Figure 63. In the chart supplement, 'CTAF' is the same as which frequency at a towered airport when the tower is closed?",
+    "choices": [
+      "A. The tower frequency",
+      "B. UNICOM only",
+      "C. Emergency 121.5"
+    ],
+    "answer": "A",
+    "explanation": "At part-time towered airports, the CTAF is normally the tower frequency, used for self-announce when the tower is closed.",
+    "reference": "FAA-CT-8080-2 Figure 63; AIM 4-1-9",
+    "figure": "figure-63"
+  },
+  {
+    "id": "FIG-064-001",
+    "topic": "airport",
+    "subtopic": "airport markings figure 64",
+    "difficulty": "medium",
+    "question": "Refer to Figure 64. The solid yellow line with two solid and two dashed lines (marker A area) indicates:",
+    "choices": [
+      "A. A runway holding position marking",
+      "B. A taxiway centerline",
+      "C. An ILS critical area boundary"
+    ],
+    "answer": "A",
+    "explanation": "Two solid yellow lines accompanied by two dashed yellow lines mark a runway holding position. Aircraft must hold on the side with the solid lines until cleared.",
+    "reference": "FAA-CT-8080-2 Figure 64; AIM 2-3-5",
+    "figure": "figure-64"
+  },
+  {
+    "id": "FIG-064-002",
+    "topic": "airport",
+    "subtopic": "airport markings figure 64",
+    "difficulty": "medium",
+    "question": "Refer to Figure 64. The ILS holding position marking (yellow ladder shape at position B) means:",
+    "choices": [
+      "A. Hold here when instructed to protect the ILS critical area",
+      "B. The taxiway is closed",
+      "C. A non-movement area boundary"
+    ],
+    "answer": "A",
+    "explanation": "The 'ladder' yellow pavement marking is the ILS critical area holding position marking. Aircraft hold here when ATC requires protection of the ILS signal.",
+    "reference": "FAA-CT-8080-2 Figure 64; AIM 2-3-5",
+    "figure": "figure-64"
+  },
+  {
+    "id": "FIG-064-003",
+    "topic": "airport",
+    "subtopic": "airport markings figure 64",
+    "difficulty": "medium",
+    "question": "Refer to Figure 64. The solid yellow line and dashed yellow line side-by-side (position C area, near the terminal) marks:",
+    "choices": [
+      "A. A non-movement area boundary (movement area is on the dashed side)",
+      "B. A closed taxiway",
+      "C. A taxiway shoulder marking"
+    ],
+    "answer": "A",
+    "explanation": "A combined solid and dashed yellow line is a non-movement area boundary marking. The solid side is the non-movement (ramp) area; the dashed side is the movement area requiring ATC clearance.",
+    "reference": "FAA-CT-8080-2 Figure 64; AIM 2-3-5",
+    "figure": "figure-64"
+  },
+  {
+    "id": "FIG-065-001",
+    "topic": "airport",
+    "subtopic": "airport signs figure 65",
+    "difficulty": "easy",
+    "question": "Refer to Figure 65. The red sign with white inscription '4-22' (sign A) is what type of sign?",
+    "choices": [
+      "A. Runway holding position sign",
+      "B. Taxiway location sign",
+      "C. Runway distance remaining sign"
+    ],
+    "answer": "A",
+    "explanation": "Red background with white inscription showing runway designations is a mandatory instruction sign - specifically, a runway holding position sign indicating you are about to enter runway 4-22.",
+    "reference": "FAA-CT-8080-2 Figure 65; AIM 2-3-8",
+    "figure": "figure-65"
+  },
+  {
+    "id": "FIG-065-002",
+    "topic": "airport",
+    "subtopic": "airport signs figure 65",
+    "difficulty": "medium",
+    "question": "Refer to Figure 65. The black sign with yellow 'B' inscription (sign E) is a:",
+    "choices": [
+      "A. Taxiway location sign (you are on taxiway B)",
+      "B. Runway holding position sign",
+      "C. Direction sign to taxiway B"
+    ],
+    "answer": "A",
+    "explanation": "A black sign with a yellow letter inscription is a location sign, identifying the taxiway you are currently on (taxiway Bravo).",
+    "reference": "FAA-CT-8080-2 Figure 65; AIM 2-3-9",
+    "figure": "figure-65"
+  },
+  {
+    "id": "FIG-065-003",
+    "topic": "airport",
+    "subtopic": "airport signs figure 65",
+    "difficulty": "medium",
+    "question": "Refer to Figure 65. The yellow sign with black 'B' and arrow (sign K) is a:",
+    "choices": [
+      "A. Taxiway direction sign",
+      "B. Runway holding sign",
+      "C. ILS critical area sign"
+    ],
+    "answer": "A",
+    "explanation": "Yellow background with black inscription and an arrow is a direction sign, indicating the direction to taxiway B.",
+    "reference": "FAA-CT-8080-2 Figure 65; AIM 2-3-9",
+    "figure": "figure-65"
+  },
+  {
+    "id": "FIG-065-004",
+    "topic": "airport",
+    "subtopic": "airport signs figure 65",
+    "difficulty": "medium",
+    "question": "Refer to Figure 65. The red sign labeled 'ILS' (sign C) marks:",
+    "choices": [
+      "A. The boundary of the ILS critical area",
+      "B. The location of an ILS antenna",
+      "C. An instrument landing system maintenance area"
+    ],
+    "answer": "A",
+    "explanation": "A red 'ILS' sign is a mandatory instruction sign marking the holding position for an ILS critical area. Aircraft must hold here when instructed to protect the ILS signal.",
+    "reference": "FAA-CT-8080-2 Figure 65; AIM 2-3-8",
+    "figure": "figure-65"
+  },
+  {
+    "id": "FIG-065-005",
+    "topic": "airport",
+    "subtopic": "airport signs figure 65",
+    "difficulty": "medium",
+    "question": "Refer to Figure 65. The red sign labeled 'HS-1' (sign M) is a:",
+    "choices": [
+      "A. Hot spot sign indicating a known runway incursion location",
+      "B. Heliport surface marker",
+      "C. Mandatory holding position for helicopter operations"
+    ],
+    "answer": "A",
+    "explanation": "HS- markings indicate 'Hot Spots,' locations on the airport with a history of runway incursions or with potential confusion that pilots must pay extra attention to.",
+    "reference": "FAA-CT-8080-2 Figure 65; AIM 2-3-8",
+    "figure": "figure-65"
+  },
+  {
+    "id": "FIG-069-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 69",
+    "difficulty": "medium",
+    "question": "Refer to Figure 69. The 'Corpus Christi Class C' airspace shown is depicted with what color of solid rings?",
+    "choices": [
+      "A. Magenta (solid)",
+      "B. Blue (solid)",
+      "C. Magenta (dashed)"
+    ],
+    "answer": "A",
+    "explanation": "Class C airspace is depicted on sectional charts as solid magenta concentric rings around the primary airport.",
+    "reference": "FAA-CT-8080-2 Figure 69",
+    "figure": "figure-69"
+  },
+  {
+    "id": "FIG-069-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 69",
+    "difficulty": "medium",
+    "question": "Refer to Figure 69. The 'KINGSVILLE 2 MOA' depicted on the chart indicates:",
+    "choices": [
+      "A. A Military Operations Area where military training may be conducted",
+      "B. A restricted/prohibited area requiring permission",
+      "C. A Class B airspace shelf"
+    ],
+    "answer": "A",
+    "explanation": "MOA boundaries (magenta hashed) on the sectional show Military Operations Areas where military training may take place. Pilots should exercise caution but entry does not require authorization.",
+    "reference": "FAA-CT-8080-2 Figure 69; AIM 3-4-5",
+    "figure": "figure-69"
+  },
+  {
+    "id": "FIG-069-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 69",
+    "difficulty": "medium",
+    "question": "Refer to Figure 69. The 'ALERT AREA A-632' depicted on the chart is what type of airspace?",
+    "choices": [
+      "A. An Alert Area containing a high volume of pilot training or unusual aerial activity",
+      "B. A Restricted Area",
+      "C. A Prohibited Area"
+    ],
+    "answer": "A",
+    "explanation": "Alert Areas (A-) inform pilots of areas with a high volume of training or unusual aerial activity. Entry is permitted, but extra vigilance is required.",
+    "reference": "FAA-CT-8080-2 Figure 69; AIM 3-4-6",
+    "figure": "figure-69"
+  },
+  {
+    "id": "FIG-069-004",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 69",
+    "difficulty": "medium",
+    "question": "Refer to Figure 69. The MEF '07' shown in the south-central portion of the chart represents maximum terrain/obstacle elevation of:",
+    "choices": [
+      "A. 70 feet MSL",
+      "B. 700 feet MSL",
+      "C. 7,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "MEF '07' = 700 feet MSL maximum terrain plus obstacle elevation in that quadrangle.",
+    "reference": "FAA-CT-8080-2 Figure 69",
+    "figure": "figure-69"
+  },
+  {
+    "id": "FIG-070-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 70",
+    "difficulty": "easy",
+    "question": "Refer to Figure 70. The 'San Francisco Class B' label identifies what type of airspace?",
+    "choices": [
+      "A. Class B airspace surrounding the busiest commercial airports",
+      "B. Class C airspace",
+      "C. Class E airspace"
+    ],
+    "answer": "A",
+    "explanation": "Class B airspace surrounds the nation's busiest airports. SFO (San Francisco) is a Class B primary airport with multiple shelves shown by solid blue circles.",
+    "reference": "FAA-CT-8080-2 Figure 70; AIM 3-2-3",
+    "figure": "figure-70"
+  },
+  {
+    "id": "FIG-070-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 70",
+    "difficulty": "medium",
+    "question": "Refer to Figure 70. The 'Oakland Class C' airspace is shown with:",
+    "choices": [
+      "A. Solid magenta concentric rings",
+      "B. Solid blue concentric rings",
+      "C. Dashed magenta concentric rings"
+    ],
+    "answer": "A",
+    "explanation": "Class C airspace, including Oakland's, is depicted with solid magenta concentric rings on sectional charts.",
+    "reference": "FAA-CT-8080-2 Figure 70",
+    "figure": "figure-70"
+  },
+  {
+    "id": "FIG-070-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 70",
+    "difficulty": "medium",
+    "question": "Refer to Figure 70. A drone operator wishing to fly under the San Francisco Class B shelf labeled '100/SFC' (or similar) needs:",
+    "choices": [
+      "A. ATC authorization through LAANC or DroneZone",
+      "B. No authorization since they are below the floor",
+      "C. To file an IFR flight plan"
+    ],
+    "answer": "A",
+    "explanation": "Wherever the Class B floor extends to the surface, drone operations require prior ATC authorization (LAANC or DroneZone).",
+    "reference": "14 CFR 107.41; FAA-CT-8080-2 Figure 70",
+    "figure": "figure-70"
+  },
+  {
+    "id": "FIG-070-004",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 70",
+    "difficulty": "hard",
+    "question": "Refer to Figure 70. The notation '100/SFC' next to a Class B shelf means the airspace extends from:",
+    "choices": [
+      "A. Surface to 10,000 feet MSL",
+      "B. Surface to 1,000 feet MSL",
+      "C. 100 feet AGL to the surface"
+    ],
+    "answer": "A",
+    "explanation": "Class B altitudes are in hundreds of feet MSL. '100/SFC' = 10,000 feet MSL ceiling, surface floor.",
+    "reference": "FAA-CT-8080-2 Figure 70",
+    "figure": "figure-70"
+  },
+  {
+    "id": "FIG-071-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 71",
+    "difficulty": "easy",
+    "question": "Refer to Figure 71. The major airport in the center of the chart is surrounded by what type of airspace based on the solid magenta concentric rings?",
+    "choices": [
+      "A. Class B",
+      "B. Class C",
+      "C. Class D"
+    ],
+    "answer": "B",
+    "explanation": "Solid magenta concentric rings depict Class C airspace.",
+    "reference": "FAA-CT-8080-2 Figure 71",
+    "figure": "figure-71"
+  },
+  {
+    "id": "FIG-071-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 71",
+    "difficulty": "medium",
+    "question": "Refer to Figure 71. The MEF '22' shown on the south side of the chart represents maximum terrain/obstacle elevation of:",
+    "choices": [
+      "A. 220 feet MSL",
+      "B. 2,200 feet MSL",
+      "C. 22,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "MEFs are read in thousands and hundreds of feet MSL. '22' = 2,200 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 71",
+    "figure": "figure-71"
+  },
+  {
+    "id": "FIG-071-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 71",
+    "difficulty": "medium",
+    "question": "Refer to Figure 71. A dashed blue circle around an airport indicates what class of airspace?",
+    "choices": [
+      "A. Class B",
+      "B. Class C",
+      "C. Class D"
+    ],
+    "answer": "C",
+    "explanation": "Dashed blue lines depict Class D airspace.",
+    "reference": "FAA-CT-8080-2 Figure 71",
+    "figure": "figure-71"
+  },
+  {
+    "id": "FIG-074-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 74",
+    "difficulty": "medium",
+    "question": "Refer to Figure 74. The 'San Jose' Class C airspace is depicted on the chart by:",
+    "choices": [
+      "A. Solid magenta concentric rings",
+      "B. Solid blue concentric rings",
+      "C. Dashed magenta circle"
+    ],
+    "answer": "A",
+    "explanation": "Class C airspace is shown with solid magenta concentric rings on sectional charts.",
+    "reference": "FAA-CT-8080-2 Figure 74",
+    "figure": "figure-74"
+  },
+  {
+    "id": "FIG-074-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 74",
+    "difficulty": "medium",
+    "question": "Refer to Figure 74. The notation '100/40' next to a Class B shelf indicates ceiling and floor of:",
+    "choices": [
+      "A. 10,000 feet MSL ceiling, 4,000 feet MSL floor",
+      "B. 100 feet MSL ceiling, 40 feet MSL floor",
+      "C. 10,000 feet AGL ceiling, 4,000 feet AGL floor"
+    ],
+    "answer": "A",
+    "explanation": "Class B airspace altitudes are in hundreds of feet MSL. '100/40' = 10,000 feet MSL ceiling, 4,000 feet MSL floor.",
+    "reference": "FAA-CT-8080-2 Figure 74",
+    "figure": "figure-74"
+  },
+  {
+    "id": "FIG-074-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 74",
+    "difficulty": "medium",
+    "question": "Refer to Figure 74. The label 'San Francisco Class B' shown at the top denotes airspace that requires what for a Part 107 operation within the surface area?",
+    "choices": [
+      "A. Prior ATC authorization (LAANC/DroneZone)",
+      "B. Only a NOTAM filing",
+      "C. No special permission"
+    ],
+    "answer": "A",
+    "explanation": "Operations in Class B airspace under Part 107 require prior ATC authorization.",
+    "reference": "14 CFR 107.41; FAA-CT-8080-2 Figure 74",
+    "figure": "figure-74"
+  },
+  {
+    "id": "FIG-075-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 75",
+    "difficulty": "medium",
+    "question": "Refer to Figure 75. The 'R-2305' label depicted in the bottom right indicates what type of airspace?",
+    "choices": [
+      "A. Restricted Area",
+      "B. Military Operations Area",
+      "C. Reserved IFR route"
+    ],
+    "answer": "A",
+    "explanation": "The 'R-' prefix designates a Restricted Area, where flight is subject to restrictions due to invisible hazards. Entry typically requires permission from the controlling agency when active.",
+    "reference": "FAA-CT-8080-2 Figure 75; AIM 3-4-3",
+    "figure": "figure-75"
+  },
+  {
+    "id": "FIG-075-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 75",
+    "difficulty": "medium",
+    "question": "Refer to Figure 75. The note 'PHOENIX TERMINAL AREA - encouraged to use the Phoenix VFR / Area Chart for flights at or below 9000' suggests that pilots operating near Phoenix Class B should consult:",
+    "choices": [
+      "A. The Phoenix VFR Terminal Area Chart for more detail",
+      "B. The IFR Low Altitude En Route Chart only",
+      "C. The Chart Supplement only"
+    ],
+    "answer": "A",
+    "explanation": "Figure 75 explicitly advises using the Phoenix VFR Area Chart for flights at or below 9,000 feet. VFR Terminal Area Charts provide larger-scale detail around selected high-density terminal areas.",
+    "reference": "FAA-CT-8080-2 Figure 75; AIM 9-1-5",
+    "figure": "figure-75"
+  },
+  {
+    "id": "FIG-075-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 75",
+    "difficulty": "medium",
+    "question": "Refer to Figure 75. 'Alert Area A-231' depicted at the top of the chart indicates:",
+    "choices": [
+      "A. An area with high-volume pilot training or unusual aerial activity",
+      "B. A Prohibited Area requiring special clearance",
+      "C. A Class B Mode C veil"
+    ],
+    "answer": "A",
+    "explanation": "Alert Areas (A-) are non-regulatory but warn of high pilot training or unusual aerial activity. All pilots, including drone operators, should exercise extra vigilance.",
+    "reference": "FAA-CT-8080-2 Figure 75; AIM 3-4-6",
+    "figure": "figure-75"
+  },
+  {
+    "id": "FIG-076-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 76",
+    "difficulty": "medium",
+    "question": "Refer to Figure 76. The contour lines and elevation marks (e.g., '2585') on the chart represent:",
+    "choices": [
+      "A. Terrain elevations in feet MSL",
+      "B. Magnetic variation contours",
+      "C. Class E airspace boundaries"
+    ],
+    "answer": "A",
+    "explanation": "Contour lines and spot elevations on a sectional show terrain elevations above mean sea level (MSL), useful for terrain avoidance planning.",
+    "reference": "FAA-CT-8080-2 Figure 76",
+    "figure": "figure-76"
+  },
+  {
+    "id": "FIG-076-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 76",
+    "difficulty": "medium",
+    "question": "Refer to Figure 76. The MEF '33' shown in the middle of the chart represents a maximum terrain/obstacle elevation of:",
+    "choices": [
+      "A. 3,300 feet MSL",
+      "B. 33,000 feet MSL",
+      "C. 330 feet AGL"
+    ],
+    "answer": "A",
+    "explanation": "Maximum Elevation Figures are expressed in thousands and hundreds of feet MSL. '33' = 3,300 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 76",
+    "figure": "figure-76"
+  },
+  {
+    "id": "FIG-076-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 76",
+    "difficulty": "medium",
+    "question": "Refer to Figure 76. The numbers '44 deg' and '100 deg' along the chart neatlines represent:",
+    "choices": [
+      "A. Latitude (44 deg N) and longitude (100 deg W)",
+      "B. Magnetic variation in degrees",
+      "C. Wind direction"
+    ],
+    "answer": "A",
+    "explanation": "Labels along the chart edge identify the parallels of latitude and meridians of longitude. '44 deg' is the parallel of north latitude; '100 deg' is the meridian of west longitude.",
+    "reference": "FAA-CT-8080-2 Figure 76",
+    "figure": "figure-76"
+  },
+  {
+    "id": "FIG-078-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 78",
+    "difficulty": "medium",
+    "question": "Refer to Figure 78. The MEF '24' shown in the central portion of the chart represents maximum terrain/obstacle elevation of:",
+    "choices": [
+      "A. 240 feet MSL",
+      "B. 2,400 feet MSL",
+      "C. 24,000 feet MSL"
+    ],
+    "answer": "B",
+    "explanation": "MEF values are in thousands and hundreds of feet MSL. '24' = 2,400 feet MSL.",
+    "reference": "FAA-CT-8080-2 Figure 78",
+    "figure": "figure-78"
+  },
+  {
+    "id": "FIG-078-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 78",
+    "difficulty": "medium",
+    "question": "Refer to Figure 78. The yellow shaded area in the central portion of the chart represents:",
+    "choices": [
+      "A. A city/built-up area",
+      "B. Restricted airspace",
+      "C. A military training route"
+    ],
+    "answer": "A",
+    "explanation": "Yellow tinted areas on sectionals depict cities and populated places. This is useful for situational awareness and for identifying densely populated areas where Part 107 over-people rules apply.",
+    "reference": "FAA-CT-8080-2 Figure 78",
+    "figure": "figure-78"
+  },
+  {
+    "id": "FIG-078-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 78",
+    "difficulty": "medium",
+    "question": "Refer to Figure 78. A dashed blue rectangle/circle around an airport on the chart indicates:",
+    "choices": [
+      "A. Class D airspace",
+      "B. Class C airspace",
+      "C. Class B airspace"
+    ],
+    "answer": "A",
+    "explanation": "Dashed blue lines around an airport denote Class D airspace, typically extending from the surface to 2,500 feet AGL.",
+    "reference": "FAA-CT-8080-2 Figure 78",
+    "figure": "figure-78"
+  },
+  {
+    "id": "FIG-079-001",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 79",
+    "difficulty": "easy",
+    "question": "Refer to Figure 79. The chart supplement entries shown are for airports in what U.S. state?",
+    "choices": [
+      "A. Iowa",
+      "B. Idaho",
+      "C. Illinois"
+    ],
+    "answer": "A",
+    "explanation": "The state header 'IOWA' appears at the top of Figure 79 above the Sioux City and Sioux Center entries.",
+    "reference": "FAA-CT-8080-2 Figure 79",
+    "figure": "figure-79"
+  },
+  {
+    "id": "FIG-079-002",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 79",
+    "difficulty": "medium",
+    "question": "Refer to Figure 79. 'AIRPORT REMARKS' in a chart supplement entry typically include:",
+    "choices": [
+      "A. Local procedures, hazards, noise abatement, wildlife, and similar advisories",
+      "B. Only frequencies",
+      "C. Only the airport elevation"
+    ],
+    "answer": "A",
+    "explanation": "AIRPORT REMARKS contain critical local procedural notes, hazards, noise abatement information, wildlife issues, and other advisories pilots should review before operating.",
+    "reference": "FAA-CT-8080-2 Figure 79",
+    "figure": "figure-79"
+  },
+  {
+    "id": "FIG-079-003",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 79",
+    "difficulty": "medium",
+    "question": "Refer to Figure 79. The 'RWY 13' / 'RWY 31' entries in a chart supplement provide what kind of information?",
+    "choices": [
+      "A. Runway-specific data including length, surface, lighting, and obstructions",
+      "B. Only the runway compass heading",
+      "C. Only weather data"
+    ],
+    "answer": "A",
+    "explanation": "Per-runway listings (e.g., RWY 13, RWY 31) include runway length, width, surface, lighting, displaced thresholds, glide slope angle, and obstructions on approach.",
+    "reference": "FAA-CT-8080-2 Figure 79",
+    "figure": "figure-79"
+  },
+  {
+    "id": "FIG-080-001",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 80",
+    "difficulty": "medium",
+    "question": "Refer to Figure 80. The MEF '145' shown on the chart represents terrain/obstacle elevation up to:",
+    "choices": [
+      "A. 145 feet MSL",
+      "B. 1,450 feet MSL",
+      "C. 14,500 feet MSL"
+    ],
+    "answer": "C",
+    "explanation": "MEFs are read in thousands and hundreds of feet MSL. '145' = 14,500 feet MSL, indicating high mountainous terrain in this quadrangle.",
+    "reference": "FAA-CT-8080-2 Figure 80",
+    "figure": "figure-80"
+  },
+  {
+    "id": "FIG-080-002",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 80",
+    "difficulty": "medium",
+    "question": "Refer to Figure 80. The brown shaded terrain across the chart, with elevation contours, indicates:",
+    "choices": [
+      "A. Mountainous terrain at higher elevations",
+      "B. Restricted areas",
+      "C. Bodies of water"
+    ],
+    "answer": "A",
+    "explanation": "Tan/brown shading on a sectional represents higher terrain elevations. Darker shading equals higher terrain. Figure 80 depicts mountainous terrain in Colorado.",
+    "reference": "FAA-CT-8080-2 Figure 80",
+    "figure": "figure-80"
+  },
+  {
+    "id": "FIG-080-003",
+    "topic": "airspace",
+    "subtopic": "sectional chart figure 80",
+    "difficulty": "medium",
+    "question": "Refer to Figure 80. The notation 'AGL' typically appearing next to an obstruction altitude on a sectional refers to:",
+    "choices": [
+      "A. Above Ground Level (height of the obstruction above terrain)",
+      "B. Above Gross Landing",
+      "C. All Glider Limits"
+    ],
+    "answer": "A",
+    "explanation": "Obstruction altitudes are typically shown with MSL height on top and AGL height (in parentheses) below. AGL = Above Ground Level.",
+    "reference": "FAA-CT-8080-2 Figure 80; Chart User's Guide",
+    "figure": "figure-80"
+  },
+  {
+    "id": "FIG-081-001",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 81",
+    "difficulty": "easy",
+    "question": "Refer to Figure 81. The chart supplement entries shown are for airports in what U.S. state?",
+    "choices": [
+      "A. California",
+      "B. Colorado",
+      "C. Connecticut"
+    ],
+    "answer": "B",
+    "explanation": "The state header 'COLORADO' appears at the top of Figure 81 above the listed airport entries.",
+    "reference": "FAA-CT-8080-2 Figure 81",
+    "figure": "figure-81"
+  },
+  {
+    "id": "FIG-081-003",
+    "topic": "airport",
+    "subtopic": "chart supplement figure 81",
+    "difficulty": "medium",
+    "question": "Refer to Figure 81. The high airport elevations shown in the Colorado entries (e.g., 8,000+ feet MSL) indicate that pilots must especially consider:",
+    "choices": [
+      "A. Density altitude effects on aircraft and drone performance",
+      "B. Magnetic variation",
+      "C. Class B airspace authorization"
+    ],
+    "answer": "A",
+    "explanation": "High-elevation airports cause significantly elevated density altitudes, especially in warm weather, which degrades aircraft and small UAS performance (reduced lift, thrust, climb rate).",
+    "reference": "FAA-CT-8080-2 Figure 81",
+    "figure": "figure-81"
+  }
+]

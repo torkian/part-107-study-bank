@@ -1,0 +1,977 @@
+[
+  {
+    "id": "REG-001",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "easy",
+    "question": "What is the maximum groundspeed for a small unmanned aircraft operated under 14 CFR Part 107?",
+    "choices": [
+      "A. 87 knots (100 mph)",
+      "B. 100 knots (115 mph)",
+      "C. 60 knots (69 mph)"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.51(b) limits the groundspeed of a small UA to no more than 87 knots (100 miles per hour).",
+    "reference": "14 CFR 107.51(b)"
+  },
+  {
+    "id": "REG-002",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "easy",
+    "question": "What is the maximum altitude a small UA may be operated above ground level under Part 107 (outside the structure exception)?",
+    "choices": [
+      "A. 500 feet AGL",
+      "B. 400 feet AGL",
+      "C. 200 feet AGL"
+    ],
+    "answer": "B",
+    "explanation": "Under 14 CFR 107.51(c), a small UA may not be operated higher than 400 feet AGL unless flown within a 400-foot radius of a structure and not more than 400 feet above the structure's uppermost limit.",
+    "reference": "14 CFR 107.51(c)"
+  },
+  {
+    "id": "REG-003",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "medium",
+    "question": "A small UA is being flown to inspect a 600-foot tall tower. What is the maximum altitude above the ground the aircraft may legally reach?",
+    "choices": [
+      "A. 400 feet AGL",
+      "B. 600 feet AGL",
+      "C. 1,000 feet AGL"
+    ],
+    "answer": "C",
+    "explanation": "Per 14 CFR 107.51(c), when flown within a 400-foot radius of a structure, the small UA may operate up to 400 feet above the structure's uppermost limit. 600 ft + 400 ft = 1,000 ft AGL.",
+    "reference": "14 CFR 107.51(c)"
+  },
+  {
+    "id": "REG-004",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "easy",
+    "question": "What is the minimum flight visibility, as observed from the control station, required to operate under Part 107?",
+    "choices": [
+      "A. 1 statute mile",
+      "B. 3 statute miles",
+      "C. 5 statute miles"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.51(d) requires the minimum flight visibility, as observed from the control station, to be no less than 3 statute miles.",
+    "reference": "14 CFR 107.51(d)"
+  },
+  {
+    "id": "REG-005",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "easy",
+    "question": "What are the minimum distances from clouds that a small UA must maintain under Part 107?",
+    "choices": [
+      "A. 1,000 ft below and 1 SM horizontally",
+      "B. 500 ft below and 2,000 ft horizontally",
+      "C. 500 ft above and 2,000 ft horizontally"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.51(e) requires the small UA to remain at least 500 feet below the cloud and 2,000 feet horizontally from the cloud.",
+    "reference": "14 CFR 107.51(e)"
+  },
+  {
+    "id": "REG-006",
+    "topic": "regulations",
+    "subtopic": "remote pilot certification",
+    "difficulty": "easy",
+    "question": "What is the minimum age to be eligible for a remote pilot certificate with sUAS rating?",
+    "choices": [
+      "A. 14 years old",
+      "B. 16 years old",
+      "C. 18 years old"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.61(a) requires a person to be at least 16 years of age to be eligible for a remote pilot certificate.",
+    "reference": "14 CFR 107.61(a)"
+  },
+  {
+    "id": "REG-007",
+    "topic": "regulations",
+    "subtopic": "remote pilot certification",
+    "difficulty": "easy",
+    "question": "An applicant for a remote pilot certificate must be vetted by which agency?",
+    "choices": [
+      "A. FBI",
+      "B. TSA",
+      "C. FAA Security Division"
+    ],
+    "answer": "B",
+    "explanation": "As part of the remote pilot certificate application process, the FAA forwards applicant information to the Transportation Security Administration (TSA) for a security threat assessment under 49 U.S.C. 46111. A certificate cannot be issued until TSA vetting is completed.",
+    "reference": "49 U.S.C. 46111; FAA AC 107-2"
+  },
+  {
+    "id": "REG-008",
+    "topic": "regulations",
+    "subtopic": "alcohol and drugs",
+    "difficulty": "medium",
+    "question": "Under Part 107, a remote pilot may not act as RPIC within how many hours after consuming any alcoholic beverage?",
+    "choices": [
+      "A. 4 hours",
+      "B. 8 hours",
+      "C. 12 hours"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.27 incorporates the alcohol prohibitions of 14 CFR 91.17, which forbids acting as a crewmember within 8 hours of consuming alcohol ('8 hours bottle-to-throttle').",
+    "reference": "14 CFR 107.27 / 91.17(a)(1)"
+  },
+  {
+    "id": "REG-009",
+    "topic": "regulations",
+    "subtopic": "alcohol and drugs",
+    "difficulty": "medium",
+    "question": "What is the maximum blood alcohol concentration permitted for a remote pilot under Part 107?",
+    "choices": [
+      "A. 0.02",
+      "B. 0.04",
+      "C. 0.08"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.27 incorporates 91.17(a)(4), which prohibits acting as a crewmember with a blood alcohol concentration of 0.04 or greater.",
+    "reference": "14 CFR 107.27 / 91.17(a)(4)"
+  },
+  {
+    "id": "REG-010",
+    "topic": "regulations",
+    "subtopic": "accident reporting",
+    "difficulty": "medium",
+    "question": "Within how many days must a remote pilot report a qualifying sUAS accident to the FAA?",
+    "choices": [
+      "A. 24 hours",
+      "B. 10 calendar days",
+      "C. 30 days"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.9 requires the remote PIC to report a qualifying accident to the FAA within 10 calendar days of the operation.",
+    "reference": "14 CFR 107.9"
+  },
+  {
+    "id": "REG-011",
+    "topic": "regulations",
+    "subtopic": "accident reporting",
+    "difficulty": "medium",
+    "question": "Which event requires the remote PIC to file an accident report with the FAA under Part 107?",
+    "choices": [
+      "A. Any damage to the small UA itself",
+      "B. Property damage (other than the sUAS) with repair cost over $500",
+      "C. Any unplanned landing"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.9(b) requires reporting if damage to any property, other than the small UA, exceeds $500 in repair cost or fair market value. Damage to the sUAS itself is not counted.",
+    "reference": "14 CFR 107.9(b)"
+  },
+  {
+    "id": "REG-012",
+    "topic": "regulations",
+    "subtopic": "accident reporting",
+    "difficulty": "easy",
+    "question": "Which injury condition triggers a mandatory Part 107 accident report?",
+    "choices": [
+      "A. Any minor scrape or bruise",
+      "B. Serious injury or any loss of consciousness",
+      "C. Only fatalities"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.9(a) requires reporting any serious injury to any person or any loss of consciousness.",
+    "reference": "14 CFR 107.9(a)"
+  },
+  {
+    "id": "REG-013",
+    "topic": "regulations",
+    "subtopic": "remote pilot certification",
+    "difficulty": "medium",
+    "question": "A remote pilot who changes their permanent mailing address must notify the FAA within how many days?",
+    "choices": [
+      "A. 14 days",
+      "B. 30 days",
+      "C. 60 days"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.77 requires a remote pilot to notify the FAA within 30 calendar days of a permanent mailing address change.",
+    "reference": "14 CFR 107.77"
+  },
+  {
+    "id": "REG-014",
+    "topic": "regulations",
+    "subtopic": "visual line of sight",
+    "difficulty": "easy",
+    "question": "Under Part 107, who must be able to see the small UA with vision unaided by any device other than corrective lenses?",
+    "choices": [
+      "A. Only the visual observer",
+      "B. The remote PIC, person manipulating the controls, and visual observer (if used)",
+      "C. Only the remote PIC"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.31 requires that the remote PIC, the person manipulating the flight controls, and the visual observer (if used) must be able to see the small UA throughout the entire flight.",
+    "reference": "14 CFR 107.31"
+  },
+  {
+    "id": "REG-015",
+    "topic": "regulations",
+    "subtopic": "visual line of sight",
+    "difficulty": "medium",
+    "question": "Binoculars may be used by the remote PIC to maintain visual line of sight with the small UA.",
+    "choices": [
+      "A. True, anytime",
+      "B. False — vision must be unaided except for corrective lenses",
+      "C. True, only at night"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.31(b) requires unaided vision (except for corrective lenses). Binoculars may only be used momentarily to enhance situational awareness, not to maintain VLOS.",
+    "reference": "14 CFR 107.31(b)"
+  },
+  {
+    "id": "REG-016",
+    "topic": "regulations",
+    "subtopic": "visual observer",
+    "difficulty": "easy",
+    "question": "Use of a visual observer (VO) under Part 107 is:",
+    "choices": [
+      "A. Required for every flight",
+      "B. Optional",
+      "C. Required only at night"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.33 makes the visual observer optional. If used, the VO must be able to see the sUAS and maintain effective communication with the RPIC.",
+    "reference": "14 CFR 107.33"
+  },
+  {
+    "id": "REG-017",
+    "topic": "regulations",
+    "subtopic": "one aircraft per pilot",
+    "difficulty": "easy",
+    "question": "Under Part 107, a remote pilot in command may operate how many small UA at one time?",
+    "choices": [
+      "A. Up to three",
+      "B. Only one",
+      "C. Up to five with a waiver"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.35 prohibits a person from manipulating the flight controls or acting as RPIC of more than one small UA at the same time.",
+    "reference": "14 CFR 107.35"
+  },
+  {
+    "id": "REG-018",
+    "topic": "regulations",
+    "subtopic": "hazardous materials",
+    "difficulty": "easy",
+    "question": "May a small UA carry hazardous materials under Part 107?",
+    "choices": [
+      "A. Yes, in any quantity",
+      "B. No, carrying hazmat is prohibited",
+      "C. Yes, only by Part 61 pilots"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.36 prohibits a small unmanned aircraft from carrying hazardous material as defined in 49 CFR 171.8.",
+    "reference": "14 CFR 107.36"
+  },
+  {
+    "id": "REG-019",
+    "topic": "regulations",
+    "subtopic": "moving vehicles",
+    "difficulty": "medium",
+    "question": "Under Part 107, operating a small UA from a moving land or waterborne vehicle is:",
+    "choices": [
+      "A. Always prohibited",
+      "B. Prohibited unless flown over a sparsely populated area and not transporting property for compensation",
+      "C. Permitted anywhere with a waiver"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.25 permits operation from a moving land/waterborne vehicle only over a sparsely populated area; operating from a moving aircraft is prohibited, as is transporting property for compensation from a moving vehicle.",
+    "reference": "14 CFR 107.25"
+  },
+  {
+    "id": "REG-020",
+    "topic": "regulations",
+    "subtopic": "careless or reckless",
+    "difficulty": "easy",
+    "question": "Which regulation prohibits operating a small UA in a careless or reckless manner so as to endanger life or property?",
+    "choices": [
+      "A. 14 CFR 107.23",
+      "B. 14 CFR 107.51",
+      "C. 14 CFR 107.9"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.23 prohibits careless or reckless operation and also prohibits dropping an object in a way that creates an undue hazard to persons or property.",
+    "reference": "14 CFR 107.23"
+  },
+  {
+    "id": "REG-021",
+    "topic": "regulations",
+    "subtopic": "right of way",
+    "difficulty": "medium",
+    "question": "When a small UA encounters a manned aircraft in flight, the remote PIC must:",
+    "choices": [
+      "A. Yield the right of way to the manned aircraft",
+      "B. Maintain course and altitude",
+      "C. Climb to avoid the manned aircraft"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.37(a) requires the small UA to yield the right of way to all aircraft, airborne vehicles, and launch/reentry vehicles.",
+    "reference": "14 CFR 107.37(a)"
+  },
+  {
+    "id": "REG-022",
+    "topic": "regulations",
+    "subtopic": "airspace authorization",
+    "difficulty": "medium",
+    "question": "Operations in Class B, C, D, or surface E airspace under Part 107 require:",
+    "choices": [
+      "A. No authorization",
+      "B. ATC authorization (typically via LAANC or DroneZone)",
+      "C. A waiver from FAA Headquarters"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.41 prohibits operations in Class B, C, D, or surface E airspace designated for an airport unless ATC authorization is obtained — commonly through LAANC or DroneZone.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "REG-023",
+    "topic": "regulations",
+    "subtopic": "airspace",
+    "difficulty": "easy",
+    "question": "In which airspace class may a remote pilot operate without prior ATC authorization?",
+    "choices": [
+      "A. Class G",
+      "B. Class B",
+      "C. Class D"
+    ],
+    "answer": "A",
+    "explanation": "Per 14 CFR 107.41, Class G (uncontrolled) airspace does not require ATC authorization for sUAS operations.",
+    "reference": "14 CFR 107.41"
+  },
+  {
+    "id": "REG-024",
+    "topic": "regulations",
+    "subtopic": "preflight",
+    "difficulty": "easy",
+    "question": "Before flight, the RPIC must:",
+    "choices": [
+      "A. Only check the battery",
+      "B. Complete a preflight familiarization, inspection, and review of operating conditions",
+      "C. File a flight plan with ATC"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.49 requires the RPIC to assess weather, airspace, personnel/property risks, ensure aircraft is in condition for safe operation, and verify all control links function properly.",
+    "reference": "14 CFR 107.49"
+  },
+  {
+    "id": "REG-025",
+    "topic": "regulations",
+    "subtopic": "emergency",
+    "difficulty": "easy",
+    "question": "In an in-flight emergency, the remote PIC:",
+    "choices": [
+      "A. Must file a NASA report immediately",
+      "B. May deviate from any Part 107 rule to the extent necessary to meet the emergency",
+      "C. Must land immediately regardless of consequences"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.21 grants the RPIC authority to deviate from any rule of Part 107 to the extent necessary to respond to an in-flight emergency.",
+    "reference": "14 CFR 107.21"
+  },
+  {
+    "id": "REG-026",
+    "topic": "regulations",
+    "subtopic": "inspection",
+    "difficulty": "medium",
+    "question": "A remote pilot must present their certificate for inspection upon request by which of the following?",
+    "choices": [
+      "A. FAA, NTSB, TSA, or any federal/state/local law enforcement officer",
+      "B. Only the FAA",
+      "C. Only an FAA inspector with a warrant"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.7 requires presentation of the remote pilot certificate and identification upon request from the FAA Administrator, NTSB, TSA, or any authorized federal/state/local law enforcement officer.",
+    "reference": "14 CFR 107.7"
+  },
+  {
+    "id": "REG-027",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "medium",
+    "question": "Category 1 operations over people require the small UA to weigh no more than:",
+    "choices": [
+      "A. 0.25 pounds (250 grams)",
+      "B. 0.55 pounds (250 grams)",
+      "C. 1 pound"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.110 (Category 1) requires the small UA to weigh 0.55 lb (250 g) or less, including everything on board or otherwise attached, and to contain no exposed rotating parts that could lacerate human skin.",
+    "reference": "14 CFR 107.110"
+  },
+  {
+    "id": "REG-028",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "hard",
+    "question": "Category 2 operations over people require that the small UA, upon impact, transfer no more than how much kinetic energy?",
+    "choices": [
+      "A. 11 foot-pounds",
+      "B. 25 foot-pounds",
+      "C. 50 foot-pounds"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.120(a)(1) limits Category 2 operations to a small UA that will not cause injury to a human being equivalent to or greater than the severity of injury caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigid object.",
+    "reference": "14 CFR 107.120(a)(1)"
+  },
+  {
+    "id": "REG-029",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "hard",
+    "question": "Category 3 operations over people limit kinetic energy transfer upon impact to no more than:",
+    "choices": [
+      "A. 11 foot-pounds",
+      "B. 25 foot-pounds",
+      "C. 100 foot-pounds"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.130(a)(1) limits Category 3 operations to a small UA whose impact would not cause injury equivalent to or greater than a transfer of 25 foot-pounds of kinetic energy from a rigid object.",
+    "reference": "14 CFR 107.130(a)(1)"
+  },
+  {
+    "id": "REG-030",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "hard",
+    "question": "Category 3 operations over people prohibit sustained flight over open-air assemblies of human beings. The small UA may only fly over a person who is:",
+    "choices": [
+      "A. A spectator at a sporting event",
+      "B. Directly participating in the operation, located under a covered structure, or inside a stationary vehicle",
+      "C. Wearing protective equipment"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.125(b) restricts Category 3 operations to flights where no human being is under the small UA unless that person is directly participating in the operation, located under a covered structure, or inside a stationary vehicle that can provide reasonable protection from a falling small UA.",
+    "reference": "14 CFR 107.125(b)"
+  },
+  {
+    "id": "REG-031",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "medium",
+    "question": "Category 4 operations over people require the small UA to:",
+    "choices": [
+      "A. Weigh less than 0.55 lb",
+      "B. Have a current airworthiness certificate issued under Part 21 and operate per operating limitations",
+      "C. Be made of foam"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.140 requires Category 4 aircraft to have an airworthiness certificate issued under Part 21 and to be operated in accordance with operating limitations specified in the approved Flight Manual.",
+    "reference": "14 CFR 107.140"
+  },
+  {
+    "id": "REG-032",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "medium",
+    "question": "What design feature is prohibited on a small UA for all operations over people (Categories 1, 2, 3)?",
+    "choices": [
+      "A. GPS receivers",
+      "B. Exposed rotating parts that could lacerate human skin",
+      "C. LED lights"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.110, 107.120, and 107.130 all prohibit exposed rotating parts that could lacerate human skin on Category 1, 2, and 3 small UA used for operations over people.",
+    "reference": "14 CFR 107.110; 107.120; 107.130"
+  },
+  {
+    "id": "REG-033",
+    "topic": "regulations",
+    "subtopic": "operations over moving vehicles",
+    "difficulty": "medium",
+    "question": "Under Part 107, sustained flight of a Category 1, 2, or 3 small UA over moving vehicles is allowed only when:",
+    "choices": [
+      "A. Never — it is always prohibited",
+      "B. The operation is within or over a closed- or restricted-access site and all people in the vehicles are notified",
+      "C. The vehicles are moving less than 10 mph"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.145 permits sustained flight over moving vehicles only within a closed/restricted-access site where everyone in the moving vehicle is on notice that a small UA may fly over them.",
+    "reference": "14 CFR 107.145"
+  },
+  {
+    "id": "REG-034",
+    "topic": "regulations",
+    "subtopic": "night operations",
+    "difficulty": "easy",
+    "question": "To operate a small UA at night under Part 107, the aircraft must be equipped with anti-collision lighting visible for at least:",
+    "choices": [
+      "A. 1 statute mile",
+      "B. 3 statute miles",
+      "C. 5 statute miles"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.29(b) requires lighted anti-collision lighting visible for at least 3 statute miles, with a flash rate sufficient to avoid a collision.",
+    "reference": "14 CFR 107.29(b)"
+  },
+  {
+    "id": "REG-035",
+    "topic": "regulations",
+    "subtopic": "night operations",
+    "difficulty": "medium",
+    "question": "To operate at night under Part 107, the remote PIC must have completed:",
+    "choices": [
+      "A. Nothing additional — daytime certification is sufficient",
+      "B. The updated initial knowledge test or recurrent training that covers night operations",
+      "C. A separate FAA-issued night rating"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.29(a)(1) requires the RPIC to have completed an initial knowledge test or recurrent training (after April 6, 2021) that covers night operations.",
+    "reference": "14 CFR 107.29(a)(1)"
+  },
+  {
+    "id": "REG-036",
+    "topic": "regulations",
+    "subtopic": "civil twilight",
+    "difficulty": "medium",
+    "question": "Civil twilight in the contiguous United States is defined as:",
+    "choices": [
+      "A. 30 minutes before official sunrise to 30 minutes after official sunset",
+      "B. From sunrise to sunset",
+      "C. 1 hour before sunrise to 1 hour after sunset"
+    ],
+    "answer": "A",
+    "explanation": "Per 14 CFR 107.29, civil twilight is the period from 30 minutes before official sunrise until official sunrise, and from official sunset until 30 minutes after official sunset (in the contiguous U.S.). Anti-collision lighting is required during civil twilight.",
+    "reference": "14 CFR 107.29"
+  },
+  {
+    "id": "REG-037",
+    "topic": "regulations",
+    "subtopic": "recurrent training",
+    "difficulty": "medium",
+    "question": "Part 107 recurrent training is currently satisfied by:",
+    "choices": [
+      "A. Taking a paid in-person recurrent knowledge test every 24 months",
+      "B. Completing the free online FAA recurrent training course (ALC-677) every 24 calendar months",
+      "C. Renewing the certificate every 5 years"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.65 requires recurrent training every 24 calendar months. The FAA replaced the paid recurrent knowledge test with a free online course (ALC-677 for Part 107-only pilots, ALC-515 for Part 61 pilots).",
+    "reference": "14 CFR 107.65"
+  },
+  {
+    "id": "REG-038",
+    "topic": "regulations",
+    "subtopic": "Part 61 pilot pathway",
+    "difficulty": "hard",
+    "question": "A current Part 61 certificate holder (with a flight review in the last 24 months) may obtain a remote pilot certificate by:",
+    "choices": [
+      "A. Passing the Part 107 initial knowledge test",
+      "B. Completing the free online sUAS training course (ALC-451) and applying through IACRA",
+      "C. Submitting a logbook to the FSDO"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.61 and 107.63 allow Part 61 pilots with a current flight review to qualify by completing the FAA online sUAS training (ALC-451) rather than the initial Part 107 knowledge test.",
+    "reference": "14 CFR 107.61 / 107.63"
+  },
+  {
+    "id": "REG-039",
+    "topic": "regulations",
+    "subtopic": "certificate carry",
+    "difficulty": "easy",
+    "question": "During small UA operations, the remote PIC must have in their physical possession:",
+    "choices": [
+      "A. The aircraft's registration only",
+      "B. Their remote pilot certificate",
+      "C. A current medical certificate"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.7(a) requires the remote pilot certificate be in the RPIC's physical possession or immediately accessible during all sUAS operations.",
+    "reference": "14 CFR 107.7(a)"
+  },
+  {
+    "id": "REG-040",
+    "topic": "regulations",
+    "subtopic": "medical condition",
+    "difficulty": "medium",
+    "question": "Part 107 requires:",
+    "choices": [
+      "A. A current FAA medical certificate (third class or higher)",
+      "B. No medical certificate, but the RPIC may not operate with any known physical or mental condition that would interfere with safe operation",
+      "C. A statement of health from a personal physician"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.17 prohibits operating the small UA if the RPIC knows or has reason to know of any physical or mental condition that would interfere with the safe operation of the sUAS. No FAA medical certificate is required.",
+    "reference": "14 CFR 107.17"
+  },
+  {
+    "id": "REG-041",
+    "topic": "regulations",
+    "subtopic": "definitions",
+    "difficulty": "easy",
+    "question": "Under Part 107, a 'small unmanned aircraft' is defined as an unmanned aircraft weighing less than:",
+    "choices": [
+      "A. 25 pounds",
+      "B. 55 pounds",
+      "C. 100 pounds"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.3 (via Part 1) defines a small unmanned aircraft as one weighing less than 55 pounds (25 kg) on takeoff, including everything on board or attached.",
+    "reference": "14 CFR 107.3 / Part 1"
+  },
+  {
+    "id": "REG-042",
+    "topic": "regulations",
+    "subtopic": "definitions",
+    "difficulty": "easy",
+    "question": "A 'small unmanned aircraft system (sUAS)' consists of:",
+    "choices": [
+      "A. The small UA only",
+      "B. The small UA and its associated elements (communication links, control station, etc.) required for safe operation",
+      "C. The small UA and the remote pilot"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.3 defines sUAS as the small UA and its associated elements (communication links, components controlling the small UA) required for the safe and efficient operation in the NAS.",
+    "reference": "14 CFR 107.3"
+  },
+  {
+    "id": "REG-043",
+    "topic": "regulations",
+    "subtopic": "applicability",
+    "difficulty": "medium",
+    "question": "Which of the following operations does Part 107 NOT apply to?",
+    "choices": [
+      "A. Commercial photography with a 2-pound drone",
+      "B. Air carrier operations",
+      "C. Mapping a construction site with a 10-pound drone"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.1 excludes air carrier operations, amateur rockets, moored balloons/kites, unmanned free balloons, and public aircraft operations from Part 107.",
+    "reference": "14 CFR 107.1"
+  },
+  {
+    "id": "REG-044",
+    "topic": "regulations",
+    "subtopic": "waivers",
+    "difficulty": "medium",
+    "question": "Which of the following Part 107 limitations is NOT waivable?",
+    "choices": [
+      "A. Operating beyond visual line of sight (107.31)",
+      "B. The prohibition on transporting hazardous material (107.36)",
+      "C. Operating from a moving vehicle (107.25)"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.205 lists the waivable sections. The hazardous materials prohibition (107.36) and certain other rules are NOT waivable.",
+    "reference": "14 CFR 107.205"
+  },
+  {
+    "id": "REG-045",
+    "topic": "regulations",
+    "subtopic": "waivers",
+    "difficulty": "medium",
+    "question": "The FAA will issue a Part 107 Certificate of Waiver only if:",
+    "choices": [
+      "A. The applicant agrees to pay a fee",
+      "B. The proposed operation can safely be conducted under the terms of the waiver",
+      "C. No prior accident history exists"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.200 authorizes the FAA to issue a Certificate of Waiver if the applicant demonstrates the proposed operation can safely be conducted under the terms of that certificate.",
+    "reference": "14 CFR 107.200"
+  },
+  {
+    "id": "REG-046",
+    "topic": "regulations",
+    "subtopic": "registration",
+    "difficulty": "easy",
+    "question": "What is the registration fee for a small UA flown under Part 107?",
+    "choices": [
+      "A. $5 per aircraft",
+      "B. $25 per aircraft",
+      "C. Free"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR Part 48 requires Part 107 aircraft to be registered individually at $5 per aircraft.",
+    "reference": "14 CFR 48.30"
+  },
+  {
+    "id": "REG-047",
+    "topic": "regulations",
+    "subtopic": "registration",
+    "difficulty": "easy",
+    "question": "How long is a small UA registration valid under 14 CFR Part 48?",
+    "choices": [
+      "A. 1 year",
+      "B. 3 years",
+      "C. 5 years"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 48.105 specifies that small UA registration is valid for 3 years.",
+    "reference": "14 CFR 48.105"
+  },
+  {
+    "id": "REG-048",
+    "topic": "regulations",
+    "subtopic": "registration",
+    "difficulty": "medium",
+    "question": "The registration number on a small UA must be:",
+    "choices": [
+      "A. Hidden under a battery compartment",
+      "B. Maintained in a condition that is readable and legible upon close visual inspection, and affixed to an external surface of the aircraft",
+      "C. Painted in letters at least 12 inches high"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 48.205 requires the registration marking to be affixed to an external surface, legible and readable upon close visual inspection, and maintained in a condition that is legible.",
+    "reference": "14 CFR 48.205"
+  },
+  {
+    "id": "REG-049",
+    "topic": "regulations",
+    "subtopic": "registration",
+    "difficulty": "medium",
+    "question": "What is the minimum age for someone to register a small UA under Part 48?",
+    "choices": [
+      "A. 13 years old",
+      "B. 16 years old",
+      "C. 18 years old"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 48.25 requires the registrant to be at least 13 years old (a person younger than 13 must have an older person register on their behalf).",
+    "reference": "14 CFR 48.25"
+  },
+  {
+    "id": "REG-050",
+    "topic": "regulations",
+    "subtopic": "Remote ID",
+    "difficulty": "medium",
+    "question": "The Remote ID rule compliance date for operators was:",
+    "choices": [
+      "A. April 21, 2021",
+      "B. September 16, 2023",
+      "C. January 1, 2024"
+    ],
+    "answer": "B",
+    "explanation": "The Part 89 Remote ID compliance date for operators was September 16, 2023. The FAA then exercised enforcement discretion through March 16, 2024 to give the industry time to comply, but the compliance requirement itself dates from Sept 16, 2023.",
+    "reference": "14 CFR Part 89"
+  },
+  {
+    "id": "REG-051",
+    "topic": "regulations",
+    "subtopic": "Remote ID",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a way to comply with the Remote ID rule?",
+    "choices": [
+      "A. Operating a Standard Remote ID drone",
+      "B. Operating a drone equipped with a Remote ID broadcast module",
+      "C. Filing a NOTAM before each flight"
+    ],
+    "answer": "C",
+    "explanation": "14 CFR Part 89 provides three ways to comply: Standard Remote ID drone, Remote ID broadcast module, or operating at an FAA-Recognized Identification Area (FRIA). NOTAMs are not a compliance method.",
+    "reference": "14 CFR 89.105"
+  },
+  {
+    "id": "REG-052",
+    "topic": "regulations",
+    "subtopic": "Remote ID",
+    "difficulty": "hard",
+    "question": "FAA-Recognized Identification Areas (FRIAs) allow:",
+    "choices": [
+      "A. Flight without any registration",
+      "B. Flight without Remote ID, but only within the geographic boundaries of the FRIA and within visual line of sight",
+      "C. Flight above 400 feet AGL"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 89.115 allows operation of drones without Remote ID equipment only within the geographic boundaries of an established FRIA and within VLOS.",
+    "reference": "14 CFR 89.115"
+  },
+  {
+    "id": "REG-053",
+    "topic": "regulations",
+    "subtopic": "Remote ID",
+    "difficulty": "medium",
+    "question": "A Standard Remote ID drone broadcasts which of the following?",
+    "choices": [
+      "A. The pilot's name and home address",
+      "B. Drone ID, location/altitude, velocity, control station location/elevation, time mark, and emergency status",
+      "C. The drone's purchase price and serial number only"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 89.305 requires Standard Remote ID drones to broadcast the drone's unique ID, position/altitude, velocity, control station position/elevation, time mark, and emergency status.",
+    "reference": "14 CFR 89.305"
+  },
+  {
+    "id": "REG-054",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "medium",
+    "question": "Operations of a small UA over a human being are prohibited unless the operation meets which of the following?",
+    "choices": [
+      "A. The person is directly participating in the operation, is under a covered structure or stationary vehicle, OR the operation meets a Category 1–4 requirement",
+      "B. The drone weighs less than 5 lb",
+      "C. The RPIC has 10+ hours of flight time"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.39 prohibits sustained flight over people unless they are directly participating, under a covered structure, in a stationary vehicle, or the operation complies with one of the four operations-over-people categories (Subpart D).",
+    "reference": "14 CFR 107.39"
+  },
+  {
+    "id": "REG-055",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "hard",
+    "question": "Categories 2 and 3 small UA operations over people require the manufacturer to have a:",
+    "choices": [
+      "A. Type certificate from the FAA",
+      "B. Declaration of Compliance accepted by the FAA",
+      "C. Letter of authorization from the local FSDO"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.120 (Cat 2 Eligibility) and 107.130 (Cat 3 Eligibility) require the small UA to be supported by an FAA-accepted Declaration of Compliance demonstrating it meets the respective Category requirements. The DOC procedures are codified at 14 CFR 107.160-107.165.",
+    "reference": "14 CFR 107.120; 107.130; 107.160-107.165"
+  },
+  {
+    "id": "REG-056",
+    "topic": "regulations",
+    "subtopic": "knowledge test",
+    "difficulty": "easy",
+    "question": "The Part 107 initial aeronautical knowledge test is administered at:",
+    "choices": [
+      "A. Any post office",
+      "B. An FAA-approved Knowledge Testing Center",
+      "C. Online from home"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.67 requires the initial knowledge test be taken at an FAA-approved Knowledge Testing Center.",
+    "reference": "14 CFR 107.67"
+  },
+  {
+    "id": "REG-057",
+    "topic": "regulations",
+    "subtopic": "RPIC responsibility",
+    "difficulty": "easy",
+    "question": "Who is directly responsible for and is the final authority as to the operation of the small UAS?",
+    "choices": [
+      "A. The visual observer",
+      "B. The remote pilot in command",
+      "C. The owner of the aircraft"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.19(a) makes the remote pilot in command directly responsible for, and the final authority over, the operation of the small UAS.",
+    "reference": "14 CFR 107.19(a)"
+  },
+  {
+    "id": "REG-058",
+    "topic": "regulations",
+    "subtopic": "RPIC responsibility",
+    "difficulty": "medium",
+    "question": "Which of the following is a responsibility of the remote PIC under 14 CFR 107.19?",
+    "choices": [
+      "A. Ensuring the small UA poses no undue hazard to people, aircraft, or property",
+      "B. Notifying ATC before every flight regardless of airspace",
+      "C. Filing a flight plan with the FAA"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.19(b) requires the RPIC to ensure the operation poses no undue hazard to other people, other aircraft, or other property in the event of a loss of control.",
+    "reference": "14 CFR 107.19(b)"
+  },
+  {
+    "id": "REG-059",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "easy",
+    "question": "Operations over which of the following are NEVER permitted under Part 107 without specific authorization?",
+    "choices": [
+      "A. Open-air assemblies of human beings (unless operation meets Category 4 or has a waiver)",
+      "B. Open fields",
+      "C. Lakes"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.39 and 107.145 prohibit operations over open-air assemblies of human beings except under specific Category 4 conditions or by waiver. Categories 1–3 prohibit sustained flight over open-air assemblies.",
+    "reference": "14 CFR 107.39 / 107.145"
+  },
+  {
+    "id": "REG-060",
+    "topic": "regulations",
+    "subtopic": "inspection of aircraft",
+    "difficulty": "medium",
+    "question": "A remote pilot, owner, or person manipulating the controls of a small UAS must make the sUAS and its records available for inspection or test by the FAA upon:",
+    "choices": [
+      "A. Request, at a reasonable time and place",
+      "B. Written subpoena only",
+      "C. Annual scheduled inspection only"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.5 requires the registered owner, remote PIC, or person manipulating the controls to make the sUAS and its records available for inspection or test upon request by the Administrator.",
+    "reference": "14 CFR 107.5"
+  },
+  {
+    "id": "REG-061",
+    "topic": "regulations",
+    "subtopic": "registration",
+    "difficulty": "medium",
+    "question": "A drone used solely for recreation under the Exception for Limited Recreational Operations (49 USC 44809) may be registered:",
+    "choices": [
+      "A. Once per pilot, covering all of the pilot's recreational drones",
+      "B. Only individually at $5 each",
+      "C. Not at all"
+    ],
+    "answer": "A",
+    "explanation": "Recreational fliers register once under Part 48 and that registration covers all of their recreational drones. Part 107 commercial operations require each aircraft to be registered individually.",
+    "reference": "14 CFR 48.100"
+  },
+  {
+    "id": "REG-062",
+    "topic": "regulations",
+    "subtopic": "control station",
+    "difficulty": "easy",
+    "question": "A 'control station' under Part 107 is:",
+    "choices": [
+      "A. The runway where the drone takes off",
+      "B. An interface used by the remote pilot to control the flight path of the small UA",
+      "C. The ATC tower"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.3 defines control station as an interface used by the remote pilot to control the flight path of the small UA.",
+    "reference": "14 CFR 107.3"
+  },
+  {
+    "id": "REG-063",
+    "topic": "regulations",
+    "subtopic": "operations over people",
+    "difficulty": "hard",
+    "question": "All Category 2, 3, and 4 small UA used for operations over people must NOT have:",
+    "choices": [
+      "A. A safety defect known to the manufacturer",
+      "B. GPS",
+      "C. Anti-collision lights"
+    ],
+    "answer": "A",
+    "explanation": "14 CFR 107.120(b), 107.130(b), and 107.140 all prohibit operation of a Category 2, 3, or 4 small UA over people if the aircraft contains a safety defect known to the remote pilot or applicant/manufacturer.",
+    "reference": "14 CFR 107.120(b); 107.130(b); 107.140"
+  },
+  {
+    "id": "REG-064",
+    "topic": "regulations",
+    "subtopic": "definitions",
+    "difficulty": "easy",
+    "question": "'Visual line of sight' (VLOS) under Part 107 means the RPIC and/or VO is able to see the small UA well enough to:",
+    "choices": [
+      "A. Identify the manufacturer logo",
+      "B. Know its location, attitude, altitude, direction of flight, and observe airspace for hazards",
+      "C. See it at all times through binoculars"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.31(a) requires unaided vision sufficient to determine the small UA's location, attitude, altitude, direction of flight, and to observe the airspace for other air traffic or hazards.",
+    "reference": "14 CFR 107.31(a)"
+  },
+  {
+    "id": "REG-065",
+    "topic": "regulations",
+    "subtopic": "operating limitations",
+    "difficulty": "medium",
+    "question": "Operations in prohibited or restricted airspace under Part 107 require:",
+    "choices": [
+      "A. Notification only",
+      "B. Permission of the using or controlling agency",
+      "C. ATC clearance only"
+    ],
+    "answer": "B",
+    "explanation": "14 CFR 107.45 prohibits operations in prohibited or restricted areas unless the operator has permission from the using or controlling agency, as appropriate.",
+    "reference": "14 CFR 107.45"
+  }
+]
