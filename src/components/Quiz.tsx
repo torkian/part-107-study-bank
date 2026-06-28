@@ -308,10 +308,10 @@ export default function Quiz({
     <div className="quiz-shell">
       <header className="quiz-topbar">
         <div className="quiz-title-row">
-          <h1 className="quiz-title">{title}</h1>
+          <h2 className="quiz-title">{title}</h2>
           <div className="quiz-status">
             {secondsLeft !== null && (
-              <span className={`timer${secondsLeft < 300 ? " is-low" : ""}`}>
+              <span className={`timer${secondsLeft <= 300 ? " is-low" : ""}`}>
                 <AppIcon name="timer" />
                 {fmtTime(secondsLeft)}
               </span>
@@ -423,6 +423,12 @@ export default function Quiz({
                 <AppIcon name="book" />
                 <AnnotatedText>{current.reference}</AnnotatedText>
               </span>
+            )}
+            {chosen !== current.answer && (
+              <Link href="/review" className="saved-to-review-chip" aria-label="Question saved to your Drill Mistakes queue">
+                <AppIcon name="review" />
+                Saved to your Drill Mistakes queue
+              </Link>
             )}
             <AudioPlayer
               text={`Answer ${current.answer}. ${current.explanation}${current.reference ? ` Reference: ${current.reference}.` : ""}`}

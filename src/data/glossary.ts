@@ -315,7 +315,7 @@ export const glossary = [
     term: "KIAS",
     full: "Knots Indicated Airspeed",
     definition:
-      "Airspeed shown on an aircraft's airspeed indicator, measured in knots. KIAS is the speed felt by the airframe through the air — different from groundspeed. Note that Part 107's speed limit is 100 mph (about 87 kt) GROUNDSPEED per 14 CFR 107.51(c), not airspeed.",
+      "Airspeed shown on an aircraft's airspeed indicator, measured in knots. KIAS is the speed felt by the airframe through the air — different from groundspeed. Note that Part 107's speed limit is 100 mph (about 87 kt) GROUNDSPEED per 14 CFR 107.51(a), not airspeed.",
     category: "weather",
   },
   {

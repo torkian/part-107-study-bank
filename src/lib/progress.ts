@@ -69,7 +69,12 @@ export function getStat(id: string): QuestionStat | undefined {
 }
 
 export function resetProgress() {
-  if (typeof window !== "undefined") window.localStorage.removeItem(KEY);
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.removeItem(KEY);
+  } catch {
+    // Private browsing / enterprise policy can throw SecurityError — no-op
+  }
 }
 
 export function summarize(

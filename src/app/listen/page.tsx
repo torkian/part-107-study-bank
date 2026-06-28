@@ -2,6 +2,27 @@ import Link from "next/link";
 import { AppIcon } from "@/components/AppIcon";
 import ListenClient from "./ListenClient";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Listen Mode",
+  description: "Free audio narration for the Part 107 study app — built for dyslexia, ADHD, visual fatigue, and learners on the go.",
+  alternates: { canonical: "https://www.107license.com/listen" },
+  openGraph: {
+    title: "Listen Mode · 107 License",
+    description: "Free audio narration for the Part 107 study app — built for dyslexia, ADHD, visual fatigue, and learners on the go.",
+    url: "https://www.107license.com/listen",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Listen Mode · 107 License",
+    description: "Free audio narration for the Part 107 study app — built for dyslexia, ADHD, visual fatigue, and learners on the go.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
+
 export const dynamic = "force-dynamic";
 
 export default function ListenPage() {
@@ -14,21 +35,20 @@ export default function ListenPage() {
         </span>
         <h1 className="page-title">Study Part 107 by ear.</h1>
         <p className="lede">
-          Every cheat sheet, question, and explanation can be read aloud. Built for pilots who learn
-          better by listening — including those with dyslexia, ADHD, or visual fatigue. Free, uses
-          your device&rsquo;s built-in speech engine, works offline once loaded, plays on iOS Safari
-          and Android Chrome.
+          HD Rachel recordings play where available. Your device voice covers the rest, with one
+          saved backup voice and speed for every Listen button.
         </p>
       </header>
+
+      <ListenClient />
 
       <section className="card card-pad">
         <div className="page-header">
           <span className="section-kicker">How it works</span>
-          <h2 className="section-title">Tap any 🎧 Listen button</h2>
+          <h2 className="section-title">Tap any Listen button</h2>
           <p className="lede">
-            Every cheat sheet section, every cold-facts group, every quiz question, and every
-            explanation has a Listen button. Tap it to hear the content read aloud. Adjust speed
-            (0.75× to 2×). Pause anytime. Your speed preference is remembered.
+            Cheat sheet sections, review groups, questions, and explanations can play aloud. HD
+            audio is used first unless you choose backup voice only.
           </p>
         </div>
         <div className="action-row">
@@ -46,8 +66,6 @@ export default function ListenPage() {
           </Link>
         </div>
       </section>
-
-      <ListenClient />
 
       <section className="card card-pad">
         <div className="page-header">

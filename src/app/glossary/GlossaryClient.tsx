@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { glossary, glossaryCategories, glossarySlug, type GlossaryCategory, type GlossaryEntry } from "@/data/glossary";
+import MiniAudioButton from "@/components/MiniAudioButton";
+import { glossaryEntryText } from "@/lib/audio-text";
 
 const categoryLabels: Record<GlossaryCategory, string> = {
   altitude: "Altitude",
@@ -89,9 +91,12 @@ export default function GlossaryClient() {
                     <article key={entry.term} id={slug} className="glossary-entry card">
                       <div className="glossary-entry-heading">
                         <h3>{entry.term}</h3>
-                        <a href={`#${slug}`} className="glossary-entry-anchor" aria-label={`Link to ${entry.term}`}>
-                          #
-                        </a>
+                        <div className="glossary-entry-actions">
+                          <MiniAudioButton text={glossaryEntryText(entry)} label={entry.term} />
+                          <a href={`#${slug}`} className="glossary-entry-anchor" aria-label={`Link to ${entry.term}`}>
+                            #
+                          </a>
+                        </div>
                       </div>
                       <div className="glossary-entry-full">{entry.full}</div>
                       <p className="glossary-entry-definition">{entry.definition}</p>

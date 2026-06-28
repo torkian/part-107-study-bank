@@ -3,6 +3,27 @@ import Link from "next/link";
 import { AppIcon, type AppIconName } from "@/components/AppIcon";
 import { getTopics } from "@/lib/questions";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Study by Topic",
+  description: "Drill the FAA Part 107 exam by ACS topic — Regulations, Airspace, Weather, ADM, and more.",
+  alternates: { canonical: "https://www.107license.com/topics" },
+  openGraph: {
+    title: "Study by Topic · 107 License",
+    description: "Drill the FAA Part 107 exam by ACS topic — Regulations, Airspace, Weather, ADM, and more.",
+    url: "https://www.107license.com/topics",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Study by Topic · 107 License",
+    description: "Drill the FAA Part 107 exam by ACS topic — Regulations, Airspace, Weather, ADM, and more.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
+
 const TOPIC_META: Record<string, { label: string; icon: AppIconName; accent: string; copy: string }> = {
   regulations: {
     label: "Regulations",

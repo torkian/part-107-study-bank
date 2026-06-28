@@ -27,6 +27,8 @@ export type AppIconName =
   | "radio"
   | "headphones"
   | "volume"
+  | "skipBack15"
+  | "skipForward15"
   | "refresh"
   | "review"
   | "route"
@@ -221,6 +223,20 @@ function renderIcon(name: AppIconName) {
         <>
           <rect x="6" y="5" width="4" height="14" rx="1" />
           <rect x="14" y="5" width="4" height="14" rx="1" />
+        </>
+      );
+    case "skipBack15":
+      return (
+        <>
+          <path d="M3 4v6h6" />
+          <path d="M3 10a9 9 0 1 0 3-6.7" />
+        </>
+      );
+    case "skipForward15":
+      return (
+        <>
+          <path d="M21 4v6h-6" />
+          <path d="M21 10a9 9 0 1 1-3-6.7" />
         </>
       );
     case "headphones":

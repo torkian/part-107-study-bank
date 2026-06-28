@@ -1,6 +1,28 @@
 import Link from "next/link";
 import { AppIcon } from "@/components/AppIcon";
 import AudioPlayer from "@/components/AudioPlayer";
+import { coldGroupText } from "@/lib/audio-text";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Must-Know Facts",
+  description: "The 50 highest-frequency Part 107 exam facts distilled. Know these and you pass.",
+  alternates: { canonical: "https://www.107license.com/cold-facts" },
+  openGraph: {
+    title: "Must-Know Facts · 107 License",
+    description: "The 50 highest-frequency Part 107 exam facts distilled. Know these and you pass.",
+    url: "https://www.107license.com/cold-facts",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Must-Know Facts · 107 License",
+    description: "The 50 highest-frequency Part 107 exam facts distilled. Know these and you pass.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
 
 type Fact = { fact: string; why: string };
 type Group = { title: string; facts: Fact[] };
@@ -9,10 +31,10 @@ const GROUPS: Group[] = [
   {
     title: "Operating limits — memorize these word for word",
     facts: [
-      { fact: "Max groundspeed: 87 knots / 100 mph", why: "§107.51(c) — tailwind can push you over even if airspeed is fine" },
+      { fact: "Max groundspeed: 87 knots / 100 mph", why: "§107.51(a) — tailwind can push you over even if airspeed is fine" },
       { fact: "Max altitude: 400 ft AGL (or +400 ft above a structure within a 400-ft radius)", why: "§107.51(b) — terrain is NOT a structure" },
-      { fact: "Minimum visibility from the control station: 3 statute miles", why: "§107.51(d) — measured at the RP, not the aircraft" },
-      { fact: "Cloud clearance: 500 ft below clouds, 2,000 ft horizontal", why: "§107.51(e) — gives manned IFR traffic time to see-and-avoid" },
+      { fact: "Minimum visibility from the control station: 3 statute miles", why: "§107.51(c) — measured at the RP, not the aircraft" },
+      { fact: "Cloud clearance: 500 ft below clouds, 2,000 ft horizontal", why: "§107.51(d) — gives manned IFR traffic time to see-and-avoid" },
       { fact: "sUAS weight limit: < 55 lb (everything below 55 is sUAS; at 55 you leave Part 107)", why: "§107.1 — includes payload and battery" },
     ],
   },
@@ -32,7 +54,7 @@ const GROUPS: Group[] = [
       { fact: "Civil twilight: 30 min BEFORE sunrise to 30 min AFTER sunset (CONUS)", why: "Outside CONUS: see Air Almanac" },
       { fact: "Anti-collision lighting required during civil twilight AND night", why: "Visible for 3 statute miles, sufficient flash rate" },
       { fact: "Night ops allowed without waiver if: (1) RP has training covering night AND (2) aircraft has anti-collision lighting", why: "2021 amendment — pre-2021 every night flight needed a waiver" },
-      { fact: "Civil twilight is NOT night — they are two distinct periods (both require anti-collision lighting)", why: "§107.29(d) — night = end of evening civil twilight to start of morning civil twilight" },
+      { fact: "Civil twilight is NOT night — they are two distinct periods (both require anti-collision lighting)", why: "14 CFR §1.1 — night = end of evening civil twilight to start of morning civil twilight" },
     ],
   },
   {
@@ -172,17 +194,17 @@ export default function ColdFactsPage() {
       <header className="page-header">
         <span className="eyebrow">
           <AppIcon name="star" />
-          The Top 50 — Memorize Cold
+          Must-Know — Memorize Cold
         </span>
         <h1 className="page-title">Know these and you will pass the exam.</h1>
         <p className="lede">
-          Distilled from the full Part 107 ACS down to the highest-frequency, highest-value facts.
-          If you can recite all 50 from memory without prompts, you are ready for the test.
+          The highest-frequency, highest-value Part 107 facts.
+          If you can recite these from memory without prompts, you are ready for the test.
         </p>
       </header>
 
       {GROUPS.map((group) => {
-        const audioText = `${group.title}. ${group.facts.map((f) => `${f.fact}. ${f.why}`).join(" ")}`;
+        const audioText = coldGroupText(group);
         return (
         <section key={group.title} className="card card-pad">
           <div className="cheat-section-head">

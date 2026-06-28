@@ -72,7 +72,7 @@
     ],
     "answer": "B",
     "explanation": "The Mode C veil by itself does not create a Part 107 airspace authorization requirement, and Part 107 generally prohibits transponders unless otherwise authorized. With an overcast ceiling at 600 ft AGL, the aircraft must remain at least 500 ft below clouds, limiting altitude to 100 ft AGL.",
-    "reference": "14 CFR 107.41, 107.51, 107.52; FAA-G-8082-22 Mode C veil and weather minimums"
+    "reference": "14 CFR 107.41, 107.51; FAA-G-8082-22 Mode C veil and weather minimums"
   },
   {
     "id": "HARD-006",
@@ -596,8 +596,8 @@
       "C. It prohibits all UAS operations below 400 ft AGL."
     ],
     "answer": "B",
-    "explanation": "The Mode C veil is important chart context, but it does not by itself create a Part 107.41 authorization requirement outside controlled airspace. Part 107 separately prohibits ATC transponders and ADS-B Out unless otherwise authorized.",
-    "reference": "FAA-G-8082-22 Mode C veil; 14 CFR 107.41, 107.52, 107.53"
+    "explanation": "The Mode C veil is important chart context, but it does not by itself create a §107.41 authorization requirement outside controlled airspace. sUAS generally must not operate with ATC transponders or ADS-B Out unless otherwise authorized (AIM 4-1-20).",
+    "reference": "FAA-G-8082-22 Mode C veil; 14 CFR 107.41; AIM 4-1-20"
   },
   {
     "id": "HARD-041",

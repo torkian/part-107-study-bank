@@ -4,6 +4,7 @@ import { useState, type KeyboardEvent } from "react";
 import AnnotatedText from "@/components/AnnotatedText";
 import { AppIcon } from "@/components/AppIcon";
 import AudioPlayer from "@/components/AudioPlayer";
+import { cheatSectionText } from "@/lib/audio-text";
 
 export type Row = { label: string; value: string; detail?: string };
 export type Section = { title: string; rows: Row[] };
@@ -30,9 +31,7 @@ export default function CheatSheetClient({ sections }: { sections: Section[] }) 
   return (
     <>
       {sections.map((section) => {
-        const audioText = `${section.title}. ${section.rows
-          .map((r) => `${r.label}. ${r.value}.${r.detail ? ` ${r.detail}` : ""}`)
-          .join(" ")}`;
+        const audioText = cheatSectionText(section);
         return (
         <section id={slugify(section.title)} key={section.title} className="cheat-section">
           <div className="cheat-section-head">

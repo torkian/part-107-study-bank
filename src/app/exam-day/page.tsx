@@ -1,5 +1,28 @@
 import Link from "next/link";
 import { AppIcon } from "@/components/AppIcon";
+import AudioPlayer from "@/components/AudioPlayer";
+import { examSectionText } from "@/lib/audio-text";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Exam Day Playbook",
+  description: "Night-before, morning-of, and in-the-room strategy for the FAA Part 107 Knowledge Test.",
+  alternates: { canonical: "https://www.107license.com/exam-day" },
+  openGraph: {
+    title: "Exam Day Playbook · 107 License",
+    description: "Night-before, morning-of, and in-the-room strategy for the FAA Part 107 Knowledge Test.",
+    url: "https://www.107license.com/exam-day",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Exam Day Playbook · 107 License",
+    description: "Night-before, morning-of, and in-the-room strategy for the FAA Part 107 Knowledge Test.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
 
 type Section = { title: string; items: { label: string; copy: string }[] };
 
@@ -148,7 +171,10 @@ export default function ExamDayPage() {
 
       {SECTIONS.map((section) => (
         <section key={section.title} className="card card-pad">
-          <h2 className="section-title">{section.title}</h2>
+          <div className="cheat-section-head">
+            <h2 className="section-title">{section.title}</h2>
+            <AudioPlayer text={examSectionText(section)} label="Listen" size="sm" />
+          </div>
           <ul className="exam-day-list">
             {section.items.map((item) => (
               <li key={item.label} className="exam-day-item">

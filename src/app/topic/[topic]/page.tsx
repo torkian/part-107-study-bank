@@ -121,6 +121,42 @@ export function generateStaticParams() {
   return getTopics().map((topic) => ({ topic: topic.topic }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ topic: string }>;
+}): Promise<import("next").Metadata> {
+  const { topic } = await params;
+  const meta = TOPIC_META[topic] ?? fallbackMeta(topic);
+  const title = `${meta.label} — Part 107 Practice`;
+  const description = `${meta.copy} Free FAA Part 107 practice questions with answer explanations and FAA citations.`;
+  const url = `https://www.107license.com/topic/${topic}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${meta.label} · 107 License`,
+      description,
+      url,
+      images: [
+        {
+          url: "https://www.107license.com/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: "107 License — Free FAA Part 107 Drone Pilot Study App",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${meta.label} · 107 License`,
+      description,
+      images: ["https://www.107license.com/opengraph-image"],
+    },
+  };
+}
+
 export default async function TopicPage({
   params,
 }: {

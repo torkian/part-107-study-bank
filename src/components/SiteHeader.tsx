@@ -37,13 +37,13 @@ export default function SiteHeader() {
   return (
     <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
       <div className="site-header-inner">
-        <Link href="/" className="site-brand" aria-label="Part 107 Test Bank home">
+        <Link href="/" className="site-brand" aria-label="107 License home">
           <span className="site-brand-mark">
             <AppIcon name="plane" />
           </span>
           <span className="site-brand-copy">
-            <span className="site-brand-kicker">Part 107</span>
-            <span className="site-brand-name">Test Bank</span>
+            <span className="site-brand-kicker">FAA Part 107</span>
+            <span className="site-brand-name">107 License</span>
           </span>
         </Link>
 

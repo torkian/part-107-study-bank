@@ -2,6 +2,27 @@ import Link from "next/link";
 import { AppIcon } from "@/components/AppIcon";
 import CheatSheetClient, { type Section } from "./CheatSheetClient";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cheat Sheet",
+  description: "Every Part 107 number you need to memorize cold — 30 sections with tap-to-expand FAA-cited explanations.",
+  alternates: { canonical: "https://www.107license.com/cheatsheet" },
+  openGraph: {
+    title: "Cheat Sheet · 107 License",
+    description: "Every Part 107 number you need to memorize cold — 30 sections with tap-to-expand FAA-cited explanations.",
+    url: "https://www.107license.com/cheatsheet",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cheat Sheet · 107 License",
+    description: "Every Part 107 number you need to memorize cold — 30 sections with tap-to-expand FAA-cited explanations.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
+
 const SECTIONS: Section[] = [
   {
     title: "Hard limits (memorize cold)",
@@ -10,7 +31,7 @@ const SECTIONS: Section[] = [
         label: "Max groundspeed",
         value: "87 kts / 100 mph",
         detail:
-          "Per 14 CFR §107.51(c). Note this is GROUNDSPEED, not airspeed — a tailwind can push you over the limit. The FAA picked 100 mph because it's the practical max where a small drone strike on a person is survivable but still gives commercial pilots useful speed for inspections, mapping, and delivery.",
+          "Per 14 CFR §107.51(a). Note this is GROUNDSPEED, not airspeed — a tailwind can push you over the limit. The FAA picked 100 mph because it's the practical max where a small drone strike on a person is survivable but still gives commercial pilots useful speed for inspections, mapping, and delivery.",
       },
       {
         label: "Max altitude",
@@ -23,13 +44,13 @@ const SECTIONS: Section[] = [
         label: "Min visibility from control station",
         value: "3 statute miles",
         detail:
-          "§107.51(d). Measured from the REMOTE PILOT'S location, not from the aircraft. If you can't see 3 SM from where you're standing, you can't legally fly even if conditions are better at the aircraft.",
+          "§107.51(c). Measured from the REMOTE PILOT'S location, not from the aircraft. If you can't see 3 SM from where you're standing, you can't legally fly even if conditions are better at the aircraft.",
       },
       {
         label: "Cloud clearance",
         value: "500 ft below clouds · 2,000 ft horizontal",
         detail:
-          "§107.51(e). Same as VFR cloud clearance for low-altitude airspace below 10,000 MSL. Why: gives manned IFR traffic descending out of clouds enough time to see and avoid you. To find min ceiling for a sUAS flight: cloud base in AGL minus 500 ft = your max altitude.",
+          "§107.51(d). Same as VFR cloud clearance for low-altitude airspace below 10,000 MSL. Why: gives manned IFR traffic descending out of clouds enough time to see and avoid you. To find min ceiling for a sUAS flight: cloud base in AGL minus 500 ft = your max altitude.",
       },
       {
         label: "Max sUAS weight",
@@ -1178,7 +1199,7 @@ const SECTIONS: Section[] = [
         value:
           "No — civil twilight is a distinct period from night. Anti-collision lighting visible 3 SM is required for BOTH.",
         detail:
-          "Per §107.29, 'night' = end of evening civil twilight to beginning of morning civil twilight. So civil twilight is NOT night — they are two separate periods. However, anti-collision lighting visible for 3 SM is required for BOTH civil twilight and night operations. The night-operations training/knowledge requirement applies only to true night (not civil twilight). Pre-2021: any night op required a waiver; current rule allows it with training + lighting.",
+          "Per 14 CFR §1.1, 'night' = end of evening civil twilight to beginning of morning civil twilight. So civil twilight is NOT night — they are two separate periods. However, anti-collision lighting visible for 3 SM is required for BOTH civil twilight and night operations. The night-operations training/knowledge requirement applies only to true night (not civil twilight). Pre-2021: any night op required a waiver; current rule allows it with training + lighting.",
       },
       {
         label: "Reporting threshold",
@@ -1186,6 +1207,77 @@ const SECTIONS: Section[] = [
           "Property damage EXCEEDS $500 (the cost to repair/replace), EXCLUDING the sUAS itself. So if only the drone is damaged, no report needed.",
         detail:
           "The $500 is COST to repair (not loss of value). If your drone strikes a parked car and dents the bumper: get an estimate. If estimate is $300, no report needed. If $600, you must report within 10 days. The cost of the drone itself NEVER counts toward the threshold.",
+      },
+    ],
+  },
+  {
+    title: "Physiology — symptoms & responses",
+    rows: [
+      {
+        label: "Hypoxia (oxygen starvation)",
+        value:
+          "Symptoms: euphoria, impaired judgment, blue lips/fingernails (cyanosis), tingling, drowsiness, headache. Remedy: descend / get oxygen.",
+        detail:
+          "More relevant to manned aircraft at altitude than to a sUAS pilot on the ground, but FAA tests it for general aeromedical knowledge. Early symptoms (euphoria, slow thinking) are the most dangerous because the pilot doesn't realize they're impaired. Cyanosis is a LATE sign. Onset begins above ~12,500 ft MSL without supplemental oxygen.",
+      },
+      {
+        label: "Hyperventilation (over-breathing)",
+        value:
+          "Symptoms: lightheadedness, tingling in hands/face, anxiety, visual disturbance. Remedy: slow breathing, talk aloud, breathe into a bag.",
+        detail:
+          "Often triggered by stress or fear. Symptoms can MIMIC early hypoxia — but the cure is the OPPOSITE: hyperventilation needs SLOWER breathing (raise CO2), hypoxia needs MORE oxygen. If in doubt at altitude, treat as hypoxia first (oxygen), then if symptoms persist, slow breathing.",
+      },
+      {
+        label: "Hypoxia vs hyperventilation — quick distinguisher",
+        value: "Same early symptoms; different cures.",
+        detail:
+          "Test trap: a question describes tingling, lightheadedness, visual disturbance and asks for the cause/remedy. Key clues: hypoxia onset correlates with altitude/exertion; hyperventilation correlates with stress/fear. Hypoxia → oxygen. Hyperventilation → slow controlled breathing. Both demand the pilot ACT, not push through.",
+      },
+      {
+        label: "Carbon monoxide (CO) poisoning",
+        value: "Odorless, colorless gas. Symptoms: headache, drowsiness, dizziness, confusion. Source: cabin heaters / engine exhaust.",
+        detail:
+          "Not a Part 107 sUAS hazard directly (no cabin heater on a drone), but FAA tests it as general aeromedical content. CO binds to hemoglobin 200× more tightly than oxygen — even low concentrations cause hypoxia-like symptoms. CO detectors recommended in manned aircraft. If suspected: vent the cabin, descend, get medical attention.",
+      },
+      {
+        label: "Visual scanning at altitude",
+        value:
+          "Use 10° sector scanning with 1-second pause per sector. Use OFF-CENTER (peripheral) viewing at night — rods detect dim light better than cones.",
+        detail:
+          "Why 10° + 1 second: the eye needs ~1 second to fully focus on each area. Sweeping continuously means nothing actually registers. Daytime: scan with central vision (cones, color). Night: scan with off-center viewing (rods, peripheral). After dark adaptation (~30 min), avoid bright lights — one bright light resets adaptation completely.",
+      },
+      {
+        label: "Spatial disorientation",
+        value:
+          "Loss of correct orientation relative to earth/horizon. Most common at night, in IMC, or over featureless terrain.",
+        detail:
+          "Trust the instruments, not your inner ear. Common at night because visual cues are gone. The vestibular system can give false sensations of turning, climbing, descending when the aircraft is actually level. For sUAS pilots, this matters less (you stand on the ground) but is tested for general aeromedical knowledge.",
+      },
+    ],
+  },
+  {
+    title: "Convective SIGMET — what to actually do",
+    rows: [
+      {
+        label: "Criteria (any one triggers)",
+        value:
+          "Tornado · hail ≥ ¾\" · surface winds ≥ 50 kt · line or embedded thunderstorms · area of TS covering ≥ 40% of an area ≥ 3,000 sq mi with VIP level 4+",
+        detail:
+          "Issued for the most dangerous convective weather. 2-hour validity. Re-issued as conditions evolve. ANY of these criteria triggers issuance.",
+      },
+      {
+        label: "Action if active over your area",
+        value:
+          "Do not fly. If airborne, land immediately at the nearest safe location.",
+        detail:
+          "Convective SIGMET conditions include downdrafts (microbursts to 6,000 fpm), severe turbulence, and outflow gusts up to 45+ kt — all catastrophic for a small UAS. Even if you're outside the cell, outflow winds can extend miles ahead. Do not try to skirt the edge.",
+      },
+      {
+        label: "Microburst-specific guidance",
+        value:
+          "Avoid any thunderstorm by ≥ 20 NM. Microburst outflow can reach 45 kt and travel several miles from the cell.",
+        detail:
+          "Microbursts last 5–15 min total but the outflow surface winds can reverse direction in seconds. For sUAS that's a sudden headwind → sudden tailwind → uncontrolled descent. The only safe response is total avoidance.",
       },
     ],
   },

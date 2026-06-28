@@ -267,7 +267,8 @@
     ],
     "answer": "B",
     "explanation": "Two solid and two dashed yellow lines form a runway holding position marking. Aircraft must hold short of the runway until ATC clears them to cross.",
-    "reference": "AIM 2-3-5; FAA AC 150/5340-1, runway holding position markings"
+    "reference": "AIM 2-3-5; FAA AC 150/5340-1, runway holding position markings",
+    "figure": "figure-65"
   },
   {
     "id": "MIKE-LNK-023",
@@ -282,7 +283,8 @@
     ],
     "answer": "B",
     "explanation": "A red background with white numbers is a mandatory instruction sign marking a runway holding position; the numbers identify the runways and their directions.",
-    "reference": "AIM 2-3-8; FAA AC 150/5340-18, airport signs"
+    "reference": "AIM 2-3-8; FAA AC 150/5340-18, airport signs",
+    "figure": "figure-65"
   },
   {
     "id": "MIKE-LNK-024",
@@ -312,7 +314,8 @@
     ],
     "answer": "C",
     "explanation": "Part 107 permits flight up to 400 ft above a structure when within 400 ft horizontally. The tower top is 1,545 ft MSL, so 1,545 + 400 = 1,945 ft MSL.",
-    "reference": "14 CFR 107.51"
+    "reference": "14 CFR 107.51",
+    "figure": "figure-23"
   },
   {
     "id": "MIKE-LNK-026",
@@ -432,7 +435,8 @@
     ],
     "answer": "C",
     "explanation": "The load factor at a 45-degree bank is approximately 1.414G. 50 lbs x 1.414 = approximately 70 lbs.",
-    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, load factor in turns"
+    "reference": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, load factor in turns",
+    "figure": "figure-2"
   },
   {
     "id": "MIKE-LNK-034",
@@ -447,7 +451,8 @@
     ],
     "answer": "C",
     "explanation": "The area defaults to Class G airspace and no ATC authorization is required for sUAS operations in Class G airspace under Part 107.",
-    "reference": "14 CFR 107.41"
+    "reference": "14 CFR 107.41",
+    "figure": "figure-78"
   },
   {
     "id": "MIKE-LNK-035",
@@ -462,7 +467,8 @@
     ],
     "answer": "A",
     "explanation": "VR (Visual Route) MTRs with four-digit identifiers indicate operations conducted ENTIRELY at or below 1,500 ft AGL ft AGL, posing a collision hazard to sUAS that can operate at the same altitudes. Per AIM 3-5-2: 4-digit MTR identifiers (e.g., VR-1667) indicate operations conducted ENTIRELY at or below 1,500 ft AGL; 3-digit identifiers include at least one segment above 1,500 ft AGL.",
-    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide, military training routes"
+    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide, military training routes",
+    "figure": "figure-59"
   },
   {
     "id": "MIKE-LNK-036",
@@ -612,7 +618,8 @@
     ],
     "answer": "C",
     "explanation": "Operations in Class G (uncontrolled) airspace do not require ATC authorization under 14 CFR Part 107.41. Only Class B, C, D, and surface-based Class E require ATC authorization (LAANC).",
-    "reference": "14 CFR 107.41; Sectional Chart Figure 22"
+    "reference": "14 CFR 107.41; Sectional Chart Figure 22",
+    "figure": "figure-22"
   },
   {
     "id": "MIKE-FYM-003",
@@ -927,7 +934,8 @@
     ],
     "answer": "C",
     "explanation": "Class B airspace is always referenced in MSL. The sectional chart shows '110/40' directly over Hicks, meaning a ceiling of 11,000 ft MSL and a floor of 4,000 ft MSL.",
-    "reference": "FAA Aeronautical Chart Users Guide, Class B altitude depictions"
+    "reference": "FAA Aeronautical Chart Users Guide, Class B altitude depictions",
+    "figure": "figure-25"
   },
   {
     "id": "MIKE-HRP-008",
@@ -942,7 +950,8 @@
     ],
     "answer": "B",
     "explanation": "Hayward Executive (HWD) is surrounded by dashed blue lines on the sectional chart, which indicates Class D airspace.",
-    "reference": "FAA Aeronautical Chart Users Guide, Class D airspace depictions"
+    "reference": "FAA Aeronautical Chart Users Guide, Class D airspace depictions",
+    "figure": "figure-74"
   },
   {
     "id": "MIKE-HRP-009",
@@ -972,7 +981,8 @@
     ],
     "answer": "A",
     "explanation": "Counting down from the 37 degree latitude line to 36 degrees 16 minutes and east from the 76 degree longitude line to 76 degrees 10 minutes places you at the airport.",
-    "reference": "FAA Aeronautical Chart Users Guide, latitude/longitude on VFR charts"
+    "reference": "FAA Aeronautical Chart Users Guide, latitude/longitude on VFR charts",
+    "figure": "figure-20"
   },
   {
     "id": "MIKE-HRP-011",
@@ -1032,7 +1042,8 @@
     ],
     "answer": "C",
     "explanation": "At a 45 degree bank, the load factor is approximately 1.414. Multiplying 45 lb x 1.414 = 63.6 lb of effective load on the aircraft.",
-    "reference": "FAA-H-8083-25 Ch.5 (Aerodynamics) / FAA-CT-8080-2 Figure 2"
+    "reference": "FAA-H-8083-25 Ch.5 (Aerodynamics) / FAA-CT-8080-2 Figure 2",
+    "figure": "figure-2"
   },
   {
     "id": "MIKE-HRP-018",
@@ -1107,7 +1118,8 @@
     ],
     "answer": "C",
     "explanation": "On a sectional, T means the ceiling extends 'up to but not including' the floor of the overlying airspace. With Class B above at 2,100 ft MSL, the Class C ceiling reaches 2,099 ft MSL.",
-    "reference": "FAA Aeronautical Chart Users Guide, Class C/Class B altitude depictions"
+    "reference": "FAA Aeronautical Chart Users Guide, Class C/Class B altitude depictions",
+    "figure": "figure-74"
   },
   {
     "id": "MIKE-HRP-026",
@@ -1152,7 +1164,8 @@
     ],
     "answer": "B",
     "explanation": "Under 14 CFR 107.51, a small UA may fly up to 400 ft above the top of a structure when within a 400 ft radius of that structure. With a structure at 453 ft AGL, the maximum allowable altitude is 453 + 400 = 853 ft AGL.",
-    "reference": "14 CFR 107.51"
+    "reference": "14 CFR 107.51",
+    "figure": "figure-20"
   },
   {
     "id": "MIKE-HRP-030",
@@ -1182,7 +1195,8 @@
     ],
     "answer": "B",
     "explanation": "On a sectional chart, the CTAF (Common Traffic Advisory Frequency) is always denoted by a 'C' symbol next to the frequency. At Perry Regional that frequency is 122.7.",
-    "reference": "FAA Aeronautical Chart Users Guide; Chart Supplement U.S., communications data"
+    "reference": "FAA Aeronautical Chart Users Guide; Chart Supplement U.S., communications data",
+    "figure": "figure-76"
   },
   {
     "id": "MIKE-HRP-032",
@@ -1197,7 +1211,8 @@
     ],
     "answer": "A",
     "explanation": "IR indicates an IFR Military Training Route. Under AIM 3-5-2, MTRs with no segment above 1,500 ft AGL use four number characters; MTRs with one or more segments above 1,500 ft AGL use three number characters. MTRs are generally used for high-speed military training and can create a hazard to sUAS operations near the route.",
-    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide"
+    "reference": "AIM 3-5-2; FAA Aeronautical Chart Users Guide",
+    "figure": "figure-21"
   },
   {
     "id": "MIKE-HRP-033",
@@ -1571,8 +1586,8 @@
       "C. You must land immediately solely because the aircraft is transmitting ADS-B Out"
     ],
     "answer": "B",
-    "explanation": "Small UAS generally may not operate with ADS-B Out equipment unless otherwise authorized by the Administrator. The remote PIC must still yield right of way to other aircraft and remain well clear.",
-    "reference": "14 CFR 107.37; 14 CFR 107.53; 14 CFR 89.125"
+    "explanation": "Small UAS generally may not operate with ADS-B Out equipment unless otherwise authorized by the Administrator (AIM 4-1-20). The remote PIC must still yield right of way to all other aircraft and remain well clear (14 CFR 107.37).",
+    "reference": "14 CFR 107.37 (yield right-of-way); AIM 4-1-20 (transponder/ADS-B use by sUAS)"
   },
   {
     "id": "MIKE-TRK-004",
@@ -1931,8 +1946,8 @@
       "C. The drone must broadcast ADS-B Out"
     ],
     "answer": "B",
-    "explanation": "Part 107.41 requires ATC authorization (typically via LAANC) for operations in Class B airspace. Drones are generally prohibited from using ATC transponders or ADS-B Out (14 CFR 107.52, 107.53).",
-    "reference": "14 CFR 107.41, 107.52, 107.53"
+    "explanation": "Part 107.41 requires ATC authorization (typically via LAANC) for operations in Class B airspace. Separately, sUAS are generally not authorized to use ATC transponders or ADS-B Out (AIM 4-1-20).",
+    "reference": "14 CFR 107.41 (ATC authorization for controlled airspace); AIM 4-1-20"
   },
   {
     "id": "MIKE-UNX-008",

@@ -1,5 +1,28 @@
 import Link from "next/link";
 import { AppIcon, type AppIconName } from "@/components/AppIcon";
+import AudioPlayer from "@/components/AudioPlayer";
+import { studyDayText } from "@/lib/audio-text";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "7-Day Study Plan",
+  description: "A focused day-by-day Part 107 study plan from cheat sheet to final timed exam.",
+  alternates: { canonical: "https://www.107license.com/study-path" },
+  openGraph: {
+    title: "7-Day Study Plan · 107 License",
+    description: "A focused day-by-day Part 107 study plan from cheat sheet to final timed exam.",
+    url: "https://www.107license.com/study-path",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "7-Day Study Plan · 107 License",
+    description: "A focused day-by-day Part 107 study plan from cheat sheet to final timed exam.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
 
 type Day = {
   day: number;
@@ -219,10 +242,13 @@ export default function StudyPathPage() {
               <span className="tile-icon">
                 <AppIcon name={day.icon} />
               </span>
-              <div>
+              <div style={{ flex: 1 }}>
                 <span className="section-kicker">Day {day.day} · {day.hours}</span>
                 <h2 className="tile-title">{day.title}</h2>
                 <p className="tile-copy">{day.focus}</p>
+                <div style={{ marginTop: "0.6rem" }}>
+                  <AudioPlayer text={studyDayText(day)} label={`Listen to Day ${day.day}`} size="sm" />
+                </div>
               </div>
             </header>
             <ol className="study-steps">

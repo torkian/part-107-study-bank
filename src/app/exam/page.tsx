@@ -3,6 +3,27 @@ import { AppIcon } from "@/components/AppIcon";
 import Quiz from "@/components/Quiz";
 import { loadAllQuestions } from "@/lib/questions";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Practice Exam",
+  description: "Untimed or 2-hour timed Part 107 practice exam. 60 randomized questions with per-topic breakdown.",
+  alternates: { canonical: "https://www.107license.com/exam" },
+  openGraph: {
+    title: "Practice Exam · 107 License",
+    description: "Untimed or 2-hour timed Part 107 practice exam. 60 randomized questions with per-topic breakdown.",
+    url: "https://www.107license.com/exam",
+    images: [{ url: "https://www.107license.com/opengraph-image", width: 1200, height: 630, alt: "107 License — Free FAA Part 107 Drone Pilot Study App" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Practice Exam · 107 License",
+    description: "Untimed or 2-hour timed Part 107 practice exam. 60 randomized questions with per-topic breakdown.",
+    images: ["https://www.107license.com/opengraph-image"],
+  },
+};
+
+
 const EXAM_SIZE = 60;
 const TWO_HOURS = 2 * 60 * 60;
 

@@ -20,12 +20,14 @@ export type TtsPrefs = {
   rate: number;
   voiceURI: string | null;
   autoplay: boolean;
+  preferHd: boolean;
 };
 
 const DEFAULT_PREFS: TtsPrefs = {
   rate: 1.0,
   voiceURI: null,
   autoplay: false,
+  preferHd: true,
 };
 
 export function loadPrefs(): TtsPrefs {
@@ -39,11 +41,14 @@ export function loadPrefs(): TtsPrefs {
   }
 }
 
+export const PREFS_EVENT = "p107.tts.prefs-changed";
+
 export function savePrefs(p: Partial<TtsPrefs>): void {
   if (typeof window === "undefined") return;
   try {
     const merged = { ...loadPrefs(), ...p };
     window.localStorage.setItem(PREF_KEY, JSON.stringify(merged));
+    window.dispatchEvent(new CustomEvent(PREFS_EVENT, { detail: merged }));
   } catch {
     // ignore quota
   }
@@ -82,13 +87,27 @@ export function whenVoicesReady(): Promise<SpeechSynthesisVoice[]> {
 // Chunk long text on sentence boundaries to keep utterances ≤ 200 chars,
 // which avoids Chromium cutting off mid-sentence.
 export function chunkText(text: string, max = 200): string[] {
-  const sentences = text
-    .replace(/\s+/g, " ")
-    .split(/(?<=[.!?])\s+/)
-    .filter(Boolean);
+  // Manual sentence split — avoids regex lookbehind which Safari < 16.4 cannot parse.
+  const normalized = text.replace(/\s+/g, " ").trim();
+  const sentences: string[] = [];
+  let start = 0;
+  for (let i = 0; i < normalized.length; i++) {
+    const c = normalized[i];
+    if (c === "." || c === "!" || c === "?") {
+      let j = i + 1;
+      while (j < normalized.length && normalized[j] === " ") j++;
+      if (j > i + 1 || j === normalized.length) {
+        sentences.push(normalized.slice(start, i + 1).trim());
+        start = j;
+        i = j - 1;
+      }
+    }
+  }
+  if (start < normalized.length) sentences.push(normalized.slice(start).trim());
+  const filtered = sentences.filter(Boolean);
   const out: string[] = [];
   let buf = "";
-  for (const s of sentences) {
+  for (const s of filtered) {
     if ((buf + " " + s).trim().length <= max) {
       buf = (buf + " " + s).trim();
     } else {

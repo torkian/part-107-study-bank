@@ -107,13 +107,13 @@ export default function Home() {
           </div>
 
           <div className="hero-actions">
-            <Link href="/exam" className="btn">
-              <AppIcon name="play" />
-              Start exam
+            <Link href="/study-path" className="btn">
+              <AppIcon name="route" />
+              Start the 7-day plan
             </Link>
-            <Link href="/topics" className="btn btn-secondary">
-              <AppIcon name="grid" />
-              Browse topics
+            <Link href="/exam" className="btn btn-secondary">
+              <AppIcon name="play" />
+              Or jump to practice exam
             </Link>
             <Link href="/review" className="btn btn-ghost">
               <AppIcon name="review" />
