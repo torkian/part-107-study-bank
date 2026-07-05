@@ -1,15 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AppIcon } from "@/components/AppIcon";
 import manifestData from "@/data/audio-manifest.json";
 import { hashText } from "@/lib/audio-text";
 import {
+  AUDIO_STOP_EVENT,
   PREFS_EVENT,
   TtsController,
+  broadcastStop,
   isSupported,
   loadPrefs,
-  stopAll,
 } from "@/lib/tts";
 
 type ManifestEntry = { file: string; chars: number; preview?: string };
@@ -20,72 +21,113 @@ type Props = {
   label?: string;
 };
 
+// Each instance is identified so we can ignore our own broadcasts.
+let instanceCounter = 0;
+
 export default function MiniAudioButton({ text, label = "Listen" }: Props) {
-  const [mp3Url, setMp3Url] = useState<string | null>(null);
+  const instanceId = useRef<string>(`mini-${++instanceCounter}`);
+  const [resolvedUrl, setResolvedUrl] = useState<string | null | undefined>(undefined); // undefined = not yet resolved
   const [isPlaying, setPlaying] = useState(false);
   const [preferHd, setPreferHd] = useState(() =>
     typeof window === "undefined" ? true : loadPrefs().preferHd,
   );
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const ctrlRef = useRef<TtsController | null>(null);
+  const ctrlUnsubRef = useRef<(() => void) | null>(null);
 
-  useEffect(() => {
+  // Lazy hash — only resolve on first interaction (don't hash 201 entries at mount).
+  const resolveUrl = useCallback(async (): Promise<string | null> => {
+    if (resolvedUrl !== undefined) return resolvedUrl;
     if (!preferHd) {
-      setMp3Url(null);
-      return;
+      setResolvedUrl(null);
+      return null;
     }
-    let cancelled = false;
-    hashText(text).then((h) => {
-      if (cancelled) return;
-      const entry = MANIFEST[h];
-      setMp3Url(entry ? `/audio/${entry.file}` : null);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [text, preferHd]);
+    const h = await hashText(text);
+    const entry = MANIFEST[h];
+    const url = entry ? `/audio/${entry.file}` : null;
+    setResolvedUrl(url);
+    return url;
+  }, [resolvedUrl, preferHd, text]);
 
-  useEffect(() => {
-    const onPrefsChanged = (e: Event) => {
-      const detail = (e as CustomEvent<{ preferHd: boolean; rate: number }>).detail;
-      if (!detail) return;
-      setPreferHd(detail.preferHd);
-      if (audioRef.current) audioRef.current.playbackRate = detail.rate;
-    };
-    window.addEventListener(PREFS_EVENT, onPrefsChanged);
-    return () => {
-      window.removeEventListener(PREFS_EVENT, onPrefsChanged);
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-      if (ctrlRef.current) ctrlRef.current.stop();
-    };
-  }, []);
-
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current = null;
+  // Detach TTS listener BEFORE stop(), avoiding the "stop emits idle which
+  // triggers a stale callback" race.
+  const teardownTts = useCallback(() => {
+    if (ctrlUnsubRef.current) {
+      ctrlUnsubRef.current();
+      ctrlUnsubRef.current = null;
     }
     if (ctrlRef.current) {
       ctrlRef.current.stop();
       ctrlRef.current = null;
     }
-    setPlaying(false);
-  }, [text, mp3Url]);
+  }, []);
 
-  function handleToggle() {
+  // Listen to global stop broadcasts (other audio components asking us to halt).
+  useEffect(() => {
+    const myId = instanceId.current;
+    const onStop = (e: Event) => {
+      const detail = (e as CustomEvent<{ source?: string }>).detail;
+      if (detail?.source === myId) return;
+      if (audioRef.current) audioRef.current.pause();
+      teardownTts();
+      setPlaying(false);
+    };
+    window.addEventListener(AUDIO_STOP_EVENT, onStop);
+    return () => window.removeEventListener(AUDIO_STOP_EVENT, onStop);
+  }, [teardownTts]);
+
+  // Listen for HD-preference flips so the button can swap modes mid-session.
+  useEffect(() => {
+    const onPrefs = (e: Event) => {
+      const d = (e as CustomEvent<{ preferHd: boolean; rate: number }>).detail;
+      if (!d) return;
+      setPreferHd(d.preferHd);
+      if (audioRef.current) audioRef.current.playbackRate = d.rate;
+      // Force re-resolution next time
+      if (d.preferHd !== preferHd) setResolvedUrl(undefined);
+    };
+    window.addEventListener(PREFS_EVENT, onPrefs);
+    return () => window.removeEventListener(PREFS_EVENT, onPrefs);
+  }, [preferHd]);
+
+  // If the source text changes, reset.
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    teardownTts();
+    setPlaying(false);
+    setResolvedUrl(undefined);
+  }, [text, teardownTts]);
+
+  // Clean up on unmount.
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+      teardownTts();
+    };
+  }, [teardownTts]);
+
+  async function handleToggle() {
     if (isPlaying) {
       if (audioRef.current) audioRef.current.pause();
-      if (ctrlRef.current) ctrlRef.current.stop();
+      teardownTts();
       setPlaying(false);
       return;
     }
-    stopAll();
-    if (mp3Url) {
+
+    // Tell everyone else to stop (excluding ourselves).
+    broadcastStop(instanceId.current);
+
+    const url = await resolveUrl();
+
+    if (url) {
       if (!audioRef.current) {
-        const a = new Audio(mp3Url);
+        const a = new Audio(url);
         a.preload = "auto";
         a.playbackRate = loadPrefs().rate;
         a.addEventListener("ended", () => setPlaying(false));
@@ -93,32 +135,69 @@ export default function MiniAudioButton({ text, label = "Listen" }: Props) {
           if (a.currentTime > 0 && a.currentTime < a.duration) setPlaying(false);
         });
         a.addEventListener("error", () => {
-          setMp3Url(null);
+          setResolvedUrl(null);
           setPlaying(false);
         });
         audioRef.current = a;
+      } else if (audioRef.current.src.indexOf(url) === -1) {
+        audioRef.current.src = url;
       }
-      audioRef.current.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+      const playPromise = audioRef.current.play();
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise
+          .then(() => setPlaying(true))
+          .catch((err: unknown) => {
+            const name = (err as { name?: string })?.name;
+            if (name === "AbortError") return;
+            setPlaying(false);
+          });
+      } else {
+        setPlaying(true);
+      }
       return;
     }
+
     if (!isSupported()) return;
     const prefs = loadPrefs();
     const c = new TtsController(text, { rate: prefs.rate, voiceURI: prefs.voiceURI ?? undefined });
-    c.onUpdate((s) => setPlaying(s === "playing"));
+    let started = false;
+    const unsub = c.onUpdate((s) => {
+      if (s === "playing") {
+        started = true;
+        setPlaying(true);
+      } else if (s === "paused") {
+        setPlaying(false);
+      } else if (s === "idle") {
+        // Detach before declaring done so a subsequent teardown stop() can't reschedule.
+        if (ctrlUnsubRef.current === unsub) {
+          ctrlUnsubRef.current = null;
+          unsub();
+        }
+        if (started) setPlaying(false);
+      }
+    });
+    ctrlUnsubRef.current = unsub;
     ctrlRef.current = c;
     c.play();
   }
 
-  const isHd = !!mp3Url;
+  const isHd = resolvedUrl !== null && resolvedUrl !== undefined;
+  const isUnresolved = resolvedUrl === undefined;
 
   return (
     <button
       type="button"
-      className={`audio-mini ${isHd ? "is-hd" : "is-backup"} ${isPlaying ? "is-playing" : ""}`}
+      className={`audio-mini ${isHd ? "is-hd" : isUnresolved ? "is-pending" : "is-backup"} ${isPlaying ? "is-playing" : ""}`}
       onClick={handleToggle}
       aria-label={`${isPlaying ? "Pause" : "Play"} ${label}`}
       aria-pressed={isPlaying}
-      title={isHd ? "Play HD narration" : "Play (device voice)"}
+      title={
+        isUnresolved
+          ? `Play ${label}`
+          : isHd
+            ? "Play HD narration"
+            : "Play (device voice)"
+      }
     >
       <AppIcon name={isPlaying ? "pause" : "play"} className={isPlaying ? undefined : "audio-play-triangle"} />
     </button>

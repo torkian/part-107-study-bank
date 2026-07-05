@@ -43,6 +43,17 @@ export function loadPrefs(): TtsPrefs {
 
 export const PREFS_EVENT = "p107.tts.prefs-changed";
 
+// Broadcast that audio everywhere should stop. Any component playing audio
+// (HTMLAudioElement, TtsController, third-party) should subscribe and stop
+// itself. Used to coordinate stop across CheatPlaylistBar / MiniAudioButton /
+// AudioPlayer instances on the same page.
+export const AUDIO_STOP_EVENT = "p107.audio.stop-all";
+
+export function broadcastStop(source?: string): void {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent(AUDIO_STOP_EVENT, { detail: { source } }));
+}
+
 export function savePrefs(p: Partial<TtsPrefs>): void {
   if (typeof window === "undefined") return;
   try {
@@ -260,6 +271,9 @@ export class TtsController {
 }
 
 export function stopAll(): void {
+  if (typeof window !== "undefined") {
+    broadcastStop("stopAll");
+  }
   if (!isSupported()) return;
   window.speechSynthesis.cancel();
   if (activeController) {

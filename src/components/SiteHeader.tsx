@@ -9,6 +9,7 @@ const NAV: { href: string; label: string; icon: AppIconName }[] = [
   { href: "/", label: "Home", icon: "home" },
   { href: "/study-path", label: "Plan", icon: "route" },
   { href: "/exam", label: "Exam", icon: "exam" },
+  { href: "/drill", label: "Drill", icon: "target" },
   { href: "/topics", label: "Topics", icon: "grid" },
   { href: "/flash", label: "Cards", icon: "cards" },
   { href: "/review", label: "Review", icon: "review" },

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import AnnotatedText from "@/components/AnnotatedText";
 import { AppIcon } from "@/components/AppIcon";
 import AudioPlayer from "@/components/AudioPlayer";
@@ -93,6 +93,14 @@ export default function Quiz({
   const examRecorded = useRef(false);
   const [bookmarked, setBookmarked] = useState<Record<string, boolean>>({});
   const [secondsLeft, setSecondsLeft] = useState<number | null>(timedSeconds ?? null);
+  // Announcements for screen readers — separate live region prevents focus
+  // hijacking during pace-sensitive interactions.
+  const [srAnnounce, setSrAnnounce] = useState<string>("");
+  const [timerAnnounce, setTimerAnnounce] = useState<string>("");
+  const timerWarnedFive = useRef(false);
+  const timerWarnedOne = useRef(false);
+  const firstChoiceRef = useRef<HTMLButtonElement | null>(null);
+  const [prevIndex, setPrevIndex] = useState(0);
 
   useEffect(() => {
     const next: Record<string, boolean> = {};
@@ -110,6 +118,14 @@ export default function Quiz({
       const timer = window.setTimeout(() => setFinished(true), 0);
       return () => window.clearTimeout(timer);
     }
+    // Announce at 5-minute and 1-minute remaining.
+    if (secondsLeft === 300 && !timerWarnedFive.current) {
+      timerWarnedFive.current = true;
+      setTimerAnnounce("Five minutes remaining.");
+    } else if (secondsLeft === 60 && !timerWarnedOne.current) {
+      timerWarnedOne.current = true;
+      setTimerAnnounce("One minute remaining. Finish your final answers.");
+    }
     const timer = window.setTimeout(() => setSecondsLeft((s) => (s ?? 0) - 1), 1000);
     return () => window.clearTimeout(timer);
   }, [secondsLeft, finished]);
@@ -122,6 +138,23 @@ export default function Quiz({
     }
     examRecorded.current = true;
   }, [answers, finished, items, mode]);
+
+  // Focus the first choice on question change (helps keyboard + SR users
+  // continue answering without hunting for the choice list).
+  useEffect(() => {
+    if (index !== prevIndex) {
+      setPrevIndex(index);
+      // Announce progress AND scroll focus to first choice.
+      const q = items[index];
+      if (q) {
+        setSrAnnounce(`Question ${index + 1} of ${items.length}. ${q.topic}. ${q.question}`);
+      }
+      const t = window.setTimeout(() => {
+        firstChoiceRef.current?.focus();
+      }, 0);
+      return () => window.clearTimeout(t);
+    }
+  }, [index, items, prevIndex]);
 
   if (items.length === 0) {
     return (
@@ -161,6 +194,11 @@ export default function Quiz({
 
     return (
       <div className="result-shell">
+        {/* Announce final result for screen readers */}
+        <div className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+          Exam complete. Score {pct} percent, {correct} of {items.length} correct.
+          {passed ? " You passed the 70 percent threshold." : " Below the 70 percent threshold — needs review."}
+        </div>
         <section className={`result-hero card ${passed ? "pass" : "fail"}`}>
           <span className={`badge ${passed ? "easy" : "hard"}`}>
             <AppIcon name={passed ? "trophy" : "target"} />
@@ -180,7 +218,12 @@ export default function Quiz({
                 : "Keep studying the missed questions, then retake the exam."}
           </p>
           <div className="action-row">
-            <button className="btn" onClick={() => window.location.reload()}>
+            <button
+              type="button"
+              className="btn"
+              onClick={() => window.location.reload()}
+              aria-label="Retake this exam"
+            >
               <AppIcon name="refresh" />
               Retake
             </button>
@@ -190,6 +233,10 @@ export default function Quiz({
                 Study weakest topic
               </Link>
             )}
+            <Link href="/drill" className="btn btn-secondary">
+              <AppIcon name="target" />
+              Drill weak areas
+            </Link>
             <Link href="/review" className="btn btn-secondary">
               <AppIcon name="review" />
               Review queue
@@ -276,14 +323,13 @@ export default function Quiz({
     if (isStudyOrFlash) {
       setRevealed((r) => ({ ...r, [current.id]: true }));
       recordAnswer(current.id, letter === current.answer);
-    }
-  }
-
-  function onChoiceKeyDown(e: KeyboardEvent<HTMLDivElement>, letter: string) {
-    if (e.target !== e.currentTarget) return;
-    if (e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      pick(letter);
+      // Announce feedback for SR users
+      const ok = letter === current.answer;
+      setSrAnnounce(
+        ok
+          ? `Correct. ${current.explanation}`
+          : `Incorrect. The correct answer is ${current.answer}. ${current.explanation}`,
+      );
     }
   }
 
@@ -302,22 +348,36 @@ export default function Quiz({
   function handleBookmark() {
     const newVal = toggleBookmark(current.id);
     setBookmarked((b) => ({ ...b, [current.id]: newVal }));
+    setSrAnnounce(newVal ? "Bookmarked." : "Bookmark removed.");
   }
 
   return (
     <div className="quiz-shell">
+      {/* Screen-reader-only live regions.
+          - status: general question / feedback announcements (question changes, right/wrong, bookmarks)
+          - alert: timer warnings (louder — screen readers interrupt) */}
+      <span className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+        {srAnnounce}
+      </span>
+      <span className="sr-only" role="alert" aria-live="assertive" aria-atomic="true">
+        {timerAnnounce}
+      </span>
+
       <header className="quiz-topbar">
         <div className="quiz-title-row">
           <h2 className="quiz-title">{title}</h2>
           <div className="quiz-status">
             {secondsLeft !== null && (
-              <span className={`timer${secondsLeft <= 300 ? " is-low" : ""}`}>
+              <span
+                className={`timer${secondsLeft <= 300 ? " is-low" : ""}`}
+                aria-label={`Time remaining ${fmtTime(secondsLeft)}`}
+              >
                 <AppIcon name="timer" />
-                {fmtTime(secondsLeft)}
+                <span aria-hidden="true">{fmtTime(secondsLeft)}</span>
               </span>
             )}
-            <span className="meta-chip">
-              {index + 1} / {items.length}
+            <span className="meta-chip" aria-label={`Question ${index + 1} of ${items.length}`}>
+              <span aria-hidden="true">{index + 1} / {items.length}</span>
             </span>
           </div>
         </div>
@@ -379,8 +439,8 @@ export default function Quiz({
 
         {current.figure && <FigureViewer figure={current.figure} />}
 
-        <div className="choice-list">
-          {current.choices.map((choice) => {
+        <div className="choice-list" role="radiogroup" aria-label="Answer choices">
+          {current.choices.map((choice, i) => {
             const letter = letterOf(choice);
             const isChosen = chosen === letter;
             const isCorrect = letter === current.answer;
@@ -393,24 +453,29 @@ export default function Quiz({
             }
 
             return (
-              <div
+              <button
                 key={letter}
-                role="button"
-                tabIndex={isRevealed ? undefined : 0}
-                aria-disabled={isRevealed}
-                aria-pressed={isChosen}
+                type="button"
+                ref={i === 0 ? firstChoiceRef : undefined}
                 className={`${cls}${isRevealed ? " is-disabled" : ""}`}
                 onClick={() => pick(letter)}
-                onKeyDown={(e) => onChoiceKeyDown(e, letter)}
+                disabled={isRevealed}
+                role="radio"
+                aria-checked={isChosen}
+                aria-label={`Choice ${letter}: ${choice.replace(/^[A-D][.)]\s*/, "")}${isRevealed ? (isCorrect ? " (correct)" : isChosen ? " (your answer, incorrect)" : "") : ""}`}
               >
                 <AnnotatedText>{choice}</AnnotatedText>
-              </div>
+              </button>
             );
           })}
         </div>
 
         {isRevealed && (
-          <div className={`explanation-panel ${chosen === current.answer ? "is-correct" : "is-wrong"}`}>
+          <div
+            className={`explanation-panel ${chosen === current.answer ? "is-correct" : "is-wrong"}`}
+            role="region"
+            aria-label={chosen === current.answer ? "Correct — explanation" : "Incorrect — explanation"}
+          >
             <div className="explanation-title">
               <AppIcon name={chosen === current.answer ? "check" : "x"} />
               {chosen === current.answer ? "Correct" : `Answer: ${current.answer}`}
@@ -440,17 +505,34 @@ export default function Quiz({
       </article>
 
       <div className="quiz-nav">
-        <button type="button" className="btn btn-secondary" onClick={prev} disabled={index === 0}>
+        <button
+          type="button"
+          className="btn btn-secondary"
+          onClick={prev}
+          disabled={index === 0}
+          aria-label="Previous question"
+        >
           <AppIcon name="arrowLeft" />
           Previous
         </button>
         <div className="quiz-nav-actions">
           {mode === "exam" && (
-            <button type="button" className="btn btn-secondary" onClick={() => setFinished(true)}>
+            <button
+              type="button"
+              className="btn btn-secondary"
+              onClick={() => setFinished(true)}
+              aria-label="Finish and submit the exam now"
+            >
               Finish exam
             </button>
           )}
-          <button type="button" className="btn" onClick={next} disabled={!chosen}>
+          <button
+            type="button"
+            className="btn"
+            onClick={next}
+            disabled={!chosen}
+            aria-label={index + 1 === items.length ? "Finish exam" : "Next question"}
+          >
             {index + 1 === items.length ? "Finish" : "Next"}
             <AppIcon name="arrowRight" />
           </button>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { AppIcon } from "@/components/AppIcon";
 import CheatSheetClient, { type Section } from "./CheatSheetClient";
+import PrintButton from "@/components/PrintButton";
 
 import type { Metadata } from "next";
 
@@ -1307,6 +1308,9 @@ export default function CheatSheet() {
           </span>{" "}
           to see a deeper explanation, mnemonic, or worked example.
         </p>
+        <div className="cheat-header-actions no-print">
+          <PrintButton label="Print / Save as PDF" />
+        </div>
       </header>
 
       <div className="cheat-layout">
