@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AppIcon } from "@/components/AppIcon";
 import AudioPlayer from "@/components/AudioPlayer";
@@ -328,6 +329,50 @@ export default function ListenClient() {
                   ? `${voices.length} voices available on this device.`
                   : `${englishVoices.length} English voices shown by default.`}
           </p>
+        </div>
+      </section>
+
+      <section className="listen-audio-modes" aria-label="Audio study modes">
+        <div className="listen-section-head">
+          <div>
+            <span className="section-kicker">Audio-first modes</span>
+            <h2 className="section-title">Study without looking</h2>
+          </div>
+        </div>
+        <div className="listen-mode-grid">
+          <Link href="/listen/drill" className="listen-mode-card">
+            <span className="listen-mode-icon">
+              <AppIcon name="target" />
+            </span>
+            <div>
+              <h3 className="listen-mode-title">Drive-mode rapid fire</h3>
+              <p className="listen-mode-copy">
+                6-minute looping audio of every Part 107 hard number. Perfect for commutes.
+              </p>
+            </div>
+          </Link>
+          <Link href="/weather/decoder" className="listen-mode-card">
+            <span className="listen-mode-icon">
+              <AppIcon name="cloud" />
+            </span>
+            <div>
+              <h3 className="listen-mode-title">METAR / TAF decoder</h3>
+              <p className="listen-mode-copy">
+                Eight real weather reports read token by token with the go/no-go verdict.
+              </p>
+            </div>
+          </Link>
+          <Link href="/airspace/reader" className="listen-mode-card">
+            <span className="listen-mode-icon">
+              <AppIcon name="map" />
+            </span>
+            <div>
+              <h3 className="listen-mode-title">Sectional chart reader</h3>
+              <p className="listen-mode-copy">
+                Five spoken walkthroughs of the sectional symbols the exam tests most.
+              </p>
+            </div>
+          </Link>
         </div>
       </section>
 

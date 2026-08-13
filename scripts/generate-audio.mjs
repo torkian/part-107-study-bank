@@ -106,6 +106,31 @@ const tiers = [
       return priority.map((t) => sections.find((s) => s.title === t)).filter(Boolean)
         .map((s) => ({ label: s.title, text: fmt.cheatSection(s) }));
   }},
+  // ==== Week 2 audio packs (drafted + FAA-verified via workflow) ====
+  { name: "Week2: METAR/TAF decoders", items: () => {
+      const src = readSrc("src/data/audio-week2.ts");
+      const arr = extractArr(src, "WEEK2_SCRIPTS");
+      return arr.filter((s) => s.pack === "metar-taf")
+        .map((s) => ({ label: s.title, text: narrate(s.text) }));
+  }},
+  { name: "Week2: Airspace parsing walkthroughs", items: () => {
+      const src = readSrc("src/data/audio-week2.ts");
+      const arr = extractArr(src, "WEEK2_SCRIPTS");
+      return arr.filter((s) => s.pack === "airspace-parsing")
+        .map((s) => ({ label: s.title, text: narrate(s.text) }));
+  }},
+  { name: "Week2: Topic 60-second briefings", items: () => {
+      const src = readSrc("src/data/audio-week2.ts");
+      const arr = extractArr(src, "WEEK2_SCRIPTS");
+      return arr.filter((s) => s.pack === "topic-briefings")
+        .map((s) => ({ label: `Topic briefing: ${s.slug}`, text: narrate(s.text) }));
+  }},
+  { name: "Week2: Rapid-fire hard numbers", items: () => {
+      const src = readSrc("src/data/audio-week2.ts");
+      const arr = extractArr(src, "WEEK2_SCRIPTS");
+      return arr.filter((s) => s.pack === "hard-numbers")
+        .map((s) => ({ label: s.title, text: narrate(s.text) }));
+  }},
   { name: "Glossary entries (shortest first)", items: () => {
       const entries = extractArr(readSrc("src/data/glossary.ts"), "glossary");
       return entries.map((e) => ({ label: e.term, text: fmt.glossaryEntry(e) }))

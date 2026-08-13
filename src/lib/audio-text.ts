@@ -72,6 +72,12 @@ export function glossaryEntryText(e: GlossaryEntryLite): string {
   return narrate(head + e.definition);
 }
 
+// Week 2 audio scripts are already exam-precise text — just apply narrate()
+// so the hash matches what generate-audio.mjs produced at build time.
+export function week2ScriptText(s: { text: string }): string {
+  return narrate(s.text);
+}
+
 // 16-char sha1 (matches scripts/generate-audio.mjs)
 export async function hashText(text: string): Promise<string> {
   if (typeof crypto === "undefined" || !crypto.subtle) return "";

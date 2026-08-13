@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppIcon, type AppIconName } from "@/components/AppIcon";
 import Quiz from "@/components/Quiz";
+import TopicBriefings from "@/components/TopicBriefings";
 import { getByTopic, getTopics } from "@/lib/questions";
 
 const TOPIC_META: Record<string, { label: string; icon: AppIconName; accent: string; copy: string }> = {
@@ -190,6 +191,8 @@ export default async function TopicPage({
           <span>Study mode shows the explanation after each answer</span>
         </div>
       </section>
+
+      <TopicBriefings topic={topic} />
 
       <Quiz questions={questions} title={meta.label} mode="study" backHref="/topics" />
     </div>

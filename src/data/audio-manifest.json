@@ -1068,5 +1068,145 @@
     "file": "cb92ec762c8f8793.mp3",
     "chars": 225,
     "preview": "FDC"
+  },
+  "5cb277f5dcef4c08": {
+    "file": "5cb277f5dcef4c08.mp3",
+    "chars": 1369,
+    "preview": "Standard METAR with Variable Winds"
+  },
+  "81542249d6bd546a": {
+    "file": "81542249d6bd546a.mp3",
+    "chars": 1248,
+    "preview": "METAR with Mist and Fog: No-Go"
+  },
+  "01d67e2bdfb674c9": {
+    "file": "01d67e2bdfb674c9.mp3",
+    "chars": 1211,
+    "preview": "METAR with Vertical Visibility Indefinite Ceiling"
+  },
+  "5518ca782a437407": {
+    "file": "5518ca782a437407.mp3",
+    "chars": 1355,
+    "preview": "SPECI Report Triggered by Rapid Change"
+  },
+  "c0f929b587967d2f": {
+    "file": "c0f929b587967d2f.mp3",
+    "chars": 1927,
+    "preview": "TAF with TEMPO Condition Change"
+  },
+  "c014995ffd6b94a6": {
+    "file": "c014995ffd6b94a6.mp3",
+    "chars": 1359,
+    "preview": "TAF with BECMG Becoming Forecast"
+  },
+  "f08582c97a0bf9f5": {
+    "file": "f08582c97a0bf9f5.mp3",
+    "chars": 1412,
+    "preview": "METAR with Wind Shear"
+  },
+  "9c93ca5f96b5f164": {
+    "file": "9c93ca5f96b5f164.mp3",
+    "chars": 1371,
+    "preview": "METAR with Distant Thunderstorm VCTS"
+  },
+  "65affd04bcac80a8": {
+    "file": "65affd04bcac80a8.mp3",
+    "chars": 1257,
+    "preview": "Class B - Reading the Vertical Stack"
+  },
+  "2ea64ff199e3a69a": {
+    "file": "2ea64ff199e3a69a.mp3",
+    "chars": 1406,
+    "preview": "Class E Floors - Magenta and the Zipper"
+  },
+  "fab0c4d4878bde88": {
+    "file": "fab0c4d4878bde88.mp3",
+    "chars": 1319,
+    "preview": "Class C and D - Blue Solid, Magenta Dashed, Tower Numbers"
+  },
+  "c26cb929ab7ac727": {
+    "file": "c26cb929ab7ac727.mp3",
+    "chars": 1496,
+    "preview": "CTAF, UNICOM, and MULTICOM Frequency Blocks"
+  },
+  "2daa6a0095efccde": {
+    "file": "2daa6a0095efccde.mp3",
+    "chars": 1569,
+    "preview": "MEF, Obstructions, and the Tallest Thing in the Quadrant"
+  },
+  "1d6230f0854f6417": {
+    "file": "1d6230f0854f6417.mp3",
+    "chars": 608,
+    "preview": "Topic briefing: airspace"
+  },
+  "e20c487b75bd9ec7": {
+    "file": "e20c487b75bd9ec7.mp3",
+    "chars": 569,
+    "preview": "Topic briefing: weather"
+  },
+  "3ffec1b48887e7bb": {
+    "file": "3ffec1b48887e7bb.mp3",
+    "chars": 588,
+    "preview": "Topic briefing: sectional-symbology"
+  },
+  "743358c057607ac9": {
+    "file": "743358c057607ac9.mp3",
+    "chars": 811,
+    "preview": "Topic briefing: categories-1-4"
+  },
+  "d75f1dc98bdcd6ca": {
+    "file": "d75f1dc98bdcd6ca.mp3",
+    "chars": 555,
+    "preview": "Topic briefing: remote-id"
+  },
+  "208f1b53c79d4d6d": {
+    "file": "208f1b53c79d4d6d.mp3",
+    "chars": 609,
+    "preview": "Topic briefing: night-ops"
+  },
+  "18abb0356ebfa3f1": {
+    "file": "18abb0356ebfa3f1.mp3",
+    "chars": 574,
+    "preview": "Topic briefing: alcohol-drugs-medical"
+  },
+  "414164ad169b29d7": {
+    "file": "414164ad169b29d7.mp3",
+    "chars": 568,
+    "preview": "Topic briefing: accident-reporting"
+  },
+  "cbb2a447745fb5db": {
+    "file": "cbb2a447745fb5db.mp3",
+    "chars": 577,
+    "preview": "Topic briefing: hazardous-attitudes"
+  },
+  "7510d6a0a25133f6": {
+    "file": "7510d6a0a25133f6.mp3",
+    "chars": 738,
+    "preview": "Topic briefing: loading-performance"
+  },
+  "73e201646c9e4672": {
+    "file": "73e201646c9e4672.mp3",
+    "chars": 6580,
+    "preview": "Rapid Fire: Hard Numbers"
+  },
+  "b9a40dfc32107b99": {
+    "file": "b9a40dfc32107b99.mp3",
+    "chars": 226,
+    "preview": "CFA"
+  },
+  "b4509a1c0b1b1de6": {
+    "file": "b4509a1c0b1b1de6.mp3",
+    "chars": 226,
+    "preview": "NOTAM"
+  },
+  "83a3a464c186ecdd": {
+    "file": "83a3a464c186ecdd.mp3",
+    "chars": 226,
+    "preview": "LED"
+  },
+  "aeb692ac2ef02ab1": {
+    "file": "aeb692ac2ef02ab1.mp3",
+    "chars": 227,
+    "preview": "TAF"
   }
 }
