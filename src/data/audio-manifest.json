@@ -1208,5 +1208,420 @@
     "file": "aeb692ac2ef02ab1.mp3",
     "chars": 227,
     "preview": "TAF"
+  },
+  "777b42a5275073e3": {
+    "file": "777b42a5275073e3.mp3",
+    "chars": 227,
+    "preview": "EFB"
+  },
+  "c2a55cb21ecfae86": {
+    "file": "c2a55cb21ecfae86.mp3",
+    "chars": 227,
+    "preview": "AFM"
+  },
+  "be8f109fa1da9c09": {
+    "file": "be8f109fa1da9c09.mp3",
+    "chars": 227,
+    "preview": "VOR"
+  },
+  "5f8fc84464ecc89b": {
+    "file": "5f8fc84464ecc89b.mp3",
+    "chars": 229,
+    "preview": "RVR"
+  },
+  "7da9d75d6f24e7d5": {
+    "file": "7da9d75d6f24e7d5.mp3",
+    "chars": 229,
+    "preview": "DCA"
+  },
+  "bb591bb0b535ead8": {
+    "file": "bb591bb0b535ead8.mp3",
+    "chars": 230,
+    "preview": "TVMDC"
+  },
+  "88dae54ca79c2ccd": {
+    "file": "88dae54ca79c2ccd.mp3",
+    "chars": 231,
+    "preview": "RTH"
+  },
+  "fdbdb005b7419f93": {
+    "file": "fdbdb005b7419f93.mp3",
+    "chars": 233,
+    "preview": "DME"
+  },
+  "c0c4717ee815a8d2": {
+    "file": "c0c4717ee815a8d2.mp3",
+    "chars": 234,
+    "preview": "MSL"
+  },
+  "d56024d239fbec78": {
+    "file": "d56024d239fbec78.mp3",
+    "chars": 234,
+    "preview": "NSA"
+  },
+  "a2bfaeb92580df0e": {
+    "file": "a2bfaeb92580df0e.mp3",
+    "chars": 235,
+    "preview": "ICAO"
+  },
+  "f76eb12aade90b89": {
+    "file": "f76eb12aade90b89.mp3",
+    "chars": 236,
+    "preview": "UAS"
+  },
+  "2cd2a1e9d3fb6041": {
+    "file": "2cd2a1e9d3fb6041.mp3",
+    "chars": 237,
+    "preview": "FEW"
+  },
+  "1d9bb7d4861f138a": {
+    "file": "1d9bb7d4861f138a.mp3",
+    "chars": 237,
+    "preview": "ID"
+  },
+  "bd6bb4e94166b8af": {
+    "file": "bd6bb4e94166b8af.mp3",
+    "chars": 237,
+    "preview": "AIM"
+  },
+  "606ec81be39f5909": {
+    "file": "606ec81be39f5909.mp3",
+    "chars": 237,
+    "preview": "CTAF"
+  },
+  "0390b2106c975f46": {
+    "file": "0390b2106c975f46.mp3",
+    "chars": 238,
+    "preview": "SFRA"
+  },
+  "7fb57992bf648ff3": {
+    "file": "7fb57992bf648ff3.mp3",
+    "chars": 238,
+    "preview": "AO1"
+  },
+  "ea879dfc143abe67": {
+    "file": "ea879dfc143abe67.mp3",
+    "chars": 239,
+    "preview": "LLWS"
+  },
+  "41622782fae6d3d1": {
+    "file": "41622782fae6d3d1.mp3",
+    "chars": 242,
+    "preview": "IACRA"
+  },
+  "4f3317e6a351b657": {
+    "file": "4f3317e6a351b657.mp3",
+    "chars": 242,
+    "preview": "ATC"
+  },
+  "1988c4cfa00a24ba": {
+    "file": "1988c4cfa00a24ba.mp3",
+    "chars": 242,
+    "preview": "GA"
+  },
+  "51c22269ce17b0ea": {
+    "file": "51c22269ce17b0ea.mp3",
+    "chars": 243,
+    "preview": "NASA"
+  },
+  "8843f715dd4a4490": {
+    "file": "8843f715dd4a4490.mp3",
+    "chars": 246,
+    "preview": "PAVE"
+  },
+  "7b13d8e024171996": {
+    "file": "7b13d8e024171996.mp3",
+    "chars": 246,
+    "preview": "FPV"
+  },
+  "6a2eba62ef46551c": {
+    "file": "6a2eba62ef46551c.mp3",
+    "chars": 249,
+    "preview": "ACS"
+  },
+  "066824c639b34ac0": {
+    "file": "066824c639b34ac0.mp3",
+    "chars": 250,
+    "preview": "BVLOS"
+  },
+  "a193a4e31d724ffb": {
+    "file": "a193a4e31d724ffb.mp3",
+    "chars": 251,
+    "preview": "Class G"
+  },
+  "b535c64374d40602": {
+    "file": "b535c64374d40602.mp3",
+    "chars": 253,
+    "preview": "ADS-B"
+  },
+  "c011fcf1c6802b31": {
+    "file": "c011fcf1c6802b31.mp3",
+    "chars": 254,
+    "preview": "GR"
+  },
+  "eb8080d3c92ce8d1": {
+    "file": "eb8080d3c92ce8d1.mp3",
+    "chars": 255,
+    "preview": "ADM"
+  },
+  "1f11c1bbb5a57059": {
+    "file": "1f11c1bbb5a57059.mp3",
+    "chars": 256,
+    "preview": "NPS"
+  },
+  "b50f4ccd3a47258e": {
+    "file": "b50f4ccd3a47258e.mp3",
+    "chars": 257,
+    "preview": "ALC-677"
+  },
+  "eb5a69a675bf0172": {
+    "file": "eb5a69a675bf0172.mp3",
+    "chars": 258,
+    "preview": "sUAS"
+  },
+  "6070a1ade0937b25": {
+    "file": "6070a1ade0937b25.mp3",
+    "chars": 259,
+    "preview": "POH"
+  },
+  "a4615fd1341f3f81": {
+    "file": "a4615fd1341f3f81.mp3",
+    "chars": 261,
+    "preview": "ALC-515"
+  },
+  "5be4714236303b0e": {
+    "file": "5be4714236303b0e.mp3",
+    "chars": 266,
+    "preview": "BR"
+  },
+  "36b5a9922a464029": {
+    "file": "36b5a9922a464029.mp3",
+    "chars": 267,
+    "preview": "SQ"
+  },
+  "26cbfa2af08a0158": {
+    "file": "26cbfa2af08a0158.mp3",
+    "chars": 273,
+    "preview": "AGL"
+  },
+  "2658e706dbe00a21": {
+    "file": "2658e706dbe00a21.mp3",
+    "chars": 277,
+    "preview": "SFC"
+  },
+  "bbffdab48c1fb55d": {
+    "file": "bbffdab48c1fb55d.mp3",
+    "chars": 278,
+    "preview": "COA"
+  },
+  "2cf89216744b1e69": {
+    "file": "2cf89216744b1e69.mp3",
+    "chars": 279,
+    "preview": "USFWS"
+  },
+  "1dc8263ca5c1fb3b": {
+    "file": "1dc8263ca5c1fb3b.mp3",
+    "chars": 280,
+    "preview": "ISA"
+  },
+  "417fc538cfa4efad": {
+    "file": "417fc538cfa4efad.mp3",
+    "chars": 282,
+    "preview": "SRM"
+  },
+  "5bdd35cf65933c85": {
+    "file": "5bdd35cf65933c85.mp3",
+    "chars": 283,
+    "preview": "Class B"
+  },
+  "e34ef3dee86f9093": {
+    "file": "e34ef3dee86f9093.mp3",
+    "chars": 288,
+    "preview": "CBO"
+  },
+  "744a79766cdfab94": {
+    "file": "744a79766cdfab94.mp3",
+    "chars": 293,
+    "preview": "Class E"
+  },
+  "0a580b74783f208f": {
+    "file": "0a580b74783f208f.mp3",
+    "chars": 299,
+    "preview": "MTR"
+  },
+  "7fa260f48a2aa76a": {
+    "file": "7fa260f48a2aa76a.mp3",
+    "chars": 299,
+    "preview": "LAANC"
+  },
+  "f5ef5e88272ae710": {
+    "file": "f5ef5e88272ae710.mp3",
+    "chars": 301,
+    "preview": "VC"
+  },
+  "adfff5106c29c700": {
+    "file": "adfff5106c29c700.mp3",
+    "chars": 305,
+    "preview": "SIGMET"
+  },
+  "3c0e84e5412deb50": {
+    "file": "3c0e84e5412deb50.mp3",
+    "chars": 315,
+    "preview": "CRM"
+  },
+  "ec18a4e4907c9d2c": {
+    "file": "ec18a4e4907c9d2c.mp3",
+    "chars": 316,
+    "preview": "PROB40"
+  },
+  "5b3ccb14b1b428e9": {
+    "file": "5b3ccb14b1b428e9.mp3",
+    "chars": 325,
+    "preview": "ADDS"
+  },
+  "47beea65047b4fcc": {
+    "file": "47beea65047b4fcc.mp3",
+    "chars": 325,
+    "preview": "PROB30"
+  },
+  "39059df1ed8fe32d": {
+    "file": "39059df1ed8fe32d.mp3",
+    "chars": 326,
+    "preview": "PROB30/40"
+  },
+  "9d61e80a491b57fa": {
+    "file": "9d61e80a491b57fa.mp3",
+    "chars": 328,
+    "preview": "FL"
+  },
+  "10a18e6ca8604cae": {
+    "file": "10a18e6ca8604cae.mp3",
+    "chars": 331,
+    "preview": "KIAS"
+  },
+  "a6e386d64816d0fb": {
+    "file": "a6e386d64816d0fb.mp3",
+    "chars": 340,
+    "preview": "TRUST"
+  },
+  "1ef23ac0d7e8463f": {
+    "file": "1ef23ac0d7e8463f.mp3",
+    "chars": 346,
+    "preview": "FRZ"
+  },
+  "829211c166a4284f": {
+    "file": "829211c166a4284f.mp3",
+    "chars": 352,
+    "preview": "CONUS"
+  },
+  "ff8b77bfe27bc49d": {
+    "file": "ff8b77bfe27bc49d.mp3",
+    "chars": 368,
+    "preview": "Mode C veil"
+  },
+  "a637ab34b8a7dc7e": {
+    "file": "a637ab34b8a7dc7e.mp3",
+    "chars": 371,
+    "preview": "RP"
+  },
+  "9bc615a621857947": {
+    "file": "9bc615a621857947.mp3",
+    "chars": 379,
+    "preview": "NFL"
+  },
+  "67d5d4f719b4eb11": {
+    "file": "67d5d4f719b4eb11.mp3",
+    "chars": 386,
+    "preview": "ATL"
+  },
+  "5ed52e282563ca40": {
+    "file": "5ed52e282563ca40.mp3",
+    "chars": 388,
+    "preview": "ALC-451"
+  },
+  "77c42ca1795408ee": {
+    "file": "77c42ca1795408ee.mp3",
+    "chars": 416,
+    "preview": "FB"
+  },
+  "5fa6bb49aa347b4d": {
+    "file": "5fa6bb49aa347b4d.mp3",
+    "chars": 423,
+    "preview": "BAC"
+  },
+  "e8dad538b126c362": {
+    "file": "e8dad538b126c362.mp3",
+    "chars": 424,
+    "preview": "MOA"
+  },
+  "7b543c5d9bc1603f": {
+    "file": "7b543c5d9bc1603f.mp3",
+    "chars": 432,
+    "preview": "NCAA"
+  },
+  "f12df97260562bd9": {
+    "file": "f12df97260562bd9.mp3",
+    "chars": 455,
+    "preview": "MLB"
+  },
+  "b6c745c1ff8f758d": {
+    "file": "b6c745c1ff8f758d.mp3",
+    "chars": 460,
+    "preview": "FAR"
+  },
+  "4bf5de565a8d6cbf": {
+    "file": "4bf5de565a8d6cbf.mp3",
+    "chars": 464,
+    "preview": "NASCAR"
+  },
+  "42b366223cc073fa": {
+    "file": "42b366223cc073fa.mp3",
+    "chars": 480,
+    "preview": "DOC"
+  },
+  "01e83c0e2d8e1830": {
+    "file": "01e83c0e2d8e1830.mp3",
+    "chars": 483,
+    "preview": "FRIA"
+  },
+  "267910573e888873": {
+    "file": "267910573e888873.mp3",
+    "chars": 500,
+    "preview": "POTUS"
+  },
+  "8271f9c848c931dc": {
+    "file": "8271f9c848c931dc.mp3",
+    "chars": 505,
+    "preview": "RID"
+  },
+  "4e1cb61d56f9ed5c": {
+    "file": "4e1cb61d56f9ed5c.mp3",
+    "chars": 514,
+    "preview": "NTSB"
+  },
+  "a6142bb897ec7f94": {
+    "file": "a6142bb897ec7f94.mp3",
+    "chars": 522,
+    "preview": "TFR"
+  },
+  "940b779f79737493": {
+    "file": "940b779f79737493.mp3",
+    "chars": 524,
+    "preview": "RPIC"
+  },
+  "4d02733e04df6f11": {
+    "file": "4d02733e04df6f11.mp3",
+    "chars": 536,
+    "preview": "MEF"
+  },
+  "751df448e7aeedef": {
+    "file": "751df448e7aeedef.mp3",
+    "chars": 577,
+    "preview": "VO"
+  },
+  "117c2afb1117ad42": {
+    "file": "117c2afb1117ad42.mp3",
+    "chars": 590,
+    "preview": "VLOS"
   }
 }
